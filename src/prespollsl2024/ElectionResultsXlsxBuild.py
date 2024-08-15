@@ -1,4 +1,3 @@
-import os
 import random
 
 from gig import Ent, EntType, GIGTable
@@ -23,7 +22,7 @@ class ElectionResultsXlsxBuild:
     }
     PARTY_IDS = list(PARTY_TO_WEIGHT.keys())
     VOTES_NOISE = 0.6
-    
+
     GIG_TABLE_ELECTION_2020 = GIGTable(
         'government-elections-parliamentary', 'regions-ec', '2020'
     )
@@ -64,8 +63,11 @@ class ElectionResultsXlsxBuild:
         row.extend([electors, polled, rejected, valid])
         row.append("")
 
-
-        party_to_weight_random = {party :weight + random.random() * ElectionResultsXlsxBuild.VOTES_NOISE for party, weight in ElectionResultsXlsxBuild.PARTY_TO_WEIGHT.items()}
+        party_to_weight_random = {
+            party: weight
+            + random.random() * ElectionResultsXlsxBuild.VOTES_NOISE
+            for party, weight in ElectionResultsXlsxBuild.PARTY_TO_WEIGHT.items()
+        }
         total_weight = sum(party_to_weight_random.values())
 
         for party_weight_random in party_to_weight_random.values():

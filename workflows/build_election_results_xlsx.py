@@ -1,5 +1,6 @@
 import os
 import shutil
+
 from utils import Log
 
 from prespollsl2024 import ElectionResultsXlsx

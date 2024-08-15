@@ -112,11 +112,10 @@ class ElectionResultsXlsxBase:
 
         data_list = self.data_list
         if len(data_list) != 160 + 22:
-            errors.append(f'Expected 160 + 22 rows, got {len(data_list)}') 
+            errors.append(f'Expected 160 + 22 rows, got {len(data_list)}')
         data_idx = {data['pd_id']: data for data in data_list}
         pds = Ent.list_from_type(EntType.PD)
         eds = Ent.list_from_type(EntType.ED)
-        
 
         for pd in pds:
             if pd.id not in data_idx:
@@ -139,9 +138,9 @@ class ElectionResultsXlsxBase:
         if errors:
             for error in errors:
                 log.error("\t" + error)
-            log.error('-'* 32)
+            log.error('-' * 32)
             log.error(f'🛑 Found {len(errors)} errors')
-            
+
         else:
             log.info('✅ No errors found.')
 
