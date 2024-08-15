@@ -192,17 +192,17 @@ class ElectionResultsXlsx:
 
         wb.save(xlsx_path)
         log.info(f'Wrote {xlsx_path}')
-        os.startfile(xlsx_path)
+
 
         return ElectionResultsXlsx(xlsx_path)
 
     @staticmethod
     def load(date, party_ids):
-        # xlsx_path = os.path.join('data', f'election-{date}.xlsx')
-        # if os.path.exists(xlsx_path):
-        #     log.warning(f'{xlsx_path} exists')
-        #     return ElectionResultsXlsx(xlsx_path)
-
+        xlsx_path = os.path.join('data', f'election-{date}.xlsx')
+        if os.path.exists(xlsx_path):
+            log.warning(f'{xlsx_path} exists')
+            return ElectionResultsXlsx(xlsx_path)
+        
         return ElectionResultsXlsx.build(date, party_ids)
 
 
