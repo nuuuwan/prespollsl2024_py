@@ -15,12 +15,15 @@ def random_float(min_value, max_value):
 
 
 class ElectionResultsXlsxBuild:
-    PARTY_IDS = [
-        'SJB',
-        'NPP',
-        'UNP',
-        'SLPP',
-    ]
+    PARTY_TO_WEIGHT = {
+        'SJB': 0.45 + 1,
+        'NPP': 0.3,
+        'UNP': 0.2,
+        'SLPP': 0.05,
+    }
+    PARTY_IDS = list(PARTY_TO_WEIGHT.keys())
+    VOTES_NOISE = 0.6
+    
     GIG_TABLE_ELECTION_2020 = GIGTable(
         'government-elections-parliamentary', 'regions-ec', '2020'
     )
@@ -61,18 +64,20 @@ class ElectionResultsXlsxBuild:
         row.extend([electors, polled, rejected, valid])
         row.append("")
 
-        party_weight = [
-            random_float(0.1, 0.5) for _ in ElectionResultsXlsxBuild.PARTY_IDS
-        ]
-        total_weight = sum(party_weight)
 
-        for i, _ in enumerate(ElectionResultsXlsxBuild.PARTY_IDS):
-            p_party = 0.95 * party_weight[i] / total_weight
+        party_to_weight_random = {party :weight + random.random() * ElectionResultsXlsxBuild.VOTES_NOISE for party, weight in ElectionResultsXlsxBuild.PARTY_TO_WEIGHT.items()}
+        total_weight = sum(party_to_weight_random.values())
+
+        for party_weight_random in party_to_weight_random.values():
+            p_party = 0.95 * party_weight_random / total_weight
             row.append(int(valid * p_party))
 
     @staticmethod
-    def add_eds(ws):
+    def add_eds(ws, n_results_released):
         eds = Ent.list_from_type(EntType.ED)
+        random.shuffle(eds)
+        eds = eds[:n_results_released]
+
         election_2020_idx = (
             ElectionResultsXlsxBuild.GIG_TABLE_ELECTION_2020.remote_data_idx
         )
@@ -91,8 +96,11 @@ class ElectionResultsXlsxBuild:
             ws.append(row)
 
     @staticmethod
-    def add_pds(ws):
+    def add_pds(ws, n_results_released):
         pds = Ent.list_from_type(EntType.PD)
+        random.shuffle(pds)
+        pds = pds[:n_results_released]
+
         for pd in pds:
             ed_id = pd.id[:-1]
             ed = Ent.from_id(ed_id)
@@ -128,15 +136,18 @@ class ElectionResultsXlsxBuild:
                 cell.number_format = 'yyyy-mm-dd hh-mm'
 
     @classmethod
-    def build(cls, xlsx_path):
+    def build(cls, xlsx_path, n_results_released):
         log.debug(f'Building {xlsx_path}...')
         wb = Workbook()
         ws = wb.active
         ws.title = 'results'
 
         ElectionResultsXlsxBuild.add_header(ws)
-        ElectionResultsXlsxBuild.add_eds(ws)
-        ElectionResultsXlsxBuild.add_pds(ws)
+
+        n_results_released_postal = int(n_results_released * 22 / 182)
+        ElectionResultsXlsxBuild.add_eds(ws, n_results_released_postal)
+        n_results_released_pd = n_results_released - n_results_released_postal
+        ElectionResultsXlsxBuild.add_pds(ws, n_results_released_pd)
 
         ElectionResultsXlsxBuild.format_columns(ws)
 
@@ -148,11 +159,3 @@ class ElectionResultsXlsxBuild:
         log.info(f'Wrote {xlsx_path}')
 
         return cls(xlsx_path)
-
-    @classmethod
-    def load(cls, xlsx_path):
-        if os.path.exists(xlsx_path):
-            log.warning(f'{xlsx_path} exists')
-            return cls(xlsx_path)
-
-        return cls.build(xlsx_path)

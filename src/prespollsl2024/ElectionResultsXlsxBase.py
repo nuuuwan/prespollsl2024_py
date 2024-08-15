@@ -48,7 +48,7 @@ class ElectionResultsXlsxBase:
             }
 
             data_list.append(data)
-
+        data_list.sort(key=lambda x: x['result_time'])
         return data_list
 
     @cache
@@ -108,35 +108,40 @@ class ElectionResultsXlsxBase:
         return errors
 
     def validate(self):
-        data_list = self.data_list
-        assert len(data_list) == 160 + 22
+        errors = []
 
+        data_list = self.data_list
+        if len(data_list) != 160 + 22:
+            errors.append(f'Expected 160 + 22 rows, got {len(data_list)}') 
         data_idx = {data['pd_id']: data for data in data_list}
         pds = Ent.list_from_type(EntType.PD)
         eds = Ent.list_from_type(EntType.ED)
-        errors = []
+        
 
         for pd in pds:
             if pd.id not in data_idx:
                 errors.append(f'PD {pd.id}: not found')
-
-            if pd.name != data_idx[pd.id]['pd_name']:
-                errors.append(f'PD {pd.id}: name mismatch')
+            else:
+                if pd.name != data_idx[pd.id]['pd_name']:
+                    errors.append(f'PD {pd.id}: name mismatch')
 
         for ed in eds:
             postal_pd_id = ed.id + 'P'
             if postal_pd_id not in data_idx:
                 errors.append(f'Postal PD {postal_pd_id} not found')
-            if f'Postal - {ed.name}' != data_idx[postal_pd_id]['pd_name']:
-                errors.append(f'Postal PD {postal_pd_id}: name mismatch')
+            else:
+                if f'Postal - {ed.name}' != data_idx[postal_pd_id]['pd_name']:
+                    errors.append(f'Postal PD {postal_pd_id}: name mismatch')
 
         for data in data_list:
             errors.extend(self.validate_data(data))
 
         if errors:
-            log.warning(f'🛑 Found {len(errors)} errors')
             for error in errors:
                 log.error("\t" + error)
+            log.error('-'* 32)
+            log.error(f'🛑 Found {len(errors)} errors')
+            
         else:
             log.info('✅ No errors found.')
 
