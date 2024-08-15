@@ -69,7 +69,6 @@ class ElectionResultsXlsxBuild:
         for i, _ in enumerate(ElectionResultsXlsxBuild.PARTY_IDS):
             p_party = 0.95 * party_weight[i] / total_weight
             row.append(int(valid * p_party))
-        row.append("")
 
     @staticmethod
     def add_eds(ws):
@@ -83,7 +82,7 @@ class ElectionResultsXlsxBuild:
             electors_2020 = int(round(float(data['electors']), 0))
 
             row = [
-                postal_pd_id[3:],
+                postal_pd_id,
                 ed.name,
                 'Postal - ' + ed.name,
             ]
@@ -106,7 +105,7 @@ class ElectionResultsXlsxBuild:
                 )
             )
             row = [
-                pd.id[3:],
+                pd.id,
                 ed.name,
                 pd.name,
             ]
