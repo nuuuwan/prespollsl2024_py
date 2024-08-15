@@ -48,7 +48,7 @@ class ElectionResultsXlsxBase:
             }
 
             data_list.append(data)
-        data_list.sort(key=lambda x: x['result_time'])
+        data_list.sort(key=lambda x: str(x['result_time']))
         return data_list
 
     @cache
@@ -81,29 +81,31 @@ class ElectionResultsXlsxBase:
             errors.append(f'{pd_id}: valid + rejected != polled')
 
         # subset_party_to_votes
-        subset_party_total_votes = sum(subset_party_to_votes.values())
-        p_subset_party = subset_party_total_votes / summary['valid']
+        if summary['valid'] > 0:
+            subset_party_total_votes = sum(subset_party_to_votes.values())
+            p_subset_party = subset_party_total_votes / summary['valid']
 
-        if subset_party_total_votes > summary['valid']:
-            errors.append(f'{pd_id}: subset party votes > valid')
+            if subset_party_total_votes > summary['valid']:
+                errors.append(f'{pd_id}: subset party votes > valid')
 
-        MIN_ABS_P_SUBSET_PARTY = 0.8
-        if p_subset_party < MIN_ABS_P_SUBSET_PARTY:
-            errors.append(
-                f'{pd_id}: subset party votes out of range ({subset_party_total_votes:,} / {summary["valid"]:,})'
-            )
+            MIN_ABS_P_SUBSET_PARTY = 0.8
+            if p_subset_party < MIN_ABS_P_SUBSET_PARTY:
+                errors.append(
+                    f'{pd_id}: subset party votes out of range ({subset_party_total_votes:,} / {summary["valid"]:,})'
+                )
 
         # previous data
-        electors_previous = self.get_electors_previous(pd_id)
+        if summary['electors'] > 0:
+            electors_previous = self.get_electors_previous(pd_id)
 
-        p_elector_growth = (
-            summary['electors'] - electors_previous
-        ) / electors_previous
-        MAX_ABS_P_ELECTOR_GROWTH = 0.1
-        if abs(p_elector_growth) > MAX_ABS_P_ELECTOR_GROWTH:
-            errors.append(
-                f'{pd_id}: elector growth out of range ({electors_previous:,} -> {summary["electors"]:,})'
-            )
+            p_elector_growth = (
+                summary['electors'] - electors_previous
+            ) / electors_previous
+            MAX_ABS_P_ELECTOR_GROWTH = 0.1
+            if abs(p_elector_growth) > MAX_ABS_P_ELECTOR_GROWTH:
+                errors.append(
+                    f'{pd_id}: elector growth out of range ({electors_previous:,} -> {summary["electors"]:,})'
+                )
 
         return errors
 

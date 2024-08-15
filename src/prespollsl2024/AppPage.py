@@ -65,8 +65,9 @@ class AppPage:
 
     @property
     def image_dir(self):
-        image_dir = os.path.join(tempfile.gettempdir(), 'prespollsl2024')
+        image_dir = os.path.join(tempfile.gettempdir(), 'prespollsl2024-v20240815')
         os.makedirs(image_dir, exist_ok=True)
+        os.startfile(image_dir)
         return image_dir
 
     def download_screenshot(self, driver=None):
@@ -159,7 +160,7 @@ class AppPage:
             image_clips.append(image_clip)
             start += duration
 
-        audio_path = os.path.join("media", "audio", "bensound-onrepeat.mp3")
+        audio_path = os.path.join("media", "audio", "bensound-energy.mp3")
         audio_clip = AudioFileClip(audio_path)
         audio_clip = afx.audio_loop(audio_clip, duration=start).audio_fadeout(
             DURATION_END

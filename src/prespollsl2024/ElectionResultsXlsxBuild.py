@@ -75,10 +75,26 @@ class ElectionResultsXlsxBuild:
             row.append(int(valid * p_party))
 
     @staticmethod
-    def add_eds(ws, n_results_released):
+    def add_statistics_zero(row):
+        row.append("")
+
+        result_time = 0
+        row.append(result_time)
+        row.append("")
+
+        electors = 0
+        polled = 00
+        rejected = 0
+        valid = 0
+        row.extend([electors, polled, rejected, valid])
+        row.append("")
+
+        for _ in ElectionResultsXlsxBuild.PARTY_IDS:
+            row.append(0)
+
+    @staticmethod
+    def add_eds(ws, p_result_released):
         eds = Ent.list_from_type(EntType.ED)
-        random.shuffle(eds)
-        eds = eds[:n_results_released]
 
         election_2020_idx = (
             ElectionResultsXlsxBuild.GIG_TABLE_ELECTION_2020.remote_data_idx
@@ -86,22 +102,23 @@ class ElectionResultsXlsxBuild:
         for ed in eds:
             postal_pd_id = ed.id + 'P'
             data = election_2020_idx[postal_pd_id]
-            electors_2020 = int(round(float(data['electors']), 0))
 
             row = [
                 postal_pd_id,
                 ed.name,
                 'Postal - ' + ed.name,
             ]
-            ElectionResultsXlsxBuild.add_statistics(row, electors_2020)
 
+            if random.random() < p_result_released:
+                electors_2020 = int(round(float(data['electors']), 0))
+                ElectionResultsXlsxBuild.add_statistics(row, electors_2020)
+            else:
+                ElectionResultsXlsxBuild.add_statistics_zero(row)
             ws.append(row)
 
     @staticmethod
-    def add_pds(ws, n_results_released):
+    def add_pds(ws, p_result_released):
         pds = Ent.list_from_type(EntType.PD)
-        random.shuffle(pds)
-        pds = pds[:n_results_released]
 
         for pd in pds:
             ed_id = pd.id[:-1]
@@ -119,9 +136,13 @@ class ElectionResultsXlsxBuild:
                 ed.name,
                 pd.name,
             ]
-            ElectionResultsXlsxBuild.add_statistics(row, electors_2020)
-
+            if random.random() < p_result_released:
+                electors_2020 = int(round(float(electors_2020), 0))
+                ElectionResultsXlsxBuild.add_statistics(row, electors_2020)
+            else:
+                ElectionResultsXlsxBuild.add_statistics_zero(row)
             ws.append(row)
+
 
     @staticmethod
     def format_columns(ws):
@@ -130,15 +151,10 @@ class ElectionResultsXlsxBuild:
             for cell in col:
                 cell.number_format = number_format
 
-        col_result_time = 5
-        for col in ws.iter_cols(
-            min_col=col_result_time, max_col=col_result_time
-        ):
-            for cell in col:
-                cell.number_format = 'yyyy-mm-dd hh-mm'
+
 
     @classmethod
-    def build(cls, xlsx_path, n_results_released):
+    def build(cls, xlsx_path, p_result_released):
         log.debug(f'Building {xlsx_path}...')
         wb = Workbook()
         ws = wb.active
@@ -146,10 +162,8 @@ class ElectionResultsXlsxBuild:
 
         ElectionResultsXlsxBuild.add_header(ws)
 
-        n_results_released_postal = int(n_results_released * 22 / 182)
-        ElectionResultsXlsxBuild.add_eds(ws, n_results_released_postal)
-        n_results_released_pd = n_results_released - n_results_released_postal
-        ElectionResultsXlsxBuild.add_pds(ws, n_results_released_pd)
+        ElectionResultsXlsxBuild.add_eds(ws, p_result_released)
+        ElectionResultsXlsxBuild.add_pds(ws, p_result_released)
 
         ElectionResultsXlsxBuild.format_columns(ws)
 
