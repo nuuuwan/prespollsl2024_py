@@ -151,7 +151,7 @@ class ElectionResultsXlsxBuild:
 
     @classmethod
     def load(cls, xlsx_path):
-        if os.path.exists(xlsx_path) and False:
+        if os.path.exists(xlsx_path):
             log.warning(f'{xlsx_path} exists')
             return cls(xlsx_path)
 
