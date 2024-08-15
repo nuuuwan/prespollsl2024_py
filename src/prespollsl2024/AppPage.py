@@ -168,12 +168,3 @@ class AppPage:
         video_clip = CompositeVideoClip(image_clips).set_audio(audio_clip)
         video_clip.write_videofile(video_path, fps=1)
         log.info(f'Wrote video to {video_path}')
-
-
-if __name__ == "__main__":
-    AppPage.make_video(
-        election_type="presidential",
-        date="2019-11-16",
-        start_n_results_display=0,
-        end_n_results_display=182,
-    )
