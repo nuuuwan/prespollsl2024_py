@@ -1,21 +1,21 @@
 import os
+import tempfile
+import time
 import urllib.parse
 
+from moviepy.editor import AudioFileClip, CompositeVideoClip, ImageClip, afx
+from PIL import Image
 from selenium import webdriver
-
 from selenium.webdriver.firefox.options import Options
-
-
 from utils import Log
-import time
 
 log = Log("AppPage")
 
 
 class AppPage:
-    URL = "https://nuuuwan.github.io/prespollsl2024"
-    T_SLEEP_START = 20
-    T_SLEEP_NEW = 1
+    URL = "http://localhost:3000/prespollsl2024"
+    T_SLEEP_START = 10
+    T_SLEEP_NEW = 2
 
     def __init__(
         self,
@@ -42,9 +42,13 @@ class AppPage:
         )
 
     @property
+    def year(self):
+        return self.date[:4]
+
+    @property
     def id(self):
         return (
-            f"[{self.election_type}-{self.date}] {self.n_results_display:03d}"
+            f"{self.election_type}-{self.year}-{self.n_results_display:03d}"
         )
 
     @staticmethod
@@ -52,29 +56,42 @@ class AppPage:
         firefox_options = Options()
         firefox_options.add_argument("--headless")  # Run in headless mode
         driver = webdriver.Firefox(options=firefox_options)
-        driver.set_window_size(1600, 900)
+        driver.set_window_size(1600, 1100)
         log.debug(f"🌏 Opening {AppPage.URL}...")
         driver.get(AppPage.URL)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_START}s...')
         time.sleep(AppPage.T_SLEEP_START)
         return driver
 
+    @property
+    def image_dir(self):
+        image_dir = os.path.join(tempfile.gettempdir(), 'prespollsl2024')
+        os.makedirs(image_dir, exist_ok=True)
+        return image_dir
+
     def download_screenshot(self, driver=None):
-        did_create_driver = False
+        image_path = os.path.join(self.image_dir, f"{self.id}.png")
+        if os.path.exists(image_path):
+            log.warn(f"Skipping {image_path}")
+            return image_path, driver
+
         if not driver:
-            did_create_driver = True
             driver = AppPage.start_driver()
 
         log.debug(f"🌏 Opening {self.url}...")
         driver.get(self.url)
         time.sleep(AppPage.T_SLEEP_NEW)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_NEW}s...')
-        image_path = os.path.join("images", f"{self.id}.png")
-        driver.save_screenshot(image_path)
-        if did_create_driver:
-            driver.quit()
+
+        pre_image_path = os.path.join(self.image_dir, f"pre-{self.id}.png")
+        driver.save_screenshot(pre_image_path)
+
+        img = Image.open(pre_image_path)
+        img = img.crop((0, 0, 1600, 920))
+        img.save(image_path)
+
         log.info(f"Wrote screenshot to {image_path}")
-        return image_path
+        return image_path, driver
 
     @staticmethod
     def download_screenshots(
@@ -83,7 +100,8 @@ class AppPage:
         start_n_results_display: int,
         end_n_results_display: int,
     ):
-        driver = AppPage.start_driver()
+        driver = None
+        image_paths = []
         for n_results_display in range(
             start_n_results_display, end_n_results_display + 1
         ):
@@ -92,15 +110,70 @@ class AppPage:
                 date=date,
                 n_results_display=n_results_display,
             )
-            app_page.download_screenshot(driver)
-        driver.quit()
-        log.debug('🛑 Quitting driver.')
+            image_path, driver = app_page.download_screenshot(driver)
+            image_paths.append(image_path)
+
+        if driver:
+            driver.quit()
+            log.debug('🛑 Quitting driver.')
+
+        n_image_paths = len(image_paths)
+        log.info(f"Downloaded {n_image_paths} screenshots.")
+
+        return image_paths
+
+    @staticmethod
+    def make_video(
+        election_type: str,
+        date: str,
+        start_n_results_display: int,
+        end_n_results_display: int,
+    ):
+        image_paths = AppPage.download_screenshots(
+            election_type=election_type,
+            date=date,
+            start_n_results_display=start_n_results_display,
+            end_n_results_display=end_n_results_display,
+        )
+        year = date[:4]
+        video_path = os.path.join(
+            "media", "video", f"{election_type}-{year}.mp4"
+        )
+
+        image_clips = []
+        n = len(image_paths)
+        start = 0
+        DURATION_START = 5
+        DURATION_NORMAL = 1
+        DURATION_END = 10
+        for i, image_path in enumerate(image_paths, start=1):
+            duration = DURATION_NORMAL
+            if i == 1:
+                duration = DURATION_START
+            elif i == n:
+                duration = DURATION_END
+
+            image_clip = (
+                ImageClip(image_path).set_duration(duration).set_start(start)
+            )
+            image_clips.append(image_clip)
+            start += duration
+
+        audio_path = os.path.join("media", "audio", "bensound-onrepeat.mp3")
+        audio_clip = AudioFileClip(audio_path)
+        audio_clip = afx.audio_loop(audio_clip, duration=start).audio_fadeout(
+            DURATION_END
+        )
+
+        video_clip = CompositeVideoClip(image_clips).set_audio(audio_clip)
+        video_clip.write_videofile(video_path, fps=1)
+        log.info(f'Wrote video to {video_path}')
 
 
 if __name__ == "__main__":
-    AppPage.download_screenshots(
+    AppPage.make_video(
         election_type="presidential",
         date="2019-11-16",
-        start_n_results_display=100,
-        end_n_results_display=103,
+        start_n_results_display=0,
+        end_n_results_display=182,
     )
