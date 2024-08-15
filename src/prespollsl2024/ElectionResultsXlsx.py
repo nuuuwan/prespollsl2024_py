@@ -14,6 +14,12 @@ def random_float(min_value, max_value):
 
 
 class ElectionResultsXlsx:
+    PARTY_IDS = [
+        'SJB',
+        'NPP',
+        'UNP',
+        'SLPP',
+    ]
     GIG_TABLE_ELECTION_2020 = GIGTable(
         'government-elections-parliamentary', 'regions-ec', '2020'
     )
@@ -22,69 +28,58 @@ class ElectionResultsXlsx:
         self.xlsx_path = xlsx_path
 
     @staticmethod
-    def add_header(ws, party_ids):
-        fields = (
+    def add_header(ws):
+        ws.append(
             [
                 'pd_id',
                 'ed_name',
                 'pd_name',
-                'electors_2020',
                 "",
                 'result_time',
+                "",
                 'electors',
                 'polled',
                 'rejected',
                 'valid',
+                "",
             ]
-            + party_ids
-            + [
-                '',
-                # '_OTHERS',
-                # '_electors',
-                # '_polled',
-                # '_rejected',
-                # '_valid',
-                # '_sum',
-            ]
+            + ElectionResultsXlsx.PARTY_IDS
         )
-        ws.append(fields)
 
     @staticmethod
-    def add_statistics(row, party_ids, electors_previous):
+    def add_statistics(row, electors_previous):
+        row.append("")
+
+        result_time = TimeFormat('%Y-%m-%d %H:%M').format(
+            Time(Time.now().ut - random.random() * 3600 * 12)
+        )
+        row.append(result_time)
+        row.append("")
+
         electors = int(electors_previous * random_float(1, 1.1))
         polled = int(electors * random_float(0.6, 0.9))
         rejected = int(polled * random_float(0.01, 0.03))
         valid = polled - rejected
-        result_time = TimeFormat('%Y-%m-%d %H:%M').format(
-            Time(Time.now().ut - random.random() * 3600 * 12)
-        )
+        row.extend([electors, polled, rejected, valid])
+        row.append("")
 
-        row.extend(["", result_time, electors, polled, rejected, valid])
-
-        party_weight = [random_float(0.1, 0.5) for _ in party_ids]
+        party_weight = [
+            random_float(0.1, 0.5) for _ in ElectionResultsXlsx.PARTY_IDS
+        ]
         total_weight = sum(party_weight)
 
-        for i, _ in enumerate(party_ids):
+        for i, _ in enumerate(ElectionResultsXlsx.PARTY_IDS):
             p_party = 0.95 * party_weight[i] / total_weight
             row.append(int(valid * p_party))
-
-    @staticmethod
-    def add_auto_columns(i, row):
         row.append("")
-        # row.append(f'=J{i} - SUM(K{i}:N{i})')
-        # row.append(f'=IF(G{i} < D{i}, "DOWN", "")')
-        # row.append(f'=IF(H{i} > G{i}, "UP", "")')
-        # row.append(f'=IF(I{i} > H{i}, "UP", "")')
-        # row.append(f'=IF(J{i} < I{i}, "DOWN", "")')
-        # row.append(f'=IF(J{i} + I{i} <> H{i}, "UNEQUAL", "")')
 
     @staticmethod
-    def add_eds(ws, party_ids):
+    def add_eds(ws):
         eds = Ent.list_from_type(EntType.ED)
         election_2020_idx = (
             ElectionResultsXlsx.GIG_TABLE_ELECTION_2020.remote_data_idx
         )
-        for i_row, ed in enumerate(eds, start=2):
+        for ed in eds:
             postal_pd_id = ed.id + 'P'
             data = election_2020_idx[postal_pd_id]
             electors_2020 = int(round(float(data['electors']), 0))
@@ -93,16 +88,15 @@ class ElectionResultsXlsx:
                 postal_pd_id[3:],
                 ed.name,
                 'Postal - ' + ed.name,
-                electors_2020,
             ]
-            ElectionResultsXlsx.add_statistics(row, party_ids, electors_2020)
-            ElectionResultsXlsx.add_auto_columns(i_row, row)
+            ElectionResultsXlsx.add_statistics(row, electors_2020)
+
             ws.append(row)
 
     @staticmethod
-    def add_pds(ws, party_ids):
+    def add_pds(ws):
         pds = Ent.list_from_type(EntType.PD)
-        for i_row, pd in enumerate(pds, start=2):
+        for pd in pds:
             ed_id = pd.id[:-1]
             ed = Ent.from_id(ed_id)
             electors_2020 = int(
@@ -117,10 +111,9 @@ class ElectionResultsXlsx:
                 pd.id[3:],
                 ed.name,
                 pd.name,
-                electors_2020,
             ]
-            ElectionResultsXlsx.add_statistics(row, party_ids, electors_2020)
-            ElectionResultsXlsx.add_auto_columns(i_row, row)
+            ElectionResultsXlsx.add_statistics(row, electors_2020)
+
             ws.append(row)
 
     @staticmethod
@@ -138,13 +131,7 @@ class ElectionResultsXlsx:
                 except BaseException:
                     pass
             adjusted_width = max_length
-            ws.column_dimensions[column_letter].width = max(
-                10, adjusted_width
-            )
-
-            ws.column_dimensions["F"].width = 16
-            for column_letter in ['E', "O"]:
-                ws.column_dimensions[column_letter].width = 4
+            ws.column_dimensions[column_letter].width = max(8, adjusted_width)
 
     @staticmethod
     def format_columns(ws):
@@ -153,7 +140,10 @@ class ElectionResultsXlsx:
             for cell in col:
                 cell.number_format = number_format
 
-        for col in ws.iter_cols(min_col=6, max_col=6):
+        col_result_time = 5
+        for col in ws.iter_cols(
+            min_col=col_result_time, max_col=col_result_time
+        ):
             for cell in col:
                 cell.number_format = 'yyyy-mm-dd hh-mm'
 
@@ -174,16 +164,16 @@ class ElectionResultsXlsx:
         ws.freeze_panes = 'A2'
 
     @staticmethod
-    def build(date, party_ids):
+    def build(date):
         xlsx_path = os.path.join('data', f'election-{date}.xlsx')
         log.debug(f'Building {xlsx_path}...')
         wb = Workbook()
         ws = wb.active
         ws.title = 'results'
 
-        ElectionResultsXlsx.add_header(ws, party_ids)
-        ElectionResultsXlsx.add_eds(ws, party_ids)
-        ElectionResultsXlsx.add_pds(ws, party_ids)
+        ElectionResultsXlsx.add_header(ws)
+        ElectionResultsXlsx.add_eds(ws)
+        ElectionResultsXlsx.add_pds(ws)
 
         ElectionResultsXlsx.format_columns(ws)
         ElectionResultsXlsx.fix_column_widths(ws)
@@ -193,26 +183,41 @@ class ElectionResultsXlsx:
         wb.save(xlsx_path)
         log.info(f'Wrote {xlsx_path}')
 
-
         return ElectionResultsXlsx(xlsx_path)
 
     @staticmethod
-    def load(date, party_ids):
+    def load(date):
         xlsx_path = os.path.join('data', f'election-{date}.xlsx')
-        if os.path.exists(xlsx_path):
+        if os.path.exists(xlsx_path) and False:
             log.warning(f'{xlsx_path} exists')
             return ElectionResultsXlsx(xlsx_path)
-        
-        return ElectionResultsXlsx.build(date, party_ids)
+
+        return ElectionResultsXlsx.build(date)
+
+    @property
+    def data_list(self) -> list[dict]:
+        wb = Workbook()
+        ws = wb.active
+        ws = wb['results']
+        data_list = []
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            data = {
+                'pd_id': row[0],
+                'ed_name': row[1],
+                'pd_name': row[2],
+                # 2 spaces
+                'result_time': row[5],
+                'electors': row[6],
+                'polled': row[7],
+                'rejected': row[8],
+                'valid': row[9],
+            }
+            for i, party_id in enumerate(ElectionResultsXlsx.PARTY_IDS):
+                data[party_id] = row[10 + i]
+        return data_list
 
 
 if __name__ == '__main__':
     ElectionResultsXlsx.load(
         '2024-09-21',
-        [
-            'SJB',
-            'NPP',
-            'UNP',
-            'SLPP',
-        ],
     )
