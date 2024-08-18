@@ -65,7 +65,7 @@ class AppPage:
 
     @property
     def image_dir(self):
-        image_dir = os.path.join(tempfile.gettempdir(), 'prespollsl2024-v20240815')
+        image_dir = os.path.join(tempfile.gettempdir(), f'election-{self.date}')
         os.makedirs(image_dir, exist_ok=True)
         os.startfile(image_dir)
         return image_dir

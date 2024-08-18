@@ -14,16 +14,5 @@ if __name__ == '__main__':
     erx = ElectionResultsXlsx.build(xlsx_path, p_result_released)
 
     erx.validate()
-
     erx.write_json()
-    js_path = erx.write_js()
-    dest_js_path = os.path.join(
-        os.environ['DIR_JS_REACT'],
-        'prespollsl2024',
-        'src',
-        'nonview',
-        'constants',
-        'PRESPOLLSL2024.js',
-    )
-    shutil.copy(js_path, dest_js_path)
-    log.info(f'Copied {js_path} to {dest_js_path}')
+
