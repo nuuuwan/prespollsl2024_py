@@ -15,7 +15,7 @@ def random_float(min_value, max_value):
 
 class ElectionResultsXlsxBuild:
     PARTY_TO_WEIGHT = {
-        'SJB': 0.45 + 1,
+        'SJB': 0.45,
         'NPP': 0.3,
         'UNP': 0.2,
         'SLPP': 0.05,
