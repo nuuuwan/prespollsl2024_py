@@ -56,7 +56,7 @@ class AppPage:
         firefox_options = Options()
         firefox_options.add_argument("--headless")  # Run in headless mode
         driver = webdriver.Firefox(options=firefox_options)
-        driver.set_window_size(1600, 1100)
+        driver.set_window_size(1600, 1200)
         log.debug(f"🌏 Opening {AppPage.URL}...")
         driver.get(AppPage.URL)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_START}s...')
@@ -88,7 +88,9 @@ class AppPage:
         driver.save_screenshot(pre_image_path)
 
         img = Image.open(pre_image_path)
-        img = img.crop((0, 0, 1600, 920))
+        width = 1600
+        height = 850
+        img = img.crop((0, 0, width, height))
         img.save(image_path)
 
         log.info(f"Wrote screenshot to {image_path}")
@@ -145,8 +147,8 @@ class AppPage:
         n = len(image_paths)
         start = 0
         DURATION_START = 5
-        DURATION_NORMAL = 1
-        DURATION_END = 10
+        DURATION_NORMAL = 2
+        DURATION_END = 20
         for i, image_path in enumerate(image_paths, start=1):
             duration = DURATION_NORMAL
             if i == 1:
@@ -160,7 +162,7 @@ class AppPage:
             image_clips.append(image_clip)
             start += duration
 
-        audio_path = os.path.join("media", "audio", "bensound-energy.mp3")
+        audio_path = os.path.join("media", "audio", "bensound-newfrontier.mp3")
         audio_clip = AudioFileClip(audio_path)
         audio_clip = afx.audio_loop(audio_clip, duration=start).audio_fadeout(
             DURATION_END
