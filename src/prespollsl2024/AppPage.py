@@ -1,4 +1,5 @@
 import os
+import shutil
 import tempfile
 import time
 import urllib.parse
@@ -11,10 +12,13 @@ from utils import Log
 
 log = Log("AppPage")
 
+WIDTH = 1600
+HEIGHT = int(WIDTH * 9 /16) 
+
 
 class AppPage:
     URL = "http://localhost:3000/prespollsl2024"
-    T_SLEEP_START = 10
+    T_SLEEP_START = 20
     T_SLEEP_NEW = 2
 
     def __init__(
@@ -37,6 +41,7 @@ class AppPage:
                     election_type=self.election_type,
                     date=self.date,
                     nResultsDisplay=self.n_results_display,
+                    noScroll=True,
                 )
             )
         )
@@ -48,7 +53,7 @@ class AppPage:
     @property
     def id(self):
         return (
-            f"{self.election_type}-{self.year}-{self.n_results_display:03d}"
+            f"{self.n_results_display:03d}"
         )
 
     @staticmethod
@@ -56,7 +61,7 @@ class AppPage:
         firefox_options = Options()
         firefox_options.add_argument("--headless")  # Run in headless mode
         driver = webdriver.Firefox(options=firefox_options)
-        driver.set_window_size(1600, 1200)
+        driver.set_window_size(WIDTH, HEIGHT)
         log.debug(f"🌏 Opening {AppPage.URL}...")
         driver.get(AppPage.URL)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_START}s...')
@@ -67,7 +72,6 @@ class AppPage:
     def image_dir(self):
         image_dir = os.path.join(tempfile.gettempdir(), f'election-{self.date}')
         os.makedirs(image_dir, exist_ok=True)
-        os.startfile(image_dir)
         return image_dir
 
     def download_screenshot(self, driver=None):
@@ -84,13 +88,9 @@ class AppPage:
         time.sleep(AppPage.T_SLEEP_NEW)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_NEW}s...')
 
-        pre_image_path = os.path.join(self.image_dir, f"pre-{self.id}.png")
-        driver.save_screenshot(pre_image_path)
-
-        img = Image.open(pre_image_path)
-        width = 1600
-        height = 850
-        img = img.crop((0, 0, width, height))
+        driver.save_screenshot(image_path)
+        img = Image.open(image_path)
+        img = img.resize((WIDTH, HEIGHT))
         img.save(image_path)
 
         log.info(f"Wrote screenshot to {image_path}")
@@ -171,3 +171,4 @@ class AppPage:
         video_clip = CompositeVideoClip(image_clips).set_audio(audio_clip)
         video_clip.write_videofile(video_path, fps=1)
         log.info(f'Wrote video to {video_path}')
+        os.startfile(video_path)
