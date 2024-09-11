@@ -1,6 +1,6 @@
 import os
-import shutil
 import sys
+
 from utils import Log
 
 from prespollsl2024 import ElectionResultsXlsx
@@ -15,4 +15,3 @@ if __name__ == '__main__':
 
     erx.validate()
     erx.write_json()
-

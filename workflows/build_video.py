@@ -10,13 +10,13 @@ if __name__ == "__main__":
         end_n_results_display=182,
     )
 '''
-I've been working on a simple app to show #PresPollSL2024 results in realtime.   
+I've been working on a simple app to show #PresPollSL2024 results in realtime.
 
-Here's the MVP https://nuuuwan.github.io/prespoll 
+Here's the MVP https://nuuuwan.github.io/prespoll
 
-I'm not going to explain how to use it, because it should be self-explanatory.  
+I'm not going to explain how to use it, because it should be self-explanatory.
 
-Comment on what to add/delete/update, and any other feedback.  
+Comment on what to add/delete/update, and any other feedback.
 
-Also, (obviously) the data for 2024 is test data, and fake.   
+Also, (obviously) the data for 2024 is test data, and fake.
 '''

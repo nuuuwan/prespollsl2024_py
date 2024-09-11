@@ -143,15 +143,12 @@ class ElectionResultsXlsxBuild:
                 ElectionResultsXlsxBuild.add_statistics_zero(row)
             ws.append(row)
 
-
     @staticmethod
     def format_columns(ws):
         number_format = '#,##0'
         for col in ws.iter_cols(min_col=4):
             for cell in col:
                 cell.number_format = number_format
-
-
 
     @classmethod
     def build(cls, xlsx_path, p_result_released):

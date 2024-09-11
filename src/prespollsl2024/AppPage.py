@@ -1,5 +1,4 @@
 import os
-import shutil
 import tempfile
 import time
 import urllib.parse
@@ -13,7 +12,7 @@ from utils import Log
 log = Log("AppPage")
 
 WIDTH = 1600
-HEIGHT = int(WIDTH * 9 /16) 
+HEIGHT = int(WIDTH * 9 / 16)
 
 
 class AppPage:
@@ -52,9 +51,7 @@ class AppPage:
 
     @property
     def id(self):
-        return (
-            f"{self.n_results_display:03d}"
-        )
+        return f"{self.n_results_display:03d}"
 
     @staticmethod
     def start_driver():
@@ -70,7 +67,9 @@ class AppPage:
 
     @property
     def image_dir(self):
-        image_dir = os.path.join(tempfile.gettempdir(), f'election-{self.date}')
+        image_dir = os.path.join(
+            tempfile.gettempdir(), f'election-{self.date}'
+        )
         os.makedirs(image_dir, exist_ok=True)
         return image_dir
 
@@ -162,7 +161,9 @@ class AppPage:
             image_clips.append(image_clip)
             start += duration
 
-        audio_path = os.path.join("media", "audio", "bensound-newfrontier.mp3")
+        audio_path = os.path.join(
+            "media", "audio", "bensound-newfrontier.mp3"
+        )
         audio_clip = AudioFileClip(audio_path)
         audio_clip = afx.audio_loop(audio_clip, duration=start).audio_fadeout(
             DURATION_END
