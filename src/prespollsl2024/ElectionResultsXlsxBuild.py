@@ -18,7 +18,7 @@ class ElectionResultsXlsxBuild:
         'NPP': 0.35,
         'SJB': 0.30,
         'RW': 0.25,
-        'DJ': 0.08,
+        'CPSL': 0.08,
         'SLPP': 0.02,
     }
     PARTY_IDS = list(PARTY_TO_WEIGHT.keys())
