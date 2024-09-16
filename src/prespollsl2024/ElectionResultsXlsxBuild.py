@@ -17,9 +17,9 @@ class ElectionResultsXlsxBuild:
     PARTY_TO_WEIGHT = {
         'NPP': 0.35,
         'SJB': 0.30,
-        'IND-RW': 0.25,
+        'RW': 0.25,
         'DJ': 0.08,
-        'NR': 0.02,
+        'SLPP': 0.02,
     }
     PARTY_IDS = list(PARTY_TO_WEIGHT.keys())
     VOTES_NOISE = 0.6

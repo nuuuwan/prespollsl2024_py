@@ -1,3460 +1,3460 @@
 [
   {
-    "pd_id": "EC-06P",
-    "ed_name": "Nuwara-Eliya",
-    "pd_name": "Postal - Nuwara-Eliya",
-    "result_time": "2024-09-16 08:12",
-    "summary": {
-      "electors": 20759,
-      "polled": 13605,
-      "rejected": 183,
-      "valid": 13422
-    },
-    "subset_party_to_votes": {
-      "NPP": 2823,
-      "SJB": 2637,
-      "IND-RW": 3293,
-      "DJ": 2528,
-      "NR": 1467
-    }
-  },
-  {
-    "pd_id": "EC-15F",
-    "ed_name": "Kurunegala",
-    "pd_name": "Panduwasnuwara",
-    "result_time": "2024-09-16 08:16",
-    "summary": {
-      "electors": 81275,
-      "polled": 61479,
-      "rejected": 1696,
-      "valid": 59783
-    },
-    "subset_party_to_votes": {
-      "NPP": 18805,
-      "SJB": 9073,
-      "IND-RW": 18012,
-      "DJ": 10133,
-      "NR": 768
-    }
-  },
-  {
-    "pd_id": "EC-08G",
-    "ed_name": "Matara",
-    "pd_name": "Weligama",
-    "result_time": "2024-09-16 08:20",
-    "summary": {
-      "electors": 99859,
-      "polled": 80400,
-      "rejected": 1432,
-      "valid": 78968
-    },
-    "subset_party_to_votes": {
-      "NPP": 23028,
-      "SJB": 20218,
-      "IND-RW": 17722,
-      "DJ": 7988,
-      "NR": 6060
-    }
-  },
-  {
-    "pd_id": "EC-08B",
-    "ed_name": "Matara",
-    "pd_name": "Hakmana",
-    "result_time": "2024-09-16 08:26",
-    "summary": {
-      "electors": 95782,
-      "polled": 85834,
-      "rejected": 1856,
-      "valid": 83978
-    },
-    "subset_party_to_votes": {
-      "NPP": 12566,
-      "SJB": 17765,
-      "IND-RW": 15498,
-      "DJ": 18655,
-      "NR": 15293
-    }
-  },
-  {
-    "pd_id": "EC-22D",
-    "ed_name": "Kegalle",
-    "pd_name": "Rambukkana",
-    "result_time": "2024-09-16 08:30",
-    "summary": {
-      "electors": 64263,
-      "polled": 52884,
-      "rejected": 1258,
-      "valid": 51626
-    },
-    "subset_party_to_votes": {
-      "NPP": 19466,
-      "SJB": 11675,
-      "IND-RW": 9299,
-      "DJ": 6092,
-      "NR": 2512
-    }
-  },
-  {
-    "pd_id": "EC-01O",
-    "ed_name": "Colombo",
-    "pd_name": "Moratuwa",
-    "result_time": "2024-09-16 08:34",
-    "summary": {
-      "electors": 124636,
-      "polled": 81793,
-      "rejected": 2337,
-      "valid": 79456
-    },
-    "subset_party_to_votes": {
-      "NPP": 23840,
-      "SJB": 12242,
-      "IND-RW": 20917,
-      "DJ": 14372,
-      "NR": 4109
-    }
-  },
-  {
-    "pd_id": "EC-07G",
-    "ed_name": "Galle",
-    "pd_name": "Ratgama",
-    "result_time": "2024-09-16 08:35",
-    "summary": {
-      "electors": 81884,
-      "polled": 50118,
-      "rejected": 679,
-      "valid": 49439
-    },
-    "subset_party_to_votes": {
-      "NPP": 8771,
-      "SJB": 9567,
-      "IND-RW": 12990,
-      "DJ": 7643,
-      "NR": 7994
-    }
-  },
-  {
-    "pd_id": "EC-01F",
-    "ed_name": "Colombo",
-    "pd_name": "Dehiwala",
-    "result_time": "2024-09-16 08:43",
-    "summary": {
-      "electors": 63195,
-      "polled": 53428,
-      "rejected": 1540,
-      "valid": 51888
-    },
-    "subset_party_to_votes": {
-      "NPP": 18531,
-      "SJB": 11083,
-      "IND-RW": 8422,
-      "DJ": 4349,
-      "NR": 6906
-    }
-  },
-  {
-    "pd_id": "EC-01I",
-    "ed_name": "Colombo",
-    "pd_name": "Kotte",
-    "result_time": "2024-09-16 08:46",
-    "summary": {
-      "electors": 79625,
-      "polled": 70379,
-      "rejected": 848,
-      "valid": 69531
-    },
-    "subset_party_to_votes": {
-      "NPP": 25220,
-      "SJB": 13888,
-      "IND-RW": 16982,
-      "DJ": 4635,
-      "NR": 5327
-    }
-  },
-  {
-    "pd_id": "EC-19A",
-    "ed_name": "Badulla",
-    "pd_name": "Mahiyanganaya",
-    "result_time": "2024-09-16 08:46",
-    "summary": {
-      "electors": 103364,
-      "polled": 63009,
-      "rejected": 760,
-      "valid": 62249
-    },
-    "subset_party_to_votes": {
-      "NPP": 17035,
-      "SJB": 11160,
-      "IND-RW": 7745,
-      "DJ": 8034,
-      "NR": 15160
-    }
-  },
-  {
-    "pd_id": "EC-16C",
-    "ed_name": "Puttalam",
-    "pd_name": "Chilaw",
-    "result_time": "2024-09-16 08:47",
-    "summary": {
-      "electors": 134559,
-      "polled": 90732,
-      "rejected": 1805,
-      "valid": 88927
-    },
-    "subset_party_to_votes": {
-      "NPP": 27126,
-      "SJB": 26833,
-      "IND-RW": 9855,
-      "DJ": 14568,
-      "NR": 6097
-    }
-  },
-  {
-    "pd_id": "EC-01P",
-    "ed_name": "Colombo",
-    "pd_name": "Postal - Colombo",
-    "result_time": "2024-09-16 08:54",
-    "summary": {
-      "electors": 38296,
-      "polled": 24306,
-      "rejected": 615,
-      "valid": 23691
-    },
-    "subset_party_to_votes": {
-      "NPP": 6734,
-      "SJB": 5951,
-      "IND-RW": 2560,
-      "DJ": 5169,
-      "NR": 2090
-    }
-  },
-  {
-    "pd_id": "EC-09P",
-    "ed_name": "Hambantota",
-    "pd_name": "Postal - Hambantota",
-    "result_time": "2024-09-16 08:55",
-    "summary": {
-      "electors": 22495,
-      "polled": 13508,
-      "rejected": 374,
-      "valid": 13134
-    },
-    "subset_party_to_votes": {
-      "NPP": 3513,
-      "SJB": 2855,
-      "IND-RW": 2261,
-      "DJ": 1312,
-      "NR": 2534
-    }
-  },
-  {
-    "pd_id": "EC-03H",
-    "ed_name": "Kalutara",
-    "pd_name": "Agalawatta",
-    "result_time": "2024-09-16 08:55",
-    "summary": {
-      "electors": 103410,
-      "polled": 84177,
-      "rejected": 1182,
-      "valid": 82995
-    },
-    "subset_party_to_votes": {
-      "NPP": 9942,
-      "SJB": 24713,
-      "IND-RW": 16835,
-      "DJ": 13052,
-      "NR": 14301
-    }
-  },
-  {
-    "pd_id": "EC-01E",
-    "ed_name": "Colombo",
-    "pd_name": "Colombo West",
-    "result_time": "2024-09-16 08:58",
-    "summary": {
-      "electors": 45325,
-      "polled": 29636,
-      "rejected": 815,
-      "valid": 28821
-    },
-    "subset_party_to_votes": {
-      "NPP": 4053,
-      "SJB": 8599,
-      "IND-RW": 6178,
-      "DJ": 6445,
-      "NR": 2104
-    }
-  },
-  {
-    "pd_id": "EC-03F",
-    "ed_name": "Kalutara",
-    "pd_name": "Kalutara",
-    "result_time": "2024-09-16 09:10",
-    "summary": {
-      "electors": 128301,
-      "polled": 97893,
-      "rejected": 2518,
-      "valid": 95375
-    },
-    "subset_party_to_votes": {
-      "NPP": 27090,
-      "SJB": 28546,
-      "IND-RW": 18403,
-      "DJ": 14360,
-      "NR": 2204
-    }
-  },
-  {
-    "pd_id": "EC-18C",
-    "ed_name": "Polonnaruwa",
-    "pd_name": "Polonnaruwa",
-    "result_time": "2024-09-16 09:14",
-    "summary": {
-      "electors": 157087,
-      "polled": 136156,
-      "rejected": 3239,
-      "valid": 132917
-    },
-    "subset_party_to_votes": {
-      "NPP": 40422,
-      "SJB": 40001,
-      "IND-RW": 34307,
-      "DJ": 9979,
-      "NR": 1559
-    }
-  },
-  {
-    "pd_id": "EC-03C",
-    "ed_name": "Kalutara",
-    "pd_name": "Horana",
-    "result_time": "2024-09-16 09:16",
-    "summary": {
-      "electors": 138850,
-      "polled": 122892,
-      "rejected": 2091,
-      "valid": 120801
-    },
-    "subset_party_to_votes": {
-      "NPP": 39588,
-      "SJB": 21036,
-      "IND-RW": 16609,
-      "DJ": 6494,
-      "NR": 31032
-    }
-  },
-  {
-    "pd_id": "EC-08C",
-    "ed_name": "Matara",
-    "pd_name": "Akuressa",
-    "result_time": "2024-09-16 09:23",
-    "summary": {
-      "electors": 101760,
-      "polled": 82061,
-      "rejected": 1052,
-      "valid": 81009
-    },
-    "subset_party_to_votes": {
-      "NPP": 22100,
-      "SJB": 15077,
-      "IND-RW": 19064,
-      "DJ": 15012,
-      "NR": 5702
-    }
-  },
-  {
-    "pd_id": "EC-01L",
-    "ed_name": "Colombo",
-    "pd_name": "Homagama",
-    "result_time": "2024-09-16 09:25",
-    "summary": {
-      "electors": 196807,
-      "polled": 176695,
-      "rejected": 2847,
-      "valid": 173848
-    },
-    "subset_party_to_votes": {
-      "NPP": 37567,
-      "SJB": 45115,
-      "IND-RW": 30511,
-      "DJ": 33517,
-      "NR": 18444
-    }
-  },
-  {
-    "pd_id": "EC-11A",
-    "ed_name": "Vanni",
-    "pd_name": "Mannar",
-    "result_time": "2024-09-16 09:25",
-    "summary": {
-      "electors": 83864,
-      "polled": 69795,
-      "rejected": 1275,
-      "valid": 68520
-    },
-    "subset_party_to_votes": {
-      "NPP": 10629,
-      "SJB": 17635,
-      "IND-RW": 8377,
-      "DJ": 14294,
-      "NR": 14157
-    }
-  },
-  {
-    "pd_id": "EC-07C",
-    "ed_name": "Galle",
-    "pd_name": "Karandeniya",
-    "result_time": "2024-09-16 09:26",
-    "summary": {
-      "electors": 75746,
-      "polled": 45878,
-      "rejected": 1187,
-      "valid": 44691
-    },
-    "subset_party_to_votes": {
-      "NPP": 8219,
-      "SJB": 8771,
-      "IND-RW": 14301,
-      "DJ": 8634,
-      "NR": 2530
-    }
-  },
-  {
-    "pd_id": "EC-09B",
-    "ed_name": "Hambantota",
-    "pd_name": "Beliatta",
-    "result_time": "2024-09-16 09:26",
-    "summary": {
-      "electors": 81080,
-      "polled": 70453,
-      "rejected": 1517,
-      "valid": 68936
-    },
-    "subset_party_to_votes": {
-      "NPP": 13902,
-      "SJB": 16568,
-      "IND-RW": 16673,
-      "DJ": 10190,
-      "NR": 8155
-    }
-  },
-  {
-    "pd_id": "EC-05P",
-    "ed_name": "Matale",
-    "pd_name": "Postal - Matale",
-    "result_time": "2024-09-16 09:30",
-    "summary": {
-      "electors": 23970,
-      "polled": 15942,
-      "rejected": 384,
-      "valid": 15558
-    },
-    "subset_party_to_votes": {
-      "NPP": 3021,
-      "SJB": 4684,
-      "IND-RW": 3435,
-      "DJ": 3355,
-      "NR": 283
-    }
-  },
-  {
-    "pd_id": "EC-08E",
-    "ed_name": "Matara",
-    "pd_name": "Devinuwara",
-    "result_time": "2024-09-16 09:30",
-    "summary": {
-      "electors": 79605,
-      "polled": 70682,
-      "rejected": 1254,
-      "valid": 69428
-    },
-    "subset_party_to_votes": {
-      "NPP": 21615,
-      "SJB": 24122,
-      "IND-RW": 7520,
-      "DJ": 2229,
-      "NR": 10468
-    }
-  },
-  {
-    "pd_id": "EC-15N",
-    "ed_name": "Kurunegala",
-    "pd_name": "Dodangaslanda",
-    "result_time": "2024-09-16 09:33",
-    "summary": {
-      "electors": 75950,
-      "polled": 60116,
-      "rejected": 815,
-      "valid": 59301
-    },
-    "subset_party_to_votes": {
-      "NPP": 15461,
-      "SJB": 14229,
-      "IND-RW": 7256,
-      "DJ": 9667,
-      "NR": 9720
-    }
-  },
-  {
-    "pd_id": "EC-19D",
-    "ed_name": "Badulla",
-    "pd_name": "Badulla",
-    "result_time": "2024-09-16 09:35",
-    "summary": {
-      "electors": 59013,
-      "polled": 37496,
-      "rejected": 513,
-      "valid": 36983
-    },
-    "subset_party_to_votes": {
-      "NPP": 8257,
-      "SJB": 4778,
-      "IND-RW": 8884,
-      "DJ": 6920,
-      "NR": 6292
-    }
-  },
-  {
-    "pd_id": "EC-01A",
-    "ed_name": "Colombo",
-    "pd_name": "Colombo North",
-    "result_time": "2024-09-16 09:38",
-    "summary": {
-      "electors": 102802,
-      "polled": 69567,
-      "rejected": 2074,
-      "valid": 67493
-    },
-    "subset_party_to_votes": {
-      "NPP": 16869,
-      "SJB": 14022,
-      "IND-RW": 11618,
-      "DJ": 12708,
-      "NR": 8898
-    }
-  },
-  {
-    "pd_id": "EC-10A",
-    "ed_name": "Jaffna",
-    "pd_name": "Kayts",
-    "result_time": "2024-09-16 09:39",
-    "summary": {
-      "electors": 23483,
-      "polled": 15080,
-      "rejected": 418,
-      "valid": 14662
-    },
-    "subset_party_to_votes": {
-      "NPP": 2706,
-      "SJB": 3628,
-      "IND-RW": 3622,
-      "DJ": 2991,
-      "NR": 979
-    }
-  },
-  {
-    "pd_id": "EC-18A",
-    "ed_name": "Polonnaruwa",
-    "pd_name": "Minneriya",
-    "result_time": "2024-09-16 09:50",
-    "summary": {
-      "electors": 89246,
-      "polled": 55554,
-      "rejected": 1110,
-      "valid": 54444
-    },
-    "subset_party_to_votes": {
-      "NPP": 13011,
-      "SJB": 14073,
-      "IND-RW": 9181,
-      "DJ": 8882,
-      "NR": 6573
-    }
-  },
-  {
-    "pd_id": "EC-13P",
-    "ed_name": "Digamadulla",
-    "pd_name": "Postal - Digamadulla",
-    "result_time": "2024-09-16 09:52",
-    "summary": {
-      "electors": 28971,
-      "polled": 24578,
-      "rejected": 722,
-      "valid": 23856
-    },
-    "subset_party_to_votes": {
-      "NPP": 6207,
-      "SJB": 4227,
-      "IND-RW": 4551,
-      "DJ": 4123,
-      "NR": 3553
-    }
-  },
-  {
-    "pd_id": "EC-04H",
-    "ed_name": "Kandy",
-    "pd_name": "Senkadagala",
-    "result_time": "2024-09-16 10:00",
-    "summary": {
-      "electors": 84184,
-      "polled": 72615,
-      "rejected": 846,
-      "valid": 71769
-    },
-    "subset_party_to_votes": {
-      "NPP": 15713,
-      "SJB": 17977,
-      "IND-RW": 9962,
-      "DJ": 10748,
-      "NR": 13778
-    }
-  },
-  {
-    "pd_id": "EC-08A",
-    "ed_name": "Matara",
-    "pd_name": "Deniyaya",
-    "result_time": "2024-09-16 10:00",
-    "summary": {
-      "electors": 102004,
-      "polled": 75866,
-      "rejected": 2126,
-      "valid": 73740
-    },
-    "subset_party_to_votes": {
-      "NPP": 21091,
-      "SJB": 8632,
-      "IND-RW": 14132,
-      "DJ": 11444,
-      "NR": 14752
-    }
-  },
-  {
-    "pd_id": "EC-02M",
-    "ed_name": "Gampaha",
-    "pd_name": "Kelaniya",
-    "result_time": "2024-09-16 10:03",
-    "summary": {
-      "electors": 101327,
-      "polled": 90005,
-      "rejected": 2537,
-      "valid": 87468
-    },
-    "subset_party_to_votes": {
-      "NPP": 30167,
-      "SJB": 14637,
-      "IND-RW": 11817,
-      "DJ": 17438,
-      "NR": 9033
-    }
-  },
-  {
-    "pd_id": "EC-01G",
-    "ed_name": "Colombo",
-    "pd_name": "Ratmalana",
-    "result_time": "2024-09-16 10:05",
-    "summary": {
-      "electors": 72840,
-      "polled": 64291,
-      "rejected": 1609,
-      "valid": 62682
-    },
-    "subset_party_to_votes": {
-      "NPP": 18072,
-      "SJB": 20735,
-      "IND-RW": 6467,
-      "DJ": 2435,
-      "NR": 11836
-    }
-  },
-  {
-    "pd_id": "EC-07B",
-    "ed_name": "Galle",
-    "pd_name": "Ambalangoda",
-    "result_time": "2024-09-16 10:05",
-    "summary": {
-      "electors": 81723,
-      "polled": 53960,
-      "rejected": 1528,
-      "valid": 52432
-    },
-    "subset_party_to_votes": {
-      "NPP": 11504,
-      "SJB": 19823,
-      "IND-RW": 9732,
-      "DJ": 7389,
-      "NR": 1360
-    }
-  },
-  {
-    "pd_id": "EC-02F",
-    "ed_name": "Gampaha",
-    "pd_name": "Minuwangoda",
-    "result_time": "2024-09-16 10:10",
-    "summary": {
-      "electors": 141539,
-      "polled": 91734,
-      "rejected": 2486,
-      "valid": 89248
-    },
-    "subset_party_to_votes": {
-      "NPP": 22273,
-      "SJB": 26417,
-      "IND-RW": 19537,
-      "DJ": 8334,
-      "NR": 8222
-    }
-  },
-  {
-    "pd_id": "EC-02A",
-    "ed_name": "Gampaha",
-    "pd_name": "Wattala",
-    "result_time": "2024-09-16 10:17",
-    "summary": {
-      "electors": 141484,
-      "polled": 107266,
-      "rejected": 1492,
-      "valid": 105774
-    },
-    "subset_party_to_votes": {
-      "NPP": 30957,
-      "SJB": 15879,
-      "IND-RW": 20905,
-      "DJ": 22613,
-      "NR": 10129
-    }
-  },
-  {
-    "pd_id": "EC-10B",
-    "ed_name": "Jaffna",
-    "pd_name": "Vaddukoddai",
-    "result_time": "2024-09-16 10:23",
-    "summary": {
-      "electors": 52810,
-      "polled": 43762,
-      "rejected": 909,
-      "valid": 42853
-    },
-    "subset_party_to_votes": {
-      "NPP": 10238,
-      "SJB": 9319,
-      "IND-RW": 5924,
-      "DJ": 8227,
-      "NR": 6999
-    }
-  },
-  {
-    "pd_id": "EC-10F",
-    "ed_name": "Jaffna",
-    "pd_name": "Udupiddy",
-    "result_time": "2024-09-16 10:28",
-    "summary": {
-      "electors": 42101,
-      "polled": 26123,
-      "rejected": 356,
-      "valid": 25767
-    },
-    "subset_party_to_votes": {
-      "NPP": 5749,
-      "SJB": 3595,
-      "IND-RW": 7554,
-      "DJ": 2626,
-      "NR": 4952
-    }
-  },
-  {
-    "pd_id": "EC-21C",
-    "ed_name": "Ratnapura",
-    "pd_name": "Pelmadulla",
-    "result_time": "2024-09-16 10:29",
-    "summary": {
-      "electors": 91486,
-      "polled": 73234,
-      "rejected": 1462,
-      "valid": 71772
-    },
-    "subset_party_to_votes": {
-      "NPP": 17306,
-      "SJB": 18249,
-      "IND-RW": 17293,
-      "DJ": 5406,
-      "NR": 9926
-    }
-  },
-  {
-    "pd_id": "EC-15L",
-    "ed_name": "Kurunegala",
-    "pd_name": "Kurunegala",
-    "result_time": "2024-09-16 10:32",
-    "summary": {
-      "electors": 95091,
-      "polled": 81423,
-      "rejected": 1232,
-      "valid": 80191
-    },
-    "subset_party_to_votes": {
-      "NPP": 30865,
-      "SJB": 17464,
-      "IND-RW": 15078,
-      "DJ": 6534,
-      "NR": 6238
-    }
-  },
-  {
-    "pd_id": "EC-15C",
-    "ed_name": "Kurunegala",
-    "pd_name": "Yapahuwa",
-    "result_time": "2024-09-16 10:36",
-    "summary": {
-      "electors": 121305,
-      "polled": 95544,
-      "rejected": 2566,
-      "valid": 92978
-    },
-    "subset_party_to_votes": {
-      "NPP": 20567,
-      "SJB": 18530,
-      "IND-RW": 17264,
-      "DJ": 15072,
-      "NR": 16893
-    }
-  },
-  {
-    "pd_id": "EC-13D",
-    "ed_name": "Digamadulla",
-    "pd_name": "Pothuvil",
-    "result_time": "2024-09-16 10:40",
-    "summary": {
-      "electors": 166765,
-      "polled": 129847,
-      "rejected": 2051,
-      "valid": 127796
-    },
-    "subset_party_to_votes": {
-      "NPP": 27211,
-      "SJB": 33223,
-      "IND-RW": 25366,
-      "DJ": 20801,
-      "NR": 14803
-    }
-  },
-  {
-    "pd_id": "EC-22G",
-    "ed_name": "Kegalle",
-    "pd_name": "Yatiyanthota",
-    "result_time": "2024-09-16 10:42",
-    "summary": {
-      "electors": 76802,
-      "polled": 47505,
-      "rejected": 1336,
-      "valid": 46169
-    },
-    "subset_party_to_votes": {
-      "NPP": 10660,
-      "SJB": 10398,
-      "IND-RW": 10880,
-      "DJ": 7751,
-      "NR": 4169
-    }
-  },
-  {
-    "pd_id": "EC-20B",
-    "ed_name": "Moneragala",
-    "pd_name": "Monaragala",
-    "result_time": "2024-09-16 10:44",
-    "summary": {
-      "electors": 116061,
-      "polled": 77873,
-      "rejected": 1979,
-      "valid": 75894
-    },
-    "subset_party_to_votes": {
-      "NPP": 24344,
-      "SJB": 18335,
-      "IND-RW": 10136,
-      "DJ": 12824,
-      "NR": 6458
-    }
-  },
-  {
-    "pd_id": "EC-10I",
-    "ed_name": "Jaffna",
-    "pd_name": "Nallur",
-    "result_time": "2024-09-16 10:46",
-    "summary": {
-      "electors": 50746,
-      "polled": 33180,
-      "rejected": 792,
-      "valid": 32388
-    },
-    "subset_party_to_votes": {
-      "NPP": 15056,
-      "SJB": 7855,
-      "IND-RW": 5315,
-      "DJ": 1957,
-      "NR": 583
-    }
-  },
-  {
-    "pd_id": "EC-12B",
-    "ed_name": "Batticaloa",
-    "pd_name": "Batticaloa",
-    "result_time": "2024-09-16 10:50",
-    "summary": {
-      "electors": 195958,
-      "polled": 128175,
-      "rejected": 1331,
-      "valid": 126844
-    },
-    "subset_party_to_votes": {
-      "NPP": 42456,
-      "SJB": 42292,
-      "IND-RW": 26838,
-      "DJ": 4801,
-      "NR": 4112
-    }
-  },
-  {
-    "pd_id": "EC-22A",
-    "ed_name": "Kegalle",
-    "pd_name": "Dedigama",
-    "result_time": "2024-09-16 10:50",
-    "summary": {
-      "electors": 93210,
-      "polled": 73930,
-      "rejected": 1925,
-      "valid": 72005
-    },
-    "subset_party_to_votes": {
-      "NPP": 15863,
-      "SJB": 20207,
-      "IND-RW": 6847,
-      "DJ": 9945,
-      "NR": 15541
-    }
-  },
-  {
-    "pd_id": "EC-01K",
-    "ed_name": "Colombo",
-    "pd_name": "Avissawella",
-    "result_time": "2024-09-16 10:53",
-    "summary": {
-      "electors": 130724,
-      "polled": 96104,
-      "rejected": 1042,
-      "valid": 95062
-    },
-    "subset_party_to_votes": {
-      "NPP": 27405,
-      "SJB": 24793,
-      "IND-RW": 10825,
-      "DJ": 19252,
-      "NR": 8031
-    }
-  },
-  {
-    "pd_id": "EC-19F",
-    "ed_name": "Badulla",
-    "pd_name": "Uva Paranagama",
-    "result_time": "2024-09-16 11:01",
-    "summary": {
-      "electors": 63289,
-      "polled": 38026,
-      "rejected": 583,
-      "valid": 37443
-    },
-    "subset_party_to_votes": {
-      "NPP": 8294,
-      "SJB": 8068,
-      "IND-RW": 4791,
-      "DJ": 7281,
-      "NR": 7135
-    }
-  },
-  {
-    "pd_id": "EC-11P",
-    "ed_name": "Vanni",
-    "pd_name": "Postal - Vanni",
-    "result_time": "2024-09-16 11:04",
-    "summary": {
-      "electors": 13902,
-      "polled": 11393,
-      "rejected": 144,
-      "valid": 11249
-    },
-    "subset_party_to_votes": {
-      "NPP": 1870,
-      "SJB": 2749,
-      "IND-RW": 1573,
-      "DJ": 1824,
-      "NR": 2667
-    }
-  },
-  {
-    "pd_id": "EC-02J",
-    "ed_name": "Gampaha",
-    "pd_name": "Mahara",
-    "result_time": "2024-09-16 11:13",
-    "summary": {
-      "electors": 171792,
-      "polled": 147473,
-      "rejected": 3587,
-      "valid": 143886
-    },
-    "subset_party_to_votes": {
-      "NPP": 46427,
-      "SJB": 38160,
-      "IND-RW": 23146,
-      "DJ": 25348,
-      "NR": 3607
-    }
-  },
-  {
-    "pd_id": "EC-17A",
-    "ed_name": "Anuradhapura",
-    "pd_name": "Medawachchiya",
-    "result_time": "2024-09-16 11:15",
-    "summary": {
-      "electors": 89572,
-      "polled": 68334,
-      "rejected": 827,
-      "valid": 67507
-    },
-    "subset_party_to_votes": {
-      "NPP": 10590,
-      "SJB": 20966,
-      "IND-RW": 8099,
-      "DJ": 7763,
-      "NR": 16711
-    }
-  },
-  {
-    "pd_id": "EC-01B",
-    "ed_name": "Colombo",
-    "pd_name": "Colombo Central",
-    "result_time": "2024-09-16 11:16",
-    "summary": {
-      "electors": 126143,
-      "polled": 107553,
-      "rejected": 1292,
-      "valid": 106261
-    },
-    "subset_party_to_votes": {
-      "NPP": 20048,
-      "SJB": 25195,
-      "IND-RW": 15557,
-      "DJ": 24774,
-      "NR": 15371
-    }
-  },
-  {
-    "pd_id": "EC-11C",
-    "ed_name": "Vanni",
-    "pd_name": "Mullaitivu",
-    "result_time": "2024-09-16 11:16",
-    "summary": {
-      "electors": 81060,
-      "polled": 53118,
-      "rejected": 1568,
-      "valid": 51550
-    },
-    "subset_party_to_votes": {
-      "NPP": 8850,
-      "SJB": 8111,
-      "IND-RW": 11549,
-      "DJ": 6548,
-      "NR": 13912
-    }
-  },
-  {
-    "pd_id": "EC-01M",
-    "ed_name": "Colombo",
-    "pd_name": "Maharagama",
-    "result_time": "2024-09-16 11:39",
-    "summary": {
-      "electors": 149829,
-      "polled": 132146,
-      "rejected": 1779,
-      "valid": 130367
-    },
-    "subset_party_to_votes": {
-      "NPP": 37495,
-      "SJB": 36297,
-      "IND-RW": 29632,
-      "DJ": 11830,
-      "NR": 8592
-    }
-  },
-  {
-    "pd_id": "EC-08F",
-    "ed_name": "Matara",
-    "pd_name": "Matara",
-    "result_time": "2024-09-16 11:40",
-    "summary": {
-      "electors": 96865,
-      "polled": 68804,
-      "rejected": 755,
-      "valid": 68049
-    },
-    "subset_party_to_votes": {
-      "NPP": 20325,
-      "SJB": 17079,
-      "IND-RW": 8616,
-      "DJ": 12178,
-      "NR": 6445
-    }
-  },
-  {
-    "pd_id": "EC-16A",
-    "ed_name": "Puttalam",
-    "pd_name": "Puttalam",
-    "result_time": "2024-09-16 11:43",
-    "summary": {
-      "electors": 154923,
-      "polled": 96655,
-      "rejected": 1578,
-      "valid": 95077
-    },
-    "subset_party_to_votes": {
-      "NPP": 20326,
-      "SJB": 12976,
-      "IND-RW": 29143,
-      "DJ": 12554,
-      "NR": 15321
-    }
-  },
-  {
-    "pd_id": "EC-03E",
-    "ed_name": "Kalutara",
-    "pd_name": "Mathugama",
-    "result_time": "2024-09-16 11:45",
-    "summary": {
-      "electors": 120834,
-      "polled": 83668,
-      "rejected": 1040,
-      "valid": 82628
-    },
-    "subset_party_to_votes": {
-      "NPP": 18769,
-      "SJB": 29496,
-      "IND-RW": 10098,
-      "DJ": 17916,
-      "NR": 2214
-    }
-  },
-  {
-    "pd_id": "EC-15I",
-    "ed_name": "Kurunegala",
-    "pd_name": "Kuliyapitiya",
-    "result_time": "2024-09-16 11:48",
-    "summary": {
-      "electors": 110649,
-      "polled": 75236,
-      "rejected": 871,
-      "valid": 74365
-    },
-    "subset_party_to_votes": {
-      "NPP": 9545,
-      "SJB": 17254,
-      "IND-RW": 15816,
-      "DJ": 15552,
-      "NR": 12477
-    }
-  },
-  {
-    "pd_id": "EC-07D",
-    "ed_name": "Galle",
-    "pd_name": "Bentara Elpitiya",
-    "result_time": "2024-09-16 11:55",
-    "summary": {
-      "electors": 89464,
-      "polled": 76533,
-      "rejected": 2286,
-      "valid": 74247
-    },
-    "subset_party_to_votes": {
-      "NPP": 13021,
-      "SJB": 20364,
-      "IND-RW": 17019,
-      "DJ": 10337,
-      "NR": 9791
-    }
-  },
-  {
-    "pd_id": "EC-10E",
-    "ed_name": "Jaffna",
-    "pd_name": "Kopay",
-    "result_time": "2024-09-16 11:59",
-    "summary": {
-      "electors": 62469,
-      "polled": 42404,
-      "rejected": 459,
-      "valid": 41945
-    },
-    "subset_party_to_votes": {
-      "NPP": 16181,
-      "SJB": 7980,
-      "IND-RW": 10917,
-      "DJ": 3343,
-      "NR": 1425
-    }
-  },
-  {
-    "pd_id": "EC-09C",
-    "ed_name": "Hambantota",
-    "pd_name": "Tangalle",
-    "result_time": "2024-09-16 12:11",
-    "summary": {
-      "electors": 130889,
-      "polled": 81463,
-      "rejected": 994,
-      "valid": 80469
-    },
-    "subset_party_to_votes": {
-      "NPP": 23736,
-      "SJB": 21106,
-      "IND-RW": 12168,
-      "DJ": 6443,
-      "NR": 12989
-    }
-  },
-  {
-    "pd_id": "EC-09D",
-    "ed_name": "Hambantota",
-    "pd_name": "Thissamaharama",
-    "result_time": "2024-09-16 12:17",
-    "summary": {
-      "electors": 182388,
-      "polled": 139399,
-      "rejected": 2780,
-      "valid": 136619
-    },
-    "subset_party_to_votes": {
-      "NPP": 22510,
-      "SJB": 35066,
-      "IND-RW": 40102,
-      "DJ": 8947,
-      "NR": 23160
-    }
-  },
-  {
-    "pd_id": "EC-15P",
-    "ed_name": "Kurunegala",
-    "pd_name": "Postal - Kurunegala",
-    "result_time": "2024-09-16 12:23",
-    "summary": {
-      "electors": 74785,
-      "polled": 56546,
-      "rejected": 1531,
-      "valid": 55015
-    },
-    "subset_party_to_votes": {
-      "NPP": 7350,
-      "SJB": 15491,
-      "IND-RW": 13306,
-      "DJ": 11504,
-      "NR": 4612
-    }
-  },
-  {
-    "pd_id": "EC-15J",
-    "ed_name": "Kurunegala",
-    "pd_name": "Dambadeniya",
-    "result_time": "2024-09-16 12:26",
-    "summary": {
-      "electors": 94725,
-      "polled": 64904,
-      "rejected": 1176,
-      "valid": 63728
-    },
-    "subset_party_to_votes": {
-      "NPP": 20600,
-      "SJB": 9517,
-      "IND-RW": 21389,
-      "DJ": 5599,
-      "NR": 3433
-    }
-  },
-  {
-    "pd_id": "EC-18P",
-    "ed_name": "Polonnaruwa",
-    "pd_name": "Postal - Polonnaruwa",
-    "result_time": "2024-09-16 12:35",
-    "summary": {
-      "electors": 19558,
-      "polled": 14821,
-      "rejected": 199,
-      "valid": 14622
-    },
-    "subset_party_to_votes": {
-      "NPP": 2681,
-      "SJB": 3903,
-      "IND-RW": 3759,
-      "DJ": 3336,
-      "NR": 209
-    }
-  },
-  {
-    "pd_id": "EC-16D",
-    "ed_name": "Puttalam",
-    "pd_name": "Nattandiya",
-    "result_time": "2024-09-16 12:35",
-    "summary": {
-      "electors": 101483,
-      "polled": 70582,
-      "rejected": 1396,
-      "valid": 69186
-    },
-    "subset_party_to_votes": {
-      "NPP": 25081,
-      "SJB": 9244,
-      "IND-RW": 13536,
-      "DJ": 13962,
-      "NR": 3900
-    }
-  },
-  {
-    "pd_id": "EC-04C",
-    "ed_name": "Kandy",
-    "pd_name": "Pathadumbara",
-    "result_time": "2024-09-16 12:38",
-    "summary": {
-      "electors": 93573,
-      "polled": 74772,
-      "rejected": 1693,
-      "valid": 73079
-    },
-    "subset_party_to_votes": {
-      "NPP": 12066,
-      "SJB": 15520,
-      "IND-RW": 21669,
-      "DJ": 13032,
-      "NR": 7136
-    }
-  },
-  {
-    "pd_id": "EC-19B",
-    "ed_name": "Badulla",
-    "pd_name": "Viyaluwa",
-    "result_time": "2024-09-16 12:38",
-    "summary": {
-      "electors": 52448,
-      "polled": 33792,
-      "rejected": 687,
-      "valid": 33105
-    },
-    "subset_party_to_votes": {
-      "NPP": 5973,
-      "SJB": 7779,
-      "IND-RW": 9636,
-      "DJ": 7696,
-      "NR": 364
-    }
-  },
-  {
-    "pd_id": "EC-04G",
-    "ed_name": "Kandy",
-    "pd_name": "Hewaheta",
-    "result_time": "2024-09-16 12:52",
-    "summary": {
-      "electors": 74293,
-      "polled": 46621,
-      "rejected": 1242,
-      "valid": 45379
-    },
-    "subset_party_to_votes": {
-      "NPP": 11183,
-      "SJB": 8448,
-      "IND-RW": 6315,
-      "DJ": 7983,
-      "NR": 9179
-    }
-  },
-  {
-    "pd_id": "EC-11B",
-    "ed_name": "Vanni",
-    "pd_name": "Vavuniya",
-    "result_time": "2024-09-16 12:52",
-    "summary": {
-      "electors": 123851,
-      "polled": 82190,
-      "rejected": 2209,
-      "valid": 79981
-    },
-    "subset_party_to_votes": {
-      "NPP": 16190,
-      "SJB": 16782,
-      "IND-RW": 13774,
-      "DJ": 8461,
-      "NR": 20772
-    }
-  },
-  {
-    "pd_id": "EC-19H",
-    "ed_name": "Badulla",
-    "pd_name": "Bandarawela",
-    "result_time": "2024-09-16 12:59",
-    "summary": {
-      "electors": 86645,
-      "polled": 59383,
-      "rejected": 1149,
-      "valid": 58234
-    },
-    "subset_party_to_votes": {
-      "NPP": 13715,
-      "SJB": 20409,
-      "IND-RW": 10108,
-      "DJ": 7367,
-      "NR": 3721
-    }
-  },
-  {
-    "pd_id": "EC-17B",
-    "ed_name": "Anuradhapura",
-    "pd_name": "Horowpothana",
-    "result_time": "2024-09-16 13:01",
-    "summary": {
-      "electors": 81156,
-      "polled": 65614,
-      "rejected": 925,
-      "valid": 64689
-    },
-    "subset_party_to_votes": {
-      "NPP": 19637,
-      "SJB": 17464,
-      "IND-RW": 9374,
-      "DJ": 5155,
-      "NR": 9822
-    }
-  },
-  {
-    "pd_id": "EC-21F",
-    "ed_name": "Ratnapura",
-    "pd_name": "Nivithigala",
-    "result_time": "2024-09-16 13:08",
-    "summary": {
-      "electors": 105635,
-      "polled": 78747,
-      "rejected": 1028,
-      "valid": 77719
-    },
-    "subset_party_to_votes": {
-      "NPP": 20452,
-      "SJB": 20793,
-      "IND-RW": 9124,
-      "DJ": 21419,
-      "NR": 2042
-    }
-  },
-  {
-    "pd_id": "EC-07H",
-    "ed_name": "Galle",
-    "pd_name": "Galle",
-    "result_time": "2024-09-16 13:14",
-    "summary": {
-      "electors": 84209,
-      "polled": 74157,
-      "rejected": 1119,
-      "valid": 73038
-    },
-    "subset_party_to_votes": {
-      "NPP": 21375,
-      "SJB": 13820,
-      "IND-RW": 19660,
-      "DJ": 7932,
-      "NR": 6596
-    }
-  },
-  {
-    "pd_id": "EC-21D",
-    "ed_name": "Ratnapura",
-    "pd_name": "Balangoda",
-    "result_time": "2024-09-16 13:14",
-    "summary": {
-      "electors": 119943,
-      "polled": 73387,
-      "rejected": 822,
-      "valid": 72565
-    },
-    "subset_party_to_votes": {
-      "NPP": 21546,
-      "SJB": 19426,
-      "IND-RW": 10438,
-      "DJ": 4000,
-      "NR": 13523
-    }
-  },
-  {
-    "pd_id": "EC-03B",
-    "ed_name": "Kalutara",
-    "pd_name": "Bandaragama",
-    "result_time": "2024-09-16 13:15",
-    "summary": {
-      "electors": 149565,
-      "polled": 100211,
-      "rejected": 2863,
-      "valid": 97348
-    },
-    "subset_party_to_votes": {
-      "NPP": 24863,
-      "SJB": 16919,
-      "IND-RW": 22462,
-      "DJ": 26137,
-      "NR": 2096
-    }
-  },
-  {
-    "pd_id": "EC-02C",
-    "ed_name": "Gampaha",
-    "pd_name": "Katana",
-    "result_time": "2024-09-16 13:16",
-    "summary": {
-      "electors": 159365,
-      "polled": 102474,
-      "rejected": 2003,
-      "valid": 100471
-    },
-    "subset_party_to_votes": {
-      "NPP": 17361,
-      "SJB": 19716,
-      "IND-RW": 33305,
-      "DJ": 11590,
-      "NR": 13472
-    }
-  },
-  {
-    "pd_id": "EC-09A",
-    "ed_name": "Hambantota",
-    "pd_name": "Mulkirigala",
-    "result_time": "2024-09-16 13:28",
-    "summary": {
-      "electors": 110036,
-      "polled": 78908,
-      "rejected": 1530,
-      "valid": 77378
-    },
-    "subset_party_to_votes": {
-      "NPP": 26878,
-      "SJB": 9351,
-      "IND-RW": 8010,
-      "DJ": 17706,
-      "NR": 11562
-    }
-  },
-  {
     "pd_id": "EC-14P",
     "ed_name": "Trincomalee",
     "pd_name": "Postal - Trincomalee",
-    "result_time": "2024-09-16 13:39",
+    "result_time": "2024-09-16 08:15",
     "summary": {
-      "electors": 16516,
-      "polled": 12961,
-      "rejected": 385,
-      "valid": 12576
+      "electors": 15902,
+      "polled": 12520,
+      "rejected": 222,
+      "valid": 12298
     },
     "subset_party_to_votes": {
-      "NPP": 2118,
-      "SJB": 3297,
-      "IND-RW": 1857,
-      "DJ": 2362,
-      "NR": 2312
-    }
-  },
-  {
-    "pd_id": "EC-13A",
-    "ed_name": "Digamadulla",
-    "pd_name": "Ampara",
-    "result_time": "2024-09-16 13:44",
-    "summary": {
-      "electors": 165744,
-      "polled": 111069,
-      "rejected": 1624,
-      "valid": 109445
-    },
-    "subset_party_to_votes": {
-      "NPP": 19012,
-      "SJB": 37802,
-      "IND-RW": 14825,
-      "DJ": 25551,
-      "NR": 6780
-    }
-  },
-  {
-    "pd_id": "EC-15A",
-    "ed_name": "Kurunegala",
-    "pd_name": "Galgamuwa",
-    "result_time": "2024-09-16 13:48",
-    "summary": {
-      "electors": 107327,
-      "polled": 89169,
-      "rejected": 1275,
-      "valid": 87894
-    },
-    "subset_party_to_votes": {
-      "NPP": 21346,
-      "SJB": 21903,
-      "IND-RW": 18814,
-      "DJ": 9172,
-      "NR": 12262
-    }
-  },
-  {
-    "pd_id": "EC-01H",
-    "ed_name": "Colombo",
-    "pd_name": "Kolonnawa",
-    "result_time": "2024-09-16 13:55",
-    "summary": {
-      "electors": 141707,
-      "polled": 101890,
-      "rejected": 1294,
-      "valid": 100596
-    },
-    "subset_party_to_votes": {
-      "NPP": 23129,
-      "SJB": 29255,
-      "IND-RW": 28076,
-      "DJ": 11513,
-      "NR": 3591
-    }
-  },
-  {
-    "pd_id": "EC-19E",
-    "ed_name": "Badulla",
-    "pd_name": "Hali Ela",
-    "result_time": "2024-09-16 13:57",
-    "summary": {
-      "electors": 74180,
-      "polled": 54676,
-      "rejected": 658,
-      "valid": 54018
-    },
-    "subset_party_to_votes": {
-      "NPP": 17291,
-      "SJB": 10353,
-      "IND-RW": 12335,
-      "DJ": 3925,
-      "NR": 7412
-    }
-  },
-  {
-    "pd_id": "EC-01C",
-    "ed_name": "Colombo",
-    "pd_name": "Borella",
-    "result_time": "2024-09-16 13:59",
-    "summary": {
-      "electors": 67959,
-      "polled": 58122,
-      "rejected": 674,
-      "valid": 57448
-    },
-    "subset_party_to_votes": {
-      "NPP": 15342,
-      "SJB": 16269,
-      "IND-RW": 14817,
-      "DJ": 3463,
-      "NR": 4682
-    }
-  },
-  {
-    "pd_id": "EC-19P",
-    "ed_name": "Badulla",
-    "pd_name": "Postal - Badulla",
-    "result_time": "2024-09-16 14:07",
-    "summary": {
-      "electors": 46173,
-      "polled": 39241,
-      "rejected": 411,
-      "valid": 38830
-    },
-    "subset_party_to_votes": {
-      "NPP": 14047,
-      "SJB": 12423,
-      "IND-RW": 6413,
-      "DJ": 2566,
-      "NR": 1437
-    }
-  },
-  {
-    "pd_id": "EC-06A",
-    "ed_name": "Nuwara-Eliya",
-    "pd_name": "Nuwara Eliya Maskeliya",
-    "result_time": "2024-09-16 14:07",
-    "summary": {
-      "electors": 326500,
-      "polled": 292998,
-      "rejected": 8157,
-      "valid": 284841
-    },
-    "subset_party_to_votes": {
-      "NPP": 125053,
-      "SJB": 43118,
-      "IND-RW": 39132,
-      "DJ": 25692,
-      "NR": 37602
-    }
-  },
-  {
-    "pd_id": "EC-07P",
-    "ed_name": "Galle",
-    "pd_name": "Postal - Galle",
-    "result_time": "2024-09-16 14:17",
-    "summary": {
-      "electors": 41673,
-      "polled": 32464,
-      "rejected": 911,
-      "valid": 31553
-    },
-    "subset_party_to_votes": {
-      "NPP": 7410,
-      "SJB": 7506,
-      "IND-RW": 4214,
-      "DJ": 6414,
-      "NR": 4429
-    }
-  },
-  {
-    "pd_id": "EC-15G",
-    "ed_name": "Kurunegala",
-    "pd_name": "Bingiriya",
-    "result_time": "2024-09-16 14:23",
-    "summary": {
-      "electors": 94093,
-      "polled": 56865,
-      "rejected": 1445,
-      "valid": 55420
-    },
-    "subset_party_to_votes": {
-      "NPP": 7776,
-      "SJB": 12905,
-      "IND-RW": 12651,
-      "DJ": 9266,
-      "NR": 10048
-    }
-  },
-  {
-    "pd_id": "EC-05A",
-    "ed_name": "Matale",
-    "pd_name": "Dambulla",
-    "result_time": "2024-09-16 14:31",
-    "summary": {
-      "electors": 143944,
-      "polled": 116719,
-      "rejected": 3491,
-      "valid": 113228
-    },
-    "subset_party_to_votes": {
-      "NPP": 25818,
-      "SJB": 28984,
-      "IND-RW": 24402,
-      "DJ": 24849,
-      "NR": 3512
-    }
-  },
-  {
-    "pd_id": "EC-02K",
-    "ed_name": "Gampaha",
-    "pd_name": "Dompe",
-    "result_time": "2024-09-16 14:32",
-    "summary": {
-      "electors": 125287,
-      "polled": 79363,
-      "rejected": 1037,
-      "valid": 78326
-    },
-    "subset_party_to_votes": {
-      "NPP": 23563,
-      "SJB": 10903,
-      "IND-RW": 19056,
-      "DJ": 17079,
-      "NR": 3807
-    }
-  },
-  {
-    "pd_id": "EC-06D",
-    "ed_name": "Nuwara-Eliya",
-    "pd_name": "Walapane",
-    "result_time": "2024-09-16 14:35",
-    "summary": {
-      "electors": 84987,
-      "polled": 57876,
-      "rejected": 1712,
-      "valid": 56164
-    },
-    "subset_party_to_votes": {
-      "NPP": 13015,
-      "SJB": 26296,
-      "IND-RW": 9304,
-      "DJ": 2789,
-      "NR": 1948
-    }
-  },
-  {
-    "pd_id": "EC-14B",
-    "ed_name": "Trincomalee",
-    "pd_name": "Trincomalee",
-    "result_time": "2024-09-16 14:35",
-    "summary": {
-      "electors": 97742,
-      "polled": 87117,
-      "rejected": 1287,
-      "valid": 85830
-    },
-    "subset_party_to_votes": {
-      "NPP": 24981,
-      "SJB": 18669,
-      "IND-RW": 10786,
-      "DJ": 21022,
-      "NR": 6078
-    }
-  },
-  {
-    "pd_id": "EC-03P",
-    "ed_name": "Kalutara",
-    "pd_name": "Postal - Kalutara",
-    "result_time": "2024-09-16 14:44",
-    "summary": {
-      "electors": 39107,
-      "polled": 28164,
-      "rejected": 657,
-      "valid": 27507
-    },
-    "subset_party_to_votes": {
-      "NPP": 5820,
-      "SJB": 7612,
-      "IND-RW": 4463,
-      "DJ": 3886,
-      "NR": 4349
-    }
-  },
-  {
-    "pd_id": "EC-04J",
-    "ed_name": "Kandy",
-    "pd_name": "Yatinuwara",
-    "result_time": "2024-09-16 14:47",
-    "summary": {
-      "electors": 82665,
-      "polled": 71823,
-      "rejected": 1724,
-      "valid": 70099
-    },
-    "subset_party_to_votes": {
-      "NPP": 17127,
-      "SJB": 14629,
-      "IND-RW": 15102,
-      "DJ": 6941,
-      "NR": 12792
-    }
-  },
-  {
-    "pd_id": "EC-12A",
-    "ed_name": "Batticaloa",
-    "pd_name": "Kalkudah",
-    "result_time": "2024-09-16 14:53",
-    "summary": {
-      "electors": 127300,
-      "polled": 113795,
-      "rejected": 2065,
-      "valid": 111730
-    },
-    "subset_party_to_votes": {
-      "NPP": 27861,
-      "SJB": 20739,
-      "IND-RW": 36017,
-      "DJ": 12066,
-      "NR": 9458
+      "NPP": 1628,
+      "SJB": 3489,
+      "RW": 2673,
+      "DJ": 1502,
+      "SLPP": 2388
     }
   },
   {
     "pd_id": "EC-15H",
     "ed_name": "Kurunegala",
     "pd_name": "Katugampola",
-    "result_time": "2024-09-16 14:57",
+    "result_time": "2024-09-16 08:23",
     "summary": {
-      "electors": 99755,
-      "polled": 86726,
-      "rejected": 2333,
-      "valid": 84393
+      "electors": 99738,
+      "polled": 79784,
+      "rejected": 1927,
+      "valid": 77857
     },
     "subset_party_to_votes": {
-      "NPP": 25415,
-      "SJB": 21480,
-      "IND-RW": 14880,
-      "DJ": 9595,
-      "NR": 8801
+      "NPP": 23576,
+      "SJB": 14319,
+      "RW": 12801,
+      "DJ": 9670,
+      "SLPP": 13596
     }
   },
   {
-    "pd_id": "EC-15M",
-    "ed_name": "Kurunegala",
-    "pd_name": "Mawathagama",
-    "result_time": "2024-09-16 14:58",
+    "pd_id": "EC-04G",
+    "ed_name": "Kandy",
+    "pd_name": "Hewaheta",
+    "result_time": "2024-09-16 08:25",
     "summary": {
-      "electors": 97717,
-      "polled": 67335,
-      "rejected": 1209,
-      "valid": 66126
+      "electors": 75492,
+      "polled": 67736,
+      "rejected": 1172,
+      "valid": 66564
     },
     "subset_party_to_votes": {
-      "NPP": 13990,
-      "SJB": 18343,
-      "IND-RW": 15655,
-      "DJ": 9696,
-      "NR": 5133
+      "NPP": 20582,
+      "SJB": 17370,
+      "RW": 9708,
+      "DJ": 3767,
+      "SLPP": 11806
     }
   },
   {
-    "pd_id": "EC-19G",
-    "ed_name": "Badulla",
-    "pd_name": "Welimada",
-    "result_time": "2024-09-16 15:00",
-    "summary": {
-      "electors": 77224,
-      "polled": 67294,
-      "rejected": 1981,
-      "valid": 65313
-    },
-    "subset_party_to_votes": {
-      "NPP": 12437,
-      "SJB": 15955,
-      "IND-RW": 10790,
-      "DJ": 9095,
-      "NR": 13768
-    }
-  },
-  {
-    "pd_id": "EC-10G",
-    "ed_name": "Jaffna",
-    "pd_name": "Point Pedro",
-    "result_time": "2024-09-16 15:01",
-    "summary": {
-      "electors": 39619,
-      "polled": 29064,
-      "rejected": 325,
-      "valid": 28739
-    },
-    "subset_party_to_votes": {
-      "NPP": 8263,
-      "SJB": 8139,
-      "IND-RW": 5352,
-      "DJ": 2027,
-      "NR": 3519
-    }
-  },
-  {
-    "pd_id": "EC-21A",
-    "ed_name": "Ratnapura",
-    "pd_name": "Eheliyagoda",
-    "result_time": "2024-09-16 15:06",
-    "summary": {
-      "electors": 106517,
-      "polled": 76697,
-      "rejected": 1969,
-      "valid": 74728
-    },
-    "subset_party_to_votes": {
-      "NPP": 16043,
-      "SJB": 25572,
-      "IND-RW": 22616,
-      "DJ": 3085,
-      "NR": 3673
-    }
-  },
-  {
-    "pd_id": "EC-01D",
-    "ed_name": "Colombo",
-    "pd_name": "Colombo East",
-    "result_time": "2024-09-16 15:09",
-    "summary": {
-      "electors": 69014,
-      "polled": 47873,
-      "rejected": 896,
-      "valid": 46977
-    },
-    "subset_party_to_votes": {
-      "NPP": 7738,
-      "SJB": 13122,
-      "IND-RW": 5970,
-      "DJ": 9093,
-      "NR": 8702
-    }
-  },
-  {
-    "pd_id": "EC-10P",
-    "ed_name": "Jaffna",
-    "pd_name": "Postal - Jaffna",
-    "result_time": "2024-09-16 15:12",
-    "summary": {
-      "electors": 25436,
-      "polled": 20136,
-      "rejected": 600,
-      "valid": 19536
-    },
-    "subset_party_to_votes": {
-      "NPP": 2921,
-      "SJB": 4618,
-      "IND-RW": 5113,
-      "DJ": 3743,
-      "NR": 2162
-    }
-  },
-  {
-    "pd_id": "EC-06B",
+    "pd_id": "EC-06A",
     "ed_name": "Nuwara-Eliya",
-    "pd_name": "Kothmale",
-    "result_time": "2024-09-16 15:14",
+    "pd_name": "Nuwara Eliya Maskeliya",
+    "result_time": "2024-09-16 08:26",
     "summary": {
-      "electors": 81833,
-      "polled": 51603,
-      "rejected": 1033,
-      "valid": 50570
+      "electors": 332287,
+      "polled": 205549,
+      "rejected": 3997,
+      "valid": 201552
     },
     "subset_party_to_votes": {
-      "NPP": 11996,
-      "SJB": 10598,
-      "IND-RW": 6471,
-      "DJ": 9140,
-      "NR": 9834
-    }
-  },
-  {
-    "pd_id": "EC-21B",
-    "ed_name": "Ratnapura",
-    "pd_name": "Ratnapura",
-    "result_time": "2024-09-16 15:16",
-    "summary": {
-      "electors": 128756,
-      "polled": 90212,
-      "rejected": 2280,
-      "valid": 87932
-    },
-    "subset_party_to_votes": {
-      "NPP": 12221,
-      "SJB": 19783,
-      "IND-RW": 27082,
-      "DJ": 21542,
-      "NR": 2905
-    }
-  },
-  {
-    "pd_id": "EC-12C",
-    "ed_name": "Batticaloa",
-    "pd_name": "Paddiruppu",
-    "result_time": "2024-09-16 15:22",
-    "summary": {
-      "electors": 96720,
-      "polled": 60740,
-      "rejected": 955,
-      "valid": 59785
-    },
-    "subset_party_to_votes": {
-      "NPP": 14081,
-      "SJB": 15530,
-      "IND-RW": 7197,
-      "DJ": 10863,
-      "NR": 9122
-    }
-  },
-  {
-    "pd_id": "EC-17G",
-    "ed_name": "Anuradhapura",
-    "pd_name": "Kekirawa",
-    "result_time": "2024-09-16 15:22",
-    "summary": {
-      "electors": 91329,
-      "polled": 82076,
-      "rejected": 2414,
-      "valid": 79662
-    },
-    "subset_party_to_votes": {
-      "NPP": 21913,
-      "SJB": 19846,
-      "IND-RW": 15815,
-      "DJ": 16132,
-      "NR": 1970
-    }
-  },
-  {
-    "pd_id": "EC-17C",
-    "ed_name": "Anuradhapura",
-    "pd_name": "Anuradhapura East",
-    "result_time": "2024-09-16 15:25",
-    "summary": {
-      "electors": 104724,
-      "polled": 73134,
-      "rejected": 1430,
-      "valid": 71704
-    },
-    "subset_party_to_votes": {
-      "NPP": 24439,
-      "SJB": 24491,
-      "IND-RW": 8926,
-      "DJ": 3127,
-      "NR": 7133
-    }
-  },
-  {
-    "pd_id": "EC-04I",
-    "ed_name": "Kandy",
-    "pd_name": "Mahanuwara",
-    "result_time": "2024-09-16 15:31",
-    "summary": {
-      "electors": 42943,
-      "polled": 31077,
-      "rejected": 766,
-      "valid": 30311
-    },
-    "subset_party_to_votes": {
-      "NPP": 8250,
-      "SJB": 7267,
-      "IND-RW": 6274,
-      "DJ": 5018,
-      "NR": 1984
-    }
-  },
-  {
-    "pd_id": "EC-21P",
-    "ed_name": "Ratnapura",
-    "pd_name": "Postal - Ratnapura",
-    "result_time": "2024-09-16 15:40",
-    "summary": {
-      "electors": 34167,
-      "polled": 24481,
-      "rejected": 560,
-      "valid": 23921
-    },
-    "subset_party_to_votes": {
-      "NPP": 5904,
-      "SJB": 5849,
-      "IND-RW": 5974,
-      "DJ": 2856,
-      "NR": 2141
-    }
-  },
-  {
-    "pd_id": "EC-22P",
-    "ed_name": "Kegalle",
-    "pd_name": "Postal - Kegalle",
-    "result_time": "2024-09-16 15:41",
-    "summary": {
-      "electors": 35304,
-      "polled": 28676,
-      "rejected": 586,
-      "valid": 28090
-    },
-    "subset_party_to_votes": {
-      "NPP": 7967,
-      "SJB": 6750,
-      "IND-RW": 3852,
-      "DJ": 6786,
-      "NR": 1329
-    }
-  },
-  {
-    "pd_id": "EC-01J",
-    "ed_name": "Colombo",
-    "pd_name": "Kaduwela",
-    "result_time": "2024-09-16 15:52",
-    "summary": {
-      "electors": 202122,
-      "polled": 143865,
-      "rejected": 4236,
-      "valid": 139629
-    },
-    "subset_party_to_votes": {
-      "NPP": 40646,
-      "SJB": 25604,
-      "IND-RW": 28318,
-      "DJ": 27055,
-      "NR": 11021
-    }
-  },
-  {
-    "pd_id": "EC-22C",
-    "ed_name": "Kegalle",
-    "pd_name": "Kegalle",
-    "result_time": "2024-09-16 15:56",
-    "summary": {
-      "electors": 70222,
-      "polled": 45757,
-      "rejected": 725,
-      "valid": 45032
-    },
-    "subset_party_to_votes": {
-      "NPP": 7013,
-      "SJB": 10920,
-      "IND-RW": 10129,
-      "DJ": 7519,
-      "NR": 7197
-    }
-  },
-  {
-    "pd_id": "EC-17P",
-    "ed_name": "Anuradhapura",
-    "pd_name": "Postal - Anuradhapura",
-    "result_time": "2024-09-16 15:58",
-    "summary": {
-      "electors": 58130,
-      "polled": 37896,
-      "rejected": 736,
-      "valid": 37160
-    },
-    "subset_party_to_votes": {
-      "NPP": 9435,
-      "SJB": 10859,
-      "IND-RW": 5955,
-      "DJ": 5300,
-      "NR": 3751
-    }
-  },
-  {
-    "pd_id": "EC-04A",
-    "ed_name": "Kandy",
-    "pd_name": "Galagedara",
-    "result_time": "2024-09-16 15:58",
-    "summary": {
-      "electors": 54271,
-      "polled": 45775,
-      "rejected": 643,
-      "valid": 45132
-    },
-    "subset_party_to_votes": {
-      "NPP": 14969,
-      "SJB": 13189,
-      "IND-RW": 5615,
-      "DJ": 7411,
-      "NR": 1688
-    }
-  },
-  {
-    "pd_id": "EC-10C",
-    "ed_name": "Jaffna",
-    "pd_name": "Kankesanthurai",
-    "result_time": "2024-09-16 16:02",
-    "summary": {
-      "electors": 67572,
-      "polled": 47956,
-      "rejected": 1032,
-      "valid": 46924
-    },
-    "subset_party_to_votes": {
-      "NPP": 10578,
-      "SJB": 9442,
-      "IND-RW": 10399,
-      "DJ": 2793,
-      "NR": 11362
-    }
-  },
-  {
-    "pd_id": "EC-15E",
-    "ed_name": "Kurunegala",
-    "pd_name": "Wariyapola",
-    "result_time": "2024-09-16 16:02",
-    "summary": {
-      "electors": 77476,
-      "polled": 65637,
-      "rejected": 1295,
-      "valid": 64342
-    },
-    "subset_party_to_votes": {
-      "NPP": 12163,
-      "SJB": 15360,
-      "IND-RW": 9118,
-      "DJ": 12819,
-      "NR": 11662
-    }
-  },
-  {
-    "pd_id": "EC-07J",
-    "ed_name": "Galle",
-    "pd_name": "Habaraduwa",
-    "result_time": "2024-09-16 16:04",
-    "summary": {
-      "electors": 85036,
-      "polled": 75845,
-      "rejected": 1646,
-      "valid": 74199
-    },
-    "subset_party_to_votes": {
-      "NPP": 22874,
-      "SJB": 16281,
-      "IND-RW": 21168,
-      "DJ": 7743,
-      "NR": 2420
-    }
-  },
-  {
-    "pd_id": "EC-22H",
-    "ed_name": "Kegalle",
-    "pd_name": "Ruwanwella",
-    "result_time": "2024-09-16 16:10",
-    "summary": {
-      "electors": 78883,
-      "polled": 47426,
-      "rejected": 1025,
-      "valid": 46401
-    },
-    "subset_party_to_votes": {
-      "NPP": 6766,
-      "SJB": 10016,
-      "IND-RW": 10120,
-      "DJ": 9449,
-      "NR": 7728
-    }
-  },
-  {
-    "pd_id": "EC-04P",
-    "ed_name": "Kandy",
-    "pd_name": "Postal - Kandy",
-    "result_time": "2024-09-16 16:15",
-    "summary": {
-      "electors": 56205,
-      "polled": 45147,
-      "rejected": 1141,
-      "valid": 44006
-    },
-    "subset_party_to_votes": {
-      "NPP": 11224,
-      "SJB": 7083,
-      "IND-RW": 8548,
-      "DJ": 8036,
-      "NR": 6912
-    }
-  },
-  {
-    "pd_id": "EC-03A",
-    "ed_name": "Kalutara",
-    "pd_name": "Panadura",
-    "result_time": "2024-09-16 16:15",
-    "summary": {
-      "electors": 128209,
-      "polled": 98621,
-      "rejected": 2476,
-      "valid": 96145
-    },
-    "subset_party_to_votes": {
-      "NPP": 20462,
-      "SJB": 24977,
-      "IND-RW": 21481,
-      "DJ": 14381,
-      "NR": 10035
-    }
-  },
-  {
-    "pd_id": "EC-05B",
-    "ed_name": "Matale",
-    "pd_name": "Laggala",
-    "result_time": "2024-09-16 16:21",
-    "summary": {
-      "electors": 72871,
-      "polled": 44911,
-      "rejected": 629,
-      "valid": 44282
-    },
-    "subset_party_to_votes": {
-      "NPP": 11047,
-      "SJB": 8370,
-      "IND-RW": 11041,
-      "DJ": 5064,
-      "NR": 6543
-    }
-  },
-  {
-    "pd_id": "EC-17D",
-    "ed_name": "Anuradhapura",
-    "pd_name": "Anuradhapura West",
-    "result_time": "2024-09-16 16:25",
-    "summary": {
-      "electors": 112949,
-      "polled": 78967,
-      "rejected": 1919,
-      "valid": 77048
-    },
-    "subset_party_to_votes": {
-      "NPP": 28820,
-      "SJB": 13712,
-      "IND-RW": 17233,
-      "DJ": 10519,
-      "NR": 2908
-    }
-  },
-  {
-    "pd_id": "EC-20C",
-    "ed_name": "Moneragala",
-    "pd_name": "Wellawaya",
-    "result_time": "2024-09-16 16:32",
-    "summary": {
-      "electors": 157601,
-      "polled": 137553,
-      "rejected": 3602,
-      "valid": 133951
-    },
-    "subset_party_to_votes": {
-      "NPP": 30552,
-      "SJB": 37896,
-      "IND-RW": 32416,
-      "DJ": 19907,
-      "NR": 6479
-    }
-  },
-  {
-    "pd_id": "EC-16P",
-    "ed_name": "Puttalam",
-    "pd_name": "Postal - Puttalam",
-    "result_time": "2024-09-16 16:35",
-    "summary": {
-      "electors": 15595,
-      "polled": 14017,
-      "rejected": 259,
-      "valid": 13758
-    },
-    "subset_party_to_votes": {
-      "NPP": 3929,
-      "SJB": 1543,
-      "IND-RW": 2532,
-      "DJ": 2727,
-      "NR": 2337
-    }
-  },
-  {
-    "pd_id": "EC-05C",
-    "ed_name": "Matale",
-    "pd_name": "Matale",
-    "result_time": "2024-09-16 16:37",
-    "summary": {
-      "electors": 88364,
-      "polled": 70470,
-      "rejected": 1332,
-      "valid": 69138
-    },
-    "subset_party_to_votes": {
-      "NPP": 13977,
-      "SJB": 12474,
-      "IND-RW": 17498,
-      "DJ": 14701,
-      "NR": 7028
-    }
-  },
-  {
-    "pd_id": "EC-10D",
-    "ed_name": "Jaffna",
-    "pd_name": "Manipay",
-    "result_time": "2024-09-16 16:39",
-    "summary": {
-      "electors": 60070,
-      "polled": 53703,
-      "rejected": 1088,
-      "valid": 52615
-    },
-    "subset_party_to_votes": {
-      "NPP": 10096,
-      "SJB": 16657,
-      "IND-RW": 6660,
-      "DJ": 5499,
-      "NR": 11070
-    }
-  },
-  {
-    "pd_id": "EC-03G",
-    "ed_name": "Kalutara",
-    "pd_name": "Beruwala",
-    "result_time": "2024-09-16 16:48",
-    "summary": {
-      "electors": 134729,
-      "polled": 97774,
-      "rejected": 2775,
-      "valid": 94999
-    },
-    "subset_party_to_votes": {
-      "NPP": 22054,
-      "SJB": 23274,
-      "IND-RW": 21407,
-      "DJ": 6900,
-      "NR": 16612
-    }
-  },
-  {
-    "pd_id": "EC-04K",
-    "ed_name": "Kandy",
-    "pd_name": "Udunuwara",
-    "result_time": "2024-09-16 16:48",
-    "summary": {
-      "electors": 92852,
-      "polled": 73714,
-      "rejected": 1475,
-      "valid": 72239
-    },
-    "subset_party_to_votes": {
-      "NPP": 20788,
-      "SJB": 19342,
-      "IND-RW": 12933,
-      "DJ": 11526,
-      "NR": 4036
-    }
-  },
-  {
-    "pd_id": "EC-06C",
-    "ed_name": "Nuwara-Eliya",
-    "pd_name": "Hanguranketha",
-    "result_time": "2024-09-16 16:49",
-    "summary": {
-      "electors": 76116,
-      "polled": 61835,
-      "rejected": 1750,
-      "valid": 60085
-    },
-    "subset_party_to_votes": {
-      "NPP": 15793,
-      "SJB": 11337,
-      "IND-RW": 12729,
-      "DJ": 6334,
-      "NR": 10886
-    }
-  },
-  {
-    "pd_id": "EC-08P",
-    "ed_name": "Matara",
-    "pd_name": "Postal - Matara",
-    "result_time": "2024-09-16 16:53",
-    "summary": {
-      "electors": 31844,
-      "polled": 19732,
-      "rejected": 227,
-      "valid": 19505
-    },
-    "subset_party_to_votes": {
-      "NPP": 5828,
-      "SJB": 4027,
-      "IND-RW": 2516,
-      "DJ": 4514,
-      "NR": 1642
-    }
-  },
-  {
-    "pd_id": "EC-07F",
-    "ed_name": "Galle",
-    "pd_name": "Baddegama",
-    "result_time": "2024-09-16 16:54",
-    "summary": {
-      "electors": 96534,
-      "polled": 82844,
-      "rejected": 889,
-      "valid": 81955
-    },
-    "subset_party_to_votes": {
-      "NPP": 19176,
-      "SJB": 24388,
-      "IND-RW": 24777,
-      "DJ": 8355,
-      "NR": 1159
-    }
-  },
-  {
-    "pd_id": "EC-18B",
-    "ed_name": "Polonnaruwa",
-    "pd_name": "Medirigiriya",
-    "result_time": "2024-09-16 16:54",
-    "summary": {
-      "electors": 83777,
-      "polled": 59565,
-      "rejected": 1401,
-      "valid": 58164
-    },
-    "subset_party_to_votes": {
-      "NPP": 19686,
-      "SJB": 9562,
-      "IND-RW": 6360,
-      "DJ": 15446,
-      "NR": 4200
-    }
-  },
-  {
-    "pd_id": "EC-02E",
-    "ed_name": "Gampaha",
-    "pd_name": "Mirigama",
-    "result_time": "2024-09-16 16:56",
-    "summary": {
-      "electors": 128800,
-      "polled": 102720,
-      "rejected": 1355,
-      "valid": 101365
-    },
-    "subset_party_to_votes": {
-      "NPP": 27549,
-      "SJB": 26148,
-      "IND-RW": 14633,
-      "DJ": 14770,
-      "NR": 13195
+      "NPP": 72802,
+      "SJB": 37505,
+      "RW": 34491,
+      "DJ": 26864,
+      "SLPP": 19809
     }
   },
   {
     "pd_id": "EC-19I",
     "ed_name": "Badulla",
     "pd_name": "Haputale",
-    "result_time": "2024-09-16 16:56",
+    "result_time": "2024-09-16 08:26",
     "summary": {
-      "electors": 71208,
-      "polled": 58993,
-      "rejected": 631,
-      "valid": 58362
+      "electors": 70137,
+      "polled": 42636,
+      "rejected": 448,
+      "valid": 42188
     },
     "subset_party_to_votes": {
-      "NPP": 14872,
-      "SJB": 8559,
-      "IND-RW": 15224,
-      "DJ": 3136,
-      "NR": 13650
+      "NPP": 6374,
+      "SJB": 10498,
+      "RW": 10880,
+      "DJ": 2865,
+      "SLPP": 9459
     }
   },
   {
-    "pd_id": "EC-19C",
-    "ed_name": "Badulla",
-    "pd_name": "Passara",
-    "result_time": "2024-09-16 17:01",
-    "summary": {
-      "electors": 65610,
-      "polled": 56576,
-      "rejected": 1284,
-      "valid": 55292
-    },
-    "subset_party_to_votes": {
-      "NPP": 13085,
-      "SJB": 16916,
-      "IND-RW": 6153,
-      "DJ": 6410,
-      "NR": 9961
-    }
-  },
-  {
-    "pd_id": "EC-05D",
-    "ed_name": "Matale",
-    "pd_name": "Rattota",
-    "result_time": "2024-09-16 17:07",
-    "summary": {
-      "electors": 96562,
-      "polled": 72935,
-      "rejected": 1880,
-      "valid": 71055
-    },
-    "subset_party_to_votes": {
-      "NPP": 24097,
-      "SJB": 7987,
-      "IND-RW": 12381,
-      "DJ": 17218,
-      "NR": 5817
-    }
-  },
-  {
-    "pd_id": "EC-22F",
-    "ed_name": "Kegalle",
-    "pd_name": "Aranayaka",
-    "result_time": "2024-09-16 17:09",
-    "summary": {
-      "electors": 51197,
-      "polled": 44059,
-      "rejected": 514,
-      "valid": 43545
-    },
-    "subset_party_to_votes": {
-      "NPP": 8806,
-      "SJB": 10281,
-      "IND-RW": 13446,
-      "DJ": 4166,
-      "NR": 4666
-    }
-  },
-  {
-    "pd_id": "EC-07A",
-    "ed_name": "Galle",
-    "pd_name": "Balapitiya",
-    "result_time": "2024-09-16 17:11",
-    "summary": {
-      "electors": 55927,
-      "polled": 46121,
-      "rejected": 513,
-      "valid": 45608
-    },
-    "subset_party_to_votes": {
-      "NPP": 10071,
-      "SJB": 13113,
-      "IND-RW": 11634,
-      "DJ": 4518,
-      "NR": 3989
-    }
-  },
-  {
-    "pd_id": "EC-02I",
-    "ed_name": "Gampaha",
-    "pd_name": "Ja Ela",
-    "result_time": "2024-09-16 17:14",
-    "summary": {
-      "electors": 165735,
-      "polled": 115715,
-      "rejected": 2958,
-      "valid": 112757
-    },
-    "subset_party_to_votes": {
-      "NPP": 23917,
-      "SJB": 30245,
-      "IND-RW": 17075,
-      "DJ": 18259,
-      "NR": 17621
-    }
-  },
-  {
-    "pd_id": "EC-04M",
-    "ed_name": "Kandy",
-    "pd_name": "Nawalapitiya",
-    "result_time": "2024-09-16 17:15",
-    "summary": {
-      "electors": 106226,
-      "polled": 89567,
-      "rejected": 2563,
-      "valid": 87004
-    },
-    "subset_party_to_votes": {
-      "NPP": 26028,
-      "SJB": 27179,
-      "IND-RW": 8910,
-      "DJ": 9595,
-      "NR": 10940
-    }
-  },
-  {
-    "pd_id": "EC-20A",
-    "ed_name": "Moneragala",
-    "pd_name": "Bibile",
-    "result_time": "2024-09-16 17:30",
-    "summary": {
-      "electors": 87127,
-      "polled": 77062,
-      "rejected": 1793,
-      "valid": 75269
-    },
-    "subset_party_to_votes": {
-      "NPP": 20748,
-      "SJB": 20227,
-      "IND-RW": 18913,
-      "DJ": 5318,
-      "NR": 6297
-    }
-  },
-  {
-    "pd_id": "EC-22E",
-    "ed_name": "Kegalle",
-    "pd_name": "Mawanella",
-    "result_time": "2024-09-16 17:33",
-    "summary": {
-      "electors": 97172,
-      "polled": 64592,
-      "rejected": 1879,
-      "valid": 62713
-    },
-    "subset_party_to_votes": {
-      "NPP": 24284,
-      "SJB": 21927,
-      "IND-RW": 7458,
-      "DJ": 3176,
-      "NR": 2730
-    }
-  },
-  {
-    "pd_id": "EC-15D",
+    "pd_id": "EC-15A",
     "ed_name": "Kurunegala",
-    "pd_name": "Hiriyala",
-    "result_time": "2024-09-16 17:38",
+    "pd_name": "Galgamuwa",
+    "result_time": "2024-09-16 08:34",
     "summary": {
-      "electors": 100338,
-      "polled": 60375,
-      "rejected": 634,
-      "valid": 59741
+      "electors": 110335,
+      "polled": 94896,
+      "rejected": 2607,
+      "valid": 92289
     },
     "subset_party_to_votes": {
-      "NPP": 21245,
-      "SJB": 17665,
-      "IND-RW": 11508,
-      "DJ": 2587,
-      "NR": 3747
+      "NPP": 15255,
+      "SJB": 24298,
+      "RW": 14110,
+      "DJ": 13685,
+      "SLPP": 20323
     }
   },
   {
-    "pd_id": "EC-14A",
-    "ed_name": "Trincomalee",
-    "pd_name": "Seruvila",
-    "result_time": "2024-09-16 17:48",
+    "pd_id": "EC-09A",
+    "ed_name": "Hambantota",
+    "pd_name": "Mulkirigala",
+    "result_time": "2024-09-16 08:41",
     "summary": {
-      "electors": 73920,
-      "polled": 56780,
-      "rejected": 1232,
-      "valid": 55548
+      "electors": 102328,
+      "polled": 64626,
+      "rejected": 1189,
+      "valid": 63437
     },
     "subset_party_to_votes": {
-      "NPP": 9649,
-      "SJB": 15577,
-      "IND-RW": 16555,
-      "DJ": 10312,
-      "NR": 674
+      "NPP": 11467,
+      "SJB": 16116,
+      "RW": 17439,
+      "DJ": 6162,
+      "SLPP": 9079
     }
   },
   {
-    "pd_id": "EC-04E",
-    "ed_name": "Kandy",
-    "pd_name": "Teldeniya",
-    "result_time": "2024-09-16 17:54",
-    "summary": {
-      "electors": 52591,
-      "polled": 32429,
-      "rejected": 589,
-      "valid": 31840
-    },
-    "subset_party_to_votes": {
-      "NPP": 6431,
-      "SJB": 6636,
-      "IND-RW": 6665,
-      "DJ": 3902,
-      "NR": 6611
-    }
-  },
-  {
-    "pd_id": "EC-04F",
-    "ed_name": "Kandy",
-    "pd_name": "Kundasale",
-    "result_time": "2024-09-16 17:56",
-    "summary": {
-      "electors": 100762,
-      "polled": 63687,
-      "rejected": 1058,
-      "valid": 62629
-    },
-    "subset_party_to_votes": {
-      "NPP": 11859,
-      "SJB": 18401,
-      "IND-RW": 21341,
-      "DJ": 5270,
-      "NR": 2624
-    }
-  },
-  {
-    "pd_id": "EC-01N",
-    "ed_name": "Colombo",
-    "pd_name": "Kesbewa",
-    "result_time": "2024-09-16 18:06",
-    "summary": {
-      "electors": 191533,
-      "polled": 143686,
-      "rejected": 3639,
-      "valid": 140047
-    },
-    "subset_party_to_votes": {
-      "NPP": 44915,
-      "SJB": 29463,
-      "IND-RW": 21518,
-      "DJ": 7924,
-      "NR": 29222
-    }
-  },
-  {
-    "pd_id": "EC-03D",
-    "ed_name": "Kalutara",
-    "pd_name": "Bulathsinhala",
-    "result_time": "2024-09-16 18:09",
-    "summary": {
-      "electors": 88566,
-      "polled": 79357,
-      "rejected": 1071,
-      "valid": 78286
-    },
-    "subset_party_to_votes": {
-      "NPP": 22960,
-      "SJB": 14061,
-      "IND-RW": 27246,
-      "DJ": 3649,
-      "NR": 6453
-    }
-  },
-  {
-    "pd_id": "EC-14C",
-    "ed_name": "Trincomalee",
-    "pd_name": "Muttur",
-    "result_time": "2024-09-16 18:24",
-    "summary": {
-      "electors": 110343,
-      "polled": 89313,
-      "rejected": 1034,
-      "valid": 88279
-    },
-    "subset_party_to_votes": {
-      "NPP": 21272,
-      "SJB": 16031,
-      "IND-RW": 29114,
-      "DJ": 8978,
-      "NR": 8468
-    }
-  },
-  {
-    "pd_id": "EC-07E",
-    "ed_name": "Galle",
-    "pd_name": "Hiniduma",
-    "result_time": "2024-09-16 18:28",
-    "summary": {
-      "electors": 101162,
-      "polled": 85650,
-      "rejected": 1214,
-      "valid": 84436
-    },
-    "subset_party_to_votes": {
-      "NPP": 29151,
-      "SJB": 19724,
-      "IND-RW": 14500,
-      "DJ": 5714,
-      "NR": 11122
-    }
-  },
-  {
-    "pd_id": "EC-02P",
-    "ed_name": "Gampaha",
-    "pd_name": "Postal - Gampaha",
-    "result_time": "2024-09-16 18:33",
-    "summary": {
-      "electors": 55620,
-      "polled": 40715,
-      "rejected": 940,
-      "valid": 39775
-    },
-    "subset_party_to_votes": {
-      "NPP": 10897,
-      "SJB": 6134,
-      "IND-RW": 9163,
-      "DJ": 4968,
-      "NR": 6622
-    }
-  },
-  {
-    "pd_id": "EC-02B",
-    "ed_name": "Gampaha",
-    "pd_name": "Negombo",
-    "result_time": "2024-09-16 18:47",
-    "summary": {
-      "electors": 122254,
-      "polled": 102294,
-      "rejected": 1926,
-      "valid": 100368
-    },
-    "subset_party_to_votes": {
-      "NPP": 23371,
-      "SJB": 27229,
-      "IND-RW": 16409,
-      "DJ": 15770,
-      "NR": 12568
-    }
-  },
-  {
-    "pd_id": "EC-20P",
-    "ed_name": "Moneragala",
-    "pd_name": "Postal - Moneragala",
-    "result_time": "2024-09-16 18:52",
-    "summary": {
-      "electors": 25286,
-      "polled": 16561,
-      "rejected": 457,
-      "valid": 16104
-    },
-    "subset_party_to_votes": {
-      "NPP": 5328,
-      "SJB": 3550,
-      "IND-RW": 2841,
-      "DJ": 2478,
-      "NR": 1099
-    }
-  },
-  {
-    "pd_id": "EC-16B",
+    "pd_id": "EC-16D",
     "ed_name": "Puttalam",
-    "pd_name": "Anamaduwa",
-    "result_time": "2024-09-16 18:56",
+    "pd_name": "Nattandiya",
+    "result_time": "2024-09-16 08:41",
     "summary": {
-      "electors": 129906,
-      "polled": 88325,
-      "rejected": 2174,
-      "valid": 86151
+      "electors": 99391,
+      "polled": 68468,
+      "rejected": 1303,
+      "valid": 67165
     },
     "subset_party_to_votes": {
-      "NPP": 27139,
-      "SJB": 13650,
-      "IND-RW": 20873,
-      "DJ": 12344,
-      "NR": 7836
-    }
-  },
-  {
-    "pd_id": "EC-16E",
-    "ed_name": "Puttalam",
-    "pd_name": "Wennappuwa",
-    "result_time": "2024-09-16 18:58",
-    "summary": {
-      "electors": 118755,
-      "polled": 100517,
-      "rejected": 2145,
-      "valid": 98372
-    },
-    "subset_party_to_votes": {
-      "NPP": 22542,
-      "SJB": 22900,
-      "IND-RW": 19050,
-      "DJ": 14026,
-      "NR": 14933
-    }
-  },
-  {
-    "pd_id": "EC-21E",
-    "ed_name": "Ratnapura",
-    "pd_name": "Rakwana",
-    "result_time": "2024-09-16 19:03",
-    "summary": {
-      "electors": 108855,
-      "polled": 86771,
-      "rejected": 1608,
-      "valid": 85163
-    },
-    "subset_party_to_votes": {
-      "NPP": 16126,
-      "SJB": 13053,
-      "IND-RW": 23144,
-      "DJ": 16253,
-      "NR": 12327
-    }
-  },
-  {
-    "pd_id": "EC-21G",
-    "ed_name": "Ratnapura",
-    "pd_name": "Kalawana",
-    "result_time": "2024-09-16 19:03",
-    "summary": {
-      "electors": 72581,
-      "polled": 52869,
-      "rejected": 1086,
-      "valid": 51783
-    },
-    "subset_party_to_votes": {
-      "NPP": 11987,
-      "SJB": 10615,
-      "IND-RW": 11729,
-      "DJ": 5944,
-      "NR": 8916
-    }
-  },
-  {
-    "pd_id": "EC-10J",
-    "ed_name": "Jaffna",
-    "pd_name": "Jaffna",
-    "result_time": "2024-09-16 19:11",
-    "summary": {
-      "electors": 35532,
-      "polled": 23188,
-      "rejected": 283,
-      "valid": 22905
-    },
-    "subset_party_to_votes": {
-      "NPP": 5272,
-      "SJB": 3267,
-      "IND-RW": 3153,
-      "DJ": 5788,
-      "NR": 4277
-    }
-  },
-  {
-    "pd_id": "EC-10H",
-    "ed_name": "Jaffna",
-    "pd_name": "Chavakachcheri",
-    "result_time": "2024-09-16 19:12",
-    "summary": {
-      "electors": 55854,
-      "polled": 41282,
-      "rejected": 961,
-      "valid": 40321
-    },
-    "subset_party_to_votes": {
-      "NPP": 10576,
-      "SJB": 9617,
-      "IND-RW": 7941,
-      "DJ": 9409,
-      "NR": 760
-    }
-  },
-  {
-    "pd_id": "EC-15B",
-    "ed_name": "Kurunegala",
-    "pd_name": "Nikaweratiya",
-    "result_time": "2024-09-16 19:12",
-    "summary": {
-      "electors": 98409,
-      "polled": 78222,
-      "rejected": 1827,
-      "valid": 76395
-    },
-    "subset_party_to_votes": {
-      "NPP": 21662,
-      "SJB": 21172,
-      "IND-RW": 13571,
-      "DJ": 15063,
-      "NR": 1104
-    }
-  },
-  {
-    "pd_id": "EC-13B",
-    "ed_name": "Digamadulla",
-    "pd_name": "Samanthurai",
-    "result_time": "2024-09-16 19:18",
-    "summary": {
-      "electors": 90983,
-      "polled": 68840,
-      "rejected": 1801,
-      "valid": 67039
-    },
-    "subset_party_to_votes": {
-      "NPP": 10097,
-      "SJB": 20969,
-      "IND-RW": 19659,
-      "DJ": 7058,
-      "NR": 5902
-    }
-  },
-  {
-    "pd_id": "EC-04L",
-    "ed_name": "Kandy",
-    "pd_name": "Gampola",
-    "result_time": "2024-09-16 19:20",
-    "summary": {
-      "electors": 111581,
-      "polled": 76365,
-      "rejected": 1957,
-      "valid": 74408
-    },
-    "subset_party_to_votes": {
-      "NPP": 18083,
-      "SJB": 22068,
-      "IND-RW": 14833,
-      "DJ": 2640,
-      "NR": 13061
-    }
-  },
-  {
-    "pd_id": "EC-17F",
-    "ed_name": "Anuradhapura",
-    "pd_name": "Mihinthale",
-    "result_time": "2024-09-16 19:24",
-    "summary": {
-      "electors": 69739,
-      "polled": 61875,
-      "rejected": 1408,
-      "valid": 60467
-    },
-    "subset_party_to_votes": {
-      "NPP": 21624,
-      "SJB": 16209,
-      "IND-RW": 11878,
-      "DJ": 3757,
-      "NR": 3973
-    }
-  },
-  {
-    "pd_id": "EC-17E",
-    "ed_name": "Anuradhapura",
-    "pd_name": "Kalawewa",
-    "result_time": "2024-09-16 19:27",
-    "summary": {
-      "electors": 126897,
-      "polled": 88683,
-      "rejected": 1598,
-      "valid": 87085
-    },
-    "subset_party_to_votes": {
-      "NPP": 25690,
-      "SJB": 14953,
-      "IND-RW": 14648,
-      "DJ": 10372,
-      "NR": 17064
-    }
-  },
-  {
-    "pd_id": "EC-02D",
-    "ed_name": "Gampaha",
-    "pd_name": "Divulapitiya",
-    "result_time": "2024-09-16 19:32",
-    "summary": {
-      "electors": 118594,
-      "polled": 76854,
-      "rejected": 1727,
-      "valid": 75127
-    },
-    "subset_party_to_votes": {
-      "NPP": 20148,
-      "SJB": 17178,
-      "IND-RW": 21550,
-      "DJ": 9216,
-      "NR": 3277
-    }
-  },
-  {
-    "pd_id": "EC-21H",
-    "ed_name": "Ratnapura",
-    "pd_name": "Kolonna",
-    "result_time": "2024-09-16 19:32",
-    "summary": {
-      "electors": 153720,
-      "polled": 135103,
-      "rejected": 2685,
-      "valid": 132418
-    },
-    "subset_party_to_votes": {
-      "NPP": 30973,
-      "SJB": 32460,
-      "IND-RW": 32497,
-      "DJ": 20108,
-      "NR": 9757
-    }
-  },
-  {
-    "pd_id": "EC-12P",
-    "ed_name": "Batticaloa",
-    "pd_name": "Postal - Batticaloa",
-    "result_time": "2024-09-16 19:34",
-    "summary": {
-      "electors": 13415,
-      "polled": 10248,
-      "rejected": 252,
-      "valid": 9996
-    },
-    "subset_party_to_votes": {
-      "NPP": 2107,
-      "SJB": 2915,
-      "IND-RW": 3189,
-      "DJ": 815,
-      "NR": 468
+      "NPP": 20394,
+      "SJB": 11776,
+      "RW": 18611,
+      "DJ": 8472,
+      "SLPP": 4551
     }
   },
   {
     "pd_id": "EC-13C",
     "ed_name": "Digamadulla",
     "pd_name": "Kalmunai",
-    "result_time": "2024-09-16 19:36",
+    "result_time": "2024-09-16 08:42",
     "summary": {
-      "electors": 76504,
-      "polled": 67241,
-      "rejected": 1615,
-      "valid": 65626
+      "electors": 81121,
+      "polled": 52056,
+      "rejected": 1387,
+      "valid": 50669
     },
     "subset_party_to_votes": {
-      "NPP": 16028,
-      "SJB": 19160,
-      "IND-RW": 8836,
-      "DJ": 13042,
-      "NR": 5276
+      "NPP": 12543,
+      "SJB": 5450,
+      "RW": 13518,
+      "DJ": 9537,
+      "SLPP": 7086
     }
   },
   {
-    "pd_id": "EC-04B",
+    "pd_id": "EC-01N",
+    "ed_name": "Colombo",
+    "pd_name": "Kesbewa",
+    "result_time": "2024-09-16 08:43",
+    "summary": {
+      "electors": 180443,
+      "polled": 116678,
+      "rejected": 2591,
+      "valid": 114087
+    },
+    "subset_party_to_votes": {
+      "NPP": 20616,
+      "SJB": 27260,
+      "RW": 21903,
+      "DJ": 20506,
+      "SLPP": 18096
+    }
+  },
+  {
+    "pd_id": "EC-13P",
+    "ed_name": "Digamadulla",
+    "pd_name": "Postal - Digamadulla",
+    "result_time": "2024-09-16 08:44",
+    "summary": {
+      "electors": 29687,
+      "polled": 22054,
+      "rejected": 233,
+      "valid": 21821
+    },
+    "subset_party_to_votes": {
+      "NPP": 3908,
+      "SJB": 2884,
+      "RW": 5642,
+      "DJ": 4086,
+      "SLPP": 4208
+    }
+  },
+  {
+    "pd_id": "EC-21G",
+    "ed_name": "Ratnapura",
+    "pd_name": "Kalawana",
+    "result_time": "2024-09-16 08:44",
+    "summary": {
+      "electors": 69308,
+      "polled": 61116,
+      "rejected": 1150,
+      "valid": 59966
+    },
+    "subset_party_to_votes": {
+      "NPP": 10159,
+      "SJB": 14454,
+      "RW": 12237,
+      "DJ": 14455,
+      "SLPP": 5660
+    }
+  },
+  {
+    "pd_id": "EC-04E",
     "ed_name": "Kandy",
-    "pd_name": "Harispattuwa",
-    "result_time": "2024-09-16 19:38",
+    "pd_name": "Teldeniya",
+    "result_time": "2024-09-16 08:48",
     "summary": {
-      "electors": 168845,
-      "polled": 148736,
-      "rejected": 4460,
-      "valid": 144276
+      "electors": 52344,
+      "polled": 38746,
+      "rejected": 1137,
+      "valid": 37609
     },
     "subset_party_to_votes": {
-      "NPP": 36094,
-      "SJB": 44699,
-      "IND-RW": 40110,
-      "DJ": 5813,
-      "NR": 10344
+      "NPP": 13621,
+      "SJB": 8681,
+      "RW": 6619,
+      "DJ": 4549,
+      "SLPP": 2257
     }
   },
   {
-    "pd_id": "EC-04D",
+    "pd_id": "EC-18A",
+    "ed_name": "Polonnaruwa",
+    "pd_name": "Minneriya",
+    "result_time": "2024-09-16 08:52",
+    "summary": {
+      "electors": 86528,
+      "polled": 63338,
+      "rejected": 1234,
+      "valid": 62104
+    },
+    "subset_party_to_votes": {
+      "NPP": 15493,
+      "SJB": 15586,
+      "RW": 12787,
+      "DJ": 10268,
+      "SLPP": 4862
+    }
+  },
+  {
+    "pd_id": "EC-17C",
+    "ed_name": "Anuradhapura",
+    "pd_name": "Anuradhapura East",
+    "result_time": "2024-09-16 08:54",
+    "summary": {
+      "electors": 102786,
+      "polled": 71881,
+      "rejected": 1914,
+      "valid": 69967
+    },
+    "subset_party_to_votes": {
+      "NPP": 20160,
+      "SJB": 17319,
+      "RW": 12263,
+      "DJ": 7197,
+      "SLPP": 9528
+    }
+  },
+  {
+    "pd_id": "EC-04H",
     "ed_name": "Kandy",
-    "pd_name": "Ududumbara",
-    "result_time": "2024-09-16 19:39",
+    "pd_name": "Senkadagala",
+    "result_time": "2024-09-16 08:56",
     "summary": {
-      "electors": 62538,
-      "polled": 50925,
-      "rejected": 1341,
-      "valid": 49584
+      "electors": 85850,
+      "polled": 70438,
+      "rejected": 958,
+      "valid": 69480
     },
     "subset_party_to_votes": {
-      "NPP": 9470,
-      "SJB": 18245,
-      "IND-RW": 13477,
-      "DJ": 4988,
-      "NR": 922
+      "NPP": 17700,
+      "SJB": 12268,
+      "RW": 15426,
+      "DJ": 16902,
+      "SLPP": 3707
     }
   },
   {
-    "pd_id": "EC-22I",
+    "pd_id": "EC-15G",
+    "ed_name": "Kurunegala",
+    "pd_name": "Bingiriya",
+    "result_time": "2024-09-16 08:59",
+    "summary": {
+      "electors": 92363,
+      "polled": 75531,
+      "rejected": 937,
+      "valid": 74594
+    },
+    "subset_party_to_votes": {
+      "NPP": 14980,
+      "SJB": 23252,
+      "RW": 23619,
+      "DJ": 6248,
+      "SLPP": 2763
+    }
+  },
+  {
+    "pd_id": "EC-10B",
+    "ed_name": "Jaffna",
+    "pd_name": "Vaddukoddai",
+    "result_time": "2024-09-16 09:05",
+    "summary": {
+      "electors": 51739,
+      "polled": 45061,
+      "rejected": 583,
+      "valid": 44478
+    },
+    "subset_party_to_votes": {
+      "NPP": 16027,
+      "SJB": 9805,
+      "RW": 11186,
+      "DJ": 3191,
+      "SLPP": 2043
+    }
+  },
+  {
+    "pd_id": "EC-22P",
     "ed_name": "Kegalle",
-    "pd_name": "Deraniyagala",
-    "result_time": "2024-09-16 19:43",
+    "pd_name": "Postal - Kegalle",
+    "result_time": "2024-09-16 09:08",
     "summary": {
-      "electors": 71639,
-      "polled": 47276,
-      "rejected": 1395,
-      "valid": 45881
+      "electors": 36188,
+      "polled": 26133,
+      "rejected": 503,
+      "valid": 25630
     },
     "subset_party_to_votes": {
-      "NPP": 14555,
-      "SJB": 7984,
-      "IND-RW": 9060,
-      "DJ": 9306,
-      "NR": 2679
+      "NPP": 6119,
+      "SJB": 7866,
+      "RW": 2882,
+      "DJ": 3018,
+      "SLPP": 4461
+    }
+  },
+  {
+    "pd_id": "EC-21F",
+    "ed_name": "Ratnapura",
+    "pd_name": "Nivithigala",
+    "result_time": "2024-09-16 09:09",
+    "summary": {
+      "electors": 102147,
+      "polled": 71814,
+      "rejected": 1963,
+      "valid": 69851
+    },
+    "subset_party_to_votes": {
+      "NPP": 23431,
+      "SJB": 10575,
+      "RW": 22655,
+      "DJ": 5635,
+      "SLPP": 4060
+    }
+  },
+  {
+    "pd_id": "EC-01K",
+    "ed_name": "Colombo",
+    "pd_name": "Avissawella",
+    "result_time": "2024-09-16 09:12",
+    "summary": {
+      "electors": 128206,
+      "polled": 79437,
+      "rejected": 1205,
+      "valid": 78232
+    },
+    "subset_party_to_votes": {
+      "NPP": 15328,
+      "SJB": 22604,
+      "RW": 25582,
+      "DJ": 6556,
+      "SLPP": 4247
+    }
+  },
+  {
+    "pd_id": "EC-09B",
+    "ed_name": "Hambantota",
+    "pd_name": "Beliatta",
+    "result_time": "2024-09-16 09:14",
+    "summary": {
+      "electors": 76955,
+      "polled": 50626,
+      "rejected": 1201,
+      "valid": 49425
+    },
+    "subset_party_to_votes": {
+      "NPP": 15745,
+      "SJB": 9910,
+      "RW": 10136,
+      "DJ": 6583,
+      "SLPP": 4578
+    }
+  },
+  {
+    "pd_id": "EC-01D",
+    "ed_name": "Colombo",
+    "pd_name": "Colombo East",
+    "result_time": "2024-09-16 09:18",
+    "summary": {
+      "electors": 68477,
+      "polled": 59212,
+      "rejected": 790,
+      "valid": 58422
+    },
+    "subset_party_to_votes": {
+      "NPP": 15110,
+      "SJB": 9512,
+      "RW": 13184,
+      "DJ": 11960,
+      "SLPP": 5732
+    }
+  },
+  {
+    "pd_id": "EC-13A",
+    "ed_name": "Digamadulla",
+    "pd_name": "Ampara",
+    "result_time": "2024-09-16 09:22",
+    "summary": {
+      "electors": 167679,
+      "polled": 110471,
+      "rejected": 1647,
+      "valid": 108824
+    },
+    "subset_party_to_votes": {
+      "NPP": 32008,
+      "SJB": 22849,
+      "RW": 24209,
+      "DJ": 18336,
+      "SLPP": 5978
+    }
+  },
+  {
+    "pd_id": "EC-07G",
+    "ed_name": "Galle",
+    "pd_name": "Ratgama",
+    "result_time": "2024-09-16 09:31",
+    "summary": {
+      "electors": 82927,
+      "polled": 61325,
+      "rejected": 953,
+      "valid": 60372
+    },
+    "subset_party_to_votes": {
+      "NPP": 20548,
+      "SJB": 8482,
+      "RW": 16378,
+      "DJ": 9717,
+      "SLPP": 2227
     }
   },
   {
     "pd_id": "EC-15K",
     "ed_name": "Kurunegala",
     "pd_name": "Polgahawela",
-    "result_time": "2024-09-16 19:47",
+    "result_time": "2024-09-16 09:33",
     "summary": {
-      "electors": 78004,
-      "polled": 53141,
-      "rejected": 959,
-      "valid": 52182
+      "electors": 78708,
+      "polled": 54562,
+      "rejected": 1529,
+      "valid": 53033
     },
     "subset_party_to_votes": {
-      "NPP": 16357,
-      "SJB": 9655,
-      "IND-RW": 10363,
-      "DJ": 12114,
-      "NR": 1081
+      "NPP": 13979,
+      "SJB": 12487,
+      "RW": 7935,
+      "DJ": 10780,
+      "SLPP": 5198
     }
   },
   {
-    "pd_id": "EC-02H",
+    "pd_id": "EC-10I",
+    "ed_name": "Jaffna",
+    "pd_name": "Nallur",
+    "result_time": "2024-09-16 09:35",
+    "summary": {
+      "electors": 51813,
+      "polled": 34713,
+      "rejected": 910,
+      "valid": 33803
+    },
+    "subset_party_to_votes": {
+      "NPP": 11766,
+      "SJB": 9574,
+      "RW": 4043,
+      "DJ": 2359,
+      "SLPP": 4369
+    }
+  },
+  {
+    "pd_id": "EC-02D",
     "ed_name": "Gampaha",
-    "pd_name": "Gampaha",
-    "result_time": "2024-09-16 19:57",
+    "pd_name": "Divulapitiya",
+    "result_time": "2024-09-16 09:42",
     "summary": {
-      "electors": 167178,
-      "polled": 109170,
-      "rejected": 1435,
-      "valid": 107735
+      "electors": 114202,
+      "polled": 69019,
+      "rejected": 1863,
+      "valid": 67156
     },
     "subset_party_to_votes": {
-      "NPP": 39393,
-      "SJB": 32887,
-      "IND-RW": 15256,
-      "DJ": 9877,
-      "NR": 4932
+      "NPP": 15941,
+      "SJB": 23670,
+      "RW": 8004,
+      "DJ": 5953,
+      "SLPP": 10227
     }
   },
   {
-    "pd_id": "EC-02L",
-    "ed_name": "Gampaha",
-    "pd_name": "Biyagama",
-    "result_time": "2024-09-16 19:58",
+    "pd_id": "EC-19G",
+    "ed_name": "Badulla",
+    "pd_name": "Welimada",
+    "result_time": "2024-09-16 09:46",
     "summary": {
-      "electors": 131166,
-      "polled": 97068,
-      "rejected": 1723,
-      "valid": 95345
+      "electors": 80637,
+      "polled": 54166,
+      "rejected": 1050,
+      "valid": 53116
     },
     "subset_party_to_votes": {
-      "NPP": 19202,
-      "SJB": 18626,
-      "IND-RW": 23387,
-      "DJ": 19507,
-      "NR": 9854
+      "NPP": 12093,
+      "SJB": 8153,
+      "RW": 10332,
+      "DJ": 14322,
+      "SLPP": 5558
     }
   },
   {
-    "pd_id": "EC-07I",
-    "ed_name": "Galle",
-    "pd_name": "Akmeemana",
-    "result_time": "2024-09-16 19:58",
-    "summary": {
-      "electors": 99790,
-      "polled": 87259,
-      "rejected": 1596,
-      "valid": 85663
-    },
-    "subset_party_to_votes": {
-      "NPP": 35828,
-      "SJB": 15033,
-      "IND-RW": 20856,
-      "DJ": 5375,
-      "NR": 4285
-    }
-  },
-  {
-    "pd_id": "EC-08D",
+    "pd_id": "EC-08P",
     "ed_name": "Matara",
-    "pd_name": "Kamburupitiya",
-    "result_time": "2024-09-16 19:58",
+    "pd_name": "Postal - Matara",
+    "result_time": "2024-09-16 09:48",
     "summary": {
-      "electors": 87456,
-      "polled": 68149,
-      "rejected": 1548,
-      "valid": 66601
+      "electors": 29469,
+      "polled": 24509,
+      "rejected": 700,
+      "valid": 23809
     },
     "subset_party_to_votes": {
-      "NPP": 18059,
-      "SJB": 17744,
-      "IND-RW": 10316,
-      "DJ": 13704,
-      "NR": 3445
+      "NPP": 7093,
+      "SJB": 3588,
+      "RW": 2539,
+      "DJ": 4933,
+      "SLPP": 4464
     }
   },
   {
-    "pd_id": "EC-02G",
-    "ed_name": "Gampaha",
-    "pd_name": "Attanagalla",
-    "result_time": "2024-09-16 20:03",
+    "pd_id": "EC-10J",
+    "ed_name": "Jaffna",
+    "pd_name": "Jaffna",
+    "result_time": "2024-09-16 10:00",
     "summary": {
-      "electors": 147724,
-      "polled": 101447,
-      "rejected": 1293,
-      "valid": 100154
+      "electors": 34367,
+      "polled": 21591,
+      "rejected": 381,
+      "valid": 21210
     },
     "subset_party_to_votes": {
-      "NPP": 18848,
-      "SJB": 29489,
-      "IND-RW": 18657,
-      "DJ": 9345,
-      "NR": 18805
+      "NPP": 7840,
+      "SJB": 3403,
+      "RW": 2915,
+      "DJ": 1630,
+      "SLPP": 4360
+    }
+  },
+  {
+    "pd_id": "EC-01C",
+    "ed_name": "Colombo",
+    "pd_name": "Borella",
+    "result_time": "2024-09-16 10:01",
+    "summary": {
+      "electors": 66362,
+      "polled": 54229,
+      "rejected": 715,
+      "valid": 53514
+    },
+    "subset_party_to_votes": {
+      "NPP": 17629,
+      "SJB": 11466,
+      "RW": 12860,
+      "DJ": 5260,
+      "SLPP": 3620
+    }
+  },
+  {
+    "pd_id": "EC-16E",
+    "ed_name": "Puttalam",
+    "pd_name": "Wennappuwa",
+    "result_time": "2024-09-16 10:02",
+    "summary": {
+      "electors": 113988,
+      "polled": 85971,
+      "rejected": 1212,
+      "valid": 84759
+    },
+    "subset_party_to_votes": {
+      "NPP": 14679,
+      "SJB": 16853,
+      "RW": 14417,
+      "DJ": 21438,
+      "SLPP": 13132
+    }
+  },
+  {
+    "pd_id": "EC-05P",
+    "ed_name": "Matale",
+    "pd_name": "Postal - Matale",
+    "result_time": "2024-09-16 10:20",
+    "summary": {
+      "electors": 23995,
+      "polled": 19608,
+      "rejected": 293,
+      "valid": 19315
+    },
+    "subset_party_to_votes": {
+      "NPP": 4455,
+      "SJB": 4825,
+      "RW": 4319,
+      "DJ": 3239,
+      "SLPP": 1510
+    }
+  },
+  {
+    "pd_id": "EC-06B",
+    "ed_name": "Nuwara-Eliya",
+    "pd_name": "Kothmale",
+    "result_time": "2024-09-16 10:22",
+    "summary": {
+      "electors": 82717,
+      "polled": 74344,
+      "rejected": 1067,
+      "valid": 73277
+    },
+    "subset_party_to_votes": {
+      "NPP": 20143,
+      "SJB": 8855,
+      "RW": 22033,
+      "DJ": 12784,
+      "SLPP": 5796
+    }
+  },
+  {
+    "pd_id": "EC-19P",
+    "ed_name": "Badulla",
+    "pd_name": "Postal - Badulla",
+    "result_time": "2024-09-16 10:32",
+    "summary": {
+      "electors": 46813,
+      "polled": 30127,
+      "rejected": 577,
+      "valid": 29550
+    },
+    "subset_party_to_votes": {
+      "NPP": 6607,
+      "SJB": 7260,
+      "RW": 6106,
+      "DJ": 4547,
+      "SLPP": 3549
+    }
+  },
+  {
+    "pd_id": "EC-04L",
+    "ed_name": "Kandy",
+    "pd_name": "Gampola",
+    "result_time": "2024-09-16 10:32",
+    "summary": {
+      "electors": 109585,
+      "polled": 94513,
+      "rejected": 1944,
+      "valid": 92569
+    },
+    "subset_party_to_votes": {
+      "NPP": 33953,
+      "SJB": 19195,
+      "RW": 17238,
+      "DJ": 13347,
+      "SLPP": 4206
+    }
+  },
+  {
+    "pd_id": "EC-05C",
+    "ed_name": "Matale",
+    "pd_name": "Matale",
+    "result_time": "2024-09-16 10:34",
+    "summary": {
+      "electors": 93248,
+      "polled": 59294,
+      "rejected": 1334,
+      "valid": 57960
+    },
+    "subset_party_to_votes": {
+      "NPP": 10565,
+      "SJB": 15935,
+      "RW": 13429,
+      "DJ": 5607,
+      "SLPP": 9524
+    }
+  },
+  {
+    "pd_id": "EC-01J",
+    "ed_name": "Colombo",
+    "pd_name": "Kaduwela",
+    "result_time": "2024-09-16 10:35",
+    "summary": {
+      "electors": 202962,
+      "polled": 153007,
+      "rejected": 2684,
+      "valid": 150323
+    },
+    "subset_party_to_votes": {
+      "NPP": 26775,
+      "SJB": 23665,
+      "RW": 38274,
+      "DJ": 33669,
+      "SLPP": 20422
+    }
+  },
+  {
+    "pd_id": "EC-05B",
+    "ed_name": "Matale",
+    "pd_name": "Laggala",
+    "result_time": "2024-09-16 10:35",
+    "summary": {
+      "electors": 73626,
+      "polled": 44667,
+      "rejected": 539,
+      "valid": 44128
+    },
+    "subset_party_to_votes": {
+      "NPP": 11332,
+      "SJB": 7072,
+      "RW": 9294,
+      "DJ": 6862,
+      "SLPP": 7358
+    }
+  },
+  {
+    "pd_id": "EC-22G",
+    "ed_name": "Kegalle",
+    "pd_name": "Yatiyanthota",
+    "result_time": "2024-09-16 10:41",
+    "summary": {
+      "electors": 76607,
+      "polled": 47571,
+      "rejected": 1191,
+      "valid": 46380
+    },
+    "subset_party_to_votes": {
+      "NPP": 11015,
+      "SJB": 11142,
+      "RW": 7813,
+      "DJ": 7628,
+      "SLPP": 6461
+    }
+  },
+  {
+    "pd_id": "EC-04P",
+    "ed_name": "Kandy",
+    "pd_name": "Postal - Kandy",
+    "result_time": "2024-09-16 10:47",
+    "summary": {
+      "electors": 54106,
+      "polled": 42170,
+      "rejected": 1052,
+      "valid": 41118
+    },
+    "subset_party_to_votes": {
+      "NPP": 11011,
+      "SJB": 5264,
+      "RW": 12868,
+      "DJ": 5121,
+      "SLPP": 4796
+    }
+  },
+  {
+    "pd_id": "EC-10P",
+    "ed_name": "Jaffna",
+    "pd_name": "Postal - Jaffna",
+    "result_time": "2024-09-16 10:52",
+    "summary": {
+      "electors": 24897,
+      "polled": 16703,
+      "rejected": 349,
+      "valid": 16354
+    },
+    "subset_party_to_votes": {
+      "NPP": 3209,
+      "SJB": 2862,
+      "RW": 5983,
+      "DJ": 1672,
+      "SLPP": 1807
+    }
+  },
+  {
+    "pd_id": "EC-16P",
+    "ed_name": "Puttalam",
+    "pd_name": "Postal - Puttalam",
+    "result_time": "2024-09-16 10:55",
+    "summary": {
+      "electors": 14428,
+      "polled": 11015,
+      "rejected": 223,
+      "valid": 10792
+    },
+    "subset_party_to_votes": {
+      "NPP": 2521,
+      "SJB": 2646,
+      "RW": 2280,
+      "DJ": 1945,
+      "SLPP": 857
+    }
+  },
+  {
+    "pd_id": "EC-02C",
+    "ed_name": "Gampaha",
+    "pd_name": "Katana",
+    "result_time": "2024-09-16 10:56",
+    "summary": {
+      "electors": 169864,
+      "polled": 104527,
+      "rejected": 1220,
+      "valid": 103307
+    },
+    "subset_party_to_votes": {
+      "NPP": 28889,
+      "SJB": 27937,
+      "RW": 10049,
+      "DJ": 9555,
+      "SLPP": 21709
+    }
+  },
+  {
+    "pd_id": "EC-14C",
+    "ed_name": "Trincomalee",
+    "pd_name": "Muttur",
+    "result_time": "2024-09-16 10:56",
+    "summary": {
+      "electors": 111498,
+      "polled": 95981,
+      "rejected": 2771,
+      "valid": 93210
+    },
+    "subset_party_to_votes": {
+      "NPP": 25327,
+      "SJB": 25120,
+      "RW": 10018,
+      "DJ": 9263,
+      "SLPP": 18819
+    }
+  },
+  {
+    "pd_id": "EC-11C",
+    "ed_name": "Vanni",
+    "pd_name": "Mullaitivu",
+    "result_time": "2024-09-16 11:05",
+    "summary": {
+      "electors": 79735,
+      "polled": 50383,
+      "rejected": 913,
+      "valid": 49470
+    },
+    "subset_party_to_votes": {
+      "NPP": 10467,
+      "SJB": 9522,
+      "RW": 7429,
+      "DJ": 12728,
+      "SLPP": 6848
+    }
+  },
+  {
+    "pd_id": "EC-05D",
+    "ed_name": "Matale",
+    "pd_name": "Rattota",
+    "result_time": "2024-09-16 11:08",
+    "summary": {
+      "electors": 97534,
+      "polled": 58607,
+      "rejected": 1443,
+      "valid": 57164
+    },
+    "subset_party_to_votes": {
+      "NPP": 18242,
+      "SJB": 7275,
+      "RW": 14945,
+      "DJ": 6744,
+      "SLPP": 7097
+    }
+  },
+  {
+    "pd_id": "EC-01H",
+    "ed_name": "Colombo",
+    "pd_name": "Kolonnawa",
+    "result_time": "2024-09-16 11:11",
+    "summary": {
+      "electors": 142671,
+      "polled": 96901,
+      "rejected": 995,
+      "valid": 95906
+    },
+    "subset_party_to_votes": {
+      "NPP": 23450,
+      "SJB": 22489,
+      "RW": 13254,
+      "DJ": 23495,
+      "SLPP": 8420
+    }
+  },
+  {
+    "pd_id": "EC-16C",
+    "ed_name": "Puttalam",
+    "pd_name": "Chilaw",
+    "result_time": "2024-09-16 11:25",
+    "summary": {
+      "electors": 127865,
+      "polled": 83914,
+      "rejected": 993,
+      "valid": 82921
+    },
+    "subset_party_to_votes": {
+      "NPP": 21146,
+      "SJB": 18504,
+      "RW": 16776,
+      "DJ": 14328,
+      "SLPP": 8019
+    }
+  },
+  {
+    "pd_id": "EC-03E",
+    "ed_name": "Kalutara",
+    "pd_name": "Mathugama",
+    "result_time": "2024-09-16 11:32",
+    "summary": {
+      "electors": 114647,
+      "polled": 86603,
+      "rejected": 1334,
+      "valid": 85269
+    },
+    "subset_party_to_votes": {
+      "NPP": 15670,
+      "SJB": 25061,
+      "RW": 21900,
+      "DJ": 13402,
+      "SLPP": 4969
+    }
+  },
+  {
+    "pd_id": "EC-03P",
+    "ed_name": "Kalutara",
+    "pd_name": "Postal - Kalutara",
+    "result_time": "2024-09-16 11:33",
+    "summary": {
+      "electors": 38763,
+      "polled": 26424,
+      "rejected": 402,
+      "valid": 26022
+    },
+    "subset_party_to_votes": {
+      "NPP": 7195,
+      "SJB": 7218,
+      "RW": 6387,
+      "DJ": 990,
+      "SLPP": 2928
+    }
+  },
+  {
+    "pd_id": "EC-22C",
+    "ed_name": "Kegalle",
+    "pd_name": "Kegalle",
+    "result_time": "2024-09-16 11:36",
+    "summary": {
+      "electors": 75267,
+      "polled": 54546,
+      "rejected": 931,
+      "valid": 53615
+    },
+    "subset_party_to_votes": {
+      "NPP": 7380,
+      "SJB": 6425,
+      "RW": 13418,
+      "DJ": 11897,
+      "SLPP": 11811
+    }
+  },
+  {
+    "pd_id": "EC-18B",
+    "ed_name": "Polonnaruwa",
+    "pd_name": "Medirigiriya",
+    "result_time": "2024-09-16 11:40",
+    "summary": {
+      "electors": 78316,
+      "polled": 58953,
+      "rejected": 1608,
+      "valid": 57345
+    },
+    "subset_party_to_votes": {
+      "NPP": 12599,
+      "SJB": 18286,
+      "RW": 15782,
+      "DJ": 4406,
+      "SLPP": 3402
+    }
+  },
+  {
+    "pd_id": "EC-02I",
+    "ed_name": "Gampaha",
+    "pd_name": "Ja Ela",
+    "result_time": "2024-09-16 11:41",
+    "summary": {
+      "electors": 167863,
+      "polled": 142296,
+      "rejected": 3798,
+      "valid": 138498
+    },
+    "subset_party_to_votes": {
+      "NPP": 30565,
+      "SJB": 44673,
+      "RW": 34357,
+      "DJ": 11186,
+      "SLPP": 10790
+    }
+  },
+  {
+    "pd_id": "EC-20P",
+    "ed_name": "Moneragala",
+    "pd_name": "Postal - Moneragala",
+    "result_time": "2024-09-16 11:45",
+    "summary": {
+      "electors": 23500,
+      "polled": 16696,
+      "rejected": 463,
+      "valid": 16233
+    },
+    "subset_party_to_votes": {
+      "NPP": 2858,
+      "SJB": 3079,
+      "RW": 2707,
+      "DJ": 3816,
+      "SLPP": 2958
+    }
+  },
+  {
+    "pd_id": "EC-21H",
+    "ed_name": "Ratnapura",
+    "pd_name": "Kolonna",
+    "result_time": "2024-09-16 11:50",
+    "summary": {
+      "electors": 160584,
+      "polled": 135809,
+      "rejected": 3550,
+      "valid": 132259
+    },
+    "subset_party_to_votes": {
+      "NPP": 27098,
+      "SJB": 24291,
+      "RW": 32764,
+      "DJ": 23744,
+      "SLPP": 17747
+    }
+  },
+  {
+    "pd_id": "EC-22E",
+    "ed_name": "Kegalle",
+    "pd_name": "Mawanella",
+    "result_time": "2024-09-16 11:52",
+    "summary": {
+      "electors": 98538,
+      "polled": 78403,
+      "rejected": 2154,
+      "valid": 76249
+    },
+    "subset_party_to_votes": {
+      "NPP": 16804,
+      "SJB": 23739,
+      "RW": 12307,
+      "DJ": 3124,
+      "SLPP": 16459
+    }
+  },
+  {
+    "pd_id": "EC-01P",
+    "ed_name": "Colombo",
+    "pd_name": "Postal - Colombo",
+    "result_time": "2024-09-16 11:53",
+    "summary": {
+      "electors": 38594,
+      "polled": 28706,
+      "rejected": 343,
+      "valid": 28363
+    },
+    "subset_party_to_votes": {
+      "NPP": 9450,
+      "SJB": 9477,
+      "RW": 3389,
+      "DJ": 4253,
+      "SLPP": 375
+    }
+  },
+  {
+    "pd_id": "EC-06P",
+    "ed_name": "Nuwara-Eliya",
+    "pd_name": "Postal - Nuwara-Eliya",
+    "result_time": "2024-09-16 11:56",
+    "summary": {
+      "electors": 20309,
+      "polled": 14759,
+      "rejected": 355,
+      "valid": 14404
+    },
+    "subset_party_to_votes": {
+      "NPP": 4393,
+      "SJB": 2299,
+      "RW": 3967,
+      "DJ": 1740,
+      "SLPP": 1281
+    }
+  },
+  {
+    "pd_id": "EC-04B",
+    "ed_name": "Kandy",
+    "pd_name": "Harispattuwa",
+    "result_time": "2024-09-16 12:06",
+    "summary": {
+      "electors": 171876,
+      "polled": 107982,
+      "rejected": 3037,
+      "valid": 104945
+    },
+    "subset_party_to_votes": {
+      "NPP": 25138,
+      "SJB": 20609,
+      "RW": 19921,
+      "DJ": 21871,
+      "SLPP": 12157
+    }
+  },
+  {
+    "pd_id": "EC-03F",
+    "ed_name": "Kalutara",
+    "pd_name": "Kalutara",
+    "result_time": "2024-09-16 12:14",
+    "summary": {
+      "electors": 132614,
+      "polled": 81436,
+      "rejected": 1504,
+      "valid": 79932
+    },
+    "subset_party_to_votes": {
+      "NPP": 19731,
+      "SJB": 16198,
+      "RW": 23558,
+      "DJ": 11539,
+      "SLPP": 4907
+    }
+  },
+  {
+    "pd_id": "EC-02A",
+    "ed_name": "Gampaha",
+    "pd_name": "Wattala",
+    "result_time": "2024-09-16 12:15",
+    "summary": {
+      "electors": 138257,
+      "polled": 102033,
+      "rejected": 1127,
+      "valid": 100906
+    },
+    "subset_party_to_votes": {
+      "NPP": 28360,
+      "SJB": 26047,
+      "RW": 10383,
+      "DJ": 10454,
+      "SLPP": 20614
+    }
+  },
+  {
+    "pd_id": "EC-13B",
+    "ed_name": "Digamadulla",
+    "pd_name": "Samanthurai",
+    "result_time": "2024-09-16 12:19",
+    "summary": {
+      "electors": 89898,
+      "polled": 60784,
+      "rejected": 979,
+      "valid": 59805
+    },
+    "subset_party_to_votes": {
+      "NPP": 10511,
+      "SJB": 15547,
+      "RW": 13336,
+      "DJ": 16377,
+      "SLPP": 1041
+    }
+  },
+  {
+    "pd_id": "EC-18C",
+    "ed_name": "Polonnaruwa",
+    "pd_name": "Polonnaruwa",
+    "result_time": "2024-09-16 12:29",
+    "summary": {
+      "electors": 157917,
+      "polled": 120908,
+      "rejected": 2132,
+      "valid": 118776
+    },
+    "subset_party_to_votes": {
+      "NPP": 29097,
+      "SJB": 44549,
+      "RW": 13356,
+      "DJ": 17208,
+      "SLPP": 8624
+    }
+  },
+  {
+    "pd_id": "EC-15J",
+    "ed_name": "Kurunegala",
+    "pd_name": "Dambadeniya",
+    "result_time": "2024-09-16 12:30",
+    "summary": {
+      "electors": 99531,
+      "polled": 73714,
+      "rejected": 1630,
+      "valid": 72084
+    },
+    "subset_party_to_votes": {
+      "NPP": 19926,
+      "SJB": 18034,
+      "RW": 5943,
+      "DJ": 14157,
+      "SLPP": 10418
+    }
+  },
+  {
+    "pd_id": "EC-01L",
+    "ed_name": "Colombo",
+    "pd_name": "Homagama",
+    "result_time": "2024-09-16 12:34",
+    "summary": {
+      "electors": 210234,
+      "polled": 166314,
+      "rejected": 1858,
+      "valid": 164456
+    },
+    "subset_party_to_votes": {
+      "NPP": 54960,
+      "SJB": 30119,
+      "RW": 43940,
+      "DJ": 7129,
+      "SLPP": 20083
+    }
+  },
+  {
+    "pd_id": "EC-02F",
+    "ed_name": "Gampaha",
+    "pd_name": "Minuwangoda",
+    "result_time": "2024-09-16 12:34",
+    "summary": {
+      "electors": 145036,
+      "polled": 107202,
+      "rejected": 1765,
+      "valid": 105437
+    },
+    "subset_party_to_votes": {
+      "NPP": 27655,
+      "SJB": 21381,
+      "RW": 24943,
+      "DJ": 11329,
+      "SLPP": 14855
+    }
+  },
+  {
+    "pd_id": "EC-12B",
+    "ed_name": "Batticaloa",
+    "pd_name": "Batticaloa",
+    "result_time": "2024-09-16 12:38",
+    "summary": {
+      "electors": 199731,
+      "polled": 177054,
+      "rejected": 4604,
+      "valid": 172450
+    },
+    "subset_party_to_votes": {
+      "NPP": 44183,
+      "SJB": 40919,
+      "RW": 27071,
+      "DJ": 17057,
+      "SLPP": 34595
+    }
+  },
+  {
+    "pd_id": "EC-22H",
+    "ed_name": "Kegalle",
+    "pd_name": "Ruwanwella",
+    "result_time": "2024-09-16 12:46",
+    "summary": {
+      "electors": 76357,
+      "polled": 46272,
+      "rejected": 550,
+      "valid": 45722
+    },
+    "subset_party_to_votes": {
+      "NPP": 10101,
+      "SJB": 7773,
+      "RW": 10528,
+      "DJ": 8726,
+      "SLPP": 6306
+    }
+  },
+  {
+    "pd_id": "EC-04K",
+    "ed_name": "Kandy",
+    "pd_name": "Udunuwara",
+    "result_time": "2024-09-16 12:49",
+    "summary": {
+      "electors": 91039,
+      "polled": 67030,
+      "rejected": 1481,
+      "valid": 65549
+    },
+    "subset_party_to_votes": {
+      "NPP": 20450,
+      "SJB": 19749,
+      "RW": 10143,
+      "DJ": 8347,
+      "SLPP": 3580
+    }
+  },
+  {
+    "pd_id": "EC-16A",
+    "ed_name": "Puttalam",
+    "pd_name": "Puttalam",
+    "result_time": "2024-09-16 12:53",
+    "summary": {
+      "electors": 159604,
+      "polled": 105253,
+      "rejected": 2873,
+      "valid": 102380
+    },
+    "subset_party_to_votes": {
+      "NPP": 19687,
+      "SJB": 33847,
+      "RW": 10387,
+      "DJ": 23898,
+      "SLPP": 9439
+    }
+  },
+  {
+    "pd_id": "EC-17A",
+    "ed_name": "Anuradhapura",
+    "pd_name": "Medawachchiya",
+    "result_time": "2024-09-16 13:01",
+    "summary": {
+      "electors": 88432,
+      "polled": 77621,
+      "rejected": 891,
+      "valid": 76730
+    },
+    "subset_party_to_votes": {
+      "NPP": 18649,
+      "SJB": 25316,
+      "RW": 14995,
+      "DJ": 5644,
+      "SLPP": 8287
+    }
+  },
+  {
+    "pd_id": "EC-08B",
+    "ed_name": "Matara",
+    "pd_name": "Hakmana",
+    "result_time": "2024-09-16 13:04",
+    "summary": {
+      "electors": 92823,
+      "polled": 82015,
+      "rejected": 1096,
+      "valid": 80919
+    },
+    "subset_party_to_votes": {
+      "NPP": 11571,
+      "SJB": 18509,
+      "RW": 14129,
+      "DJ": 20698,
+      "SLPP": 11965
+    }
+  },
+  {
+    "pd_id": "EC-20B",
+    "ed_name": "Moneragala",
+    "pd_name": "Monaragala",
+    "result_time": "2024-09-16 13:18",
+    "summary": {
+      "electors": 116948,
+      "polled": 76032,
+      "rejected": 1199,
+      "valid": 74833
+    },
+    "subset_party_to_votes": {
+      "NPP": 16146,
+      "SJB": 20304,
+      "RW": 17253,
+      "DJ": 10349,
+      "SLPP": 7038
     }
   },
   {
     "pd_id": "EC-10K",
     "ed_name": "Jaffna",
     "pd_name": "Kilinochchi",
-    "result_time": "2024-09-16 20:09",
+    "result_time": "2024-09-16 13:20",
     "summary": {
-      "electors": 89277,
-      "polled": 74833,
-      "rejected": 1970,
-      "valid": 72863
+      "electors": 94396,
+      "polled": 61509,
+      "rejected": 1781,
+      "valid": 59728
     },
     "subset_party_to_votes": {
-      "NPP": 17481,
-      "SJB": 13803,
-      "IND-RW": 11906,
-      "DJ": 16331,
-      "NR": 9698
+      "NPP": 13167,
+      "SJB": 7926,
+      "RW": 11538,
+      "DJ": 14566,
+      "SLPP": 9543
+    }
+  },
+  {
+    "pd_id": "EC-01A",
+    "ed_name": "Colombo",
+    "pd_name": "Colombo North",
+    "result_time": "2024-09-16 13:27",
+    "summary": {
+      "electors": 94443,
+      "polled": 82811,
+      "rejected": 2006,
+      "valid": 80805
+    },
+    "subset_party_to_votes": {
+      "NPP": 21748,
+      "SJB": 23040,
+      "RW": 21356,
+      "DJ": 5921,
+      "SLPP": 4697
+    }
+  },
+  {
+    "pd_id": "EC-04F",
+    "ed_name": "Kandy",
+    "pd_name": "Kundasale",
+    "result_time": "2024-09-16 13:28",
+    "summary": {
+      "electors": 100130,
+      "polled": 84135,
+      "rejected": 1482,
+      "valid": 82653
+    },
+    "subset_party_to_votes": {
+      "NPP": 21191,
+      "SJB": 20375,
+      "RW": 12403,
+      "DJ": 9693,
+      "SLPP": 14856
+    }
+  },
+  {
+    "pd_id": "EC-03C",
+    "ed_name": "Kalutara",
+    "pd_name": "Horana",
+    "result_time": "2024-09-16 13:39",
+    "summary": {
+      "electors": 137727,
+      "polled": 94279,
+      "rejected": 1270,
+      "valid": 93009
+    },
+    "subset_party_to_votes": {
+      "NPP": 13110,
+      "SJB": 29487,
+      "RW": 29404,
+      "DJ": 14560,
+      "SLPP": 1796
+    }
+  },
+  {
+    "pd_id": "EC-20C",
+    "ed_name": "Moneragala",
+    "pd_name": "Wellawaya",
+    "result_time": "2024-09-16 13:39",
+    "summary": {
+      "electors": 171122,
+      "polled": 153251,
+      "rejected": 4344,
+      "valid": 148907
+    },
+    "subset_party_to_votes": {
+      "NPP": 28576,
+      "SJB": 46852,
+      "RW": 25765,
+      "DJ": 26953,
+      "SLPP": 13314
+    }
+  },
+  {
+    "pd_id": "EC-04I",
+    "ed_name": "Kandy",
+    "pd_name": "Mahanuwara",
+    "result_time": "2024-09-16 13:42",
+    "summary": {
+      "electors": 40599,
+      "polled": 35702,
+      "rejected": 530,
+      "valid": 35172
+    },
+    "subset_party_to_votes": {
+      "NPP": 7410,
+      "SJB": 6042,
+      "RW": 6888,
+      "DJ": 3974,
+      "SLPP": 9097
+    }
+  },
+  {
+    "pd_id": "EC-22A",
+    "ed_name": "Kegalle",
+    "pd_name": "Dedigama",
+    "result_time": "2024-09-16 13:43",
+    "summary": {
+      "electors": 89054,
+      "polled": 55533,
+      "rejected": 1305,
+      "valid": 54228
+    },
+    "subset_party_to_votes": {
+      "NPP": 14610,
+      "SJB": 14078,
+      "RW": 15928,
+      "DJ": 3385,
+      "SLPP": 3513
+    }
+  },
+  {
+    "pd_id": "EC-01O",
+    "ed_name": "Colombo",
+    "pd_name": "Moratuwa",
+    "result_time": "2024-09-16 13:44",
+    "summary": {
+      "electors": 131283,
+      "polled": 92164,
+      "rejected": 1519,
+      "valid": 90645
+    },
+    "subset_party_to_votes": {
+      "NPP": 27020,
+      "SJB": 21691,
+      "RW": 11717,
+      "DJ": 16748,
+      "SLPP": 8934
+    }
+  },
+  {
+    "pd_id": "EC-04M",
+    "ed_name": "Kandy",
+    "pd_name": "Nawalapitiya",
+    "result_time": "2024-09-16 13:44",
+    "summary": {
+      "electors": 104431,
+      "polled": 79027,
+      "rejected": 950,
+      "valid": 78077
+    },
+    "subset_party_to_votes": {
+      "NPP": 25084,
+      "SJB": 9249,
+      "RW": 13931,
+      "DJ": 10708,
+      "SLPP": 15200
+    }
+  },
+  {
+    "pd_id": "EC-07E",
+    "ed_name": "Galle",
+    "pd_name": "Hiniduma",
+    "result_time": "2024-09-16 13:46",
+    "summary": {
+      "electors": 102696,
+      "polled": 62209,
+      "rejected": 1311,
+      "valid": 60898
+    },
+    "subset_party_to_votes": {
+      "NPP": 16486,
+      "SJB": 8865,
+      "RW": 14375,
+      "DJ": 9025,
+      "SLPP": 9099
+    }
+  },
+  {
+    "pd_id": "EC-01G",
+    "ed_name": "Colombo",
+    "pd_name": "Ratmalana",
+    "result_time": "2024-09-16 13:48",
+    "summary": {
+      "electors": 74385,
+      "polled": 46873,
+      "rejected": 743,
+      "valid": 46130
+    },
+    "subset_party_to_votes": {
+      "NPP": 14497,
+      "SJB": 7995,
+      "RW": 12641,
+      "DJ": 8172,
+      "SLPP": 516
+    }
+  },
+  {
+    "pd_id": "EC-10G",
+    "ed_name": "Jaffna",
+    "pd_name": "Point Pedro",
+    "result_time": "2024-09-16 13:56",
+    "summary": {
+      "electors": 38861,
+      "polled": 32474,
+      "rejected": 863,
+      "valid": 31611
+    },
+    "subset_party_to_votes": {
+      "NPP": 6612,
+      "SJB": 4646,
+      "RW": 8984,
+      "DJ": 6692,
+      "SLPP": 3093
     }
   },
   {
     "pd_id": "EC-22B",
     "ed_name": "Kegalle",
     "pd_name": "Galigamuwa",
-    "result_time": "2024-09-16 20:09",
+    "result_time": "2024-09-16 13:56",
     "summary": {
-      "electors": 69125,
-      "polled": 54781,
-      "rejected": 1054,
-      "valid": 53727
+      "electors": 71501,
+      "polled": 60496,
+      "rejected": 1510,
+      "valid": 58986
     },
     "subset_party_to_votes": {
-      "NPP": 12157,
-      "SJB": 12196,
-      "IND-RW": 11831,
-      "DJ": 3583,
-      "NR": 11271
+      "NPP": 17195,
+      "SJB": 17318,
+      "RW": 7267,
+      "DJ": 10038,
+      "SLPP": 4216
+    }
+  },
+  {
+    "pd_id": "EC-03G",
+    "ed_name": "Kalutara",
+    "pd_name": "Beruwala",
+    "result_time": "2024-09-16 13:57",
+    "summary": {
+      "electors": 128602,
+      "polled": 109975,
+      "rejected": 3269,
+      "valid": 106706
+    },
+    "subset_party_to_votes": {
+      "NPP": 25417,
+      "SJB": 29525,
+      "RW": 14870,
+      "DJ": 17232,
+      "SLPP": 14325
+    }
+  },
+  {
+    "pd_id": "EC-22I",
+    "ed_name": "Kegalle",
+    "pd_name": "Deraniyagala",
+    "result_time": "2024-09-16 14:04",
+    "summary": {
+      "electors": 69856,
+      "polled": 42319,
+      "rejected": 683,
+      "valid": 41636
+    },
+    "subset_party_to_votes": {
+      "NPP": 9410,
+      "SJB": 8026,
+      "RW": 13047,
+      "DJ": 6859,
+      "SLPP": 2209
+    }
+  },
+  {
+    "pd_id": "EC-02M",
+    "ed_name": "Gampaha",
+    "pd_name": "Kelaniya",
+    "result_time": "2024-09-16 14:17",
+    "summary": {
+      "electors": 103086,
+      "polled": 73771,
+      "rejected": 1957,
+      "valid": 71814
+    },
+    "subset_party_to_votes": {
+      "NPP": 19353,
+      "SJB": 22225,
+      "RW": 15503,
+      "DJ": 7962,
+      "SLPP": 3178
+    }
+  },
+  {
+    "pd_id": "EC-12P",
+    "ed_name": "Batticaloa",
+    "pd_name": "Postal - Batticaloa",
+    "result_time": "2024-09-16 14:18",
+    "summary": {
+      "electors": 13936,
+      "polled": 8508,
+      "rejected": 230,
+      "valid": 8278
+    },
+    "subset_party_to_votes": {
+      "NPP": 1496,
+      "SJB": 2630,
+      "RW": 1560,
+      "DJ": 337,
+      "SLPP": 1838
+    }
+  },
+  {
+    "pd_id": "EC-19E",
+    "ed_name": "Badulla",
+    "pd_name": "Hali Ela",
+    "result_time": "2024-09-16 14:19",
+    "summary": {
+      "electors": 76487,
+      "polled": 50922,
+      "rejected": 932,
+      "valid": 49990
+    },
+    "subset_party_to_votes": {
+      "NPP": 8122,
+      "SJB": 16576,
+      "RW": 10484,
+      "DJ": 4494,
+      "SLPP": 7811
+    }
+  },
+  {
+    "pd_id": "EC-02B",
+    "ed_name": "Gampaha",
+    "pd_name": "Negombo",
+    "result_time": "2024-09-16 14:21",
+    "summary": {
+      "electors": 117756,
+      "polled": 87505,
+      "rejected": 2037,
+      "valid": 85468
+    },
+    "subset_party_to_votes": {
+      "NPP": 25404,
+      "SJB": 20941,
+      "RW": 13132,
+      "DJ": 7858,
+      "SLPP": 13858
+    }
+  },
+  {
+    "pd_id": "EC-08F",
+    "ed_name": "Matara",
+    "pd_name": "Matara",
+    "result_time": "2024-09-16 14:26",
+    "summary": {
+      "electors": 88151,
+      "polled": 57625,
+      "rejected": 1063,
+      "valid": 56562
+    },
+    "subset_party_to_votes": {
+      "NPP": 17957,
+      "SJB": 15986,
+      "RW": 6301,
+      "DJ": 8828,
+      "SLPP": 4660
+    }
+  },
+  {
+    "pd_id": "EC-17F",
+    "ed_name": "Anuradhapura",
+    "pd_name": "Mihinthale",
+    "result_time": "2024-09-16 14:28",
+    "summary": {
+      "electors": 65487,
+      "polled": 51366,
+      "rejected": 1503,
+      "valid": 49863
+    },
+    "subset_party_to_votes": {
+      "NPP": 15003,
+      "SJB": 8582,
+      "RW": 10860,
+      "DJ": 10048,
+      "SLPP": 2874
+    }
+  },
+  {
+    "pd_id": "EC-02G",
+    "ed_name": "Gampaha",
+    "pd_name": "Attanagalla",
+    "result_time": "2024-09-16 14:30",
+    "summary": {
+      "electors": 144393,
+      "polled": 100886,
+      "rejected": 1519,
+      "valid": 99367
+    },
+    "subset_party_to_votes": {
+      "NPP": 22077,
+      "SJB": 12107,
+      "RW": 14458,
+      "DJ": 26166,
+      "SLPP": 19588
+    }
+  },
+  {
+    "pd_id": "EC-10A",
+    "ed_name": "Jaffna",
+    "pd_name": "Kayts",
+    "result_time": "2024-09-16 14:31",
+    "summary": {
+      "electors": 24147,
+      "polled": 17893,
+      "rejected": 272,
+      "valid": 17621
+    },
+    "subset_party_to_votes": {
+      "NPP": 3865,
+      "SJB": 2958,
+      "RW": 4298,
+      "DJ": 2927,
+      "SLPP": 2690
+    }
+  },
+  {
+    "pd_id": "EC-17E",
+    "ed_name": "Anuradhapura",
+    "pd_name": "Kalawewa",
+    "result_time": "2024-09-16 14:38",
+    "summary": {
+      "electors": 130079,
+      "polled": 103707,
+      "rejected": 1922,
+      "valid": 101785
+    },
+    "subset_party_to_votes": {
+      "NPP": 19721,
+      "SJB": 15611,
+      "RW": 18580,
+      "DJ": 17650,
+      "SLPP": 25131
+    }
+  },
+  {
+    "pd_id": "EC-08C",
+    "ed_name": "Matara",
+    "pd_name": "Akuressa",
+    "result_time": "2024-09-16 14:42",
+    "summary": {
+      "electors": 102180,
+      "polled": 83723,
+      "rejected": 2504,
+      "valid": 81219
+    },
+    "subset_party_to_votes": {
+      "NPP": 21620,
+      "SJB": 12453,
+      "RW": 25309,
+      "DJ": 16867,
+      "SLPP": 906
+    }
+  },
+  {
+    "pd_id": "EC-15E",
+    "ed_name": "Kurunegala",
+    "pd_name": "Wariyapola",
+    "result_time": "2024-09-16 14:48",
+    "summary": {
+      "electors": 81568,
+      "polled": 67109,
+      "rejected": 1379,
+      "valid": 65730
+    },
+    "subset_party_to_votes": {
+      "NPP": 10849,
+      "SJB": 12897,
+      "RW": 23529,
+      "DJ": 13715,
+      "SLPP": 1451
+    }
+  },
+  {
+    "pd_id": "EC-15C",
+    "ed_name": "Kurunegala",
+    "pd_name": "Yapahuwa",
+    "result_time": "2024-09-16 14:50",
+    "summary": {
+      "electors": 123165,
+      "polled": 76195,
+      "rejected": 1948,
+      "valid": 74247
+    },
+    "subset_party_to_votes": {
+      "NPP": 21551,
+      "SJB": 18354,
+      "RW": 21281,
+      "DJ": 4931,
+      "SLPP": 4416
+    }
+  },
+  {
+    "pd_id": "EC-19D",
+    "ed_name": "Badulla",
+    "pd_name": "Badulla",
+    "result_time": "2024-09-16 14:50",
+    "summary": {
+      "electors": 57184,
+      "polled": 38777,
+      "rejected": 580,
+      "valid": 38197
+    },
+    "subset_party_to_votes": {
+      "NPP": 11674,
+      "SJB": 9688,
+      "RW": 7345,
+      "DJ": 2813,
+      "SLPP": 4765
+    }
+  },
+  {
+    "pd_id": "EC-08D",
+    "ed_name": "Matara",
+    "pd_name": "Kamburupitiya",
+    "result_time": "2024-09-16 14:51",
+    "summary": {
+      "electors": 87706,
+      "polled": 64787,
+      "rejected": 1747,
+      "valid": 63040
+    },
+    "subset_party_to_votes": {
+      "NPP": 11583,
+      "SJB": 16136,
+      "RW": 15726,
+      "DJ": 4926,
+      "SLPP": 11514
+    }
+  },
+  {
+    "pd_id": "EC-21E",
+    "ed_name": "Ratnapura",
+    "pd_name": "Rakwana",
+    "result_time": "2024-09-16 15:05",
+    "summary": {
+      "electors": 114260,
+      "polled": 89426,
+      "rejected": 2375,
+      "valid": 87051
+    },
+    "subset_party_to_votes": {
+      "NPP": 19281,
+      "SJB": 23080,
+      "RW": 17603,
+      "DJ": 13573,
+      "SLPP": 9159
+    }
+  },
+  {
+    "pd_id": "EC-21A",
+    "ed_name": "Ratnapura",
+    "pd_name": "Eheliyagoda",
+    "result_time": "2024-09-16 15:11",
+    "summary": {
+      "electors": 102476,
+      "polled": 90912,
+      "rejected": 2708,
+      "valid": 88204
+    },
+    "subset_party_to_votes": {
+      "NPP": 28797,
+      "SJB": 13178,
+      "RW": 13728,
+      "DJ": 14686,
+      "SLPP": 13401
+    }
+  },
+  {
+    "pd_id": "EC-09P",
+    "ed_name": "Hambantota",
+    "pd_name": "Postal - Hambantota",
+    "result_time": "2024-09-16 15:21",
+    "summary": {
+      "electors": 20762,
+      "polled": 15072,
+      "rejected": 370,
+      "valid": 14702
+    },
+    "subset_party_to_votes": {
+      "NPP": 4692,
+      "SJB": 3180,
+      "RW": 3676,
+      "DJ": 862,
+      "SLPP": 1555
+    }
+  },
+  {
+    "pd_id": "EC-04J",
+    "ed_name": "Kandy",
+    "pd_name": "Yatinuwara",
+    "result_time": "2024-09-16 15:26",
+    "summary": {
+      "electors": 85522,
+      "polled": 64691,
+      "rejected": 653,
+      "valid": 64038
+    },
+    "subset_party_to_votes": {
+      "NPP": 16807,
+      "SJB": 13240,
+      "RW": 14334,
+      "DJ": 5015,
+      "SLPP": 11436
+    }
+  },
+  {
+    "pd_id": "EC-05A",
+    "ed_name": "Matale",
+    "pd_name": "Dambulla",
+    "result_time": "2024-09-16 15:26",
+    "summary": {
+      "electors": 147099,
+      "polled": 90163,
+      "rejected": 2092,
+      "valid": 88071
+    },
+    "subset_party_to_votes": {
+      "NPP": 26757,
+      "SJB": 21409,
+      "RW": 13249,
+      "DJ": 5380,
+      "SLPP": 16870
+    }
+  },
+  {
+    "pd_id": "EC-15I",
+    "ed_name": "Kurunegala",
+    "pd_name": "Kuliyapitiya",
+    "result_time": "2024-09-16 15:26",
+    "summary": {
+      "electors": 104044,
+      "polled": 66051,
+      "rejected": 1099,
+      "valid": 64952
+    },
+    "subset_party_to_votes": {
+      "NPP": 22885,
+      "SJB": 8364,
+      "RW": 13342,
+      "DJ": 6729,
+      "SLPP": 10381
+    }
+  },
+  {
+    "pd_id": "EC-22F",
+    "ed_name": "Kegalle",
+    "pd_name": "Aranayaka",
+    "result_time": "2024-09-16 15:27",
+    "summary": {
+      "electors": 56211,
+      "polled": 47752,
+      "rejected": 1128,
+      "valid": 46624
+    },
+    "subset_party_to_votes": {
+      "NPP": 8146,
+      "SJB": 13091,
+      "RW": 12940,
+      "DJ": 8263,
+      "SLPP": 1851
+    }
+  },
+  {
+    "pd_id": "EC-15L",
+    "ed_name": "Kurunegala",
+    "pd_name": "Kurunegala",
+    "result_time": "2024-09-16 15:32",
+    "summary": {
+      "electors": 99968,
+      "polled": 75019,
+      "rejected": 1980,
+      "valid": 73039
+    },
+    "subset_party_to_votes": {
+      "NPP": 17489,
+      "SJB": 19953,
+      "RW": 11341,
+      "DJ": 15368,
+      "SLPP": 5234
+    }
+  },
+  {
+    "pd_id": "EC-10C",
+    "ed_name": "Jaffna",
+    "pd_name": "Kankesanthurai",
+    "result_time": "2024-09-16 15:38",
+    "summary": {
+      "electors": 61803,
+      "polled": 48989,
+      "rejected": 1189,
+      "valid": 47800
+    },
+    "subset_party_to_votes": {
+      "NPP": 14167,
+      "SJB": 5356,
+      "RW": 11448,
+      "DJ": 5366,
+      "SLPP": 9071
+    }
+  },
+  {
+    "pd_id": "EC-02J",
+    "ed_name": "Gampaha",
+    "pd_name": "Mahara",
+    "result_time": "2024-09-16 15:42",
+    "summary": {
+      "electors": 165666,
+      "polled": 134436,
+      "rejected": 4021,
+      "valid": 130415
+    },
+    "subset_party_to_votes": {
+      "NPP": 40416,
+      "SJB": 16905,
+      "RW": 24914,
+      "DJ": 27390,
+      "SLPP": 14266
+    }
+  },
+  {
+    "pd_id": "EC-15P",
+    "ed_name": "Kurunegala",
+    "pd_name": "Postal - Kurunegala",
+    "result_time": "2024-09-16 15:44",
+    "summary": {
+      "electors": 78139,
+      "polled": 58309,
+      "rejected": 1281,
+      "valid": 57028
+    },
+    "subset_party_to_votes": {
+      "NPP": 9221,
+      "SJB": 16519,
+      "RW": 12916,
+      "DJ": 6367,
+      "SLPP": 9151
+    }
+  },
+  {
+    "pd_id": "EC-03A",
+    "ed_name": "Kalutara",
+    "pd_name": "Panadura",
+    "result_time": "2024-09-16 15:45",
+    "summary": {
+      "electors": 128731,
+      "polled": 97413,
+      "rejected": 2209,
+      "valid": 95204
+    },
+    "subset_party_to_votes": {
+      "NPP": 22505,
+      "SJB": 32121,
+      "RW": 12754,
+      "DJ": 13541,
+      "SLPP": 9520
+    }
+  },
+  {
+    "pd_id": "EC-19F",
+    "ed_name": "Badulla",
+    "pd_name": "Uva Paranagama",
+    "result_time": "2024-09-16 15:47",
+    "summary": {
+      "electors": 67948,
+      "polled": 44097,
+      "rejected": 601,
+      "valid": 43496
+    },
+    "subset_party_to_votes": {
+      "NPP": 10784,
+      "SJB": 8939,
+      "RW": 10574,
+      "DJ": 4664,
+      "SLPP": 6357
+    }
+  },
+  {
+    "pd_id": "EC-07P",
+    "ed_name": "Galle",
+    "pd_name": "Postal - Galle",
+    "result_time": "2024-09-16 15:50",
+    "summary": {
+      "electors": 43697,
+      "polled": 27291,
+      "rejected": 594,
+      "valid": 26697
+    },
+    "subset_party_to_votes": {
+      "NPP": 6055,
+      "SJB": 6278,
+      "RW": 7075,
+      "DJ": 2647,
+      "SLPP": 3305
+    }
+  },
+  {
+    "pd_id": "EC-11P",
+    "ed_name": "Vanni",
+    "pd_name": "Postal - Vanni",
+    "result_time": "2024-09-16 15:53",
+    "summary": {
+      "electors": 13861,
+      "polled": 8915,
+      "rejected": 137,
+      "valid": 8778
+    },
+    "subset_party_to_votes": {
+      "NPP": 2010,
+      "SJB": 1995,
+      "RW": 1394,
+      "DJ": 2213,
+      "SLPP": 724
+    }
+  },
+  {
+    "pd_id": "EC-03H",
+    "ed_name": "Kalutara",
+    "pd_name": "Agalawatta",
+    "result_time": "2024-09-16 15:55",
+    "summary": {
+      "electors": 102626,
+      "polled": 70611,
+      "rejected": 1206,
+      "valid": 69405
+    },
+    "subset_party_to_votes": {
+      "NPP": 16405,
+      "SJB": 15359,
+      "RW": 11037,
+      "DJ": 9356,
+      "SLPP": 13775
+    }
+  },
+  {
+    "pd_id": "EC-07A",
+    "ed_name": "Galle",
+    "pd_name": "Balapitiya",
+    "result_time": "2024-09-16 16:00",
+    "summary": {
+      "electors": 57397,
+      "polled": 40763,
+      "rejected": 988,
+      "valid": 39775
+    },
+    "subset_party_to_votes": {
+      "NPP": 6845,
+      "SJB": 9837,
+      "RW": 14344,
+      "DJ": 5131,
+      "SLPP": 1628
+    }
+  },
+  {
+    "pd_id": "EC-11B",
+    "ed_name": "Vanni",
+    "pd_name": "Vavuniya",
+    "result_time": "2024-09-16 16:02",
+    "summary": {
+      "electors": 120908,
+      "polled": 95178,
+      "rejected": 1537,
+      "valid": 93641
+    },
+    "subset_party_to_votes": {
+      "NPP": 27303,
+      "SJB": 26845,
+      "RW": 20529,
+      "DJ": 10089,
+      "SLPP": 4190
+    }
+  },
+  {
+    "pd_id": "EC-08A",
+    "ed_name": "Matara",
+    "pd_name": "Deniyaya",
+    "result_time": "2024-09-16 16:07",
+    "summary": {
+      "electors": 105452,
+      "polled": 88040,
+      "rejected": 1650,
+      "valid": 86390
+    },
+    "subset_party_to_votes": {
+      "NPP": 25864,
+      "SJB": 25161,
+      "RW": 11099,
+      "DJ": 6280,
+      "SLPP": 13663
+    }
+  },
+  {
+    "pd_id": "EC-15B",
+    "ed_name": "Kurunegala",
+    "pd_name": "Nikaweratiya",
+    "result_time": "2024-09-16 16:07",
+    "summary": {
+      "electors": 97467,
+      "polled": 81232,
+      "rejected": 1068,
+      "valid": 80164
+    },
+    "subset_party_to_votes": {
+      "NPP": 10495,
+      "SJB": 20849,
+      "RW": 22935,
+      "DJ": 7608,
+      "SLPP": 14267
+    }
+  },
+  {
+    "pd_id": "EC-21C",
+    "ed_name": "Ratnapura",
+    "pd_name": "Pelmadulla",
+    "result_time": "2024-09-16 16:10",
+    "summary": {
+      "electors": 89937,
+      "polled": 58643,
+      "rejected": 1409,
+      "valid": 57234
+    },
+    "subset_party_to_votes": {
+      "NPP": 15916,
+      "SJB": 15911,
+      "RW": 8053,
+      "DJ": 8308,
+      "SLPP": 6182
+    }
+  },
+  {
+    "pd_id": "EC-19B",
+    "ed_name": "Badulla",
+    "pd_name": "Viyaluwa",
+    "result_time": "2024-09-16 16:13",
+    "summary": {
+      "electors": 55324,
+      "polled": 33213,
+      "rejected": 373,
+      "valid": 32840
+    },
+    "subset_party_to_votes": {
+      "NPP": 9053,
+      "SJB": 8418,
+      "RW": 8253,
+      "DJ": 2430,
+      "SLPP": 3041
+    }
+  },
+  {
+    "pd_id": "EC-20A",
+    "ed_name": "Moneragala",
+    "pd_name": "Bibile",
+    "result_time": "2024-09-16 16:14",
+    "summary": {
+      "electors": 83839,
+      "polled": 61590,
+      "rejected": 1082,
+      "valid": 60508
+    },
+    "subset_party_to_votes": {
+      "NPP": 11541,
+      "SJB": 20977,
+      "RW": 13624,
+      "DJ": 5749,
+      "SLPP": 5589
+    }
+  },
+  {
+    "pd_id": "EC-06D",
+    "ed_name": "Nuwara-Eliya",
+    "pd_name": "Walapane",
+    "result_time": "2024-09-16 16:21",
+    "summary": {
+      "electors": 86356,
+      "polled": 74027,
+      "rejected": 1085,
+      "valid": 72942
+    },
+    "subset_party_to_votes": {
+      "NPP": 12249,
+      "SJB": 11624,
+      "RW": 21615,
+      "DJ": 7083,
+      "SLPP": 16721
+    }
+  },
+  {
+    "pd_id": "EC-15N",
+    "ed_name": "Kurunegala",
+    "pd_name": "Dodangaslanda",
+    "result_time": "2024-09-16 16:24",
+    "summary": {
+      "electors": 77258,
+      "polled": 50376,
+      "rejected": 839,
+      "valid": 49537
+    },
+    "subset_party_to_votes": {
+      "NPP": 18494,
+      "SJB": 14095,
+      "RW": 10442,
+      "DJ": 3579,
+      "SLPP": 447
+    }
+  },
+  {
+    "pd_id": "EC-01I",
+    "ed_name": "Colombo",
+    "pd_name": "Kotte",
+    "result_time": "2024-09-16 16:27",
+    "summary": {
+      "electors": 81634,
+      "polled": 67685,
+      "rejected": 1820,
+      "valid": 65865
+    },
+    "subset_party_to_votes": {
+      "NPP": 29178,
+      "SJB": 14793,
+      "RW": 13112,
+      "DJ": 3955,
+      "SLPP": 1532
+    }
+  },
+  {
+    "pd_id": "EC-10F",
+    "ed_name": "Jaffna",
+    "pd_name": "Udupiddy",
+    "result_time": "2024-09-16 16:33",
+    "summary": {
+      "electors": 39991,
+      "polled": 25298,
+      "rejected": 311,
+      "valid": 24987
+    },
+    "subset_party_to_votes": {
+      "NPP": 7182,
+      "SJB": 4685,
+      "RW": 7263,
+      "DJ": 3113,
+      "SLPP": 1492
+    }
+  },
+  {
+    "pd_id": "EC-13D",
+    "ed_name": "Digamadulla",
+    "pd_name": "Pothuvil",
+    "result_time": "2024-09-16 16:35",
+    "summary": {
+      "electors": 167938,
+      "polled": 102032,
+      "rejected": 2401,
+      "valid": 99631
+    },
+    "subset_party_to_votes": {
+      "NPP": 15241,
+      "SJB": 16718,
+      "RW": 28442,
+      "DJ": 11664,
+      "SLPP": 22582
+    }
+  },
+  {
+    "pd_id": "EC-03B",
+    "ed_name": "Kalutara",
+    "pd_name": "Bandaragama",
+    "result_time": "2024-09-16 16:38",
+    "summary": {
+      "electors": 150121,
+      "polled": 132597,
+      "rejected": 1554,
+      "valid": 131043
+    },
+    "subset_party_to_votes": {
+      "NPP": 32492,
+      "SJB": 42393,
+      "RW": 32851,
+      "DJ": 8340,
+      "SLPP": 8411
+    }
+  },
+  {
+    "pd_id": "EC-10H",
+    "ed_name": "Jaffna",
+    "pd_name": "Chavakachcheri",
+    "result_time": "2024-09-16 16:39",
+    "summary": {
+      "electors": 54977,
+      "polled": 40793,
+      "rejected": 582,
+      "valid": 40211
+    },
+    "subset_party_to_votes": {
+      "NPP": 11871,
+      "SJB": 6589,
+      "RW": 7350,
+      "DJ": 4204,
+      "SLPP": 8184
+    }
+  },
+  {
+    "pd_id": "EC-21B",
+    "ed_name": "Ratnapura",
+    "pd_name": "Ratnapura",
+    "result_time": "2024-09-16 16:44",
+    "summary": {
+      "electors": 128760,
+      "polled": 82810,
+      "rejected": 1803,
+      "valid": 81007
+    },
+    "subset_party_to_votes": {
+      "NPP": 18094,
+      "SJB": 17024,
+      "RW": 17312,
+      "DJ": 19671,
+      "SLPP": 4854
+    }
+  },
+  {
+    "pd_id": "EC-02K",
+    "ed_name": "Gampaha",
+    "pd_name": "Dompe",
+    "result_time": "2024-09-16 16:51",
+    "summary": {
+      "electors": 125400,
+      "polled": 87045,
+      "rejected": 1244,
+      "valid": 85801
+    },
+    "subset_party_to_votes": {
+      "NPP": 24015,
+      "SJB": 28156,
+      "RW": 15784,
+      "DJ": 8885,
+      "SLPP": 4668
+    }
+  },
+  {
+    "pd_id": "EC-03D",
+    "ed_name": "Kalutara",
+    "pd_name": "Bulathsinhala",
+    "result_time": "2024-09-16 16:57",
+    "summary": {
+      "electors": 87351,
+      "polled": 59689,
+      "rejected": 803,
+      "valid": 58886
+    },
+    "subset_party_to_votes": {
+      "NPP": 17561,
+      "SJB": 16573,
+      "RW": 11098,
+      "DJ": 4415,
+      "SLPP": 6293
+    }
+  },
+  {
+    "pd_id": "EC-14B",
+    "ed_name": "Trincomalee",
+    "pd_name": "Trincomalee",
+    "result_time": "2024-09-16 17:03",
+    "summary": {
+      "electors": 97560,
+      "polled": 70746,
+      "rejected": 744,
+      "valid": 70002
+    },
+    "subset_party_to_votes": {
+      "NPP": 21809,
+      "SJB": 18482,
+      "RW": 11263,
+      "DJ": 6234,
+      "SLPP": 8712
+    }
+  },
+  {
+    "pd_id": "EC-15M",
+    "ed_name": "Kurunegala",
+    "pd_name": "Mawathagama",
+    "result_time": "2024-09-16 17:03",
+    "summary": {
+      "electors": 96758,
+      "polled": 70468,
+      "rejected": 1260,
+      "valid": 69208
+    },
+    "subset_party_to_votes": {
+      "NPP": 21707,
+      "SJB": 15091,
+      "RW": 13443,
+      "DJ": 4120,
+      "SLPP": 11384
+    }
+  },
+  {
+    "pd_id": "EC-22D",
+    "ed_name": "Kegalle",
+    "pd_name": "Rambukkana",
+    "result_time": "2024-09-16 17:05",
+    "summary": {
+      "electors": 65624,
+      "polled": 42301,
+      "rejected": 1234,
+      "valid": 41067
+    },
+    "subset_party_to_votes": {
+      "NPP": 10584,
+      "SJB": 9268,
+      "RW": 14657,
+      "DJ": 2966,
+      "SLPP": 1535
+    }
+  },
+  {
+    "pd_id": "EC-11A",
+    "ed_name": "Vanni",
+    "pd_name": "Mannar",
+    "result_time": "2024-09-16 17:08",
+    "summary": {
+      "electors": 79700,
+      "polled": 49572,
+      "rejected": 1346,
+      "valid": 48226
+    },
+    "subset_party_to_votes": {
+      "NPP": 12823,
+      "SJB": 14994,
+      "RW": 6056,
+      "DJ": 2448,
+      "SLPP": 9492
+    }
+  },
+  {
+    "pd_id": "EC-19C",
+    "ed_name": "Badulla",
+    "pd_name": "Passara",
+    "result_time": "2024-09-16 17:16",
+    "summary": {
+      "electors": 68176,
+      "polled": 60223,
+      "rejected": 745,
+      "valid": 59478
+    },
+    "subset_party_to_votes": {
+      "NPP": 11283,
+      "SJB": 12930,
+      "RW": 18416,
+      "DJ": 4004,
+      "SLPP": 9869
+    }
+  },
+  {
+    "pd_id": "EC-04C",
+    "ed_name": "Kandy",
+    "pd_name": "Pathadumbara",
+    "result_time": "2024-09-16 17:21",
+    "summary": {
+      "electors": 93573,
+      "polled": 70604,
+      "rejected": 732,
+      "valid": 69872
+    },
+    "subset_party_to_votes": {
+      "NPP": 14748,
+      "SJB": 16522,
+      "RW": 14751,
+      "DJ": 11493,
+      "SLPP": 8863
+    }
+  },
+  {
+    "pd_id": "EC-12C",
+    "ed_name": "Batticaloa",
+    "pd_name": "Paddiruppu",
+    "result_time": "2024-09-16 17:34",
+    "summary": {
+      "electors": 99030,
+      "polled": 71123,
+      "rejected": 817,
+      "valid": 70306
+    },
+    "subset_party_to_votes": {
+      "NPP": 11781,
+      "SJB": 16041,
+      "RW": 11360,
+      "DJ": 18468,
+      "SLPP": 9138
+    }
+  },
+  {
+    "pd_id": "EC-09D",
+    "ed_name": "Hambantota",
+    "pd_name": "Thissamaharama",
+    "result_time": "2024-09-16 17:36",
+    "summary": {
+      "electors": 179520,
+      "polled": 137137,
+      "rejected": 2587,
+      "valid": 134550
+    },
+    "subset_party_to_votes": {
+      "NPP": 29204,
+      "SJB": 34709,
+      "RW": 17827,
+      "DJ": 32745,
+      "SLPP": 13335
+    }
+  },
+  {
+    "pd_id": "EC-17B",
+    "ed_name": "Anuradhapura",
+    "pd_name": "Horowpothana",
+    "result_time": "2024-09-16 17:37",
+    "summary": {
+      "electors": 80613,
+      "polled": 57587,
+      "rejected": 953,
+      "valid": 56634
+    },
+    "subset_party_to_votes": {
+      "NPP": 15446,
+      "SJB": 16142,
+      "RW": 10912,
+      "DJ": 7276,
+      "SLPP": 4024
+    }
+  },
+  {
+    "pd_id": "EC-10E",
+    "ed_name": "Jaffna",
+    "pd_name": "Kopay",
+    "result_time": "2024-09-16 17:40",
+    "summary": {
+      "electors": 63152,
+      "polled": 45838,
+      "rejected": 499,
+      "valid": 45339
+    },
+    "subset_party_to_votes": {
+      "NPP": 8239,
+      "SJB": 10109,
+      "RW": 17046,
+      "DJ": 7107,
+      "SLPP": 569
+    }
+  },
+  {
+    "pd_id": "EC-19H",
+    "ed_name": "Badulla",
+    "pd_name": "Bandarawela",
+    "result_time": "2024-09-16 17:51",
+    "summary": {
+      "electors": 88240,
+      "polled": 76036,
+      "rejected": 893,
+      "valid": 75143
+    },
+    "subset_party_to_votes": {
+      "NPP": 17672,
+      "SJB": 15042,
+      "RW": 13014,
+      "DJ": 19564,
+      "SLPP": 6091
+    }
+  },
+  {
+    "pd_id": "EC-07D",
+    "ed_name": "Galle",
+    "pd_name": "Bentara Elpitiya",
+    "result_time": "2024-09-16 17:52",
+    "summary": {
+      "electors": 98073,
+      "polled": 82976,
+      "rejected": 2298,
+      "valid": 80678
+    },
+    "subset_party_to_votes": {
+      "NPP": 20734,
+      "SJB": 19488,
+      "RW": 20868,
+      "DJ": 6639,
+      "SLPP": 8912
+    }
+  },
+  {
+    "pd_id": "EC-17G",
+    "ed_name": "Anuradhapura",
+    "pd_name": "Kekirawa",
+    "result_time": "2024-09-16 17:52",
+    "summary": {
+      "electors": 91179,
+      "polled": 77170,
+      "rejected": 937,
+      "valid": 76233
+    },
+    "subset_party_to_votes": {
+      "NPP": 26025,
+      "SJB": 16397,
+      "RW": 12984,
+      "DJ": 15969,
+      "SLPP": 1044
+    }
+  },
+  {
+    "pd_id": "EC-04A",
+    "ed_name": "Kandy",
+    "pd_name": "Galagedara",
+    "result_time": "2024-09-16 17:53",
+    "summary": {
+      "electors": 56357,
+      "polled": 40603,
+      "rejected": 940,
+      "valid": 39663
+    },
+    "subset_party_to_votes": {
+      "NPP": 5707,
+      "SJB": 8935,
+      "RW": 6633,
+      "DJ": 9955,
+      "SLPP": 6448
+    }
+  },
+  {
+    "pd_id": "EC-19A",
+    "ed_name": "Badulla",
+    "pd_name": "Mahiyanganaya",
+    "result_time": "2024-09-16 17:56",
+    "summary": {
+      "electors": 99876,
+      "polled": 73181,
+      "rejected": 1581,
+      "valid": 71600
+    },
+    "subset_party_to_votes": {
+      "NPP": 18856,
+      "SJB": 16947,
+      "RW": 12957,
+      "DJ": 12634,
+      "SLPP": 6622
+    }
+  },
+  {
+    "pd_id": "EC-07F",
+    "ed_name": "Galle",
+    "pd_name": "Baddegama",
+    "result_time": "2024-09-16 18:03",
+    "summary": {
+      "electors": 98627,
+      "polled": 78184,
+      "rejected": 2084,
+      "valid": 76100
+    },
+    "subset_party_to_votes": {
+      "NPP": 16832,
+      "SJB": 14300,
+      "RW": 15204,
+      "DJ": 15332,
+      "SLPP": 10624
+    }
+  },
+  {
+    "pd_id": "EC-02E",
+    "ed_name": "Gampaha",
+    "pd_name": "Mirigama",
+    "result_time": "2024-09-16 18:10",
+    "summary": {
+      "electors": 135329,
+      "polled": 84434,
+      "rejected": 1849,
+      "valid": 82585
+    },
+    "subset_party_to_votes": {
+      "NPP": 16317,
+      "SJB": 28178,
+      "RW": 9988,
+      "DJ": 7078,
+      "SLPP": 16893
+    }
+  },
+  {
+    "pd_id": "EC-16B",
+    "ed_name": "Puttalam",
+    "pd_name": "Anamaduwa",
+    "result_time": "2024-09-16 18:37",
+    "summary": {
+      "electors": 125085,
+      "polled": 101996,
+      "rejected": 1159,
+      "valid": 100837
+    },
+    "subset_party_to_votes": {
+      "NPP": 16685,
+      "SJB": 18343,
+      "RW": 23454,
+      "DJ": 19264,
+      "SLPP": 18046
+    }
+  },
+  {
+    "pd_id": "EC-15D",
+    "ed_name": "Kurunegala",
+    "pd_name": "Hiriyala",
+    "result_time": "2024-09-16 18:47",
+    "summary": {
+      "electors": 108480,
+      "polled": 96921,
+      "rejected": 1063,
+      "valid": 95858
+    },
+    "subset_party_to_votes": {
+      "NPP": 31059,
+      "SJB": 33671,
+      "RW": 18519,
+      "DJ": 5089,
+      "SLPP": 2724
+    }
+  },
+  {
+    "pd_id": "EC-01E",
+    "ed_name": "Colombo",
+    "pd_name": "Colombo West",
+    "result_time": "2024-09-16 18:50",
+    "summary": {
+      "electors": 41859,
+      "polled": 37312,
+      "rejected": 975,
+      "valid": 36337
+    },
+    "subset_party_to_votes": {
+      "NPP": 11305,
+      "SJB": 9460,
+      "RW": 9569,
+      "DJ": 2343,
+      "SLPP": 1842
+    }
+  },
+  {
+    "pd_id": "EC-21D",
+    "ed_name": "Ratnapura",
+    "pd_name": "Balangoda",
+    "result_time": "2024-09-16 18:50",
+    "summary": {
+      "electors": 114208,
+      "polled": 84265,
+      "rejected": 1222,
+      "valid": 83043
+    },
+    "subset_party_to_votes": {
+      "NPP": 24927,
+      "SJB": 21366,
+      "RW": 10852,
+      "DJ": 11558,
+      "SLPP": 10185
+    }
+  },
+  {
+    "pd_id": "EC-21P",
+    "ed_name": "Ratnapura",
+    "pd_name": "Postal - Ratnapura",
+    "result_time": "2024-09-16 18:52",
+    "summary": {
+      "electors": 34152,
+      "polled": 27898,
+      "rejected": 690,
+      "valid": 27208
+    },
+    "subset_party_to_votes": {
+      "NPP": 8865,
+      "SJB": 4936,
+      "RW": 5356,
+      "DJ": 3147,
+      "SLPP": 3540
+    }
+  },
+  {
+    "pd_id": "EC-18P",
+    "ed_name": "Polonnaruwa",
+    "pd_name": "Postal - Polonnaruwa",
+    "result_time": "2024-09-16 18:56",
+    "summary": {
+      "electors": 20805,
+      "polled": 17906,
+      "rejected": 229,
+      "valid": 17677
+    },
+    "subset_party_to_votes": {
+      "NPP": 4013,
+      "SJB": 4025,
+      "RW": 3349,
+      "DJ": 2812,
+      "SLPP": 2592
+    }
+  },
+  {
+    "pd_id": "EC-01B",
+    "ed_name": "Colombo",
+    "pd_name": "Colombo Central",
+    "result_time": "2024-09-16 19:00",
+    "summary": {
+      "electors": 129707,
+      "polled": 100905,
+      "rejected": 1140,
+      "valid": 99765
+    },
+    "subset_party_to_votes": {
+      "NPP": 20980,
+      "SJB": 17664,
+      "RW": 21306,
+      "DJ": 30832,
+      "SLPP": 3992
+    }
+  },
+  {
+    "pd_id": "EC-01M",
+    "ed_name": "Colombo",
+    "pd_name": "Maharagama",
+    "result_time": "2024-09-16 19:05",
+    "summary": {
+      "electors": 144944,
+      "polled": 101029,
+      "rejected": 1825,
+      "valid": 99204
+    },
+    "subset_party_to_votes": {
+      "NPP": 18632,
+      "SJB": 26299,
+      "RW": 21327,
+      "DJ": 19875,
+      "SLPP": 8107
+    }
+  },
+  {
+    "pd_id": "EC-07B",
+    "ed_name": "Galle",
+    "pd_name": "Ambalangoda",
+    "result_time": "2024-09-16 19:08",
+    "summary": {
+      "electors": 81336,
+      "polled": 72309,
+      "rejected": 1079,
+      "valid": 71230
+    },
+    "subset_party_to_votes": {
+      "NPP": 22050,
+      "SJB": 12827,
+      "RW": 20481,
+      "DJ": 9059,
+      "SLPP": 3249
+    }
+  },
+  {
+    "pd_id": "EC-04D",
+    "ed_name": "Kandy",
+    "pd_name": "Ududumbara",
+    "result_time": "2024-09-16 19:10",
+    "summary": {
+      "electors": 59141,
+      "polled": 43115,
+      "rejected": 448,
+      "valid": 42667
+    },
+    "subset_party_to_votes": {
+      "NPP": 13968,
+      "SJB": 8106,
+      "RW": 7323,
+      "DJ": 2774,
+      "SLPP": 8360
+    }
+  },
+  {
+    "pd_id": "EC-07I",
+    "ed_name": "Galle",
+    "pd_name": "Akmeemana",
+    "result_time": "2024-09-16 19:14",
+    "summary": {
+      "electors": 105433,
+      "polled": 87816,
+      "rejected": 2188,
+      "valid": 85628
+    },
+    "subset_party_to_votes": {
+      "NPP": 29385,
+      "SJB": 9916,
+      "RW": 26329,
+      "DJ": 4722,
+      "SLPP": 10992
+    }
+  },
+  {
+    "pd_id": "EC-10D",
+    "ed_name": "Jaffna",
+    "pd_name": "Manipay",
+    "result_time": "2024-09-16 19:16",
+    "summary": {
+      "electors": 58328,
+      "polled": 49859,
+      "rejected": 781,
+      "valid": 49078
+    },
+    "subset_party_to_votes": {
+      "NPP": 9500,
+      "SJB": 17410,
+      "RW": 8849,
+      "DJ": 8498,
+      "SLPP": 2365
+    }
+  },
+  {
+    "pd_id": "EC-02L",
+    "ed_name": "Gampaha",
+    "pd_name": "Biyagama",
+    "result_time": "2024-09-16 19:19",
+    "summary": {
+      "electors": 134253,
+      "polled": 105762,
+      "rejected": 1332,
+      "valid": 104430
+    },
+    "subset_party_to_votes": {
+      "NPP": 29529,
+      "SJB": 29532,
+      "RW": 25444,
+      "DJ": 3857,
+      "SLPP": 10844
+    }
+  },
+  {
+    "pd_id": "EC-15F",
+    "ed_name": "Kurunegala",
+    "pd_name": "Panduwasnuwara",
+    "result_time": "2024-09-16 19:22",
+    "summary": {
+      "electors": 77271,
+      "polled": 59777,
+      "rejected": 1290,
+      "valid": 58487
+    },
+    "subset_party_to_votes": {
+      "NPP": 16386,
+      "SJB": 11831,
+      "RW": 9132,
+      "DJ": 11224,
+      "SLPP": 6987
+    }
+  },
+  {
+    "pd_id": "EC-02P",
+    "ed_name": "Gampaha",
+    "pd_name": "Postal - Gampaha",
+    "result_time": "2024-09-16 19:24",
+    "summary": {
+      "electors": 59314,
+      "polled": 40871,
+      "rejected": 711,
+      "valid": 40160
+    },
+    "subset_party_to_votes": {
+      "NPP": 8212,
+      "SJB": 8918,
+      "RW": 12340,
+      "DJ": 3614,
+      "SLPP": 5065
+    }
+  },
+  {
+    "pd_id": "EC-07C",
+    "ed_name": "Galle",
+    "pd_name": "Karandeniya",
+    "result_time": "2024-09-16 19:25",
+    "summary": {
+      "electors": 79753,
+      "polled": 51617,
+      "rejected": 1484,
+      "valid": 50133
+    },
+    "subset_party_to_votes": {
+      "NPP": 11182,
+      "SJB": 11314,
+      "RW": 11843,
+      "DJ": 7967,
+      "SLPP": 5318
+    }
+  },
+  {
+    "pd_id": "EC-12A",
+    "ed_name": "Batticaloa",
+    "pd_name": "Kalkudah",
+    "result_time": "2024-09-16 19:26",
+    "summary": {
+      "electors": 121272,
+      "polled": 106414,
+      "rejected": 1386,
+      "valid": 105028
+    },
+    "subset_party_to_votes": {
+      "NPP": 21696,
+      "SJB": 22415,
+      "RW": 13578,
+      "DJ": 23775,
+      "SLPP": 18310
+    }
+  },
+  {
+    "pd_id": "EC-07H",
+    "ed_name": "Galle",
+    "pd_name": "Galle",
+    "result_time": "2024-09-16 19:30",
+    "summary": {
+      "electors": 83525,
+      "polled": 66362,
+      "rejected": 1212,
+      "valid": 65150
+    },
+    "subset_party_to_votes": {
+      "NPP": 21502,
+      "SJB": 11156,
+      "RW": 12094,
+      "DJ": 12998,
+      "SLPP": 4139
+    }
+  },
+  {
+    "pd_id": "EC-07J",
+    "ed_name": "Galle",
+    "pd_name": "Habaraduwa",
+    "result_time": "2024-09-16 19:30",
+    "summary": {
+      "electors": 84193,
+      "polled": 57390,
+      "rejected": 694,
+      "valid": 56696
+    },
+    "subset_party_to_votes": {
+      "NPP": 12794,
+      "SJB": 11975,
+      "RW": 13991,
+      "DJ": 5002,
+      "SLPP": 10095
+    }
+  },
+  {
+    "pd_id": "EC-01F",
+    "ed_name": "Colombo",
+    "pd_name": "Dehiwala",
+    "result_time": "2024-09-16 19:32",
+    "summary": {
+      "electors": 65847,
+      "polled": 51258,
+      "rejected": 1289,
+      "valid": 49969
+    },
+    "subset_party_to_votes": {
+      "NPP": 14300,
+      "SJB": 7782,
+      "RW": 9846,
+      "DJ": 10196,
+      "SLPP": 5344
+    }
+  },
+  {
+    "pd_id": "EC-08G",
+    "ed_name": "Matara",
+    "pd_name": "Weligama",
+    "result_time": "2024-09-16 19:36",
+    "summary": {
+      "electors": 95853,
+      "polled": 80845,
+      "rejected": 2299,
+      "valid": 78546
+    },
+    "subset_party_to_votes": {
+      "NPP": 17024,
+      "SJB": 14267,
+      "RW": 16968,
+      "DJ": 15313,
+      "SLPP": 11044
+    }
+  },
+  {
+    "pd_id": "EC-14A",
+    "ed_name": "Trincomalee",
+    "pd_name": "Seruvila",
+    "result_time": "2024-09-16 19:40",
+    "summary": {
+      "electors": 75423,
+      "polled": 52361,
+      "rejected": 1384,
+      "valid": 50977
+    },
+    "subset_party_to_votes": {
+      "NPP": 11158,
+      "SJB": 9841,
+      "RW": 8195,
+      "DJ": 10338,
+      "SLPP": 8892
+    }
+  },
+  {
+    "pd_id": "EC-02H",
+    "ed_name": "Gampaha",
+    "pd_name": "Gampaha",
+    "result_time": "2024-09-16 19:55",
+    "summary": {
+      "electors": 154007,
+      "polled": 136551,
+      "rejected": 1766,
+      "valid": 134785
+    },
+    "subset_party_to_votes": {
+      "NPP": 35246,
+      "SJB": 20101,
+      "RW": 37879,
+      "DJ": 20533,
+      "SLPP": 14286
+    }
+  },
+  {
+    "pd_id": "EC-17P",
+    "ed_name": "Anuradhapura",
+    "pd_name": "Postal - Anuradhapura",
+    "result_time": "2024-09-16 20:04",
+    "summary": {
+      "electors": 59218,
+      "polled": 45502,
+      "rejected": 583,
+      "valid": 44919
+    },
+    "subset_party_to_votes": {
+      "NPP": 15468,
+      "SJB": 8647,
+      "RW": 9653,
+      "DJ": 5932,
+      "SLPP": 2970
+    }
+  },
+  {
+    "pd_id": "EC-08E",
+    "ed_name": "Matara",
+    "pd_name": "Devinuwara",
+    "result_time": "2024-09-16 20:09",
+    "summary": {
+      "electors": 82569,
+      "polled": 53403,
+      "rejected": 1073,
+      "valid": 52330
+    },
+    "subset_party_to_votes": {
+      "NPP": 15700,
+      "SJB": 9925,
+      "RW": 10748,
+      "DJ": 4457,
+      "SLPP": 8881
+    }
+  },
+  {
+    "pd_id": "EC-09C",
+    "ed_name": "Hambantota",
+    "pd_name": "Tangalle",
+    "result_time": "2024-09-16 20:09",
+    "summary": {
+      "electors": 123404,
+      "polled": 75615,
+      "rejected": 1971,
+      "valid": 73644
+    },
+    "subset_party_to_votes": {
+      "NPP": 17801,
+      "SJB": 18849,
+      "RW": 15039,
+      "DJ": 4576,
+      "SLPP": 13694
+    }
+  },
+  {
+    "pd_id": "EC-06C",
+    "ed_name": "Nuwara-Eliya",
+    "pd_name": "Hanguranketha",
+    "result_time": "2024-09-16 20:11",
+    "summary": {
+      "electors": 73822,
+      "polled": 56576,
+      "rejected": 1390,
+      "valid": 55186
+    },
+    "subset_party_to_votes": {
+      "NPP": 19744,
+      "SJB": 15074,
+      "RW": 7417,
+      "DJ": 2523,
+      "SLPP": 7666
+    }
+  },
+  {
+    "pd_id": "EC-17D",
+    "ed_name": "Anuradhapura",
+    "pd_name": "Anuradhapura West",
+    "result_time": "2024-09-16 20:12",
+    "summary": {
+      "electors": 106484,
+      "polled": 80796,
+      "rejected": 2096,
+      "valid": 78700
+    },
+    "subset_party_to_votes": {
+      "NPP": 19927,
+      "SJB": 20648,
+      "RW": 16420,
+      "DJ": 2340,
+      "SLPP": 15429
     }
   }
 ]
