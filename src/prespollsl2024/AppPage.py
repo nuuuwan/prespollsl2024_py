@@ -11,14 +11,36 @@ from utils import Log
 
 log = Log("AppPage")
 
-WIDTH = 1600
-HEIGHT = int(WIDTH * 9 / 16)
+
+HEIGHT = 1100
+ASPECT_RATIO = 16 / 9
+WIDTH = int(HEIGHT * ASPECT_RATIO)
+
+
+def add_padding(image_path, output_path, padding=20):
+    img = Image.open(image_path)
+    width, height = img.size
+
+    new_width = width + 2 * padding
+    new_height = height + 2 * padding
+    aspect_ratio_actual = new_width / new_height
+    if aspect_ratio_actual < ASPECT_RATIO:
+        new_width = int(new_height * ASPECT_RATIO)
+    elif aspect_ratio_actual > ASPECT_RATIO:
+        new_height = int(new_width / ASPECT_RATIO)
+
+    padding_x = (new_width - width) // 2
+    padding_y = (new_height - height) // 2
+
+    new_img = Image.new("RGB", (new_width, new_height), "white")
+    new_img.paste(img, (padding_x, padding_y))
+    new_img.save(output_path)
 
 
 class AppPage:
-    URL = "http://localhost:3000/prespollsl2024"
+    URL = "http://localhost:3000/prespoll"
     T_SLEEP_START = 20
-    T_SLEEP_NEW = 2
+    T_SLEEP_NEW = 4
 
     def __init__(
         self,
@@ -40,7 +62,6 @@ class AppPage:
                     election_type=self.election_type,
                     date=self.date,
                     nResultsDisplay=self.n_results_display,
-                    noScroll=True,
                 )
             )
         )
@@ -88,11 +109,11 @@ class AppPage:
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_NEW}s...')
 
         driver.save_screenshot(image_path)
-        img = Image.open(image_path)
-        img = img.resize((WIDTH, HEIGHT))
-        img.save(image_path)
 
-        log.info(f"Wrote screenshot to {image_path}")
+        add_padding(image_path, image_path, padding=40)
+
+        image_size_k = os.path.getsize(image_path) / 1_000
+        log.info(f"Wrote screenshot to {image_path} ({image_size_k:.1f}KB)")
         return image_path, driver
 
     @staticmethod
@@ -125,6 +146,33 @@ class AppPage:
         return image_paths
 
     @staticmethod
+    def compile_image_clips(
+        image_paths,
+        duration_start,
+        duration_normal,
+        duration_end,
+        total_duration,
+    ):
+        image_clips = []
+        n = len(image_paths)
+
+        for i, image_path in enumerate(image_paths, start=1):
+            duration = duration_normal
+            if i == 1:
+                duration = duration_start
+            elif i == n:
+                duration = duration_end
+
+            image_clip = (
+                ImageClip(image_path)
+                .set_duration(duration)
+                .set_start(total_duration)
+            )
+            image_clips.append(image_clip)
+            total_duration += duration
+        return image_clips, total_duration
+
+    @staticmethod
     def make_video(
         election_type: str,
         date: str,
@@ -142,34 +190,32 @@ class AppPage:
             "media", "video", f"{election_type}-{year}.mp4"
         )
 
-        image_clips = []
-        n = len(image_paths)
-        start = 0
-        DURATION_START = 5
-        DURATION_NORMAL = 2
-        DURATION_END = 20
-        for i, image_path in enumerate(image_paths, start=1):
-            duration = DURATION_NORMAL
-            if i == 1:
-                duration = DURATION_START
-            elif i == n:
-                duration = DURATION_END
+        image_clips, total_duration = AppPage.compile_image_clips(
+            image_paths,
+            duration_start=4,
+            duration_normal=2,
+            duration_end=4,
+            total_duration=0,
+        )
 
-            image_clip = (
-                ImageClip(image_path).set_duration(duration).set_start(start)
-            )
-            image_clips.append(image_clip)
-            start += duration
+        image_clips_replay, total_duration = AppPage.compile_image_clips(
+            image_paths,
+            duration_start=1,
+            duration_normal=0.1,
+            duration_end=20,
+            total_duration=total_duration,
+        )
+        image_clips += image_clips_replay
 
         audio_path = os.path.join(
             "media", "audio", "bensound-newfrontier.mp3"
         )
         audio_clip = AudioFileClip(audio_path)
-        audio_clip = afx.audio_loop(audio_clip, duration=start).audio_fadeout(
-            DURATION_END
-        )
+        audio_clip = afx.audio_loop(
+            audio_clip, duration=total_duration
+        ).audio_fadeout(20)
 
         video_clip = CompositeVideoClip(image_clips).set_audio(audio_clip)
-        video_clip.write_videofile(video_path, fps=1)
+        video_clip.write_videofile(video_path, fps=10)
         log.info(f'Wrote video to {video_path}')
         os.startfile(video_path)
