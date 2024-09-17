@@ -51,8 +51,10 @@ class ElectionResultsXlsxBuild:
     def add_statistics(row, electors_previous):
         row.append("")
 
-        result_time = TimeFormat('%Y-%m-%d %H:%M').format(
-            Time(Time.now().ut - random.random() * 3600 * 12)
+        TIME_FORMAT = TimeFormat('%Y-%m-%d %H:%M')
+        TIME_START = TIME_FORMAT.parse('2024-09-21 22:00')
+        result_time = TIME_FORMAT.format(
+            Time(TIME_START.ut + random.random() * 3600 * 12)
         )
         row.append(result_time)
         row.append("")
