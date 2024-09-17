@@ -52,10 +52,13 @@ class ElectionResultsXlsxBuild:
         row.append("")
 
         TIME_FORMAT = TimeFormat('%Y-%m-%d %H:%M')
-        TIME_START = TIME_FORMAT.parse('2024-09-21 22:00')
-        result_time = TIME_FORMAT.format(
-            Time(TIME_START.ut + random.random() * 3600 * 12)
-        )
+        # TIME_START = TIME_FORMAT.parse('2024-09-21 22:00')
+        # result_time = TIME_FORMAT.format(
+        #     Time(TIME_START.ut + random.random() * 3600 * 12)
+        # )
+
+        result_time = TIME_FORMAT.format(Time.now())
+
         row.append(result_time)
         row.append("")
 
