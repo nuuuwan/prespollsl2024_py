@@ -21,7 +21,7 @@ class ECDataSummary:
             "percent_rejected": self.percent_rejected,
             "percent_polled": self.percent_polled,
         }
-    
+
     def to_dict_compact(self):
         return {
             "valid": self.valid,

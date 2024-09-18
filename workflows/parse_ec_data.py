@@ -19,7 +19,6 @@ def main():
     ECData.build_tsv(ec_data_list, test_path)
     log.info(f'Wrote {test_path}')
 
-
     # Party Data
     party_idx = {}
     for for_party in ec_data_list[0].by_party:

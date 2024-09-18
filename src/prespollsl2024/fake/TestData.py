@@ -1,11 +1,14 @@
 import os
 import random
+import time
 
-from gig import Ent, GIGTable
+from gig import Ent, GIGTable, Log
 from utils import JSONFile, Time, TimeFormat
 
 from prespollsl2024.ec import ECData, ECDataForParty, ECDataSummary
 from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
+
+log = Log('TestData')
 
 
 def parse_int(x):
@@ -60,16 +63,30 @@ class TestData:
         return by_party
 
     @staticmethod
-    def build() -> list[ECData]:
-        gig_table_2019 = GIGTable(
-            'government-elections-presidential', 'regions-ec', '2019'
-        )
+    def HACK_get_remote_data_list():
+        MAX_RETRIES = 3
+        T_SLEEP_BASE = 2
+        for i in range(MAX_RETRIES):
+            gig_table = GIGTable(
+                'government-elections-presidential', 'regions-ec', '2019'
+            )
+            remote_data_list = gig_table.remote_data_list
+            if remote_data_list:
+                return remote_data_list
 
+            t_sleep = T_SLEEP_BASE**i
+            log.error(f'[HACK_get_remote_data_list] Sleeping for {t_sleep}s')
+            time.sleep(t_sleep)
+        raise Exception('[HACK_get_remote_data_list] Failed')
+
+    @staticmethod
+    def build() -> list[ECData]:
         ec_data_list = []
         # '2024-09-06 12:02:22:814'
         TIME_FORMAT = TimeFormat('%Y-%m-%d %H:%M:%S:000')
         sequence_number = 0
-        for d in gig_table_2019.remote_data_list:
+        remote_data_list = TestData.HACK_get_remote_data_list()
+        for d in remote_data_list:
             entity_id = d['entity_id']
             if not (entity_id.startswith('EC-') and len(entity_id) == 6):
                 continue

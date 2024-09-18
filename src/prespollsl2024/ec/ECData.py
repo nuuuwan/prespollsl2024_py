@@ -37,7 +37,7 @@ class ECData:
             "sequence_number": self.sequence_number,
             "reference": self.reference,
         }
-    
+
     def to_dict_compact(self):
         return {
             "result_time": self.timestamp,
@@ -72,8 +72,6 @@ class ECData:
             sequence_number=d["sequence_number"],
             reference=d["reference"],
         )
-    
-    
 
     @staticmethod
     def from_file(json_file_path: str) -> 'ECData':
@@ -106,17 +104,19 @@ class ECData:
         for ec_data in ec_data_list:
             json_file_path = os.path.join(dir_path, f'{ec_data.pd_code}.json')
             JSONFile(json_file_path).write(ec_data.to_dict())
-            log.debug(f'Stored to {json_file_path}')
         log.info(f'Stored {len(ec_data_list)} ECData to {dir_path}')
 
     @staticmethod
-    def store_list_to_json_compact(ec_data_list: list['ECData'], json_file_path: str):
+    def store_list_to_json_compact(
+        ec_data_list: list['ECData'], json_file_path: str
+    ):
         JSONFile(json_file_path).write(
             [ec_data.to_dict_compact() for ec_data in ec_data_list]
         )
         size_k = os.path.getsize(json_file_path) / 1000
-        log.info(f'Wrote {len(ec_data_list)} records to {json_file_path} ({size_k:.1f}KB)')
-
+        log.info(
+            f'Wrote {len(ec_data_list)} records to {json_file_path} ({size_k:.1f}KB)'
+        )
 
     # TSV
 
@@ -151,4 +151,3 @@ class ECData:
         log.info(
             f'Wrote {len(data_list)} records to {tsv_file_path} ({size_k:.1f}KB)'
         )
-
