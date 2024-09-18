@@ -1,6 +1,8 @@
-from dataclasses import dataclass
 import os
+from dataclasses import dataclass
+
 from utils import JSONFile, Log, TSVFile
+
 from prespollsl2024.ec.ECDataForParty import ECDataForParty
 from prespollsl2024.ec.ECDataSummary import ECDataSummary
 
@@ -27,13 +29,12 @@ class ECData:
     def pd_id(self) -> str:
         return f'EC-{self.pd_code}'
 
-
     # Loaders
 
     DIR_DATA_TEST = os.path.join('data', 'ec', 'test')
     DIR_DATA_PROD = os.path.join('data', 'ec', 'prod')
 
-    @staticmethod   
+    @staticmethod
     def from_dict(d):
         return ECData(
             timestamp=d["timestamp"],
@@ -49,14 +50,14 @@ class ECData:
             reference=d["reference"],
         )
 
-    @staticmethod   
+    @staticmethod
     def from_file(json_file_path: str) -> 'ECData':
         d = JSONFile(json_file_path).read()
         ec_data = ECData.from_dict(d)
         log.debug(f'Loaded from {json_file_path}')
         return ec_data
 
-    @staticmethod   
+    @staticmethod
     def list_for_dir(dir_path: str) -> list['ECData']:
         ec_data_list = []
         for file_name in os.listdir(dir_path):
@@ -67,16 +68,15 @@ class ECData:
         log.info(f'Loaded {len(ec_data_list)} ECData from {dir_path}')
         return ec_data_list
 
-    @staticmethod   
+    @staticmethod
     def list_from_test() -> list['ECData']:
         return ECData.list_for_dir(ECData.DIR_DATA_TEST)
 
-    @staticmethod   
+    @staticmethod
     def list_from_prod() -> list['ECData']:
         return ECData.list_for_dir(ECData.DIR_DATA_PROD)
 
-
-    @staticmethod   
+    @staticmethod
     def build_tsv(ec_data_list: list['ECData'], tsv_file_path: str):
         data_list = []
         for ec_data in ec_data_list:
@@ -87,14 +87,12 @@ class ECData:
                 valid=ec_data.summary.valid,
                 rejected=ec_data.summary.rejected,
                 polled=ec_data.summary.polled,
-                electors=ec_data.summary.electors,    
+                electors=ec_data.summary.electors,
             )
 
             for ec_data_for_party in ec_data.by_party:
                 data[ec_data_for_party.party_code] = ec_data_for_party.votes
 
-
             data_list.append(data)
         TSVFile(tsv_file_path).write(data_list)
         log.info(f'Wrote {len(data_list)} records to {tsv_file_path}')
-
