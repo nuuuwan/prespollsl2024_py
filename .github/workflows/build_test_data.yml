@@ -3,7 +3,7 @@ name: build_test_data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "0 * * * *"
 
 jobs:
   build_test_data:
