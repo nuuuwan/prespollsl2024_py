@@ -11,6 +11,17 @@ class ECDataSummary:
     percent_rejected: float
     percent_polled: float
 
+    def to_dict(self):
+        return {
+            "valid": self.valid,
+            "rejected": self.rejected,
+            "polled": self.polled,
+            "electors": self.electors,
+            "percent_valid": self.percent_valid,
+            "percent_rejected": self.percent_rejected,
+            "percent_polled": self.percent_polled,
+        }
+
     def from_dict(d):
         return ECDataSummary(
             valid=int(d["valid"]),

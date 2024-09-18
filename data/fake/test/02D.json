@@ -1,0 +1,295 @@
+{
+  "timestamp": "2024-09-18 15:02:35:000",
+  "level": "POLLING-DIVISION",
+  "ed_code": "02",
+  "ed_name": "Gampaha",
+  "pd_code": "02D",
+  "pd_name": "Divulapitiya",
+  "by_party": [
+    {
+      "party_code": "AJP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "APP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "DUA",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "DUNF",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "ELPP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND1",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND10",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND11",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND12",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND13",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND14",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND15",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND16",
+      "votes": 19451,
+      "percentage": 0.21052688544462725,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND2",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND3",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND4",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND5",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND6",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND7",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND8",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "IND9",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "JPF",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "JSP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "NDF",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "NIF",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "NPP",
+      "votes": 34039,
+      "percentage": 0.3684193436661183,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "NSSP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "NSU",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "RJA",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "SBP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "SEP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "SJB",
+      "votes": 29176,
+      "percentage": 0.31578491644298207,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "SLCP",
+      "votes": 4863,
+      "percentage": 0.0526344272231362,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "SLLP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "SLPP",
+      "votes": 4863,
+      "percentage": 0.0526344272231362,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "SLSP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "SPF",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "UNFF",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    },
+    {
+      "party_code": "USP",
+      "votes": 0,
+      "percentage": 0.0,
+      "party_name": "TODO",
+      "candidate": "TODO"
+    }
+  ],
+  "summary": {
+    "valid": 92392,
+    "rejected": 780,
+    "polled": 93172,
+    "electors": 110231,
+    "percent_valid": 0.8381671217715525,
+    "percent_rejected": 0.007076049387195979,
+    "percent_polled": 0.8452431711587485
+  },
+  "type": "PRESIDENTIAL-FIRST",
+  "sequence_number": "0020",
+  "reference": "000000020"
+}

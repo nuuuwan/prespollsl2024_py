@@ -23,6 +23,21 @@ class ECData:
     sequence_number: str
     reference: str
 
+    def to_dict(self):
+        return {
+            "timestamp": self.timestamp,
+            "level": self.level,
+            "ed_code": self.ed_code,
+            "ed_name": self.ed_name,
+            "pd_code": self.pd_code,
+            "pd_name": self.pd_name,
+            "by_party": [x.to_dict() for x in self.by_party],
+            "summary": self.summary.to_dict(),
+            "type": self.type,
+            "sequence_number": self.sequence_number,
+            "reference": self.reference,
+        }
+
     # Properties
 
     @property
@@ -96,3 +111,11 @@ class ECData:
             data_list.append(data)
         TSVFile(tsv_file_path).write(data_list)
         log.info(f'Wrote {len(data_list)} records to {tsv_file_path}')
+
+    @staticmethod
+    def store_list_to_dir(ec_data_list: list['ECData'], dir_path: str):
+        for ec_data in ec_data_list:
+            json_file_path = os.path.join(dir_path, f'{ec_data.pd_code}.json')
+            JSONFile(json_file_path).write(ec_data.to_dict())
+            log.debug(f'Stored to {json_file_path}')
+        log.info(f'Stored {len(ec_data_list)} ECData to {dir_path}')
