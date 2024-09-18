@@ -1,12 +1,18 @@
+import os
+import random
+
 from gig import Ent, GIGTable
-from utils import Time, TimeFormat
+from utils import JSONFile, Time, TimeFormat
 
 from prespollsl2024.ec import ECData, ECDataForParty, ECDataSummary
-from prespollsl2024.fake.TEST_PARTY_IDX import TEST_PARTY_IDX
+from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
 
 
 def parse_int(x):
     return int(round(float(x), 0))
+
+
+TEST_PARTY_IDX = JSONFile(os.path.join('data', 'ec', 'party_idx.json')).read()
 
 
 class TestData:
@@ -29,17 +35,25 @@ class TestData:
 
     @staticmethod
     def build_by_party(valid):
-        value_sum = sum(TEST_PARTY_IDX.values())
+        K_RANDOM = 1
         by_party = []
-        for party_code, value in TEST_PARTY_IDX.items():
+        for party_code, value in TEST_PARTY_TO_P_VOTES.items():
+            party_to_q_votes = {
+                party: p_votes * (1 + K_RANDOM * random.random())
+                for party, p_votes in TEST_PARTY_TO_P_VOTES.items()
+            }
+            value_sum = sum(party_to_q_votes.values())
+
             votes = int(round(valid * value / value_sum, 0))
+
+            party_data = TEST_PARTY_IDX[party_code]
 
             for_party = ECDataForParty(
                 party_code=party_code,
                 votes=votes,
                 percentage=votes / valid,
-                party_name='TODO',
-                candidate='TODO',
+                party_name=party_data['party_name'],
+                candidate=party_data['candidate'],
             )
             by_party.append(for_party)
 

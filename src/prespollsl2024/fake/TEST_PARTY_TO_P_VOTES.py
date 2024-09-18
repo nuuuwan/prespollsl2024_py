@@ -1,4 +1,4 @@
-TEST_PARTY_IDX = {
+TEST_PARTY_TO_P_VOTES = {
     "AJP": 0,
     "APP": 0,
     "DUA": 0,

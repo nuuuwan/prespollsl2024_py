@@ -1,41 +1,197 @@
 {
-  "AJP": 0,
-  "APP": 0,
-  "DUA": 0,
-  "DUNF": 0,
-  "ELPP": 0,
-  "IND1": 0,
-  "IND10": 0,
-  "IND11": 0,
-  "IND12": 0,
-  "IND13": 0,
-  "IND14": 0,
-  "IND15": 0,
-  "IND16": 0,
-  "IND2": 0,
-  "IND3": 0,
-  "IND4": 0,
-  "IND5": 0,
-  "IND6": 0,
-  "IND7": 0,
-  "IND8": 0,
-  "IND9": 0,
-  "JPF": 0,
-  "JSP": 0,
-  "NDF": 0,
-  "NIF": 0,
-  "NPP": 0,
-  "NSSP": 0,
-  "NSU": 0,
-  "RJA": 0,
-  "SBP": 0,
-  "SEP": 0,
-  "SJB": 0,
-  "SLCP": 0,
-  "SLLP": 0,
-  "SLPP": 0,
-  "SLSP": 0,
-  "SPF": 0,
-  "UNFF": 0,
-  "USP": 0
+  "IND1": {
+    "party_code": "IND1",
+    "party_name": "Independent Candidate 1",
+    "candidate": "AKMEEMANA DAYARATHANA THERO"
+  },
+  "DUA": {
+    "party_code": "DUA",
+    "party_name": "Democratic Unity Alliance",
+    "candidate": "ABUBAKAR MOHAMED INFAS"
+  },
+  "IND2": {
+    "party_code": "IND2",
+    "party_name": "Independent Candidate 2",
+    "candidate": "SIRIPALA AMARASINGHE"
+  },
+  "IND3": {
+    "party_code": "IND3",
+    "party_name": "Independent Candidate 3",
+    "candidate": "IDROOS MOHAMED ILLIAS"
+  },
+  "IND4": {
+    "party_code": "IND4",
+    "party_name": "Independent Candidate 4",
+    "candidate": "K.K. PIYADASA"
+  },
+  "IND5": {
+    "party_code": "IND5",
+    "party_name": "Independent Candidate 5",
+    "candidate": "SARATH KEERTHIRATHNA"
+  },
+  "IND6": {
+    "party_code": "IND6",
+    "party_name": "Independent Candidate 6",
+    "candidate": "K.A. KULARATNA"
+  },
+  "APP": {
+    "party_code": "APP",
+    "party_name": "Arunalu Peoples Alliance",
+    "candidate": "K.R. KRISHAN"
+  },
+  "IND7": {
+    "party_code": "IND7",
+    "party_name": "Independent Candidate 7",
+    "candidate": "PALLIMULLA KAPUGAMAGE ANURA SIDNEY JAYARATHNA"
+  },
+  "SLCP": {
+    "party_code": "SLCP",
+    "party_name": "Communist Party of Sri Lanka ",
+    "candidate": "DILITH JAYAWEERA"
+  },
+  "USP": {
+    "party_code": "USP",
+    "party_name": "United Socialist Party",
+    "candidate": "SIRITUNGA JAYASURIYA"
+  },
+  "IND8": {
+    "party_code": "IND8",
+    "party_name": "Independent Candidate 8",
+    "candidate": "MYLVAGANAM THILAKARAJAH"
+  },
+  "DUNF": {
+    "party_code": "DUNF",
+    "party_name": "Democratic United National Front",
+    "candidate": "AGAMPODI PRASANGA SURANJEEWA ANOJ DE SILVA"
+  },
+  "UNFF": {
+    "party_code": "UNFF",
+    "party_name": "United National Freedom Front",
+    "candidate": "LALITH DE SILVA"
+  },
+  "RJA": {
+    "party_code": "RJA",
+    "party_name": "Ruhunu Janatha Alliance",
+    "candidate": "AJANTHA DE ZOYSA"
+  },
+  "NPP": {
+    "party_code": "NPP",
+    "party_name": "Jathika Jana Balawegaya",
+    "candidate": "ANURA KUMARA DISSANAYAKE"
+  },
+  "SLSP": {
+    "party_code": "SLSP",
+    "party_name": "Socialist Party of Sri Lanka",
+    "candidate": "MAHINDA DEWAGE"
+  },
+  "IND9": {
+    "party_code": "IND9",
+    "party_name": "Independent Candidate 9",
+    "candidate": "ARIYANETHIRAN PAKKIYASELVAM"
+  },
+  "IND10": {
+    "party_code": "IND10",
+    "party_name": "Independent Candidate 10",
+    "candidate": "VICTOR PERERA"
+  },
+  "IND11": {
+    "party_code": "IND11",
+    "party_name": "Independent Candidate 11",
+    "candidate": "ANURUDDHA POLGAMPALA"
+  },
+  "SJB": {
+    "party_code": "SJB",
+    "party_name": "Samagi Jana Balawegaya",
+    "candidate": "SAJITH PREMADASA"
+  },
+  "IND12": {
+    "party_code": "IND12",
+    "party_name": "Independent Candidate 12",
+    "candidate": "SARATH FONSEKA"
+  },
+  "IND13": {
+    "party_code": "IND13",
+    "party_name": "Independent Candidate 13",
+    "candidate": "DISSANAYAKA MUDIYANSELAGE BANDARANAYAKE"
+  },
+  "NDF": {
+    "party_code": "NDF",
+    "party_name": "Jathika Sangwardhena Peramuna",
+    "candidate": "SARATH BANDARANAYAKE"
+  },
+  "JSP": {
+    "party_code": "JSP",
+    "party_name": "Jana Setha Peramuna",
+    "candidate": "BATHTHARAMULLE SEELARATHANA THERO"
+  },
+  "SPF": {
+    "party_code": "SPF",
+    "party_name": "Socialist People Forum",
+    "candidate": "NUWAN BOPEGE"
+  },
+  "NSU": {
+    "party_code": "NSU",
+    "party_name": "Nawa Sihala Urumaya",
+    "candidate": "SARATH MANAMENDRA"
+  },
+  "IND14": {
+    "party_code": "IND14",
+    "party_name": "Independent Candidate 14",
+    "candidate": "PEMASIRI MANAGE"
+  },
+  "IND15": {
+    "party_code": "IND15",
+    "party_name": "Independent Candidate 15",
+    "candidate": "ANURUDDHA ROSHAN RANASINGHE"
+  },
+  "ELPP": {
+    "party_code": "ELPP",
+    "party_name": "Eksath Lanka Podujana Pakshaya",
+    "candidate": "JANAKA RATNAYAKE"
+  },
+  "SBP": {
+    "party_code": "SBP",
+    "party_name": "Samabima Party",
+    "candidate": "NAMAL RAJAPAKSHA"
+  },
+  "SLPP": {
+    "party_code": "SLPP",
+    "party_name": "Sri Lanka Podujana Peramuna",
+    "candidate": "NAMAL RAJAPAKSA"
+  },
+  "JPF": {
+    "party_code": "JPF",
+    "party_name": "National Democratic Front",
+    "candidate": "WIJEYADASA RAJAPAKSHE"
+  },
+  "SLLP": {
+    "party_code": "SLLP",
+    "party_name": "Sri Lanka Labour Party",
+    "candidate": "A.S.P. LIYANAGE"
+  },
+  "AJP": {
+    "party_code": "AJP",
+    "party_name": "Ape Janabala Pakshaya",
+    "candidate": "KEERTHIE WICKRAMARATNE"
+  },
+  "NSSP": {
+    "party_code": "NSSP",
+    "party_name": "Nawa Sama Samaja Party",
+    "candidate": "PRIYANTHA WICKRAMASINGHE"
+  },
+  "IND16": {
+    "party_code": "IND16",
+    "party_name": "Independent Candidate 16",
+    "candidate": "RANIL WICKREMESINGHE"
+  },
+  "SEP": {
+    "party_code": "SEP",
+    "party_name": "Socialist Equality Party",
+    "candidate": "PANI WIJESIRIWARDENA"
+  },
+  "NIF": {
+    "party_code": "NIF",
+    "party_name": "New Independent Front",
+    "candidate": "OSHALA HERATH"
+  }
 }

@@ -1,5 +1,7 @@
 import os
+
 from utils import JSONFile, Log
+
 from prespollsl2024 import ECData
 
 log = Log("parse_ec_data")
@@ -19,12 +21,13 @@ def main():
             candidate=for_party.candidate,
         )
     party_idx_path = os.path.join('data', 'ec', 'party_idx.json')
-    JSONFile.write(party_idx, party_idx_path)
+    JSONFile(party_idx_path).write(party_idx)
     log.info(f'Wrote {party_idx_path}')
 
     party_id_list = sorted(list(party_idx.keys()))
     party_id_list_path = os.path.join('data', 'ec', 'party_id_list.json')
-    JSONFile.write(party_id_list, party_id_list_path)
+    JSONFile(party_id_list_path).write(party_id_list)
+    log.info(f'Wrote {party_id_list_path}')
 
 
 if __name__ == "__main__":

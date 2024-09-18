@@ -1,7 +1,7 @@
 import os
 from dataclasses import dataclass
 
-from utils import JSONFile, Log, TSVFile
+from utils import File, JSONFile, Log, TSVFile
 
 from prespollsl2024.ec.ECDataForParty import ECDataForParty
 from prespollsl2024.ec.ECDataSummary import ECDataSummary
@@ -110,7 +110,18 @@ class ECData:
 
             data_list.append(data)
         TSVFile(tsv_file_path).write(data_list)
-        log.info(f'Wrote {len(data_list)} records to {tsv_file_path}')
+
+        # HACK! - Compress TSV
+        file = File(tsv_file_path)
+        lines = file.read_lines()
+        lines = [line for line in lines if line.strip()]
+        file.write_lines(lines)
+
+        size_k = os.path.getsize(tsv_file_path) / 1000
+
+        log.info(
+            f'Wrote {len(data_list)} records to {tsv_file_path} ({size_k:.1f}KB)'
+        )
 
     @staticmethod
     def store_list_to_dir(ec_data_list: list['ECData'], dir_path: str):
