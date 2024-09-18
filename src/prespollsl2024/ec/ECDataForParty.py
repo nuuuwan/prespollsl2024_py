@@ -17,6 +17,12 @@ class ECDataForParty:
             "party_name": self.party_name,
             "candidate": self.candidate,
         }
+    
+    @staticmethod
+    def to_dict_compact(by_party):
+        return {
+            x.party_code: x.votes for x in sorted(by_party, key=lambda x: x.party_code)
+        }
 
     def from_dict(d):
         return ECDataForParty(

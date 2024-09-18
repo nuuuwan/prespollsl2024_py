@@ -1,5 +1,5 @@
 {
-  "timestamp": "2024-09-18 15:31:39:000",
+  "timestamp": "2024-09-18 15:56:08:000",
   "level": "POLLING-DIVISION",
   "ed_code": "20",
   "ed_name": "Moneragala",
@@ -92,8 +92,8 @@
     },
     {
       "party_code": "IND16",
-      "votes": 11982,
-      "percentage": 0.17034404321865226,
+      "votes": 12293,
+      "percentage": 0.17476542507819165,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     },
@@ -183,8 +183,8 @@
     },
     {
       "party_code": "NPP",
-      "votes": 15531,
-      "percentage": 0.2207989764003412,
+      "votes": 18738,
+      "percentage": 0.2663918112027296,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
@@ -225,15 +225,15 @@
     },
     {
       "party_code": "SJB",
-      "votes": 15777,
-      "percentage": 0.22429627523457493,
+      "votes": 17970,
+      "percentage": 0.25547341484219505,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "SLCP",
-      "votes": 2067,
-      "percentage": 0.029385840204719932,
+      "votes": 2897,
+      "percentage": 0.0411856696047768,
       "party_name": "Communist Party of Sri Lanka ",
       "candidate": "DILITH JAYAWEERA"
     },
@@ -246,8 +246,8 @@
     },
     {
       "party_code": "SLPP",
-      "votes": 2315,
-      "percentage": 0.03291157236280921,
+      "votes": 2636,
+      "percentage": 0.03747512084162639,
       "party_name": "Sri Lanka Podujana Peramuna",
       "candidate": "NAMAL RAJAPAKSA"
     },

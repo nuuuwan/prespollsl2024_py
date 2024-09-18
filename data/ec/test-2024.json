@@ -1,0 +1,53 @@
+[
+  {
+    "result_time": "2024-09-06 12:02:22:814",
+    "entity_id": "EC-19H",
+    "party_to_votes": {
+      "AJP": 0,
+      "APP": 0,
+      "DUA": 0,
+      "DUNF": 0,
+      "ELPP": 0,
+      "IND1": 0,
+      "IND10": 0,
+      "IND11": 0,
+      "IND12": 0,
+      "IND13": 0,
+      "IND14": 0,
+      "IND15": 0,
+      "IND16": 0,
+      "IND2": 0,
+      "IND3": 0,
+      "IND4": 0,
+      "IND5": 0,
+      "IND6": 0,
+      "IND7": 0,
+      "IND8": 0,
+      "IND9": 0,
+      "JPF": 0,
+      "JSP": 0,
+      "NDF": 0,
+      "NIF": 0,
+      "NPP": 0,
+      "NSSP": 0,
+      "NSU": 0,
+      "RJA": 0,
+      "SBP": 0,
+      "SEP": 0,
+      "SJB": 0,
+      "SLCP": 0,
+      "SLLP": 0,
+      "SLPP": 0,
+      "SLSP": 0,
+      "SPF": 0,
+      "UNFF": 0,
+      "USP": 0
+    },
+    "summary": {
+      "valid": 0,
+      "rejected": 0,
+      "polled": 0,
+      "electors": 0
+    }
+  }
+]

@@ -17,6 +17,10 @@ def main():
     ECData.build_tsv(ec_data_list, fake_tsv_path)
     log.info(f'Wrote {fake_tsv_path}')
 
+    fake_json_path = os.path.join('data', 'fake', 'test-2024.json')
+    ECData.store_list_to_json_compact(ec_data_list, fake_json_path)
+    log.info(f'Wrote {fake_json_path}')
+
 
 if __name__ == "__main__":
     main()

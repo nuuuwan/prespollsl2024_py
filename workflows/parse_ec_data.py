@@ -9,10 +9,18 @@ log = Log("parse_ec_data")
 
 def main():
     ec_data_list = ECData.list_from_test()
+
+    # JSON
+    test_path = os.path.join('data', 'ec', 'test-2024.json')
+    ECData.store_list_to_json_compact(ec_data_list, test_path)
+
+    # TSV
     test_path = os.path.join('data', 'ec', 'test-2024.tsv')
     ECData.build_tsv(ec_data_list, test_path)
     log.info(f'Wrote {test_path}')
 
+
+    # Party Data
     party_idx = {}
     for for_party in ec_data_list[0].by_party:
         party_idx[for_party.party_code] = dict(
