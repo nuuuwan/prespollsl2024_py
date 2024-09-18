@@ -2,8 +2,8 @@ import os
 import random
 import time
 
-from gig import Ent, GIGTable, Log
-from utils import JSONFile, Time, TimeFormat
+from gig import Ent, GIGTable
+from utils import JSONFile, Time, TimeFormat, Log
 
 from prespollsl2024.ec import ECData, ECDataForParty, ECDataSummary
 from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
