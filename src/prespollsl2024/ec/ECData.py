@@ -41,7 +41,7 @@ class ECData:
     def to_dict_compact(self):
         return {
             "result_time": self.timestamp,
-            "entity_id": 'EC-' + self.pd_code,
+            "pd_id": 'EC-' + self.pd_code,
             "party_to_votes": ECDataForParty.to_dict_compact(self.by_party),
             "summary": self.summary.to_dict_compact(),
         }
