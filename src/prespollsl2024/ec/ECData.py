@@ -1,5 +1,6 @@
 import os
 from dataclasses import dataclass
+import shutil
 
 from utils import File, JSONFile, Log, TSVFile
 
@@ -101,6 +102,9 @@ class ECData:
 
     @staticmethod
     def store_list_to_dir(ec_data_list: list['ECData'], dir_path: str):
+        shutil.rmtree(dir_path, ignore_errors=True)
+        os.makedirs(dir_path, exist_ok=True)
+        
         for ec_data in ec_data_list:
             json_file_path = os.path.join(dir_path, f'{ec_data.pd_code}.json')
             JSONFile(json_file_path).write(ec_data.to_dict())
