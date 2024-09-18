@@ -88,10 +88,13 @@ class TestData:
         TIME_FORMAT = TimeFormat('%Y-%m-%d %H:%M:%S:000')
         sequence_number = 0
         remote_data_list = TestData.HACK_get_remote_data_list()
+        
         for d in remote_data_list:
             entity_id = d['entity_id']
             if not (entity_id.startswith('EC-') and len(entity_id) == 6):
                 continue
+
+
 
             sequence_number += 1
             pd_id = entity_id
@@ -127,4 +130,9 @@ class TestData:
             )
             ec_data_list.append(ec_data)
 
-        return ec_data_list
+        random.shuffle(ec_data_list)
+        n = len(ec_data_list)
+        n_results = random.randint(1, n)
+        return ec_data_list[:n_results]
+
+

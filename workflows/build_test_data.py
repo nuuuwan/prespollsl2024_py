@@ -8,7 +8,7 @@ log = Log("build_test_data")
 
 
 def main():
-    ec_data_list = TestData().build()
+    ec_data_list = TestData.build()
     dir_fake_test = os.path.join('data', 'fake', 'test')
     ECData.store_list_to_dir(ec_data_list, dir_fake_test)
     log.info(f'Wrote {dir_fake_test}')
