@@ -1,10 +1,10 @@
 {
-  "timestamp": "2024-09-18 22:36:25:000",
+  "timestamp": "2024-09-18 23:38:09:000",
   "level": "POLLING-DIVISION",
-  "ed_code": "01",
-  "ed_name": "Colombo",
-  "pd_code": "01K",
-  "pd_name": "Avissawella",
+  "ed_code": "15",
+  "ed_name": "Kurunegala",
+  "pd_code": "15P",
+  "pd_name": "Postal Kurunegala",
   "by_party": [
     {
       "party_code": "AJP",
@@ -92,8 +92,8 @@
     },
     {
       "party_code": "IND16",
-      "votes": 19142,
-      "percentage": 0.18860971524288106,
+      "votes": 11674,
+      "percentage": 0.15782927290917448,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     },
@@ -183,8 +183,8 @@
     },
     {
       "party_code": "NPP",
-      "votes": 21109,
-      "percentage": 0.20799093506749433,
+      "votes": 11120,
+      "percentage": 0.15033934510450747,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
@@ -225,15 +225,15 @@
     },
     {
       "party_code": "SJB",
-      "votes": 18178,
-      "percentage": 0.17911124248694452,
+      "votes": 14515,
+      "percentage": 0.1962388124273315,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "SLCP",
-      "votes": 5566,
-      "percentage": 0.054842841659276775,
+      "votes": 3662,
+      "percentage": 0.04950923397236568,
       "party_name": "Communist Party of Sri Lanka ",
       "candidate": "DILITH JAYAWEERA"
     },
@@ -246,8 +246,8 @@
     },
     {
       "party_code": "SLPP",
-      "votes": 4843,
-      "percentage": 0.04771898709232437,
+      "votes": 5426,
+      "percentage": 0.0733580293648433,
       "party_name": "Sri Lanka Podujana Peramuna",
       "candidate": "NAMAL RAJAPAKSA"
     },
@@ -281,15 +281,15 @@
     }
   ],
   "summary": {
-    "valid": 101490,
-    "rejected": 887,
-    "polled": 102377,
-    "electors": 119905,
-    "percent_valid": 0.8464200825653643,
-    "percent_rejected": 0.007397523039072599,
-    "percent_polled": 0.8538176056044369
+    "valid": 73966,
+    "rejected": 890,
+    "polled": 74856,
+    "electors": 75956,
+    "percent_valid": 0.9738006214123966,
+    "percent_rejected": 0.011717310021591447,
+    "percent_polled": 0.9855179314339881
   },
   "type": "PRESIDENTIAL-FIRST",
-  "sequence_number": "0011",
-  "reference": "000000011"
+  "sequence_number": "0131",
+  "reference": "000000131"
 }
