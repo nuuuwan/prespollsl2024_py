@@ -1,5 +1,5 @@
 {
-  "timestamp": "2024-09-18 17:04:47:000",
+  "timestamp": "2024-09-18 17:05:28:000",
   "level": "POLLING-DIVISION",
   "ed_code": "10",
   "ed_name": "Jaffna",
@@ -183,8 +183,8 @@
     },
     {
       "party_code": "NPP",
-      "votes": 6417,
-      "percentage": 0.20163393558523174,
+      "votes": 6895,
+      "percentage": 0.2166535742340927,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
@@ -225,15 +225,15 @@
     },
     {
       "party_code": "SJB",
-      "votes": 5849,
-      "percentage": 0.18378633150039278,
+      "votes": 6583,
+      "percentage": 0.2068499607227023,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "SLCP",
-      "votes": 1697,
-      "percentage": 0.05332285938727416,
+      "votes": 1844,
+      "percentage": 0.057941869599371566,
       "party_name": "Communist Party of Sri Lanka ",
       "candidate": "DILITH JAYAWEERA"
     },
@@ -246,8 +246,8 @@
     },
     {
       "party_code": "SLPP",
-      "votes": 823,
-      "percentage": 0.025860172820109977,
+      "votes": 837,
+      "percentage": 0.026300078554595444,
       "party_name": "Sri Lanka Podujana Peramuna",
       "candidate": "NAMAL RAJAPAKSA"
     },
