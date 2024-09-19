@@ -38,16 +38,18 @@ class TestData:
 
     @staticmethod
     def build_by_party(valid):
-        K_RANDOM = 2
-        by_party = []
-        for party_code, value in TEST_PARTY_TO_P_VOTES.items():
-            party_to_q_votes = {
-                party: p_votes * (1 + K_RANDOM * random.random())
-                for party, p_votes in TEST_PARTY_TO_P_VOTES.items()
-            }
-            value_sum = sum(party_to_q_votes.values())
+        K_RANDOM = 1
+        party_to_q_votes = {
+            party: p_votes * (1 + K_RANDOM * random.random())
+            for party, p_votes in TEST_PARTY_TO_P_VOTES.items()
+        }
+        sum_q_votes = sum(party_to_q_votes.values())
 
-            votes = int(round(valid * value / value_sum, 0))
+        by_party = []
+        for party_code, q_votes in party_to_q_votes.items():
+          
+
+            votes = int(round(valid * q_votes / sum_q_votes, 0))
 
             party_data = TEST_PARTY_IDX[party_code]
 
