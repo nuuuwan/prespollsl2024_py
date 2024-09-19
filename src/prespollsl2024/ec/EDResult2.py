@@ -1,8 +1,7 @@
 import os
-import shutil
 from dataclasses import dataclass
 
-from utils import File, JSONFile, Log, TSVFile
+from utils import Log
 
 from prespollsl2024.ec.ForParty2 import ForParty2
 from prespollsl2024.ec.Summary2 import Summary2
@@ -25,8 +24,6 @@ class EDResult2(GenericResult):
     sequence_number: str
     reference: str
 
-
-
     @property
     def ed_id(self) -> str:
         return f'EC-{self.ed_code}'
@@ -47,18 +44,17 @@ class EDResult2(GenericResult):
     def to_dict_compact(self):
         return {
             "result_time": self.timestamp,
-            "ed_id":  self.ed_id,
+            "ed_id": self.ed_id,
             "party_to_votes": ForParty2.to_dict_compact(self.by_party),
             "summary": self.summary.to_dict_compact(),
         }
-
 
     # Loaders
 
     @classmethod
     def get_level(cls) -> str:
         return 'ELECTORAL-DISTRICT'
-    
+
     @classmethod
     def get_type(cls) -> str:
         return 'PRESIDENTIAL-SECOND'

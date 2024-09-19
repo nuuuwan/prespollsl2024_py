@@ -24,12 +24,9 @@ class PDResult1(GenericResult):
     sequence_number: str
     reference: str
 
-
-
     @property
     def pd_id(self) -> str:
         return f'EC-{self.pd_code}'
-
 
     def to_dict(self):
         return {
@@ -54,17 +51,16 @@ class PDResult1(GenericResult):
             "summary": self.summary.to_dict_compact(),
         }
 
-
     # Loaders
-    
+
     @classmethod
     def get_level(cls) -> str:
         return 'POLLING-DIVISION'
-    
+
     @classmethod
     def get_type(cls) -> str:
         return 'PRESIDENTIAL-FIRST'
-    
+
     @classmethod
     def get_dir_test(cls) -> str:
         return os.path.join('data', 'ec', 'test1')

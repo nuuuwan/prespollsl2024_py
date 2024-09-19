@@ -8,7 +8,7 @@ from utils import JSONFile, Log, Time, TimeFormat
 from prespollsl2024.ec import ForParty1, PDResult1, Summary1
 from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
 
-log = Log('TestData')
+log = Log('TestData2')
 
 
 def parse_int(x):
@@ -18,7 +18,7 @@ def parse_int(x):
 TEST_PARTY_IDX = JSONFile(os.path.join('data', 'ec', 'party_idx.json')).read()
 
 
-class TestData:
+class TestData1:
     @staticmethod
     def build_summary(d):
         valid = parse_int(d['valid'])
@@ -90,7 +90,7 @@ class TestData:
         # '2024-09-06 12:02:22:814'
         TIME_FORMAT = TimeFormat('%Y-%m-%d %H:%M:%S:000')
         sequence_number = 0
-        remote_data_list = TestData.HACK_get_remote_data_list()
+        remote_data_list = TestData1.HACK_get_remote_data_list()
 
         n_results = random.randint(1, 182)
         for d in remote_data_list:
@@ -118,7 +118,7 @@ class TestData:
                 ed_name = ed.name
                 ed_code = ed_id[3:]
 
-            summary = TestData.build_summary(d)
+            summary = TestData1.build_summary(d)
             ec_data = PDResult1(
                 timestamp=TIME_FORMAT.stringify(
                     Time(Time.now().ut - sequence_number * 120)
@@ -128,7 +128,7 @@ class TestData:
                 ed_name=ed_name,
                 pd_code=pd_code,
                 pd_name=pd_name,
-                by_party=TestData.build_by_party(summary.valid),
+                by_party=TestData1.build_by_party(summary.valid),
                 summary=summary,
                 type='PRESIDENTIAL-FIRST',
                 sequence_number=f'{sequence_number:04}',

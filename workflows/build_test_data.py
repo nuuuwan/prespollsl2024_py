@@ -2,13 +2,13 @@ import os
 
 from utils import Log
 
-from prespollsl2024 import PDResult1, TestData
+from prespollsl2024 import PDResult1, TestData1
 
 log = Log("build_test_data")
 
 
 def main():
-    ec_data_list = TestData.build()
+    ec_data_list = TestData1.build()
     dir_fake_test = os.path.join('data', 'fake', 'test')
     PDResult1.store_list_to_dir(ec_data_list, dir_fake_test)
     log.info(f'Wrote {dir_fake_test}')

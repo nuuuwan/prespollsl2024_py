@@ -8,8 +8,6 @@ log = Log("parse_data")
 
 
 def main():
-    
-
     # PDResult1
     data_list = PDResult1.list_from_test()
     test_path = os.path.join('data', 'ec', 'test1-2024.json')

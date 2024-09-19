@@ -14,7 +14,7 @@ class GenericResult:
             return None
         if d.get('type') != cls.get_type():
             return None
-        
+
         data = cls.from_dict(d)
         log.debug(f'Loaded from {json_file_path}')
         return data
