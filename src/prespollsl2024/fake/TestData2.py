@@ -4,6 +4,7 @@ import time
 
 from gig import Ent, GIGTable
 from utils import JSONFile, Log, Time, TimeFormat
+from utils_future import StringX
 
 from prespollsl2024.ec import ForParty1, PDResult1, Summary1
 from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
@@ -11,8 +12,6 @@ from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
 log = Log('TestData2')
 
 
-def parse_int(x):
-    return int(round(float(x), 0))
 
 
 TEST_PARTY_IDX = JSONFile(os.path.join('data', 'ec', 'party_idx.json')).read()
@@ -21,10 +20,10 @@ TEST_PARTY_IDX = JSONFile(os.path.join('data', 'ec', 'party_idx.json')).read()
 class TestData1:
     @staticmethod
     def build_summary(d):
-        valid = parse_int(d['valid'])
-        rejected = parse_int(d['rejected'])
-        polled = parse_int(d['polled'])
-        electors = parse_int(d['electors'])
+        valid = StringX(d['valid']).int
+        rejected = StringX(d['rejected']).int
+        polled = StringX(d['polled']).int
+        electors = StringX(d['electors']).int
 
         return Summary1(
             valid=valid,
