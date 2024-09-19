@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 01:35:03:000",
+  "timestamp": "2024-09-20 01:58:37:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "17",
   "ed_name": "Anuradhapura",
   "by_party": [
     {
       "party_code": "NPP",
-      "preferences": 291163,
+      "preferences": 309708,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
     {
       "party_code": "SJB",
-      "preferences": 289183,
+      "preferences": 270638,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     }
@@ -21,6 +21,6 @@
     "total": 580346
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0001",
-  "reference": "000000001"
+  "sequence_number": "0019",
+  "reference": "000000019"
 }

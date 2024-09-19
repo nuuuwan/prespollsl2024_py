@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 00:53:03:000",
+  "timestamp": "2024-09-20 02:04:37:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "11",
   "ed_name": "Vanni",
   "by_party": [
     {
       "party_code": "NPP",
-      "preferences": 113316,
+      "preferences": 126425,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
     {
       "party_code": "SJB",
-      "preferences": 99462,
+      "preferences": 86353,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     }
@@ -21,6 +21,6 @@
     "total": 212778
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0022",
-  "reference": "000000022"
+  "sequence_number": "0016",
+  "reference": "000000016"
 }
