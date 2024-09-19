@@ -1,26 +1,26 @@
 {
-  "timestamp": "2024-09-20 00:22:24:000",
+  "timestamp": "2024-09-20 00:59:03:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "03",
   "ed_name": "Kalutara",
   "by_party": [
     {
-      "party_code": "NPP",
-      "preferences": 490970,
-      "party_name": "Jathika Jana Balawegaya",
-      "candidate": "ANURA KUMARA DISSANAYAKE"
-    },
-    {
       "party_code": "SJB",
-      "preferences": 320793,
+      "preferences": 455986,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
+    },
+    {
+      "party_code": "NPP",
+      "preferences": 355777,
+      "party_name": "Jathika Jana Balawegaya",
+      "candidate": "ANURA KUMARA DISSANAYAKE"
     }
   ],
   "summary": {
     "total": 811763
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0007",
-  "reference": "000000007"
+  "sequence_number": "0019",
+  "reference": "000000019"
 }
