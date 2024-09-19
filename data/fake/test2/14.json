@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-19 21:41:49:000",
+  "timestamp": "2024-09-19 21:48:57:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "14",
   "ed_name": "Trincomalee",
   "by_party": [
     {
       "party_code": "NPP",
-      "preferences": 117546,
+      "preferences": 120413,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
     {
       "party_code": "SJB",
-      "preferences": 113864,
+      "preferences": 110997,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     }
@@ -21,6 +21,6 @@
     "total": 231410
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0001",
-  "reference": "000000001"
+  "sequence_number": "0004",
+  "reference": "000000004"
 }

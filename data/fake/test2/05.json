@@ -1,0 +1,26 @@
+{
+  "timestamp": "2024-09-19 21:42:57:000",
+  "level": "ELECTORAL-DISTRICT",
+  "ed_code": "05",
+  "ed_name": "Matale",
+  "by_party": [
+    {
+      "party_code": "SJB",
+      "preferences": 182444,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
+    },
+    {
+      "party_code": "NPP",
+      "preferences": 156777,
+      "party_name": "Jathika Jana Balawegaya",
+      "candidate": "ANURA KUMARA DISSANAYAKE"
+    }
+  ],
+  "summary": {
+    "total": 339221
+  },
+  "type": "PRESIDENTIAL-SECOND",
+  "sequence_number": "0007",
+  "reference": "000000007"
+}

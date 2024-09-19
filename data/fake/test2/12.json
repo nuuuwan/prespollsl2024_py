@@ -1,0 +1,26 @@
+{
+  "timestamp": "2024-09-19 21:52:57:000",
+  "level": "ELECTORAL-DISTRICT",
+  "ed_code": "12",
+  "ed_name": "Batticaloa",
+  "by_party": [
+    {
+      "party_code": "NPP",
+      "preferences": 170347,
+      "party_name": "Jathika Jana Balawegaya",
+      "candidate": "ANURA KUMARA DISSANAYAKE"
+    },
+    {
+      "party_code": "SJB",
+      "preferences": 132874,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
+    }
+  ],
+  "summary": {
+    "total": 303221
+  },
+  "type": "PRESIDENTIAL-SECOND",
+  "sequence_number": "0002",
+  "reference": "000000002"
+}
