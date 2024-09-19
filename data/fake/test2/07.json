@@ -1,26 +1,26 @@
 {
-  "timestamp": "2024-09-20 02:06:37:000",
+  "timestamp": "2024-09-20 02:54:30:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "07",
   "ed_name": "Galle",
   "by_party": [
     {
-      "party_code": "NPP",
-      "preferences": 426586,
-      "party_name": "Jathika Jana Balawegaya",
-      "candidate": "ANURA KUMARA DISSANAYAKE"
-    },
-    {
       "party_code": "SJB",
-      "preferences": 298772,
+      "preferences": 416460,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
+    },
+    {
+      "party_code": "NPP",
+      "preferences": 308898,
+      "party_name": "Jathika Jana Balawegaya",
+      "candidate": "ANURA KUMARA DISSANAYAKE"
     }
   ],
   "summary": {
     "total": 725358
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0015",
-  "reference": "000000015"
+  "sequence_number": "0021",
+  "reference": "000000021"
 }
