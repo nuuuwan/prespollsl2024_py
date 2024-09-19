@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-19 17:32:18:000",
+  "timestamp": "2024-09-19 18:10:38:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "21",
   "ed_name": "Ratnapura",
   "by_party": [
     {
       "party_code": "SJB",
-      "preferences": 395905,
+      "preferences": 423693,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "IND16",
-      "preferences": 351766,
+      "preferences": 323978,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     }
@@ -21,6 +21,6 @@
     "total": 747671
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0004",
-  "reference": "000000004"
+  "sequence_number": "0015",
+  "reference": "000000015"
 }

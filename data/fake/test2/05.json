@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-19 17:34:18:000",
+  "timestamp": "2024-09-19 18:22:38:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "05",
   "ed_name": "Matale",
   "by_party": [
     {
       "party_code": "SJB",
-      "preferences": 179624,
+      "preferences": 192231,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "IND16",
-      "preferences": 159597,
+      "preferences": 146990,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     }
@@ -21,6 +21,6 @@
     "total": 339221
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0003",
-  "reference": "000000003"
+  "sequence_number": "0009",
+  "reference": "000000009"
 }
