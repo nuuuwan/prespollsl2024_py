@@ -73,6 +73,7 @@ class TestData:
                 )
                 remote_data_list = gig_table.remote_data_list
                 if remote_data_list:
+                    random.shuffle(remote_data_list)
                     return remote_data_list
             except Exception as e:
                 log.error(f'[HACK_get_remote_data_list] {e}')
