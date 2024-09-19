@@ -114,7 +114,7 @@ class TestData1:
                 ed_id = pd.ed_id
                 ed = Ent.from_id(ed_id)
                 ed_name = ed.name
-                ed_code = ed_id[3:]
+            ed_code = ed_id[3:]
 
             summary = TestData1.build_summary(d)
             ec_data = PDResult1(
