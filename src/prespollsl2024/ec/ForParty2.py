@@ -11,7 +11,7 @@ class ForParty2:
     def to_dict(self):
         return {
             "party_code": self.party_code,
-            "preferences": self.votes,
+            "preferences": self.preferences,
             "party_name": self.party_name,
             "candidate": self.candidate,
         }

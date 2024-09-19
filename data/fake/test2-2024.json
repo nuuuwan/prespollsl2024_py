@@ -1,0 +1,79 @@
+[
+  {
+    "result_time": "2024-09-19 15:46:02:000",
+    "ed_id": "EC-09",
+    "party_to_votes": {
+      "IND16": 208691,
+      "SJB": 212683
+    },
+    "summary": {
+      "total": 421374
+    }
+  },
+  {
+    "result_time": "2024-09-19 15:48:02:000",
+    "ed_id": "EC-20",
+    "party_to_votes": {
+      "IND16": 158288,
+      "SJB": 161316
+    },
+    "summary": {
+      "total": 319604
+    }
+  },
+  {
+    "result_time": "2024-09-19 15:50:02:000",
+    "ed_id": "EC-02",
+    "party_to_votes": {
+      "IND16": 715060,
+      "SJB": 728740
+    },
+    "summary": {
+      "total": 1443800
+    }
+  },
+  {
+    "result_time": "2024-09-19 15:52:02:000",
+    "ed_id": "EC-08",
+    "party_to_votes": {
+      "IND16": 275796,
+      "SJB": 281072
+    },
+    "summary": {
+      "total": 556868
+    }
+  },
+  {
+    "result_time": "2024-09-19 15:54:02:000",
+    "ed_id": "EC-17",
+    "party_to_votes": {
+      "IND16": 287424,
+      "SJB": 292922
+    },
+    "summary": {
+      "total": 580346
+    }
+  },
+  {
+    "result_time": "2024-09-19 15:56:02:000",
+    "ed_id": "EC-13",
+    "party_to_votes": {
+      "IND16": 203835,
+      "SJB": 207735
+    },
+    "summary": {
+      "total": 411570
+    }
+  },
+  {
+    "result_time": "2024-09-19 15:58:02:000",
+    "ed_id": "EC-12",
+    "party_to_votes": {
+      "IND16": 150174,
+      "SJB": 153047
+    },
+    "summary": {
+      "total": 303221
+    }
+  }
+]

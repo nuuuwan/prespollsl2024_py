@@ -1,0 +1,26 @@
+{
+  "timestamp": "2024-09-19 15:56:02:000",
+  "level": "ELECTORAL-DISTRICT",
+  "ed_code": "13",
+  "ed_name": "Digamadulla",
+  "by_party": [
+    {
+      "party_code": "SJB",
+      "preferences": 207735,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
+    },
+    {
+      "party_code": "IND16",
+      "preferences": 203835,
+      "party_name": "Independent Candidate 16",
+      "candidate": "RANIL WICKREMESINGHE"
+    }
+  ],
+  "summary": {
+    "total": 411570
+  },
+  "type": "PRESIDENTIAL-SECOND",
+  "sequence_number": "0002",
+  "reference": "000000002"
+}

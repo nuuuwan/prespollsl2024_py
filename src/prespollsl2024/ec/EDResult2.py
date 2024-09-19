@@ -27,6 +27,10 @@ class EDResult2(GenericResult):
     @property
     def ed_id(self) -> str:
         return f'EC-{self.ed_code}'
+    
+    @property
+    def code(self) -> str:
+        return self.ed_code
 
     def to_dict(self):
         return {

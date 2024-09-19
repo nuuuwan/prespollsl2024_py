@@ -4,14 +4,13 @@ import time
 
 from gig import Ent, GIGTable
 from utils import JSONFile, Log, Time, TimeFormat
-from utils_future import StringX
 
 from prespollsl2024.ec import ForParty1, PDResult1, Summary1
+from prespollsl2024.fake.RemoteDataUtils import RemoteDataUtils
 from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
+from utils_future import StringX
 
 log = Log('TestData1')
-
-
 
 
 TEST_PARTY_IDX = JSONFile(os.path.join('data', 'ec', 'party_idx.json')).read()
@@ -89,7 +88,7 @@ class TestData1:
         # '2024-09-06 12:02:22:814'
         TIME_FORMAT = TimeFormat('%Y-%m-%d %H:%M:%S:000')
         sequence_number = 0
-        remote_data_list = TestData1.HACK_get_remote_data_list()
+        remote_data_list = RemoteDataUtils.HACK_get_remote_data_list()
 
         n_results = random.randint(1, 182)
         for d in remote_data_list:
@@ -122,14 +121,14 @@ class TestData1:
                 timestamp=TIME_FORMAT.stringify(
                     Time(Time.now().ut - sequence_number * 120)
                 ),
-                level='POLLING-DIVISION',
+                level=PDResult1.get_level(),
                 ed_code=ed_code,
                 ed_name=ed_name,
                 pd_code=pd_code,
                 pd_name=pd_name,
                 by_party=TestData1.build_by_party(summary.valid),
                 summary=summary,
-                type='PRESIDENTIAL-FIRST',
+                type=PDResult1.get_type(),
                 sequence_number=f'{sequence_number:04}',
                 reference=f'{sequence_number:09}',
             )

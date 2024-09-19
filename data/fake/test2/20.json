@@ -1,0 +1,26 @@
+{
+  "timestamp": "2024-09-19 15:48:02:000",
+  "level": "ELECTORAL-DISTRICT",
+  "ed_code": "20",
+  "ed_name": "Moneragala",
+  "by_party": [
+    {
+      "party_code": "SJB",
+      "preferences": 161316,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
+    },
+    {
+      "party_code": "IND16",
+      "preferences": 158288,
+      "party_name": "Independent Candidate 16",
+      "candidate": "RANIL WICKREMESINGHE"
+    }
+  ],
+  "summary": {
+    "total": 319604
+  },
+  "type": "PRESIDENTIAL-SECOND",
+  "sequence_number": "0006",
+  "reference": "000000006"
+}

@@ -49,7 +49,7 @@ class GenericResult:
         os.makedirs(dir_path, exist_ok=True)
 
         for data in data_list:
-            json_file_path = os.path.join(dir_path, f'{data.pd_code}.json')
+            json_file_path = os.path.join(dir_path, f'{data.code}.json')
             JSONFile(json_file_path).write(data.to_dict())
         log.info(f'Stored {len(data_list)} GenericResult to {dir_path}')
 
