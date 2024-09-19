@@ -6,7 +6,7 @@ from utils import JSONFile, Log, Time, TimeFormat
 
 from prespollsl2024.ec import EDResult2, ForParty2, Summary2
 from prespollsl2024.fake.RemoteDataUtils import RemoteDataUtils
-from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES1 import TEST_PARTY_TO_P_VOTES1
+from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES2 import TEST_PARTY_TO_P_VOTES2
 from utils_future import StringX
 
 log = Log('TestData2')
@@ -29,17 +29,20 @@ class TestData2:
         K_RANDOM = 1
         party_to_q_votes = {
             party: p_votes * (1 + K_RANDOM * random.random())
-            for party, p_votes in TEST_PARTY_TO_P_VOTES1.items()
+            for party, p_votes in TEST_PARTY_TO_P_VOTES2.items()
         }
 
         party_and_q_votes = sorted(
             party_to_q_votes.items(), key=lambda x: x[1], reverse=True
         )
 
-        return party_and_q_votes[:2]
+        return party_and_q_votes
 
     @staticmethod
-    def build_by_party(valid, party_and_q_votes):
+    def build_by_party(valid):
+        
+        
+        party_and_q_votes = TestData2.get_party_and_q_votes()
         sum_q_votes = sum([x[1] for x in party_and_q_votes])
 
         by_party = []
@@ -65,7 +68,7 @@ class TestData2:
         sequence_number = 0
         remote_data_list = RemoteDataUtils.HACK_get_remote_data_list()
 
-        party_and_q_votes = TestData2.get_party_and_q_votes()
+        
 
         n_results = random.randint(1, 22)
         for d in remote_data_list:
@@ -76,6 +79,7 @@ class TestData2:
             sequence_number += 1
             if sequence_number > n_results:
                 break
+            
             ed_id = entity_id
             ed_code = ed_id[3:]
             ed = Ent.from_id(ed_id)
@@ -90,7 +94,7 @@ class TestData2:
                 ed_code=ed_code,
                 ed_name=ed_name,
                 by_party=TestData2.build_by_party(
-                    summary.total, party_and_q_votes
+                    summary.total, 
                 ),
                 summary=summary,
                 type=EDResult2.get_type(),
