@@ -12,7 +12,10 @@ class Summary2:  # for 2nd Preference Counts
 
     def to_dict_compact(self):
         return {
-            "total": self.total,
+            "valid": self.total,
+            "electors": self.total,
+            "polled": self.total,
+            "rejected": 0,
         }
 
     def from_dict(d):

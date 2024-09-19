@@ -48,7 +48,7 @@ class EDResult2(GenericResult):
     def to_dict_compact(self):
         return {
             "result_time": self.timestamp,
-            "ed_id": self.ed_id,
+            "pd_id": self.ed_id + 'A',
             "party_to_votes": ForParty2.to_dict_compact(self.by_party),
             "summary": self.summary.to_dict_compact(),
         }

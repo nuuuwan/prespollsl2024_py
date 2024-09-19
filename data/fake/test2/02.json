@@ -1,26 +1,26 @@
 {
-  "timestamp": "2024-09-19 15:50:02:000",
+  "timestamp": "2024-09-19 15:41:35:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "02",
   "ed_name": "Gampaha",
   "by_party": [
     {
       "party_code": "SJB",
-      "preferences": 728740,
+      "preferences": 890676,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
-      "party_code": "IND16",
-      "preferences": 715060,
-      "party_name": "Independent Candidate 16",
-      "candidate": "RANIL WICKREMESINGHE"
+      "party_code": "NPP",
+      "preferences": 553124,
+      "party_name": "Jathika Jana Balawegaya",
+      "candidate": "ANURA KUMARA DISSANAYAKE"
     }
   ],
   "summary": {
     "total": 1443800
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0005",
-  "reference": "000000005"
+  "sequence_number": "0019",
+  "reference": "000000019"
 }
