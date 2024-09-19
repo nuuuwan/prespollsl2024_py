@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-19 18:30:38:000",
+  "timestamp": "2024-09-19 18:32:43:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "09",
   "ed_name": "Hambantota",
   "by_party": [
     {
       "party_code": "SJB",
-      "preferences": 238786,
+      "preferences": 225022,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "IND16",
-      "preferences": 182588,
+      "preferences": 196352,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     }
