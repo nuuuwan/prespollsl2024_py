@@ -3,7 +3,7 @@ import random
 import time
 
 from gig import Ent, GIGTable
-from utils import JSONFile, Time, TimeFormat, Log
+from utils import JSONFile, Log, Time, TimeFormat
 
 from prespollsl2024.ec import ECData, ECDataForParty, ECDataSummary
 from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
@@ -67,7 +67,7 @@ class TestData:
         MAX_RETRIES = 3
         T_SLEEP_BASE = 2
         for i in range(MAX_RETRIES):
-            try: 
+            try:
                 gig_table = GIGTable(
                     'government-elections-presidential', 'regions-ec', '2019'
                 )
@@ -77,7 +77,9 @@ class TestData:
             except Exception as e:
                 log.error(f'[HACK_get_remote_data_list] {e}')
                 t_sleep = T_SLEEP_BASE**i
-                log.error(f'[HACK_get_remote_data_list] Sleeping for {t_sleep}s')
+                log.error(
+                    f'[HACK_get_remote_data_list] Sleeping for {t_sleep}s'
+                )
                 time.sleep(t_sleep)
         raise Exception('[HACK_get_remote_data_list] Failed')
 
@@ -88,15 +90,16 @@ class TestData:
         TIME_FORMAT = TimeFormat('%Y-%m-%d %H:%M:%S:000')
         sequence_number = 0
         remote_data_list = TestData.HACK_get_remote_data_list()
-        
+
+        n_results = random.randint(1, 182)
         for d in remote_data_list:
             entity_id = d['entity_id']
             if not (entity_id.startswith('EC-') and len(entity_id) == 6):
                 continue
 
-
-
             sequence_number += 1
+            if sequence_number > n_results:
+                break
             pd_id = entity_id
             pd_code = pd_id[3:]
 
@@ -116,7 +119,7 @@ class TestData:
 
             summary = TestData.build_summary(d)
             ec_data = ECData(
-                timestamp=TIME_FORMAT.stringify(Time.now()),
+                timestamp=TIME_FORMAT.stringify(Time(Time.now().ut - sequence_number * 120)),
                 level='POLLING-DIVISION',
                 ed_code=ed_code,
                 ed_name=ed_name,
@@ -130,9 +133,6 @@ class TestData:
             )
             ec_data_list.append(ec_data)
 
-        random.shuffle(ec_data_list)
-        n = len(ec_data_list)
-        n_results = random.randint(1, n)
-        return ec_data_list[:n_results]
-
-
+        ec_data_list.sort(key=lambda x: x.timestamp)
+        
+        return ec_data_list
