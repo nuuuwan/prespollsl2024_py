@@ -4,9 +4,9 @@ import random
 from gig import Ent
 from utils import JSONFile, Log, Time, TimeFormat
 
-from prespollsl2024.ec import EDResult2, Summary2, ForParty2
+from prespollsl2024.ec import EDResult2, ForParty2, Summary2
 from prespollsl2024.fake.RemoteDataUtils import RemoteDataUtils
-from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
+from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES1 import TEST_PARTY_TO_P_VOTES1
 from utils_future import StringX
 
 log = Log('TestData2')
@@ -23,14 +23,13 @@ class TestData2:
         return Summary2(
             total=total,
         )
-    
 
     @staticmethod
     def get_party_and_q_votes():
         K_RANDOM = 1
         party_to_q_votes = {
             party: p_votes * (1 + K_RANDOM * random.random())
-            for party, p_votes in TEST_PARTY_TO_P_VOTES.items()
+            for party, p_votes in TEST_PARTY_TO_P_VOTES1.items()
         }
 
         party_and_q_votes = sorted(
@@ -41,9 +40,6 @@ class TestData2:
 
     @staticmethod
     def build_by_party(valid, party_and_q_votes):
-        
-
-
         sum_q_votes = sum([x[1] for x in party_and_q_votes])
 
         by_party = []
@@ -93,7 +89,9 @@ class TestData2:
                 level=EDResult2.get_level(),
                 ed_code=ed_code,
                 ed_name=ed_name,
-                by_party=TestData2.build_by_party(summary.total, party_and_q_votes),
+                by_party=TestData2.build_by_party(
+                    summary.total, party_and_q_votes
+                ),
                 summary=summary,
                 type=EDResult2.get_type(),
                 sequence_number=f'{sequence_number:04}',

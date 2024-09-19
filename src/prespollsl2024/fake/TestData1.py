@@ -7,7 +7,7 @@ from utils import JSONFile, Log, Time, TimeFormat
 
 from prespollsl2024.ec import ForParty1, PDResult1, Summary1
 from prespollsl2024.fake.RemoteDataUtils import RemoteDataUtils
-from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
+from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES1 import TEST_PARTY_TO_P_VOTES1
 from utils_future import StringX
 
 log = Log('TestData1')
@@ -39,7 +39,7 @@ class TestData1:
         K_RANDOM = 1
         party_to_q_votes = {
             party: p_votes * (1 + K_RANDOM * random.random())
-            for party, p_votes in TEST_PARTY_TO_P_VOTES.items()
+            for party, p_votes in TEST_PARTY_TO_P_VOTES1.items()
         }
         sum_q_votes = sum(party_to_q_votes.values())
 

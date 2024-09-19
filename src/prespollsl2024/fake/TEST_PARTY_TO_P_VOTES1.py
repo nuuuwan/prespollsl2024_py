@@ -1,4 +1,4 @@
-TEST_PARTY_TO_P_VOTES = {
+TEST_PARTY_TO_P_VOTES1 = {
     "AJP": 0,
     "APP": 0,
     "DUA": 0,

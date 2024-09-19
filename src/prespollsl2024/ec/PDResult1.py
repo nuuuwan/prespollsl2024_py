@@ -27,7 +27,7 @@ class PDResult1(GenericResult):
     @property
     def pd_id(self) -> str:
         return f'EC-{self.pd_code}'
-    
+
     @property
     def code(self) -> str:
         return self.pd_code
