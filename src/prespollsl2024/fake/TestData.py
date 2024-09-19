@@ -38,7 +38,7 @@ class TestData:
 
     @staticmethod
     def build_by_party(valid):
-        K_RANDOM = 1
+        K_RANDOM = 2
         by_party = []
         for party_code, value in TEST_PARTY_TO_P_VOTES.items():
             party_to_q_votes = {
