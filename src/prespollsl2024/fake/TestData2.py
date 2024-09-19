@@ -70,7 +70,8 @@ class TestData2:
 
         
 
-        n_results = random.randint(1, 22)
+        # n_results = random.randint(1, 22)
+        n_results = 22
         for d in remote_data_list:
             entity_id = d['entity_id']
             if not (entity_id.startswith('EC-') and len(entity_id) == 5):

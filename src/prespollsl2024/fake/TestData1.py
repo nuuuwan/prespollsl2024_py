@@ -90,7 +90,8 @@ class TestData1:
         sequence_number = 0
         remote_data_list = RemoteDataUtils.HACK_get_remote_data_list()
 
-        n_results = random.randint(1, 182)
+        # n_results = random.randint(1, 182)
+        n_results = 182
         for d in remote_data_list:
             entity_id = d['entity_id']
             if not (entity_id.startswith('EC-') and len(entity_id) == 6):
