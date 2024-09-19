@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-19 16:32:19:000",
+  "timestamp": "2024-09-19 17:26:18:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "18",
   "ed_name": "Polonnaruwa",
   "by_party": [
     {
-      "party_code": "NPP",
-      "preferences": 144803,
-      "party_name": "Jathika Jana Balawegaya",
-      "candidate": "ANURA KUMARA DISSANAYAKE"
+      "party_code": "SJB",
+      "preferences": 147166,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "IND16",
-      "preferences": 133121,
+      "preferences": 130758,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     }
@@ -21,6 +21,6 @@
     "total": 277924
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0002",
-  "reference": "000000002"
+  "sequence_number": "0007",
+  "reference": "000000007"
 }

@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-19 16:24:19:000",
+  "timestamp": "2024-09-19 17:38:18:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "19",
   "ed_name": "Badulla",
   "by_party": [
     {
-      "party_code": "NPP",
-      "preferences": 291950,
-      "party_name": "Jathika Jana Balawegaya",
-      "candidate": "ANURA KUMARA DISSANAYAKE"
+      "party_code": "SJB",
+      "preferences": 296713,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "IND16",
-      "preferences": 268395,
+      "preferences": 263632,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     }
@@ -21,6 +21,6 @@
     "total": 560345
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0006",
-  "reference": "000000006"
+  "sequence_number": "0001",
+  "reference": "000000001"
 }

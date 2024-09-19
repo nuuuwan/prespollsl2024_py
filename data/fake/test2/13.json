@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-19 16:18:19:000",
+  "timestamp": "2024-09-19 17:28:18:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "13",
   "ed_name": "Digamadulla",
   "by_party": [
     {
-      "party_code": "NPP",
-      "preferences": 214435,
-      "party_name": "Jathika Jana Balawegaya",
-      "candidate": "ANURA KUMARA DISSANAYAKE"
+      "party_code": "SJB",
+      "preferences": 217934,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "IND16",
-      "preferences": 197135,
+      "preferences": 193636,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     }
@@ -21,6 +21,6 @@
     "total": 411570
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0009",
-  "reference": "000000009"
+  "sequence_number": "0006",
+  "reference": "000000006"
 }

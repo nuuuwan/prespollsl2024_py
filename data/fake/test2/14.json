@@ -1,0 +1,26 @@
+{
+  "timestamp": "2024-09-19 17:36:18:000",
+  "level": "ELECTORAL-DISTRICT",
+  "ed_code": "14",
+  "ed_name": "Trincomalee",
+  "by_party": [
+    {
+      "party_code": "SJB",
+      "preferences": 122536,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
+    },
+    {
+      "party_code": "IND16",
+      "preferences": 108874,
+      "party_name": "Independent Candidate 16",
+      "candidate": "RANIL WICKREMESINGHE"
+    }
+  ],
+  "summary": {
+    "total": 231410
+  },
+  "type": "PRESIDENTIAL-SECOND",
+  "sequence_number": "0002",
+  "reference": "000000002"
+}
