@@ -4,8 +4,8 @@ from dataclasses import dataclass
 from utils import Log
 
 from prespollsl2024.ec.ForParty2 import ForParty2
-from prespollsl2024.ec.Summary2 import Summary2
 from prespollsl2024.ec.GenericResult import GenericResult
+from prespollsl2024.ec.Summary2 import Summary2
 
 log = Log("EDResult2")
 

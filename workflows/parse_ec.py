@@ -2,7 +2,7 @@ import os
 
 from utils import JSONFile, Log
 
-from prespollsl2024 import PDResult1, EDResult2
+from prespollsl2024 import EDResult2, PDResult1
 
 log = Log("parse_data")
 
