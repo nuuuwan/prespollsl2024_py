@@ -1,26 +1,26 @@
 {
-  "timestamp": "2024-09-19 22:12:41:000",
+  "timestamp": "2024-09-19 23:10:17:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "08",
   "ed_name": "Matara",
   "by_party": [
     {
-      "party_code": "SJB",
-      "preferences": 312853,
-      "party_name": "Samagi Jana Balawegaya",
-      "candidate": "SAJITH PREMADASA"
-    },
-    {
       "party_code": "NPP",
-      "preferences": 244015,
+      "preferences": 303443,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
+    },
+    {
+      "party_code": "SJB",
+      "preferences": 253425,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
     }
   ],
   "summary": {
     "total": 556868
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0012",
-  "reference": "000000012"
+  "sequence_number": "0014",
+  "reference": "000000014"
 }
