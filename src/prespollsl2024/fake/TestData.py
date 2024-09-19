@@ -5,7 +5,7 @@ import time
 from gig import Ent, GIGTable
 from utils import JSONFile, Log, Time, TimeFormat
 
-from prespollsl2024.ec import ECData, ECDataForParty, ECDataSummary
+from prespollsl2024.ec import PDResult1, ForParty, Summary1
 from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
 
 log = Log('TestData')
@@ -26,7 +26,7 @@ class TestData:
         polled = parse_int(d['polled'])
         electors = parse_int(d['electors'])
 
-        return ECDataSummary(
+        return Summary1(
             valid=valid,
             rejected=rejected,
             polled=polled,
@@ -53,7 +53,7 @@ class TestData:
 
             party_data = TEST_PARTY_IDX[party_code]
 
-            for_party = ECDataForParty(
+            for_party = ForParty(
                 party_code=party_code,
                 votes=votes,
                 percentage=votes / valid,
@@ -87,7 +87,7 @@ class TestData:
         raise Exception('[HACK_get_remote_data_list] Failed')
 
     @staticmethod
-    def build() -> list[ECData]:
+    def build() -> list[PDResult1]:
         ec_data_list = []
         # '2024-09-06 12:02:22:814'
         TIME_FORMAT = TimeFormat('%Y-%m-%d %H:%M:%S:000')
@@ -121,7 +121,7 @@ class TestData:
                 ed_code = ed_id[3:]
 
             summary = TestData.build_summary(d)
-            ec_data = ECData(
+            ec_data = PDResult1(
                 timestamp=TIME_FORMAT.stringify(Time(Time.now().ut - sequence_number * 120)),
                 level='POLLING-DIVISION',
                 ed_code=ed_code,

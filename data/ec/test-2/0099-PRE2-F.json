@@ -1,0 +1,24 @@
+{
+  "timestamp": "2024-09-12 10:23:20:974",
+  "level": "ALL-ISLAND",
+  "by_party": [
+    {
+      "party_code": "CAND1",
+      "preferences": 0,
+      "party_name": "Party 1",
+      "candidate": "Candidate 1"
+    },
+    {
+      "party_code": "CAND2",
+      "preferences": 0,
+      "party_name": "Party 2",
+      "candidate": "Candidate 2"
+    }
+  ],
+  "summary": {
+    "total": 0
+  },
+  "type": "PRESIDENTIAL-SECOND",
+  "sequence_number": "0099",
+  "reference": "175280643"
+}

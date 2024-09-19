@@ -2,21 +2,21 @@ import os
 
 from utils import JSONFile, Log
 
-from prespollsl2024 import ECData
+from prespollsl2024 import PDResult1
 
 log = Log("parse_ec_data")
 
 
 def main():
-    ec_data_list = ECData.list_from_test()
+    ec_data_list = PDResult1.list_from_test()
 
     # JSON
     test_path = os.path.join('data', 'ec', 'test-2024.json')
-    ECData.store_list_to_json_compact(ec_data_list, test_path)
+    PDResult1.store_list_to_json_compact(ec_data_list, test_path)
 
     # TSV
     test_path = os.path.join('data', 'ec', 'test-2024.tsv')
-    ECData.build_tsv(ec_data_list, test_path)
+    PDResult1.build_tsv(ec_data_list, test_path)
     log.info(f'Wrote {test_path}')
 
     # Party Data
