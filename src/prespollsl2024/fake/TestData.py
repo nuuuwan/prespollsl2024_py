@@ -5,7 +5,7 @@ import time
 from gig import Ent, GIGTable
 from utils import JSONFile, Log, Time, TimeFormat
 
-from prespollsl2024.ec import PDResult1, ForParty, Summary1
+from prespollsl2024.ec import ForParty1, PDResult1, Summary1
 from prespollsl2024.fake.TEST_PARTY_TO_P_VOTES import TEST_PARTY_TO_P_VOTES
 
 log = Log('TestData')
@@ -47,13 +47,11 @@ class TestData:
 
         by_party = []
         for party_code, q_votes in party_to_q_votes.items():
-          
-
             votes = int(round(valid * q_votes / sum_q_votes, 0))
 
             party_data = TEST_PARTY_IDX[party_code]
 
-            for_party = ForParty(
+            for_party = ForParty1(
                 party_code=party_code,
                 votes=votes,
                 percentage=votes / valid,
@@ -122,7 +120,9 @@ class TestData:
 
             summary = TestData.build_summary(d)
             ec_data = PDResult1(
-                timestamp=TIME_FORMAT.stringify(Time(Time.now().ut - sequence_number * 120)),
+                timestamp=TIME_FORMAT.stringify(
+                    Time(Time.now().ut - sequence_number * 120)
+                ),
                 level='POLLING-DIVISION',
                 ed_code=ed_code,
                 ed_name=ed_name,
@@ -137,5 +137,5 @@ class TestData:
             ec_data_list.append(ec_data)
 
         ec_data_list.sort(key=lambda x: x.timestamp)
-        
+
         return ec_data_list
