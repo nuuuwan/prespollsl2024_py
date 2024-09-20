@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 10:16:53:000",
+  "timestamp": "2024-09-20 10:56:52:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "21",
   "ed_name": "Ratnapura",
   "by_party": [
     {
       "party_code": "SJB",
-      "preferences": 419894,
+      "preferences": 396184,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "NPP",
-      "preferences": 327777,
+      "preferences": 351487,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     }
@@ -21,6 +21,6 @@
     "total": 747671
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0010",
-  "reference": "000000010"
+  "sequence_number": "0021",
+  "reference": "000000021"
 }

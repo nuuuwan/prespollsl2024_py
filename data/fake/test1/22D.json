@@ -92,8 +92,8 @@
     },
     {
       "party_code": "IND16",
-      "votes": 11696,
-      "percentage": 0.2182741116751269,
+      "votes": 19339,
+      "percentage": 0.36090997312630635,
       "party_name": "Independent Candidate 16",
       "candidate": "RANIL WICKREMESINGHE"
     },
@@ -183,8 +183,8 @@
     },
     {
       "party_code": "NPP",
-      "votes": 19036,
-      "percentage": 0.35525530008957895,
+      "votes": 11792,
+      "percentage": 0.22006569125111974,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
@@ -225,15 +225,15 @@
     },
     {
       "party_code": "SJB",
-      "votes": 11536,
-      "percentage": 0.21528814571513885,
+      "votes": 13853,
+      "percentage": 0.2585286652732159,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "SLCP",
-      "votes": 4921,
-      "percentage": 0.09183711555688265,
+      "votes": 5177,
+      "percentage": 0.09661466109286354,
       "party_name": "Communist Party of Sri Lanka ",
       "candidate": "DILITH JAYAWEERA"
     },
@@ -246,8 +246,8 @@
     },
     {
       "party_code": "SLPP",
-      "votes": 6396,
-      "percentage": 0.11936398925052255,
+      "votes": 3422,
+      "percentage": 0.06386234696924455,
       "party_name": "Sri Lanka Podujana Peramuna",
       "candidate": "NAMAL RAJAPAKSA"
     },
@@ -290,6 +290,6 @@
     "percent_polled": 0.848035988588984
   },
   "type": "PRESIDENTIAL-FIRST",
-  "sequence_number": "0055",
-  "reference": "000000055"
+  "sequence_number": "0086",
+  "reference": "000000086"
 }

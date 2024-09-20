@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 09:54:53:000",
+  "timestamp": "2024-09-20 11:30:52:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "16",
   "ed_name": "Puttalam",
   "by_party": [
     {
       "party_code": "NPP",
-      "preferences": 255062,
+      "preferences": 235985,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
     {
       "party_code": "SJB",
-      "preferences": 198914,
+      "preferences": 217991,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     }
@@ -21,6 +21,6 @@
     "total": 453976
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0021",
-  "reference": "000000021"
+  "sequence_number": "0004",
+  "reference": "000000004"
 }

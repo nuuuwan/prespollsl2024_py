@@ -1,26 +1,26 @@
 {
-  "timestamp": "2024-09-20 10:24:53:000",
+  "timestamp": "2024-09-20 11:08:52:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "13",
   "ed_name": "Digamadulla",
   "by_party": [
     {
-      "party_code": "SJB",
-      "preferences": 208230,
-      "party_name": "Samagi Jana Balawegaya",
-      "candidate": "SAJITH PREMADASA"
-    },
-    {
       "party_code": "NPP",
-      "preferences": 203340,
+      "preferences": 235613,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
+    },
+    {
+      "party_code": "SJB",
+      "preferences": 175957,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
     }
   ],
   "summary": {
     "total": 411570
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0006",
-  "reference": "000000006"
+  "sequence_number": "0015",
+  "reference": "000000015"
 }
