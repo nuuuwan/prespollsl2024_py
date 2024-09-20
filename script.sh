@@ -1,4 +1,5 @@
 #!/bin/zsh
+source ~/zshrc;
 
 git pull origin main
 python workflows/parse_ec.py
