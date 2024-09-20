@@ -1,26 +1,26 @@
 {
-  "timestamp": "2024-09-20 05:42:07:000",
+  "timestamp": "2024-09-20 06:25:54:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "04",
   "ed_name": "Kandy",
   "by_party": [
     {
-      "party_code": "SJB",
-      "preferences": 505140,
-      "party_name": "Samagi Jana Balawegaya",
-      "candidate": "SAJITH PREMADASA"
-    },
-    {
       "party_code": "NPP",
-      "preferences": 429735,
+      "preferences": 468746,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
+    },
+    {
+      "party_code": "SJB",
+      "preferences": 466129,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
     }
   ],
   "summary": {
     "total": 934875
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0007",
-  "reference": "000000007"
+  "sequence_number": "0019",
+  "reference": "000000019"
 }
