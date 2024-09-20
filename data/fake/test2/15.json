@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 14:18:11:000",
+  "timestamp": "2024-09-20 18:12:01:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "15",
   "ed_name": "Kurunegala",
   "by_party": [
     {
       "party_code": "NPP",
-      "preferences": 563416,
+      "preferences": 654407,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
     {
       "party_code": "SJB",
-      "preferences": 563194,
+      "preferences": 472203,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     }
@@ -21,6 +21,6 @@
     "total": 1126610
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0010",
-  "reference": "000000010"
+  "sequence_number": "0014",
+  "reference": "000000014"
 }

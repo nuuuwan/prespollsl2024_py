@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 14:04:11:000",
+  "timestamp": "2024-09-20 18:00:01:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "18",
   "ed_name": "Polonnaruwa",
   "by_party": [
     {
       "party_code": "NPP",
-      "preferences": 144777,
+      "preferences": 163822,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
     {
       "party_code": "SJB",
-      "preferences": 133147,
+      "preferences": 114102,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     }
@@ -21,6 +21,6 @@
     "total": 277924
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0017",
-  "reference": "000000017"
+  "sequence_number": "0020",
+  "reference": "000000020"
 }
