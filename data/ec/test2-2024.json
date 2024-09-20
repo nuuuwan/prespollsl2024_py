@@ -7,7 +7,10 @@
       "CAND2": 0
     },
     "summary": {
-      "total": 0
+      "valid": 0,
+      "electors": 0,
+      "polled": 0,
+      "rejected": 0
     }
   }
 ]
