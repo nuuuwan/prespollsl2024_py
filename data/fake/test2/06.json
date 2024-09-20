@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 09:19:50:000",
+  "timestamp": "2024-09-20 10:30:53:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "06",
   "ed_name": "Nuwara-Eliya",
   "by_party": [
     {
       "party_code": "SJB",
-      "preferences": 258986,
+      "preferences": 294130,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "NPP",
-      "preferences": 217878,
+      "preferences": 182734,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     }
@@ -21,6 +21,6 @@
     "total": 476864
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0009",
-  "reference": "000000009"
+  "sequence_number": "0003",
+  "reference": "000000003"
 }
