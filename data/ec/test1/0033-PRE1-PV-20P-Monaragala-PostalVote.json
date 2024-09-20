@@ -1,0 +1,288 @@
+{
+  "timestamp": "2024-09-19 17:12:40:137",
+  "level": "POSTAL-VOTE",
+  "ed_code": "20",
+  "ed_name": "Monaragala",
+  "pd_code": "20P",
+  "pd_name": "Postal Vote",
+  "by_party": [
+    {
+      "party_code": "P1",
+      "votes": 76,
+      "percentage": 0.32,
+      "party_name": "Party 1",
+      "candidate": "PRE Candidate 1"
+    },
+    {
+      "party_code": "P2",
+      "votes": 80,
+      "percentage": 0.34,
+      "party_name": "Party 2",
+      "candidate": "PRE Candidate 2"
+    },
+    {
+      "party_code": "P3",
+      "votes": 71,
+      "percentage": 0.3,
+      "party_name": "Party 3",
+      "candidate": "PRE Candidate 3"
+    },
+    {
+      "party_code": "P5",
+      "votes": 5796,
+      "percentage": 24.53,
+      "party_name": "Party 5",
+      "candidate": "PRE Candidate 5"
+    },
+    {
+      "party_code": "P6",
+      "votes": 95,
+      "percentage": 0.4,
+      "party_name": "Party 6",
+      "candidate": "PRE Candidate 6"
+    },
+    {
+      "party_code": "P7",
+      "votes": 78,
+      "percentage": 0.33,
+      "party_name": "Party 7",
+      "candidate": "PRE Candidate 7"
+    },
+    {
+      "party_code": "P8",
+      "votes": 92,
+      "percentage": 0.39,
+      "party_name": "Party 8",
+      "candidate": "PRE Candidate 8"
+    },
+    {
+      "party_code": "P9",
+      "votes": 95,
+      "percentage": 0.4,
+      "party_name": "Party 9",
+      "candidate": "PRE Candidate 9"
+    },
+    {
+      "party_code": "P10",
+      "votes": 83,
+      "percentage": 0.35,
+      "party_name": "Party 10",
+      "candidate": "PRE Candidate 10"
+    },
+    {
+      "party_code": "P11",
+      "votes": 68,
+      "percentage": 0.29,
+      "party_name": "Party 11",
+      "candidate": "PRE Candidate 11"
+    },
+    {
+      "party_code": "P12",
+      "votes": 65,
+      "percentage": 0.28,
+      "party_name": "Party 12",
+      "candidate": "PRE Candidate 12"
+    },
+    {
+      "party_code": "P13",
+      "votes": 78,
+      "percentage": 0.33,
+      "party_name": "Party 13",
+      "candidate": "PRE Candidate 13"
+    },
+    {
+      "party_code": "P14",
+      "votes": 68,
+      "percentage": 0.29,
+      "party_name": "Party 14",
+      "candidate": "PRE Candidate 14"
+    },
+    {
+      "party_code": "P15",
+      "votes": 87,
+      "percentage": 0.37,
+      "party_name": "Party 15",
+      "candidate": "PRE Candidate 15"
+    },
+    {
+      "party_code": "P16",
+      "votes": 96,
+      "percentage": 0.41,
+      "party_name": "Party 16",
+      "candidate": "PRE Candidate 16"
+    },
+    {
+      "party_code": "P17",
+      "votes": 81,
+      "percentage": 0.34,
+      "party_name": "Party 17",
+      "candidate": "PRE Candidate 17"
+    },
+    {
+      "party_code": "P18",
+      "votes": 8601,
+      "percentage": 36.4,
+      "party_name": "Party 18",
+      "candidate": "PRE Candidate 18"
+    },
+    {
+      "party_code": "P19",
+      "votes": 71,
+      "percentage": 0.3,
+      "party_name": "Party 19",
+      "candidate": "PRE Candidate 19"
+    },
+    {
+      "party_code": "P20",
+      "votes": 75,
+      "percentage": 0.32,
+      "party_name": "Party 20",
+      "candidate": "PRE Candidate 20"
+    },
+    {
+      "party_code": "P21",
+      "votes": 83,
+      "percentage": 0.35,
+      "party_name": "Party 21",
+      "candidate": "PRE Candidate 21"
+    },
+    {
+      "party_code": "P22",
+      "votes": 56,
+      "percentage": 0.24,
+      "party_name": "Party 22",
+      "candidate": "PRE Candidate 22"
+    },
+    {
+      "party_code": "P23",
+      "votes": 74,
+      "percentage": 0.31,
+      "party_name": "Party 23",
+      "candidate": "PRE Candidate 23"
+    },
+    {
+      "party_code": "P24",
+      "votes": 76,
+      "percentage": 0.32,
+      "party_name": "Party 24",
+      "candidate": "PRE Candidate 24"
+    },
+    {
+      "party_code": "P25",
+      "votes": 72,
+      "percentage": 0.3,
+      "party_name": "Party 25",
+      "candidate": "PRE Candidate 25"
+    },
+    {
+      "party_code": "P26",
+      "votes": 83,
+      "percentage": 0.35,
+      "party_name": "Party 26",
+      "candidate": "PRE Candidate 26"
+    },
+    {
+      "party_code": "P27",
+      "votes": 89,
+      "percentage": 0.38,
+      "party_name": "Party 27",
+      "candidate": "PRE Candidate 27"
+    },
+    {
+      "party_code": "P28",
+      "votes": 62,
+      "percentage": 0.26,
+      "party_name": "Party 28",
+      "candidate": "PRE Candidate 28"
+    },
+    {
+      "party_code": "P29",
+      "votes": 85,
+      "percentage": 0.36,
+      "party_name": "Party 29",
+      "candidate": "PRE Candidate 29"
+    },
+    {
+      "party_code": "P30",
+      "votes": 72,
+      "percentage": 0.3,
+      "party_name": "Party 30",
+      "candidate": "PRE Candidate 30"
+    },
+    {
+      "party_code": "P31",
+      "votes": 66,
+      "percentage": 0.28,
+      "party_name": "Party 31",
+      "candidate": "PRE Candidate 31"
+    },
+    {
+      "party_code": "P32",
+      "votes": 97,
+      "percentage": 0.41,
+      "party_name": "Party 32",
+      "candidate": "PRE Candidate 32"
+    },
+    {
+      "party_code": "P33",
+      "votes": 107,
+      "percentage": 0.45,
+      "party_name": "Party 33",
+      "candidate": "PRE Candidate 33"
+    },
+    {
+      "party_code": "P34",
+      "votes": 88,
+      "percentage": 0.37,
+      "party_name": "Party 34",
+      "candidate": "PRE Candidate 34"
+    },
+    {
+      "party_code": "P35",
+      "votes": 6429,
+      "percentage": 27.21,
+      "party_name": "Party 35",
+      "candidate": "PRE Candidate 35"
+    },
+    {
+      "party_code": "P36",
+      "votes": 91,
+      "percentage": 0.39,
+      "party_name": "Party 36",
+      "candidate": "PRE Candidate 36"
+    },
+    {
+      "party_code": "P37",
+      "votes": 90,
+      "percentage": 0.38,
+      "party_name": "Party 37",
+      "candidate": "PRE Candidate 37"
+    },
+    {
+      "party_code": "P38",
+      "votes": 73,
+      "percentage": 0.31,
+      "party_name": "Party 38",
+      "candidate": "PRE Candidate 38"
+    },
+    {
+      "party_code": "P39",
+      "votes": 81,
+      "percentage": 0.34,
+      "party_name": "Party 39",
+      "candidate": "PRE Candidate 39"
+    }
+  ],
+  "summary": {
+    "valid": 23630,
+    "rejected": 221,
+    "polled": 23851,
+    "electors": 24797,
+    "percent_valid": 99.07,
+    "percent_rejected": 0.93,
+    "percent_polled": 96.19
+  },
+  "type": "PRESIDENTIAL-FIRST",
+  "sequence_number": "0033",
+  "reference": "10370926229"
+}
