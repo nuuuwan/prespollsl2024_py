@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 12:19:23:000",
+  "timestamp": "2024-09-20 12:58:55:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "02",
   "ed_name": "Gampaha",
   "by_party": [
     {
       "party_code": "NPP",
-      "preferences": 829756,
+      "preferences": 811877,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     },
     {
       "party_code": "SJB",
-      "preferences": 614044,
+      "preferences": 631923,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     }
@@ -21,6 +21,6 @@
     "total": 1443800
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0009",
-  "reference": "000000009"
+  "sequence_number": "0020",
+  "reference": "000000020"
 }

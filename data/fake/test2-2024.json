@@ -1,206 +1,10 @@
 [
   {
-    "result_time": "2024-09-20 11:53:23:000",
-    "ed_id": "EC-22",
-    "party_to_votes": {
-      "NPP": 231537,
-      "SJB": 344294
-    },
-    "summary": {
-      "valid": 575831,
-      "electors": 575831,
-      "polled": 575831,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 11:55:23:000",
-    "ed_id": "EC-21",
-    "party_to_votes": {
-      "NPP": 404334,
-      "SJB": 343337
-    },
-    "summary": {
-      "valid": 747671,
-      "electors": 747671,
-      "polled": 747671,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 11:57:23:000",
-    "ed_id": "EC-18",
-    "party_to_votes": {
-      "NPP": 136167,
-      "SJB": 141757
-    },
-    "summary": {
-      "valid": 277924,
-      "electors": 277924,
-      "polled": 277924,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 11:59:23:000",
-    "ed_id": "EC-06",
-    "party_to_votes": {
-      "NPP": 245098,
-      "SJB": 231766
-    },
-    "summary": {
-      "valid": 476864,
-      "electors": 476864,
-      "polled": 476864,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:01:23:000",
-    "ed_id": "EC-05",
-    "party_to_votes": {
-      "NPP": 196833,
-      "SJB": 142388
-    },
-    "summary": {
-      "valid": 339221,
-      "electors": 339221,
-      "polled": 339221,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:03:23:000",
-    "ed_id": "EC-13",
-    "party_to_votes": {
-      "NPP": 206008,
-      "SJB": 205562
-    },
-    "summary": {
-      "valid": 411570,
-      "electors": 411570,
-      "polled": 411570,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:05:23:000",
-    "ed_id": "EC-15",
-    "party_to_votes": {
-      "NPP": 510058,
-      "SJB": 616552
-    },
-    "summary": {
-      "valid": 1126610,
-      "electors": 1126610,
-      "polled": 1126610,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:07:23:000",
-    "ed_id": "EC-08",
-    "party_to_votes": {
-      "NPP": 223708,
-      "SJB": 333160
-    },
-    "summary": {
-      "valid": 556868,
-      "electors": 556868,
-      "polled": 556868,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:09:23:000",
-    "ed_id": "EC-09",
-    "party_to_votes": {
-      "NPP": 208819,
-      "SJB": 212555
-    },
-    "summary": {
-      "valid": 421374,
-      "electors": 421374,
-      "polled": 421374,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:11:23:000",
-    "ed_id": "EC-07",
-    "party_to_votes": {
-      "NPP": 460781,
-      "SJB": 264577
-    },
-    "summary": {
-      "valid": 725358,
-      "electors": 725358,
-      "polled": 725358,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:13:23:000",
-    "ed_id": "EC-12",
-    "party_to_votes": {
-      "NPP": 150854,
-      "SJB": 152367
-    },
-    "summary": {
-      "valid": 303221,
-      "electors": 303221,
-      "polled": 303221,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:15:23:000",
-    "ed_id": "EC-11",
-    "party_to_votes": {
-      "NPP": 108808,
-      "SJB": 103970
-    },
-    "summary": {
-      "valid": 212778,
-      "electors": 212778,
-      "polled": 212778,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:17:23:000",
-    "ed_id": "EC-03",
-    "party_to_votes": {
-      "NPP": 449780,
-      "SJB": 361983
-    },
-    "summary": {
-      "valid": 811763,
-      "electors": 811763,
-      "polled": 811763,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:19:23:000",
-    "ed_id": "EC-02",
-    "party_to_votes": {
-      "NPP": 829756,
-      "SJB": 614044
-    },
-    "summary": {
-      "valid": 1443800,
-      "electors": 1443800,
-      "polled": 1443800,
-      "rejected": 0
-    }
-  },
-  {
-    "result_time": "2024-09-20 12:21:23:000",
+    "result_time": "2024-09-20 12:54:55:000",
     "ed_id": "EC-14",
     "party_to_votes": {
-      "NPP": 129026,
-      "SJB": 102384
+      "NPP": 121185,
+      "SJB": 110225
     },
     "summary": {
       "valid": 231410,
@@ -210,11 +14,95 @@
     }
   },
   {
-    "result_time": "2024-09-20 12:23:23:000",
+    "result_time": "2024-09-20 12:56:55:000",
+    "ed_id": "EC-07",
+    "party_to_votes": {
+      "NPP": 388110,
+      "SJB": 337248
+    },
+    "summary": {
+      "valid": 725358,
+      "electors": 725358,
+      "polled": 725358,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 12:58:55:000",
+    "ed_id": "EC-02",
+    "party_to_votes": {
+      "NPP": 811877,
+      "SJB": 631923
+    },
+    "summary": {
+      "valid": 1443800,
+      "electors": 1443800,
+      "polled": 1443800,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:00:55:000",
+    "ed_id": "EC-05",
+    "party_to_votes": {
+      "NPP": 164564,
+      "SJB": 174657
+    },
+    "summary": {
+      "valid": 339221,
+      "electors": 339221,
+      "polled": 339221,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:02:55:000",
+    "ed_id": "EC-22",
+    "party_to_votes": {
+      "NPP": 339856,
+      "SJB": 235975
+    },
+    "summary": {
+      "valid": 575831,
+      "electors": 575831,
+      "polled": 575831,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:04:55:000",
+    "ed_id": "EC-11",
+    "party_to_votes": {
+      "NPP": 116094,
+      "SJB": 96684
+    },
+    "summary": {
+      "valid": 212778,
+      "electors": 212778,
+      "polled": 212778,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:06:55:000",
+    "ed_id": "EC-15",
+    "party_to_votes": {
+      "NPP": 546290,
+      "SJB": 580320
+    },
+    "summary": {
+      "valid": 1126610,
+      "electors": 1126610,
+      "polled": 1126610,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:08:55:000",
     "ed_id": "EC-17",
     "party_to_votes": {
-      "NPP": 235108,
-      "SJB": 345238
+      "NPP": 302732,
+      "SJB": 277614
     },
     "summary": {
       "valid": 580346,
@@ -224,39 +112,53 @@
     }
   },
   {
-    "result_time": "2024-09-20 12:25:23:000",
-    "ed_id": "EC-10",
+    "result_time": "2024-09-20 13:10:55:000",
+    "ed_id": "EC-13",
     "party_to_votes": {
-      "NPP": 203301,
-      "SJB": 169612
+      "NPP": 164578,
+      "SJB": 246992
     },
     "summary": {
-      "valid": 372913,
-      "electors": 372913,
-      "polled": 372913,
+      "valid": 411570,
+      "electors": 411570,
+      "polled": 411570,
       "rejected": 0
     }
   },
   {
-    "result_time": "2024-09-20 12:27:23:000",
-    "ed_id": "EC-16",
+    "result_time": "2024-09-20 13:12:55:000",
+    "ed_id": "EC-18",
     "party_to_votes": {
-      "NPP": 217049,
-      "SJB": 236927
+      "NPP": 137764,
+      "SJB": 140160
     },
     "summary": {
-      "valid": 453976,
-      "electors": 453976,
-      "polled": 453976,
+      "valid": 277924,
+      "electors": 277924,
+      "polled": 277924,
       "rejected": 0
     }
   },
   {
-    "result_time": "2024-09-20 12:29:23:000",
+    "result_time": "2024-09-20 13:14:55:000",
+    "ed_id": "EC-21",
+    "party_to_votes": {
+      "NPP": 418900,
+      "SJB": 328771
+    },
+    "summary": {
+      "valid": 747671,
+      "electors": 747671,
+      "polled": 747671,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:16:55:000",
     "ed_id": "EC-01",
     "party_to_votes": {
-      "NPP": 753987,
-      "SJB": 614190
+      "NPP": 850339,
+      "SJB": 517838
     },
     "summary": {
       "valid": 1368177,
@@ -266,25 +168,25 @@
     }
   },
   {
-    "result_time": "2024-09-20 12:31:23:000",
-    "ed_id": "EC-19",
+    "result_time": "2024-09-20 13:18:55:000",
+    "ed_id": "EC-10",
     "party_to_votes": {
-      "NPP": 264915,
-      "SJB": 295430
+      "NPP": 166990,
+      "SJB": 205923
     },
     "summary": {
-      "valid": 560345,
-      "electors": 560345,
-      "polled": 560345,
+      "valid": 372913,
+      "electors": 372913,
+      "polled": 372913,
       "rejected": 0
     }
   },
   {
-    "result_time": "2024-09-20 12:33:23:000",
+    "result_time": "2024-09-20 13:20:55:000",
     "ed_id": "EC-20",
     "party_to_votes": {
-      "NPP": 196665,
-      "SJB": 122939
+      "NPP": 182233,
+      "SJB": 137371
     },
     "summary": {
       "valid": 319604,
@@ -294,16 +196,114 @@
     }
   },
   {
-    "result_time": "2024-09-20 12:35:23:000",
+    "result_time": "2024-09-20 13:22:55:000",
+    "ed_id": "EC-09",
+    "party_to_votes": {
+      "NPP": 163312,
+      "SJB": 258062
+    },
+    "summary": {
+      "valid": 421374,
+      "electors": 421374,
+      "polled": 421374,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:24:55:000",
+    "ed_id": "EC-19",
+    "party_to_votes": {
+      "NPP": 301723,
+      "SJB": 258622
+    },
+    "summary": {
+      "valid": 560345,
+      "electors": 560345,
+      "polled": 560345,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:26:55:000",
+    "ed_id": "EC-06",
+    "party_to_votes": {
+      "NPP": 292711,
+      "SJB": 184153
+    },
+    "summary": {
+      "valid": 476864,
+      "electors": 476864,
+      "polled": 476864,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:28:55:000",
+    "ed_id": "EC-08",
+    "party_to_votes": {
+      "NPP": 201985,
+      "SJB": 354883
+    },
+    "summary": {
+      "valid": 556868,
+      "electors": 556868,
+      "polled": 556868,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:30:55:000",
+    "ed_id": "EC-12",
+    "party_to_votes": {
+      "NPP": 151300,
+      "SJB": 151921
+    },
+    "summary": {
+      "valid": 303221,
+      "electors": 303221,
+      "polled": 303221,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:32:55:000",
     "ed_id": "EC-04",
     "party_to_votes": {
-      "NPP": 439639,
-      "SJB": 495236
+      "NPP": 509522,
+      "SJB": 425353
     },
     "summary": {
       "valid": 934875,
       "electors": 934875,
       "polled": 934875,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:34:55:000",
+    "ed_id": "EC-16",
+    "party_to_votes": {
+      "NPP": 220772,
+      "SJB": 233204
+    },
+    "summary": {
+      "valid": 453976,
+      "electors": 453976,
+      "polled": 453976,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-20 13:36:55:000",
+    "ed_id": "EC-03",
+    "party_to_votes": {
+      "NPP": 355375,
+      "SJB": 456388
+    },
+    "summary": {
+      "valid": 811763,
+      "electors": 811763,
+      "polled": 811763,
       "rejected": 0
     }
   }
