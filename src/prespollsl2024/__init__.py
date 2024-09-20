@@ -1,4 +1,4 @@
-# prespollsl2024 (auto generate by build_inits.py)
+# no auto
 
 from prespollsl2024.analysis import Banford, Demographics
 # from prespollsl2024.app import AppPage
