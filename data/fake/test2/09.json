@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 07:49:22:000",
+  "timestamp": "2024-09-20 08:10:51:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "09",
   "ed_name": "Hambantota",
   "by_party": [
     {
       "party_code": "SJB",
-      "preferences": 219369,
+      "preferences": 230052,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "NPP",
-      "preferences": 202005,
+      "preferences": 191322,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     }
@@ -21,6 +21,6 @@
     "total": 421374
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0004",
-  "reference": "000000004"
+  "sequence_number": "0014",
+  "reference": "000000014"
 }
