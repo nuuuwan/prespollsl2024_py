@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 git pull origin main
 python workflows/parse_ec.py
 git add *
