@@ -10,7 +10,7 @@ class GenericResult:
     @classmethod
     def from_file(cls, json_file_path: str) -> 'GenericResult':
         d = JSONFile(json_file_path).read()
-        if d.get('level') != cls.get_level():
+        if d.get('level') not in cls.get_level_list():
             return None
         if d.get('type') != cls.get_type():
             return None
@@ -19,17 +19,34 @@ class GenericResult:
         log.debug(f'Loaded from {json_file_path}')
         return data
 
+    @staticmethod
+    def dedupe(data_list: list['GenericResult']) -> list['GenericResult']:
+        deduped_data_list = []
+        code_set = set()
+        for data in data_list:
+            code = data.code
+            if code in code_set:
+                log.warning(f'Duplicate: {code}')
+                continue
+            deduped_data_list.append(data)
+            code_set.add(code)
+        return deduped_data_list
+
     @classmethod
     def list_for_dir(cls, dir_path: str) -> list['GenericResult']:
         data_list = []
         for file_name in os.listdir(dir_path):
             if not file_name.endswith(".json"):
+                log.warning(f'Ignoring {file_name}')
                 continue
             data = cls.from_file(os.path.join(dir_path, file_name))
             if not data:
+                log.warning(f'No result for {file_name}')
                 continue
 
             data_list.append(data)
+
+        data_list = GenericResult.dedupe(data_list)
         log.info(f'Loaded {len(data_list)} results from {dir_path}')
         return data_list
 

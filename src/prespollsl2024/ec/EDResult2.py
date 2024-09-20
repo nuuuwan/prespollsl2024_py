@@ -56,8 +56,8 @@ class EDResult2(GenericResult):
     # Loaders
 
     @classmethod
-    def get_level(cls) -> str:
-        return 'ELECTORAL-DISTRICT'
+    def get_level_list(cls) -> list[str]:
+        return ['ELECTORAL-DISTRICT']
 
     @classmethod
     def get_type(cls) -> str:

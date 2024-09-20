@@ -58,8 +58,8 @@ class PDResult1(GenericResult):
     # Loaders
 
     @classmethod
-    def get_level(cls) -> str:
-        return 'POLLING-DIVISION'
+    def get_level_list(cls) -> list[str]:
+        return ['POLLING-DIVISION', 'POSTAL-VOTE']
 
     @classmethod
     def get_type(cls) -> str:

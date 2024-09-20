@@ -122,7 +122,7 @@ class TestData1:
                 timestamp=TIME_FORMAT.stringify(
                     Time(Time.now().ut - sequence_number * 120)
                 ),
-                level=PDResult1.get_level(),
+                level=PDResult1.get_level_list()[0],
                 ed_code=ed_code,
                 ed_name=ed_name,
                 pd_code=pd_code,

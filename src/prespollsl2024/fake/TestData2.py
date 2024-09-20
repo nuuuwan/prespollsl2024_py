@@ -87,7 +87,7 @@ class TestData2:
                 timestamp=TIME_FORMAT.stringify(
                     Time(Time.now().ut - sequence_number * 120)
                 ),
-                level=EDResult2.get_level(),
+                level=EDResult2.get_level_list()[0],
                 ed_code=ed_code,
                 ed_name=ed_name,
                 by_party=TestData2.build_by_party(
