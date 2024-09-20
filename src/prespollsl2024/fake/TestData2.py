@@ -40,8 +40,6 @@ class TestData2:
 
     @staticmethod
     def build_by_party(valid):
-        
-        
         party_and_q_votes = TestData2.get_party_and_q_votes()
         sum_q_votes = sum([x[1] for x in party_and_q_votes])
 
@@ -68,8 +66,6 @@ class TestData2:
         sequence_number = 0
         remote_data_list = RemoteDataUtils.HACK_get_remote_data_list()
 
-        
-
         # n_results = random.randint(1, 22)
         n_results = 22
         for d in remote_data_list:
@@ -80,7 +76,7 @@ class TestData2:
             sequence_number += 1
             if sequence_number > n_results:
                 break
-            
+
             ed_id = entity_id
             ed_code = ed_id[3:]
             ed = Ent.from_id(ed_id)
@@ -95,7 +91,7 @@ class TestData2:
                 ed_code=ed_code,
                 ed_name=ed_name,
                 by_party=TestData2.build_by_party(
-                    summary.total, 
+                    summary.total,
                 ),
                 summary=summary,
                 type=EDResult2.get_type(),
