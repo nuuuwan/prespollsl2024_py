@@ -1,20 +1,20 @@
 {
-  "timestamp": "2024-09-20 10:56:52:000",
+  "timestamp": "2024-09-20 11:55:23:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "21",
   "ed_name": "Ratnapura",
   "by_party": [
     {
-      "party_code": "SJB",
-      "preferences": 396184,
-      "party_name": "Samagi Jana Balawegaya",
-      "candidate": "SAJITH PREMADASA"
-    },
-    {
       "party_code": "NPP",
-      "preferences": 351487,
+      "preferences": 404334,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
+    },
+    {
+      "party_code": "SJB",
+      "preferences": 343337,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
     }
   ],
   "summary": {
