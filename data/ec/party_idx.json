@@ -1,197 +1,192 @@
 {
-  "IND1": {
-    "party_code": "IND1",
-    "party_name": "Independent Candidate 1",
-    "candidate": "AKMEEMANA DAYARATHANA THERO"
+  "P1": {
+    "party_code": "P1",
+    "party_name": "Party 1",
+    "candidate": "PRE Candidate 1"
   },
-  "DUA": {
-    "party_code": "DUA",
-    "party_name": "Democratic Unity Alliance",
-    "candidate": "ABUBAKAR MOHAMED INFAS"
+  "P2": {
+    "party_code": "P2",
+    "party_name": "Party 2",
+    "candidate": "PRE Candidate 2"
   },
-  "IND2": {
-    "party_code": "IND2",
-    "party_name": "Independent Candidate 2",
-    "candidate": "SIRIPALA AMARASINGHE"
+  "P3": {
+    "party_code": "P3",
+    "party_name": "Party 3",
+    "candidate": "PRE Candidate 3"
   },
-  "IND3": {
-    "party_code": "IND3",
-    "party_name": "Independent Candidate 3",
-    "candidate": "IDROOS MOHAMED ILLIAS"
+  "P5": {
+    "party_code": "P5",
+    "party_name": "Party 5",
+    "candidate": "PRE Candidate 5"
   },
-  "IND4": {
-    "party_code": "IND4",
-    "party_name": "Independent Candidate 4",
-    "candidate": "K.K. PIYADASA"
+  "P6": {
+    "party_code": "P6",
+    "party_name": "Party 6",
+    "candidate": "PRE Candidate 6"
   },
-  "IND5": {
-    "party_code": "IND5",
-    "party_name": "Independent Candidate 5",
-    "candidate": "SARATH KEERTHIRATHNA"
+  "P7": {
+    "party_code": "P7",
+    "party_name": "Party 7",
+    "candidate": "PRE Candidate 7"
   },
-  "IND6": {
-    "party_code": "IND6",
-    "party_name": "Independent Candidate 6",
-    "candidate": "K.A. KULARATNA"
+  "P8": {
+    "party_code": "P8",
+    "party_name": "Party 8",
+    "candidate": "PRE Candidate 8"
   },
-  "APP": {
-    "party_code": "APP",
-    "party_name": "Arunalu Peoples Alliance",
-    "candidate": "K.R. KRISHAN"
+  "P9": {
+    "party_code": "P9",
+    "party_name": "Party 9",
+    "candidate": "PRE Candidate 9"
   },
-  "IND7": {
-    "party_code": "IND7",
-    "party_name": "Independent Candidate 7",
-    "candidate": "PALLIMULLA KAPUGAMAGE ANURA SIDNEY JAYARATHNA"
+  "P10": {
+    "party_code": "P10",
+    "party_name": "Party 10",
+    "candidate": "PRE Candidate 10"
   },
-  "SLCP": {
-    "party_code": "SLCP",
-    "party_name": "Communist Party of Sri Lanka ",
-    "candidate": "DILITH JAYAWEERA"
+  "P11": {
+    "party_code": "P11",
+    "party_name": "Party 11",
+    "candidate": "PRE Candidate 11"
   },
-  "USP": {
-    "party_code": "USP",
-    "party_name": "United Socialist Party",
-    "candidate": "SIRITUNGA JAYASURIYA"
+  "P12": {
+    "party_code": "P12",
+    "party_name": "Party 12",
+    "candidate": "PRE Candidate 12"
   },
-  "IND8": {
-    "party_code": "IND8",
-    "party_name": "Independent Candidate 8",
-    "candidate": "MYLVAGANAM THILAKARAJAH"
+  "P13": {
+    "party_code": "P13",
+    "party_name": "Party 13",
+    "candidate": "PRE Candidate 13"
   },
-  "DUNF": {
-    "party_code": "DUNF",
-    "party_name": "Democratic United National Front",
-    "candidate": "AGAMPODI PRASANGA SURANJEEWA ANOJ DE SILVA"
+  "P14": {
+    "party_code": "P14",
+    "party_name": "Party 14",
+    "candidate": "PRE Candidate 14"
   },
-  "UNFF": {
-    "party_code": "UNFF",
-    "party_name": "United National Freedom Front",
-    "candidate": "LALITH DE SILVA"
+  "P15": {
+    "party_code": "P15",
+    "party_name": "Party 15",
+    "candidate": "PRE Candidate 15"
   },
-  "RJA": {
-    "party_code": "RJA",
-    "party_name": "Ruhunu Janatha Alliance",
-    "candidate": "AJANTHA DE ZOYSA"
+  "P16": {
+    "party_code": "P16",
+    "party_name": "Party 16",
+    "candidate": "PRE Candidate 16"
   },
-  "NPP": {
-    "party_code": "NPP",
-    "party_name": "Jathika Jana Balawegaya",
-    "candidate": "ANURA KUMARA DISSANAYAKE"
+  "P17": {
+    "party_code": "P17",
+    "party_name": "Party 17",
+    "candidate": "PRE Candidate 17"
   },
-  "SLSP": {
-    "party_code": "SLSP",
-    "party_name": "Socialist Party of Sri Lanka",
-    "candidate": "MAHINDA DEWAGE"
+  "P18": {
+    "party_code": "P18",
+    "party_name": "Party 18",
+    "candidate": "PRE Candidate 18"
   },
-  "IND9": {
-    "party_code": "IND9",
-    "party_name": "Independent Candidate 9",
-    "candidate": "ARIYANETHIRAN PAKKIYASELVAM"
+  "P19": {
+    "party_code": "P19",
+    "party_name": "Party 19",
+    "candidate": "PRE Candidate 19"
   },
-  "IND10": {
-    "party_code": "IND10",
-    "party_name": "Independent Candidate 10",
-    "candidate": "VICTOR PERERA"
+  "P20": {
+    "party_code": "P20",
+    "party_name": "Party 20",
+    "candidate": "PRE Candidate 20"
   },
-  "IND11": {
-    "party_code": "IND11",
-    "party_name": "Independent Candidate 11",
-    "candidate": "ANURUDDHA POLGAMPALA"
+  "P21": {
+    "party_code": "P21",
+    "party_name": "Party 21",
+    "candidate": "PRE Candidate 21"
   },
-  "SJB": {
-    "party_code": "SJB",
-    "party_name": "Samagi Jana Balawegaya",
-    "candidate": "SAJITH PREMADASA"
+  "P22": {
+    "party_code": "P22",
+    "party_name": "Party 22",
+    "candidate": "PRE Candidate 22"
   },
-  "IND12": {
-    "party_code": "IND12",
-    "party_name": "Independent Candidate 12",
-    "candidate": "SARATH FONSEKA"
+  "P23": {
+    "party_code": "P23",
+    "party_name": "Party 23",
+    "candidate": "PRE Candidate 23"
   },
-  "IND13": {
-    "party_code": "IND13",
-    "party_name": "Independent Candidate 13",
-    "candidate": "DISSANAYAKA MUDIYANSELAGE BANDARANAYAKE"
+  "P24": {
+    "party_code": "P24",
+    "party_name": "Party 24",
+    "candidate": "PRE Candidate 24"
   },
-  "NDF": {
-    "party_code": "NDF",
-    "party_name": "Jathika Sangwardhena Peramuna",
-    "candidate": "SARATH BANDARANAYAKE"
+  "P25": {
+    "party_code": "P25",
+    "party_name": "Party 25",
+    "candidate": "PRE Candidate 25"
   },
-  "JSP": {
-    "party_code": "JSP",
-    "party_name": "Jana Setha Peramuna",
-    "candidate": "BATHTHARAMULLE SEELARATHANA THERO"
+  "P26": {
+    "party_code": "P26",
+    "party_name": "Party 26",
+    "candidate": "PRE Candidate 26"
   },
-  "SPF": {
-    "party_code": "SPF",
-    "party_name": "Socialist People Forum",
-    "candidate": "NUWAN BOPEGE"
+  "P27": {
+    "party_code": "P27",
+    "party_name": "Party 27",
+    "candidate": "PRE Candidate 27"
   },
-  "NSU": {
-    "party_code": "NSU",
-    "party_name": "Nawa Sihala Urumaya",
-    "candidate": "SARATH MANAMENDRA"
+  "P28": {
+    "party_code": "P28",
+    "party_name": "Party 28",
+    "candidate": "PRE Candidate 28"
   },
-  "IND14": {
-    "party_code": "IND14",
-    "party_name": "Independent Candidate 14",
-    "candidate": "PEMASIRI MANAGE"
+  "P29": {
+    "party_code": "P29",
+    "party_name": "Party 29",
+    "candidate": "PRE Candidate 29"
   },
-  "IND15": {
-    "party_code": "IND15",
-    "party_name": "Independent Candidate 15",
-    "candidate": "ANURUDDHA ROSHAN RANASINGHE"
+  "P30": {
+    "party_code": "P30",
+    "party_name": "Party 30",
+    "candidate": "PRE Candidate 30"
   },
-  "ELPP": {
-    "party_code": "ELPP",
-    "party_name": "Eksath Lanka Podujana Pakshaya",
-    "candidate": "JANAKA RATNAYAKE"
+  "P31": {
+    "party_code": "P31",
+    "party_name": "Party 31",
+    "candidate": "PRE Candidate 31"
   },
-  "SBP": {
-    "party_code": "SBP",
-    "party_name": "Samabima Party",
-    "candidate": "NAMAL RAJAPAKSHA"
+  "P32": {
+    "party_code": "P32",
+    "party_name": "Party 32",
+    "candidate": "PRE Candidate 32"
   },
-  "SLPP": {
-    "party_code": "SLPP",
-    "party_name": "Sri Lanka Podujana Peramuna",
-    "candidate": "NAMAL RAJAPAKSA"
+  "P33": {
+    "party_code": "P33",
+    "party_name": "Party 33",
+    "candidate": "PRE Candidate 33"
   },
-  "JPF": {
-    "party_code": "JPF",
-    "party_name": "National Democratic Front",
-    "candidate": "WIJEYADASA RAJAPAKSHE"
+  "P34": {
+    "party_code": "P34",
+    "party_name": "Party 34",
+    "candidate": "PRE Candidate 34"
   },
-  "SLLP": {
-    "party_code": "SLLP",
-    "party_name": "Sri Lanka Labour Party",
-    "candidate": "A.S.P. LIYANAGE"
+  "P35": {
+    "party_code": "P35",
+    "party_name": "Party 35",
+    "candidate": "PRE Candidate 35"
   },
-  "AJP": {
-    "party_code": "AJP",
-    "party_name": "Ape Janabala Pakshaya",
-    "candidate": "KEERTHIE WICKRAMARATNE"
+  "P36": {
+    "party_code": "P36",
+    "party_name": "Party 36",
+    "candidate": "PRE Candidate 36"
   },
-  "NSSP": {
-    "party_code": "NSSP",
-    "party_name": "Nawa Sama Samaja Party",
-    "candidate": "PRIYANTHA WICKRAMASINGHE"
+  "P37": {
+    "party_code": "P37",
+    "party_name": "Party 37",
+    "candidate": "PRE Candidate 37"
   },
-  "IND16": {
-    "party_code": "IND16",
-    "party_name": "Independent Candidate 16",
-    "candidate": "RANIL WICKREMESINGHE"
+  "P38": {
+    "party_code": "P38",
+    "party_name": "Party 38",
+    "candidate": "PRE Candidate 38"
   },
-  "SEP": {
-    "party_code": "SEP",
-    "party_name": "Socialist Equality Party",
-    "candidate": "PANI WIJESIRIWARDENA"
-  },
-  "NIF": {
-    "party_code": "NIF",
-    "party_name": "New Independent Front",
-    "candidate": "OSHALA HERATH"
+  "P39": {
+    "party_code": "P39",
+    "party_name": "Party 39",
+    "candidate": "PRE Candidate 39"
   }
 }
