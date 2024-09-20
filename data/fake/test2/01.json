@@ -1,26 +1,26 @@
 {
-  "timestamp": "2024-09-20 03:53:02:000",
+  "timestamp": "2024-09-20 05:38:07:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "01",
   "ed_name": "Colombo",
   "by_party": [
     {
-      "party_code": "NPP",
-      "preferences": 717441,
-      "party_name": "Jathika Jana Balawegaya",
-      "candidate": "ANURA KUMARA DISSANAYAKE"
-    },
-    {
       "party_code": "SJB",
-      "preferences": 650736,
+      "preferences": 843259,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
+    },
+    {
+      "party_code": "NPP",
+      "preferences": 524918,
+      "party_name": "Jathika Jana Balawegaya",
+      "candidate": "ANURA KUMARA DISSANAYAKE"
     }
   ],
   "summary": {
     "total": 1368177
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0022",
-  "reference": "000000022"
+  "sequence_number": "0009",
+  "reference": "000000009"
 }

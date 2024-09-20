@@ -1,18 +1,18 @@
 {
-  "timestamp": "2024-09-20 04:07:02:000",
+  "timestamp": "2024-09-20 05:40:07:000",
   "level": "ELECTORAL-DISTRICT",
   "ed_code": "10",
   "ed_name": "Jaffna",
   "by_party": [
     {
       "party_code": "SJB",
-      "preferences": 234259,
+      "preferences": 205353,
       "party_name": "Samagi Jana Balawegaya",
       "candidate": "SAJITH PREMADASA"
     },
     {
       "party_code": "NPP",
-      "preferences": 138654,
+      "preferences": 167560,
       "party_name": "Jathika Jana Balawegaya",
       "candidate": "ANURA KUMARA DISSANAYAKE"
     }
@@ -21,6 +21,6 @@
     "total": 372913
   },
   "type": "PRESIDENTIAL-SECOND",
-  "sequence_number": "0015",
-  "reference": "000000015"
+  "sequence_number": "0008",
+  "reference": "000000008"
 }
