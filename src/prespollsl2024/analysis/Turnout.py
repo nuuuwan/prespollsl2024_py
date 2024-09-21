@@ -11,7 +11,6 @@ class Turnout:
         gt = GIGTable(
             'government-elections-presidential', 'regions-ec', f'{year}'
         )
-        num_list = []
         for d in gt.remote_data_list:
             entity_id = d['entity_id']
             if EntType.from_id(entity_id) != EntType.ED:

@@ -1,8 +1,8 @@
 import os
 
-from utils import JSONFile, Log
+from utils import Log
 
-from prespollsl2024 import EDResult2, PDResult1
+from prespollsl2024 import PDResult1
 
 log = Log("parse_ec")
 

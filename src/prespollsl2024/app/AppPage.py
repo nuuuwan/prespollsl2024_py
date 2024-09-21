@@ -7,10 +7,10 @@ import urllib.parse
 from moviepy.editor import AudioFileClip, CompositeVideoClip, ImageClip, afx
 from PIL import Image
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
-from utils import Log, JSONFile
+from selenium.webdriver.firefox.options import Options
 from twtr import Tweet, Twitter
+from utils import JSONFile, Log
 
 log = Log("AppPage")
 
@@ -98,7 +98,7 @@ class AppPage:
         )
         os.makedirs(image_dir, exist_ok=True)
         return image_dir
-    
+
     @property
     def hidden_data_dir(self):
         hidden_data_dir = os.path.join(
@@ -106,7 +106,7 @@ class AppPage:
         )
         os.makedirs(hidden_data_dir, exist_ok=True)
         return hidden_data_dir
-    
+
     def open_page(self):
         if not self.driver:
             self.driver = AppPage.start_driver()
@@ -129,27 +129,31 @@ class AppPage:
         image_size_k = os.path.getsize(image_path) / 1_000
         log.info(f"Wrote screenshot to {image_path} ({image_size_k:.1f}KB)")
 
-
-
         return image_path
-    
-    def is_hidden_data_exists(self):
-        hidden_data_path = os.path.join(self.hidden_data_dir, f"{self.id}.json")
-        return os.path.exists(hidden_data_path)
-    
-    def download_hidden_data(self):
-        hidden_data_path = os.path.join(self.hidden_data_dir, f"{self.id}.json")
 
-        div_hidden_data = self.driver.find_element(By.ID, "prespoll_hidden_data")
+    def is_hidden_data_exists(self):
+        hidden_data_path = os.path.join(
+            self.hidden_data_dir, f"{self.id}.json"
+        )
+        return os.path.exists(hidden_data_path)
+
+    def download_hidden_data(self):
+        hidden_data_path = os.path.join(
+            self.hidden_data_dir, f"{self.id}.json"
+        )
+
+        div_hidden_data = self.driver.find_element(
+            By.ID, "prespoll_hidden_data"
+        )
         hidden_data_json = div_hidden_data.get_attribute("innerHTML")
-        hidden_data =json.loads(hidden_data_json)
+        hidden_data = json.loads(hidden_data_json)
         log.debug(f'{hidden_data=}')
-        
+
         JSONFile(hidden_data_path).write(hidden_data)
         log.info(f'Wrote {hidden_data_path}')
-        
+
         return hidden_data
-    
+
     def tweet(self):
         if self.is_image_exists() and self.is_hidden_data_exists():
             log.warning('Image and hidden data already exist. Skipping...')
