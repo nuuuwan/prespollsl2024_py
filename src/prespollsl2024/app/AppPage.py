@@ -155,8 +155,6 @@ class AppPage:
         return hidden_data
 
     def tweet(self):
-        if self.is_image_exists() and self.is_hidden_data_exists():
-            log.warning('Image and hidden data already exist. Skipping...')
         self.open_page()
         image_path = self.download_screenshot()
         hidden_data = self.download_hidden_data()
