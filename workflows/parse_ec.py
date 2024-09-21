@@ -14,6 +14,5 @@ def main():
     PDResult1.store_list_to_json_compact(data_list, test_path)
 
 
-
 if __name__ == "__main__":
     main()
