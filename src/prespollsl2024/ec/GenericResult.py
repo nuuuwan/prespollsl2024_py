@@ -47,6 +47,8 @@ class GenericResult:
             data_list.append(data)
 
         data_list = GenericResult.dedupe(data_list)
+        
+        data_list.sort(key=lambda x: x.timestamp)
         log.info(f'Loaded {len(data_list)} results from {dir_path}')
         return data_list
 
