@@ -43,7 +43,7 @@ def add_padding(image_path, output_path, padding=20):
 class AppPage:
     URL = "https://nuuuwan.github.io/prespoll"
     # URL = "http://localhost:3000/prespoll"
-    T_SLEEP_START = 20
+    T_SLEEP_START = 10
     T_SLEEP_NEW = 4
 
     def __init__(
@@ -65,8 +65,9 @@ class AppPage:
             + "?"
             + urllib.parse.urlencode(
                 dict(
-                    election_type=self.election_type,
+                    electionType=self.election_type,
                     date=self.date,
+                    lang="en",
                     nResultsDisplay=self.n_results_display,
                 )
             )
@@ -118,8 +119,8 @@ class AppPage:
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_NEW}s...')
 
         current_url = self.driver.current_url
-        if current_url != self.url:
-            raise Exception(f"Expected {self.url}, but got {current_url}")
+        if self.url not in current_url:
+            raise Exception(f"Expected {self.url} not in {current_url}")
 
     def is_image_exists(self):
         image_path = os.path.join(self.image_dir, f"{self.id}.png")
