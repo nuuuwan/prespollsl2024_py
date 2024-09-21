@@ -41,7 +41,8 @@ def add_padding(image_path, output_path, padding=20):
 
 
 class AppPage:
-    URL = "http://localhost:3000/prespoll"
+    URL = "https://nuuuwan.github.io/prespoll"
+    # URL = "http://localhost:3000/prespoll"
     T_SLEEP_START = 20
     T_SLEEP_NEW = 4
 
@@ -115,6 +116,10 @@ class AppPage:
         self.driver.get(self.url)
         time.sleep(AppPage.T_SLEEP_NEW)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_NEW}s...')
+
+        current_url = self.driver.current_url
+        if current_url != self.url:
+            raise Exception(f"Expected {self.url}, but got {current_url}")
 
     def is_image_exists(self):
         image_path = os.path.join(self.image_dir, f"{self.id}.png")
