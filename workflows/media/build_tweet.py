@@ -7,9 +7,9 @@ log = Log('build_tweet')
 
 def main():
     election_type = 'presidential'
-    date = '2019-11-16'
-    start_n_results_display = 100
-    end_n_results_display = 100
+    date = '2024-09-21'
+    start_n_results_display = 1
+    end_n_results_display = 1
 
     driver = None
     app_page = None
