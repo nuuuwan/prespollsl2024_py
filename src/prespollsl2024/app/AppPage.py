@@ -1,3 +1,4 @@
+import json
 import os
 import tempfile
 import time
@@ -7,7 +8,9 @@ from moviepy.editor import AudioFileClip, CompositeVideoClip, ImageClip, afx
 from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from utils import Log
+from selenium.webdriver.common.by import By
+from utils import Log, JSONFile
+from twtr import Tweet, Twitter
 
 log = Log("AppPage")
 
@@ -47,10 +50,12 @@ class AppPage:
         election_type: str,
         date: str,
         n_results_display: str,
+        driver: webdriver.Firefox = None,
     ):
         self.election_type = election_type
         self.date = date
         self.n_results_display = n_results_display
+        self.driver = driver
 
     @property
     def url(self):
@@ -89,32 +94,78 @@ class AppPage:
     @property
     def image_dir(self):
         image_dir = os.path.join(
-            tempfile.gettempdir(), f'election-{self.date}'
+            tempfile.gettempdir(), f'election-{self.date}', 'images'
         )
         os.makedirs(image_dir, exist_ok=True)
         return image_dir
-
-    def download_screenshot(self, driver=None):
-        image_path = os.path.join(self.image_dir, f"{self.id}.png")
-        if os.path.exists(image_path):
-            log.warn(f"Skipping {image_path}")
-            return image_path, driver
-
-        if not driver:
-            driver = AppPage.start_driver()
+    
+    @property
+    def hidden_data_dir(self):
+        hidden_data_dir = os.path.join(
+            tempfile.gettempdir(), f'election-{self.date}', 'hidden_data'
+        )
+        os.makedirs(hidden_data_dir, exist_ok=True)
+        return hidden_data_dir
+    
+    def open_page(self):
+        if not self.driver:
+            self.driver = AppPage.start_driver()
 
         log.debug(f"🌏 Opening {self.url}...")
-        driver.get(self.url)
+        self.driver.get(self.url)
         time.sleep(AppPage.T_SLEEP_NEW)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_NEW}s...')
 
-        driver.save_screenshot(image_path)
+    def is_image_exists(self):
+        image_path = os.path.join(self.image_dir, f"{self.id}.png")
+        return os.path.exists(image_path)
+
+    def download_screenshot(self):
+        image_path = os.path.join(self.image_dir, f"{self.id}.png")
+        self.driver.save_screenshot(image_path)
 
         add_padding(image_path, image_path, padding=40)
 
         image_size_k = os.path.getsize(image_path) / 1_000
         log.info(f"Wrote screenshot to {image_path} ({image_size_k:.1f}KB)")
-        return image_path, driver
+
+
+
+        return image_path
+    
+    def is_hidden_data_exists(self):
+        hidden_data_path = os.path.join(self.hidden_data_dir, f"{self.id}.json")
+        return os.path.exists(hidden_data_path)
+    
+    def download_hidden_data(self):
+        hidden_data_path = os.path.join(self.hidden_data_dir, f"{self.id}.json")
+
+        div_hidden_data = self.driver.find_element(By.ID, "prespoll_hidden_data")
+        hidden_data_json = div_hidden_data.get_attribute("innerHTML")
+        hidden_data =json.loads(hidden_data_json)
+        log.debug(f'{hidden_data=}')
+        
+        JSONFile(hidden_data_path).write(hidden_data)
+        log.info(f'Wrote {hidden_data_path}')
+        
+        return hidden_data
+    
+    def tweet(self):
+        if self.is_image_exists() and self.is_hidden_data_exists():
+            log.warning('Image and hidden data already exist. Skipping...')
+        self.open_page()
+        image_path = self.download_screenshot()
+        hidden_data = self.download_hidden_data()
+        tweet_text = hidden_data['tweet']
+        try:
+            twitter = Twitter()
+            tweet = Tweet(tweet_text).add_image(image_path)
+            tweet_id = twitter.send(tweet)
+            log.debug(f'{tweet_id=}')
+            tweet_url = f'https://x.com/lk_elections/status/{tweet_id}'
+            os.startfile(tweet_url)
+        except Exception as e:
+            log.error('Could not tweet: ' + str(e))
 
     @staticmethod
     def download_screenshots(
@@ -132,9 +183,13 @@ class AppPage:
                 election_type=election_type,
                 date=date,
                 n_results_display=n_results_display,
+                driver=driver,
             )
-            image_path, driver = app_page.download_screenshot(driver)
-            image_paths.append(image_path)
+            if not app_page.is_image_exists():
+                app_page.open_page()
+                image_path = app_page.download_screenshot()
+                image_paths.append(image_path)
+                driver = app_page.driver
 
         if driver:
             driver.quit()

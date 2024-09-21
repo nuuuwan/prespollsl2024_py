@@ -3,3 +3,4 @@ selenium
 moviepy
 openpyxl
 gig-nuuuwan
+twtr-nuuuwan
