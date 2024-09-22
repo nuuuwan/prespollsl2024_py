@@ -9229,5 +9229,56 @@
       "polled": 129076,
       "electors": 163087
     }
+  },
+  {
+    "result_time": "2024-09-22 16:24:32:367",
+    "pd_id": "EC-04E",
+    "pd_name": "Teldeniya",
+    "party_to_votes": {
+      "AJP": 36,
+      "APP": 30,
+      "DUA": 40,
+      "DUNF": 36,
+      "ELPP": 6,
+      "IND1": 55,
+      "IND10": 50,
+      "IND11": 58,
+      "IND12": 87,
+      "IND13": 133,
+      "IND14": 22,
+      "IND15": 15,
+      "IND16": 7192,
+      "IND2": 48,
+      "IND4": 251,
+      "IND5": 59,
+      "IND6": 23,
+      "IND7": 11,
+      "IND8": 8,
+      "IND9": 13,
+      "JPF": 88,
+      "JSP": 21,
+      "NDF": 18,
+      "NIF": 17,
+      "NPP": 14817,
+      "NSSP": 80,
+      "NSU": 7,
+      "RJA": 40,
+      "SBP": 24,
+      "SEP": 14,
+      "SJB": 15332,
+      "SLCP": 427,
+      "SLLP": 6,
+      "SLPP": 795,
+      "SLSP": 16,
+      "SPF": 8,
+      "UNFF": 11,
+      "USP": 36
+    },
+    "summary": {
+      "valid": 39930,
+      "rejected": 1301,
+      "polled": 41231,
+      "electors": 50662
+    }
   }
 ]
