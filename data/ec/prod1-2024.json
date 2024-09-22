@@ -3568,5 +3568,56 @@
       "polled": 89948,
       "electors": 113385
     }
+  },
+  {
+    "result_time": "2024-09-22 09:51:13:765",
+    "pd_id": "EC-10E",
+    "pd_name": "Kopai",
+    "party_to_votes": {
+      "AJP": 23,
+      "APP": 93,
+      "DUA": 62,
+      "DUNF": 24,
+      "ELPP": 23,
+      "IND1": 97,
+      "IND10": 156,
+      "IND11": 88,
+      "IND12": 99,
+      "IND13": 40,
+      "IND14": 53,
+      "IND15": 42,
+      "IND16": 7654,
+      "IND2": 62,
+      "IND4": 867,
+      "IND5": 93,
+      "IND6": 36,
+      "IND7": 13,
+      "IND8": 32,
+      "IND9": 11410,
+      "JPF": 126,
+      "JSP": 44,
+      "NDF": 50,
+      "NIF": 41,
+      "NPP": 2541,
+      "NSSP": 63,
+      "NSU": 28,
+      "RJA": 32,
+      "SBP": 46,
+      "SEP": 42,
+      "SJB": 12639,
+      "SLCP": 47,
+      "SLLP": 18,
+      "SLPP": 81,
+      "SLSP": 78,
+      "SPF": 304,
+      "UNFF": 31,
+      "USP": 109
+    },
+    "summary": {
+      "valid": 37287,
+      "rejected": 2817,
+      "polled": 40104,
+      "electors": 62449
+    }
   }
 ]
