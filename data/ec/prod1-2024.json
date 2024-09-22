@@ -1834,5 +1834,56 @@
       "polled": 75044,
       "electors": 90179
     }
+  },
+  {
+    "result_time": "2024-09-22 07:51:16:353",
+    "pd_id": "EC-07D",
+    "pd_name": "Bentara Elpitiya",
+    "party_to_votes": {
+      "AJP": 17,
+      "APP": 86,
+      "DUA": 29,
+      "DUNF": 87,
+      "ELPP": 17,
+      "IND1": 64,
+      "IND10": 34,
+      "IND11": 80,
+      "IND12": 120,
+      "IND13": 193,
+      "IND14": 18,
+      "IND15": 13,
+      "IND16": 11595,
+      "IND2": 54,
+      "IND4": 159,
+      "IND5": 112,
+      "IND6": 26,
+      "IND7": 21,
+      "IND8": 8,
+      "IND9": 21,
+      "JPF": 97,
+      "JSP": 29,
+      "NDF": 22,
+      "NIF": 26,
+      "NPP": 35612,
+      "NSSP": 62,
+      "NSU": 7,
+      "RJA": 68,
+      "SBP": 71,
+      "SEP": 16,
+      "SJB": 19733,
+      "SLCP": 822,
+      "SLLP": 10,
+      "SLPP": 2571,
+      "SLSP": 27,
+      "SPF": 143,
+      "UNFF": 21,
+      "USP": 46
+    },
+    "summary": {
+      "valid": 72137,
+      "rejected": 1265,
+      "polled": 73402,
+      "electors": 92167
+    }
   }
 ]
