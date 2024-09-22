@@ -5761,5 +5761,56 @@
       "polled": 54894,
       "electors": 67289
     }
+  },
+  {
+    "result_time": "2024-09-22 14:12:45:558",
+    "pd_id": "EC-20C",
+    "pd_name": "Wellawaya",
+    "party_to_votes": {
+      "AJP": 48,
+      "APP": 221,
+      "DUA": 61,
+      "DUNF": 132,
+      "ELPP": 30,
+      "IND1": 126,
+      "IND10": 151,
+      "IND11": 193,
+      "IND12": 204,
+      "IND13": 481,
+      "IND14": 85,
+      "IND15": 28,
+      "IND16": 13241,
+      "IND2": 88,
+      "IND4": 455,
+      "IND5": 206,
+      "IND6": 39,
+      "IND7": 24,
+      "IND8": 26,
+      "IND9": 43,
+      "JPF": 287,
+      "JSP": 68,
+      "NDF": 56,
+      "NIF": 44,
+      "NPP": 60844,
+      "NSSP": 109,
+      "NSU": 27,
+      "RJA": 114,
+      "SBP": 171,
+      "SEP": 27,
+      "SJB": 56442,
+      "SLCP": 974,
+      "SLLP": 12,
+      "SLPP": 5666,
+      "SLSP": 79,
+      "SPF": 128,
+      "UNFF": 27,
+      "USP": 109
+    },
+    "summary": {
+      "valid": 141066,
+      "rejected": 2590,
+      "polled": 143656,
+      "electors": 168411
+    }
   }
 ]
