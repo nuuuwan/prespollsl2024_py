@@ -2089,5 +2089,56 @@
       "polled": 33449,
       "electors": 55829
     }
+  },
+  {
+    "result_time": "2024-09-22 08:31:06:113",
+    "pd_id": "EC-09D",
+    "pd_name": "Tissamaharama",
+    "party_to_votes": {
+      "AJP": 31,
+      "APP": 152,
+      "DUA": 61,
+      "DUNF": 155,
+      "ELPP": 19,
+      "IND1": 76,
+      "IND10": 109,
+      "IND11": 232,
+      "IND12": 183,
+      "IND13": 676,
+      "IND14": 65,
+      "IND15": 23,
+      "IND16": 7007,
+      "IND2": 84,
+      "IND4": 282,
+      "IND5": 210,
+      "IND6": 35,
+      "IND7": 34,
+      "IND8": 14,
+      "IND9": 38,
+      "JPF": 274,
+      "JSP": 93,
+      "NDF": 56,
+      "NIF": 16,
+      "NPP": 72907,
+      "NSSP": 79,
+      "NSU": 11,
+      "RJA": 159,
+      "SBP": 239,
+      "SEP": 25,
+      "SJB": 55815,
+      "SLCP": 469,
+      "SLLP": 18,
+      "SLPP": 8289,
+      "SLSP": 81,
+      "SPF": 94,
+      "UNFF": 34,
+      "USP": 66
+    },
+    "summary": {
+      "valid": 148211,
+      "rejected": 2037,
+      "polled": 150248,
+      "electors": 181846
+    }
   }
 ]
