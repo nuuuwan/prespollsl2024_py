@@ -5608,5 +5608,56 @@
       "polled": 63216,
       "electors": 77885
     }
+  },
+  {
+    "result_time": "2024-09-22 14:10:09:567",
+    "pd_id": "EC-05B",
+    "pd_name": "Laggala",
+    "party_to_votes": {
+      "AJP": 30,
+      "APP": 99,
+      "DUA": 34,
+      "DUNF": 45,
+      "ELPP": 9,
+      "IND1": 83,
+      "IND10": 74,
+      "IND11": 94,
+      "IND12": 138,
+      "IND13": 228,
+      "IND14": 41,
+      "IND15": 19,
+      "IND16": 9022,
+      "IND2": 65,
+      "IND4": 318,
+      "IND5": 79,
+      "IND6": 27,
+      "IND7": 22,
+      "IND8": 12,
+      "IND9": 23,
+      "JPF": 183,
+      "JSP": 30,
+      "NDF": 25,
+      "NIF": 31,
+      "NPP": 20838,
+      "NSSP": 80,
+      "NSU": 10,
+      "RJA": 55,
+      "SBP": 68,
+      "SEP": 18,
+      "SJB": 24828,
+      "SLCP": 429,
+      "SLLP": 9,
+      "SLPP": 2756,
+      "SLSP": 24,
+      "SPF": 16,
+      "UNFF": 21,
+      "USP": 56
+    },
+    "summary": {
+      "valid": 59939,
+      "rejected": 1338,
+      "polled": 61277,
+      "electors": 73955
+    }
   }
 ]
