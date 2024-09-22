@@ -4741,5 +4741,56 @@
       "polled": 72400,
       "electors": 89918
     }
+  },
+  {
+    "result_time": "2024-09-22 11:29:31:209",
+    "pd_id": "EC-14C",
+    "pd_name": "Muthur",
+    "party_to_votes": {
+      "AJP": 33,
+      "APP": 114,
+      "DUA": 36,
+      "DUNF": 25,
+      "ELPP": 12,
+      "IND1": 53,
+      "IND10": 119,
+      "IND11": 141,
+      "IND12": 167,
+      "IND13": 100,
+      "IND14": 69,
+      "IND15": 28,
+      "IND16": 12860,
+      "IND2": 34,
+      "IND4": 750,
+      "IND5": 39,
+      "IND6": 17,
+      "IND7": 9,
+      "IND8": 15,
+      "IND9": 4381,
+      "JPF": 164,
+      "JSP": 19,
+      "NDF": 26,
+      "NIF": 20,
+      "NPP": 8706,
+      "NSSP": 102,
+      "NSU": 17,
+      "RJA": 34,
+      "SBP": 30,
+      "SEP": 19,
+      "SJB": 58153,
+      "SLCP": 65,
+      "SLLP": 14,
+      "SLPP": 305,
+      "SLSP": 31,
+      "SPF": 26,
+      "UNFF": 9,
+      "USP": 78
+    },
+    "summary": {
+      "valid": 86820,
+      "rejected": 1679,
+      "polled": 88499,
+      "electors": 119211
+    }
   }
 ]
