@@ -3976,5 +3976,56 @@
       "polled": 130242,
       "electors": 159613
     }
+  },
+  {
+    "result_time": "2024-09-22 10:37:27:628",
+    "pd_id": "EC-21D",
+    "pd_name": "Balangoda",
+    "party_to_votes": {
+      "AJP": 39,
+      "APP": 140,
+      "DUA": 50,
+      "DUNF": 102,
+      "ELPP": 19,
+      "IND1": 106,
+      "IND10": 92,
+      "IND11": 139,
+      "IND12": 196,
+      "IND13": 232,
+      "IND14": 54,
+      "IND15": 20,
+      "IND16": 14265,
+      "IND2": 83,
+      "IND4": 398,
+      "IND5": 132,
+      "IND6": 33,
+      "IND7": 28,
+      "IND8": 5,
+      "IND9": 49,
+      "JPF": 172,
+      "JSP": 45,
+      "NDF": 24,
+      "NIF": 30,
+      "NPP": 36999,
+      "NSSP": 95,
+      "NSU": 7,
+      "RJA": 77,
+      "SBP": 103,
+      "SEP": 33,
+      "SJB": 36834,
+      "SLCP": 544,
+      "SLLP": 18,
+      "SLPP": 2492,
+      "SLSP": 28,
+      "SPF": 57,
+      "UNFF": 20,
+      "USP": 101
+    },
+    "summary": {
+      "valid": 93861,
+      "rejected": 2080,
+      "polled": 95941,
+      "electors": 117507
+    }
   }
 ]
