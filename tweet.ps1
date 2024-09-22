@@ -1,7 +1,7 @@
 
 git pull origin main
 
-git add * .\workflows\media\build_tweet.py
+git add * 
 git commit -m "Update tweet"
 
 git push origin main
