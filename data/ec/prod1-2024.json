@@ -3211,5 +3211,56 @@
       "polled": 17202,
       "electors": 24860
     }
+  },
+  {
+    "result_time": "2024-09-22 09:20:49:257",
+    "pd_id": "EC-17F",
+    "pd_name": "Mihinthale",
+    "party_to_votes": {
+      "AJP": 10,
+      "APP": 86,
+      "DUA": 28,
+      "DUNF": 53,
+      "ELPP": 6,
+      "IND1": 49,
+      "IND10": 30,
+      "IND11": 64,
+      "IND12": 81,
+      "IND13": 148,
+      "IND14": 30,
+      "IND15": 12,
+      "IND16": 7888,
+      "IND2": 42,
+      "IND4": 214,
+      "IND5": 100,
+      "IND6": 21,
+      "IND7": 11,
+      "IND8": 10,
+      "IND9": 16,
+      "JPF": 88,
+      "JSP": 19,
+      "NDF": 16,
+      "NIF": 13,
+      "NPP": 26034,
+      "NSSP": 58,
+      "NSU": 10,
+      "RJA": 60,
+      "SBP": 40,
+      "SEP": 10,
+      "SJB": 18836,
+      "SLCP": 307,
+      "SLLP": 6,
+      "SLPP": 1071,
+      "SLSP": 28,
+      "SPF": 70,
+      "UNFF": 15,
+      "USP": 41
+    },
+    "summary": {
+      "valid": 55621,
+      "rejected": 916,
+      "polled": 56537,
+      "electors": 70291
+    }
   }
 ]
