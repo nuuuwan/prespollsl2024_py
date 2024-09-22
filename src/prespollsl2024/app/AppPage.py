@@ -15,12 +15,12 @@ from utils import JSONFile, Log, File
 log = Log("AppPage")
 
 
-HEIGHT = 1100
+HEIGHT = 1000
 ASPECT_RATIO = 16 / 9
 WIDTH = int(HEIGHT * ASPECT_RATIO)
 
 
-def add_padding(image_path, output_path, padding=20):
+def add_padding(image_path, output_path, padding=15):
     img = Image.open(image_path)
     width, height = img.size
 
@@ -41,10 +41,10 @@ def add_padding(image_path, output_path, padding=20):
 
 
 class AppPage:
-    URL = "https://nuuuwan.github.io/prespoll"
-    # URL = "http://localhost:3000/prespoll"
-    T_SLEEP_START = 30
-    T_SLEEP_NEW = 10
+    # URL = "https://nuuuwan.github.io/prespoll"
+    URL = "http://localhost:3000/prespoll"
+    T_SLEEP_START = 20
+    T_SLEEP_NEW = 3
 
     def __init__(
         self,
@@ -87,7 +87,7 @@ class AppPage:
         firefox_options.add_argument("--headless")  # Run in headless mode
         driver = webdriver.Firefox(options=firefox_options)
         driver.set_window_size(WIDTH, HEIGHT)
-        log.debug(f"🌏 Opening {AppPage.URL}...")
+        log.debug(f"🌏 Opening \"{AppPage.URL}\"...")
         driver.get(AppPage.URL)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_START}s...')
         time.sleep(AppPage.T_SLEEP_START)
@@ -113,21 +113,25 @@ class AppPage:
         if not self.driver:
             self.driver = AppPage.start_driver()
 
-        log.debug(f"🌏 Opening {self.url}...")
+        log.debug(f"🌏 Opening \"{self.url}\"...")
         self.driver.get(self.url)
         time.sleep(AppPage.T_SLEEP_NEW)
         log.debug(f'😴 Sleeping for {AppPage.T_SLEEP_NEW}s...')
 
         current_url = self.driver.current_url
+        log.debug(f'{current_url=}')
         if self.url not in current_url:
             raise Exception(f"Expected {self.url} not in {current_url}")
 
+    @property
+    def image_path(self):
+        return os.path.join(self.image_dir, f"{self.id}.png")
+
     def is_image_exists(self):
-        image_path = os.path.join(self.image_dir, f"{self.id}.png")
-        return os.path.exists(image_path)
+        return os.path.exists(self.image_path)
 
     def download_screenshot(self):
-        image_path = os.path.join(self.image_dir, f"{self.id}.png")
+        image_path = self.image_path
         self.driver.save_screenshot(image_path)
 
         add_padding(image_path, image_path, padding=40)
@@ -195,11 +199,14 @@ class AppPage:
                 n_results_display=n_results_display,
                 driver=driver,
             )
+
+            image_path = app_page.image_path
             if not app_page.is_image_exists():
                 app_page.open_page()
-                image_path = app_page.download_screenshot()
-                image_paths.append(image_path)
+                app_page.download_screenshot()
                 driver = app_page.driver
+            image_paths.append(image_path)
+                
 
         if driver:
             driver.quit()
@@ -257,23 +264,16 @@ class AppPage:
 
         image_clips, total_duration = AppPage.compile_image_clips(
             image_paths,
-            duration_start=4,
-            duration_normal=2,
-            duration_end=4,
+            duration_start=5,
+            duration_normal=0.5,
+            duration_end=20,
             total_duration=0,
         )
 
-        image_clips_replay, total_duration = AppPage.compile_image_clips(
-            image_paths,
-            duration_start=1,
-            duration_normal=0.1,
-            duration_end=20,
-            total_duration=total_duration,
-        )
-        image_clips += image_clips_replay
+
 
         audio_path = os.path.join(
-            "media", "audio", "bensound-newfrontier.mp3"
+            "media", "audio", "bensound-onrepeat.mp3"
         )
         audio_clip = AudioFileClip(audio_path)
         audio_clip = afx.audio_loop(
@@ -281,6 +281,6 @@ class AppPage:
         ).audio_fadeout(20)
 
         video_clip = CompositeVideoClip(image_clips).set_audio(audio_clip)
-        video_clip.write_videofile(video_path, fps=10)
+        video_clip.write_videofile(video_path, fps=4)
         log.info(f'Wrote video to {video_path}')
         os.startfile(video_path)

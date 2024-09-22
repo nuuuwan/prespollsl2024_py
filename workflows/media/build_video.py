@@ -1,12 +1,13 @@
-from prespollsl2024 import AppPage
+from prespollsl2024.app import AppPage
 
 if __name__ == "__main__":
     AppPage.make_video(
-        election_type="presidential",
+        election_type="Presidential",
         # date="2019-11-16",
-        date="2015-01-08",
+        # date="2015-01-08",
         # date="2005-11-17",
-        start_n_results_display=0,
+        date="2024-09-21",
+        start_n_results_display=1,
         end_n_results_display=182,
     )
 '''
