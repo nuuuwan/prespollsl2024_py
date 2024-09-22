@@ -5200,5 +5200,56 @@
       "polled": 76927,
       "electors": 97155
     }
+  },
+  {
+    "result_time": "2024-09-22 12:11:12:415",
+    "pd_id": "EC-06D",
+    "pd_name": "Walapane",
+    "party_to_votes": {
+      "AJP": 30,
+      "APP": 81,
+      "DUA": 54,
+      "DUNF": 97,
+      "ELPP": 30,
+      "IND1": 109,
+      "IND10": 118,
+      "IND11": 120,
+      "IND12": 167,
+      "IND13": 149,
+      "IND14": 47,
+      "IND15": 17,
+      "IND16": 15140,
+      "IND2": 111,
+      "IND4": 566,
+      "IND5": 103,
+      "IND6": 137,
+      "IND7": 45,
+      "IND8": 24,
+      "IND9": 85,
+      "JPF": 109,
+      "JSP": 34,
+      "NDF": 27,
+      "NIF": 26,
+      "NPP": 17074,
+      "NSSP": 130,
+      "NSU": 34,
+      "RJA": 125,
+      "SBP": 96,
+      "SEP": 61,
+      "SJB": 29896,
+      "SLCP": 280,
+      "SLLP": 32,
+      "SLPP": 3008,
+      "SLSP": 52,
+      "SPF": 80,
+      "UNFF": 33,
+      "USP": 80
+    },
+    "summary": {
+      "valid": 68407,
+      "rejected": 2317,
+      "polled": 70724,
+      "electors": 86874
+    }
   }
 ]
