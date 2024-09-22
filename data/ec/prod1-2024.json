@@ -3109,5 +3109,56 @@
       "polled": 65576,
       "electors": 80269
     }
+  },
+  {
+    "result_time": "2024-09-22 09:13:21:538",
+    "pd_id": "EC-17G",
+    "pd_name": "Kekirawa",
+    "party_to_votes": {
+      "AJP": 21,
+      "APP": 108,
+      "DUA": 37,
+      "DUNF": 66,
+      "ELPP": 14,
+      "IND1": 65,
+      "IND10": 45,
+      "IND11": 120,
+      "IND12": 103,
+      "IND13": 234,
+      "IND14": 48,
+      "IND15": 17,
+      "IND16": 10263,
+      "IND2": 57,
+      "IND4": 270,
+      "IND5": 147,
+      "IND6": 28,
+      "IND7": 22,
+      "IND8": 8,
+      "IND9": 25,
+      "JPF": 125,
+      "JSP": 29,
+      "NDF": 15,
+      "NIF": 18,
+      "NPP": 31632,
+      "NSSP": 81,
+      "NSU": 11,
+      "RJA": 81,
+      "SBP": 74,
+      "SEP": 18,
+      "SJB": 24241,
+      "SLCP": 415,
+      "SLLP": 11,
+      "SLPP": 1659,
+      "SLSP": 33,
+      "SPF": 21,
+      "UNFF": 14,
+      "USP": 55
+    },
+    "summary": {
+      "valid": 70231,
+      "rejected": 1265,
+      "polled": 71496,
+      "electors": 89380
+    }
   }
 ]
