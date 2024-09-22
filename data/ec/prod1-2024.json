@@ -2191,5 +2191,56 @@
       "polled": 60370,
       "electors": 77636
     }
+  },
+  {
+    "result_time": "2024-09-22 08:33:15:138",
+    "pd_id": "EC-10C",
+    "pd_name": "Kankesanthurai",
+    "party_to_votes": {
+      "AJP": 21,
+      "APP": 75,
+      "DUA": 36,
+      "DUNF": 18,
+      "ELPP": 15,
+      "IND1": 79,
+      "IND10": 102,
+      "IND11": 57,
+      "IND12": 63,
+      "IND13": 52,
+      "IND14": 31,
+      "IND15": 23,
+      "IND16": 6587,
+      "IND2": 55,
+      "IND4": 553,
+      "IND5": 62,
+      "IND6": 26,
+      "IND7": 24,
+      "IND8": 15,
+      "IND9": 8365,
+      "JPF": 90,
+      "JSP": 40,
+      "NDF": 40,
+      "NIF": 39,
+      "NPP": 1935,
+      "NSSP": 50,
+      "NSU": 22,
+      "RJA": 24,
+      "SBP": 31,
+      "SEP": 22,
+      "SJB": 8708,
+      "SLCP": 83,
+      "SLLP": 11,
+      "SLPP": 66,
+      "SLSP": 44,
+      "SPF": 33,
+      "UNFF": 13,
+      "USP": 83
+    },
+    "summary": {
+      "valid": 27593,
+      "rejected": 2144,
+      "polled": 29737,
+      "electors": 45989
+    }
   }
 ]
