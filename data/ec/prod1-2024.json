@@ -4843,5 +4843,56 @@
       "polled": 51201,
       "electors": 70250
     }
+  },
+  {
+    "result_time": "2024-09-22 11:35:43:138",
+    "pd_id": "EC-01F",
+    "pd_name": "Dehiwala",
+    "party_to_votes": {
+      "AJP": 12,
+      "APP": 6,
+      "DUA": 12,
+      "DUNF": 46,
+      "ELPP": 8,
+      "IND1": 78,
+      "IND10": 7,
+      "IND11": 23,
+      "IND12": 81,
+      "IND13": 42,
+      "IND14": 5,
+      "IND15": 19,
+      "IND16": 11565,
+      "IND2": 13,
+      "IND4": 32,
+      "IND5": 22,
+      "IND6": 2,
+      "IND7": 8,
+      "IND8": 7,
+      "IND9": 375,
+      "JPF": 23,
+      "JSP": 17,
+      "NDF": 3,
+      "NIF": 11,
+      "NPP": 19338,
+      "NSSP": 24,
+      "NSU": 4,
+      "RJA": 25,
+      "SBP": 25,
+      "SEP": 11,
+      "SJB": 12505,
+      "SLCP": 753,
+      "SLLP": 4,
+      "SLPP": 1163,
+      "SLSP": 11,
+      "SPF": 46,
+      "UNFF": 7,
+      "USP": 9
+    },
+    "summary": {
+      "valid": 46342,
+      "rejected": 1172,
+      "polled": 47514,
+      "electors": 66062
+    }
   }
 ]
