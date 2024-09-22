@@ -4996,5 +4996,56 @@
       "polled": 68742,
       "electors": 85893
     }
+  },
+  {
+    "result_time": "2024-09-22 11:43:32:661",
+    "pd_id": "EC-04G",
+    "pd_name": "Hewahata",
+    "party_to_votes": {
+      "AJP": 23,
+      "APP": 53,
+      "DUA": 37,
+      "DUNF": 72,
+      "ELPP": 12,
+      "IND1": 68,
+      "IND10": 72,
+      "IND11": 86,
+      "IND12": 94,
+      "IND13": 172,
+      "IND14": 30,
+      "IND15": 13,
+      "IND16": 10729,
+      "IND2": 67,
+      "IND4": 292,
+      "IND5": 70,
+      "IND6": 20,
+      "IND7": 12,
+      "IND8": 6,
+      "IND9": 50,
+      "JPF": 128,
+      "JSP": 32,
+      "NDF": 14,
+      "NIF": 42,
+      "NPP": 19457,
+      "NSSP": 87,
+      "NSU": 11,
+      "RJA": 50,
+      "SBP": 64,
+      "SEP": 21,
+      "SJB": 23658,
+      "SLCP": 406,
+      "SLLP": 5,
+      "SLPP": 1469,
+      "SLSP": 18,
+      "SPF": 18,
+      "UNFF": 13,
+      "USP": 43
+    },
+    "summary": {
+      "valid": 57514,
+      "rejected": 1704,
+      "polled": 59218,
+      "electors": 74173
+    }
   }
 ]
