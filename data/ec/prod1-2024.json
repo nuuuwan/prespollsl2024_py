@@ -3466,5 +3466,56 @@
       "polled": 39974,
       "electors": 60144
     }
+  },
+  {
+    "result_time": "2024-09-22 09:43:59:006",
+    "pd_id": "EC-10F",
+    "pd_name": "Uduppiddy",
+    "party_to_votes": {
+      "AJP": 15,
+      "APP": 33,
+      "DUA": 28,
+      "DUNF": 15,
+      "ELPP": 6,
+      "IND1": 43,
+      "IND10": 68,
+      "IND11": 44,
+      "IND12": 62,
+      "IND13": 32,
+      "IND14": 18,
+      "IND15": 11,
+      "IND16": 5259,
+      "IND2": 25,
+      "IND4": 295,
+      "IND5": 35,
+      "IND6": 20,
+      "IND7": 16,
+      "IND8": 10,
+      "IND9": 8467,
+      "JPF": 56,
+      "JSP": 21,
+      "NDF": 31,
+      "NIF": 28,
+      "NPP": 1670,
+      "NSSP": 43,
+      "NSU": 14,
+      "RJA": 14,
+      "SBP": 19,
+      "SEP": 9,
+      "SJB": 5996,
+      "SLCP": 10,
+      "SLLP": 10,
+      "SLPP": 36,
+      "SLSP": 37,
+      "SPF": 24,
+      "UNFF": 15,
+      "USP": 48
+    },
+    "summary": {
+      "valid": 22583,
+      "rejected": 1586,
+      "polled": 24169,
+      "electors": 41255
+    }
   }
 ]
