@@ -3823,5 +3823,56 @@
       "polled": 83085,
       "electors": 103290
     }
+  },
+  {
+    "result_time": "2024-09-22 10:20:33:332",
+    "pd_id": "EC-01C",
+    "pd_name": "Borella",
+    "party_to_votes": {
+      "AJP": 15,
+      "APP": 7,
+      "DUA": 16,
+      "DUNF": 32,
+      "ELPP": 18,
+      "IND1": 18,
+      "IND10": 14,
+      "IND11": 44,
+      "IND12": 71,
+      "IND13": 71,
+      "IND14": 7,
+      "IND15": 11,
+      "IND16": 10188,
+      "IND2": 15,
+      "IND4": 77,
+      "IND5": 23,
+      "IND6": 6,
+      "IND7": 8,
+      "IND8": 1,
+      "IND9": 60,
+      "JPF": 41,
+      "JSP": 33,
+      "NDF": 3,
+      "NIF": 6,
+      "NPP": 17290,
+      "NSSP": 23,
+      "NSU": 4,
+      "RJA": 29,
+      "SBP": 31,
+      "SEP": 14,
+      "SJB": 15497,
+      "SLCP": 659,
+      "SLLP": 9,
+      "SLPP": 1101,
+      "SLSP": 4,
+      "SPF": 14,
+      "UNFF": 13,
+      "USP": 13
+    },
+    "summary": {
+      "valid": 45486,
+      "rejected": 1078,
+      "polled": 46564,
+      "electors": 62623
+    }
   }
 ]
