@@ -5863,5 +5863,56 @@
       "polled": 108055,
       "electors": 140699
     }
+  },
+  {
+    "result_time": "2024-09-22 14:14:55:316",
+    "pd_id": "EC-01I",
+    "pd_name": "Kotte",
+    "party_to_votes": {
+      "AJP": 29,
+      "APP": 14,
+      "DUA": 12,
+      "DUNF": 70,
+      "ELPP": 10,
+      "IND1": 27,
+      "IND10": 4,
+      "IND11": 29,
+      "IND12": 124,
+      "IND13": 68,
+      "IND14": 7,
+      "IND15": 24,
+      "IND16": 13725,
+      "IND2": 14,
+      "IND4": 29,
+      "IND5": 33,
+      "IND6": 5,
+      "IND7": 9,
+      "IND8": 6,
+      "IND9": 18,
+      "JPF": 72,
+      "JSP": 45,
+      "NDF": 7,
+      "NIF": 12,
+      "NPP": 25123,
+      "NSSP": 25,
+      "NSU": 1,
+      "RJA": 30,
+      "SBP": 52,
+      "SEP": 11,
+      "SJB": 11979,
+      "SLCP": 1312,
+      "SLLP": 7,
+      "SLPP": 1239,
+      "SLSP": 7,
+      "SPF": 47,
+      "UNFF": 18,
+      "USP": 14
+    },
+    "summary": {
+      "valid": 54258,
+      "rejected": 1360,
+      "polled": 55618,
+      "electors": 75810
+    }
   }
 ]
