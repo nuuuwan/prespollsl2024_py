@@ -7597,5 +7597,56 @@
       "polled": 99534,
       "electors": 125088
     }
+  },
+  {
+    "result_time": "2024-09-22 14:56:16:315",
+    "pd_id": "EC-02L",
+    "pd_name": "Biyagama",
+    "party_to_votes": {
+      "AJP": 35,
+      "APP": 23,
+      "DUA": 28,
+      "DUNF": 184,
+      "ELPP": 16,
+      "IND1": 49,
+      "IND10": 26,
+      "IND11": 63,
+      "IND12": 112,
+      "IND13": 226,
+      "IND14": 17,
+      "IND15": 23,
+      "IND16": 20314,
+      "IND2": 32,
+      "IND4": 86,
+      "IND5": 90,
+      "IND6": 22,
+      "IND7": 19,
+      "IND8": 14,
+      "IND9": 24,
+      "JPF": 93,
+      "JSP": 54,
+      "NDF": 18,
+      "NIF": 17,
+      "NPP": 61452,
+      "NSSP": 57,
+      "NSU": 9,
+      "RJA": 73,
+      "SBP": 92,
+      "SEP": 30,
+      "SJB": 20439,
+      "SLCP": 1906,
+      "SLLP": 10,
+      "SLPP": 3212,
+      "SLSP": 40,
+      "SPF": 94,
+      "UNFF": 15,
+      "USP": 31
+    },
+    "summary": {
+      "valid": 109045,
+      "rejected": 1947,
+      "polled": 110992,
+      "electors": 138720
+    }
   }
 ]
