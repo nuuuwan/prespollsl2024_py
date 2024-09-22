@@ -1630,5 +1630,56 @@
       "polled": 30643,
       "electors": 41303
     }
+  },
+  {
+    "result_time": "2024-09-22 07:19:35:249",
+    "pd_id": "EC-07G",
+    "pd_name": "Ratgama",
+    "party_to_votes": {
+      "AJP": 13,
+      "APP": 47,
+      "DUA": 19,
+      "DUNF": 65,
+      "ELPP": 13,
+      "IND1": 37,
+      "IND10": 19,
+      "IND11": 63,
+      "IND12": 89,
+      "IND13": 141,
+      "IND14": 23,
+      "IND15": 13,
+      "IND16": 8004,
+      "IND2": 39,
+      "IND4": 130,
+      "IND5": 81,
+      "IND6": 19,
+      "IND7": 16,
+      "IND8": 7,
+      "IND9": 14,
+      "JPF": 66,
+      "JSP": 27,
+      "NDF": 23,
+      "NIF": 16,
+      "NPP": 30323,
+      "NSSP": 45,
+      "NSU": 10,
+      "RJA": 57,
+      "SBP": 115,
+      "SEP": 26,
+      "SJB": 17157,
+      "SLCP": 623,
+      "SLLP": 5,
+      "SLPP": 3236,
+      "SLSP": 27,
+      "SPF": 88,
+      "UNFF": 25,
+      "USP": 34
+    },
+    "summary": {
+      "valid": 60755,
+      "rejected": 1116,
+      "polled": 61871,
+      "electors": 80860
+    }
   }
 ]
