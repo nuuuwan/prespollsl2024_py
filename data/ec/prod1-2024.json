@@ -7801,5 +7801,56 @@
       "polled": 110992,
       "electors": 138720
     }
+  },
+  {
+    "result_time": "2024-09-22 15:00:48:500",
+    "pd_id": "EC-02G",
+    "pd_name": "Attanagalla",
+    "party_to_votes": {
+      "AJP": 40,
+      "APP": 60,
+      "DUA": 44,
+      "DUNF": 167,
+      "ELPP": 25,
+      "IND1": 67,
+      "IND10": 27,
+      "IND11": 73,
+      "IND12": 137,
+      "IND13": 247,
+      "IND14": 28,
+      "IND15": 26,
+      "IND16": 16223,
+      "IND2": 51,
+      "IND4": 144,
+      "IND5": 115,
+      "IND6": 32,
+      "IND7": 23,
+      "IND8": 6,
+      "IND9": 21,
+      "JPF": 133,
+      "JSP": 79,
+      "NDF": 32,
+      "NIF": 24,
+      "NPP": 63916,
+      "NSSP": 71,
+      "NSU": 8,
+      "RJA": 77,
+      "SBP": 116,
+      "SEP": 27,
+      "SJB": 28714,
+      "SLCP": 1188,
+      "SLLP": 11,
+      "SLPP": 2840,
+      "SLSP": 44,
+      "SPF": 86,
+      "UNFF": 22,
+      "USP": 30
+    },
+    "summary": {
+      "valid": 114974,
+      "rejected": 2159,
+      "polled": 117133,
+      "electors": 145602
+    }
   }
 ]
