@@ -10,7 +10,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from twtr import Tweet, Twitter
-from utils import JSONFile, Log
+from utils import JSONFile, Log, File
 
 log = Log("AppPage")
 
@@ -158,6 +158,9 @@ class AppPage:
         JSONFile(hidden_data_path).write(hidden_data)
         log.info(f'Wrote {hidden_data_path}')
 
+        text_path = hidden_data_path + '.txt'
+        File(text_path).write(hidden_data['tweet'])
+        log.info(f'Wrote {text_path}')
         return hidden_data
 
     def tweet(self):
