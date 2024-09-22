@@ -4384,5 +4384,56 @@
       "polled": 36722,
       "electors": 37348
     }
+  },
+  {
+    "result_time": "2024-09-22 11:11:44:193",
+    "pd_id": "EC-13A",
+    "pd_name": "Ampara",
+    "party_to_votes": {
+      "AJP": 57,
+      "APP": 159,
+      "DUA": 52,
+      "DUNF": 117,
+      "ELPP": 25,
+      "IND1": 117,
+      "IND10": 101,
+      "IND11": 194,
+      "IND12": 257,
+      "IND13": 453,
+      "IND14": 77,
+      "IND15": 32,
+      "IND16": 18577,
+      "IND2": 73,
+      "IND4": 414,
+      "IND5": 179,
+      "IND6": 52,
+      "IND7": 28,
+      "IND8": 20,
+      "IND9": 28,
+      "JPF": 335,
+      "JSP": 46,
+      "NDF": 67,
+      "NIF": 36,
+      "NPP": 60292,
+      "NSSP": 120,
+      "NSU": 12,
+      "RJA": 129,
+      "SBP": 159,
+      "SEP": 33,
+      "SJB": 53410,
+      "SLCP": 641,
+      "SLLP": 15,
+      "SLPP": 5630,
+      "SLSP": 56,
+      "SPF": 185,
+      "UNFF": 23,
+      "USP": 93
+    },
+    "summary": {
+      "valid": 142294,
+      "rejected": 1962,
+      "polled": 144256,
+      "electors": 172611
+    }
   }
 ]
