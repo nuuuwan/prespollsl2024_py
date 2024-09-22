@@ -1048,5 +1048,55 @@
       "polled": 25150,
       "electors": 25429
     }
+  },
+  {
+    "result_time": "2024-09-22 05:26:46:825",
+    "pd_id": "EC-07A",
+    "party_to_votes": {
+      "AJP": 24,
+      "APP": 47,
+      "DUA": 16,
+      "DUNF": 31,
+      "ELPP": 5,
+      "IND1": 26,
+      "IND10": 30,
+      "IND11": 44,
+      "IND12": 53,
+      "IND13": 96,
+      "IND14": 11,
+      "IND15": 13,
+      "IND16": 5345,
+      "IND2": 19,
+      "IND4": 96,
+      "IND5": 43,
+      "IND6": 10,
+      "IND7": 12,
+      "IND8": 6,
+      "IND9": 5,
+      "JPF": 69,
+      "JSP": 17,
+      "NDF": 7,
+      "NIF": 6,
+      "NPP": 20096,
+      "NSSP": 22,
+      "NSU": 1,
+      "RJA": 51,
+      "SBP": 71,
+      "SEP": 26,
+      "SJB": 12339,
+      "SLCP": 403,
+      "SLLP": 3,
+      "SLPP": 1689,
+      "SLSP": 17,
+      "SPF": 38,
+      "UNFF": 17,
+      "USP": 17
+    },
+    "summary": {
+      "valid": 40821,
+      "rejected": 723,
+      "polled": 41544,
+      "electors": 54973
+    }
   }
 ]
