@@ -283,5 +283,50 @@
       "polled": 17208,
       "rejected": 0
     }
+  },
+  {
+    "result_time": "2024-09-22 19:31:33:079",
+    "ed_id": "EC-02",
+    "ed_name": "Gampaha",
+    "party_to_votes": {
+      "NPP": 12217,
+      "SJB": 16683
+    },
+    "summary": {
+      "valid": 28900,
+      "electors": 28900,
+      "polled": 28900,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:31:59:955",
+    "ed_id": "EC-14",
+    "ed_name": "Trincomalee",
+    "party_to_votes": {
+      "NPP": 1930,
+      "SJB": 4119
+    },
+    "summary": {
+      "valid": 6049,
+      "electors": 6049,
+      "polled": 6049,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:32:20:422",
+    "ed_id": "EC-18",
+    "ed_name": "Polonnaruwa",
+    "party_to_votes": {
+      "NPP": 1041,
+      "SJB": 1641
+    },
+    "summary": {
+      "valid": 2682,
+      "electors": 2682,
+      "polled": 2682,
+      "rejected": 0
+    }
   }
 ]
