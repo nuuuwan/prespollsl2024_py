@@ -1885,5 +1885,56 @@
       "polled": 73402,
       "electors": 92167
     }
+  },
+  {
+    "result_time": "2024-09-22 08:26:56:242",
+    "pd_id": "EC-10K",
+    "pd_name": "Kilinochchi",
+    "party_to_votes": {
+      "AJP": 29,
+      "APP": 173,
+      "DUA": 51,
+      "DUNF": 35,
+      "ELPP": 28,
+      "IND1": 104,
+      "IND10": 210,
+      "IND11": 182,
+      "IND12": 167,
+      "IND13": 59,
+      "IND14": 72,
+      "IND15": 30,
+      "IND16": 7182,
+      "IND2": 66,
+      "IND4": 1238,
+      "IND5": 73,
+      "IND6": 28,
+      "IND7": 24,
+      "IND8": 20,
+      "IND9": 20348,
+      "JPF": 226,
+      "JSP": 43,
+      "NDF": 54,
+      "NIF": 54,
+      "NPP": 2805,
+      "NSSP": 92,
+      "NSU": 31,
+      "RJA": 40,
+      "SBP": 39,
+      "SEP": 64,
+      "SJB": 30571,
+      "SLCP": 42,
+      "SLLP": 22,
+      "SLPP": 102,
+      "SLSP": 100,
+      "SPF": 33,
+      "UNFF": 30,
+      "USP": 118
+    },
+    "summary": {
+      "valid": 64585,
+      "rejected": 4695,
+      "polled": 69280,
+      "electors": 97251
+    }
   }
 ]
