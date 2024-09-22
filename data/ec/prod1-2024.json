@@ -4945,5 +4945,56 @@
       "polled": 110673,
       "electors": 142482
     }
+  },
+  {
+    "result_time": "2024-09-22 11:41:47:885",
+    "pd_id": "EC-04J",
+    "pd_name": "Yatinuwara",
+    "party_to_votes": {
+      "AJP": 32,
+      "APP": 47,
+      "DUA": 19,
+      "DUNF": 72,
+      "ELPP": 16,
+      "IND1": 57,
+      "IND10": 30,
+      "IND11": 63,
+      "IND12": 118,
+      "IND13": 161,
+      "IND14": 23,
+      "IND15": 10,
+      "IND16": 11196,
+      "IND2": 49,
+      "IND4": 120,
+      "IND5": 70,
+      "IND6": 16,
+      "IND7": 12,
+      "IND8": 9,
+      "IND9": 12,
+      "JPF": 74,
+      "JSP": 57,
+      "NDF": 12,
+      "NIF": 19,
+      "NPP": 32909,
+      "NSSP": 50,
+      "NSU": 9,
+      "RJA": 47,
+      "SBP": 41,
+      "SEP": 23,
+      "SJB": 19374,
+      "SLCP": 927,
+      "SLLP": 3,
+      "SLPP": 1409,
+      "SLSP": 18,
+      "SPF": 34,
+      "UNFF": 18,
+      "USP": 36
+    },
+    "summary": {
+      "valid": 67192,
+      "rejected": 1550,
+      "polled": 68742,
+      "electors": 85893
+    }
   }
 ]
