@@ -6118,5 +6118,56 @@
       "polled": 96736,
       "electors": 120503
     }
+  },
+  {
+    "result_time": "2024-09-22 14:20:20:899",
+    "pd_id": "EC-08A",
+    "pd_name": "Deniyaya",
+    "party_to_votes": {
+      "AJP": 25,
+      "APP": 130,
+      "DUA": 52,
+      "DUNF": 51,
+      "ELPP": 19,
+      "IND1": 115,
+      "IND10": 120,
+      "IND11": 123,
+      "IND12": 176,
+      "IND13": 279,
+      "IND14": 49,
+      "IND15": 23,
+      "IND16": 14479,
+      "IND2": 106,
+      "IND4": 343,
+      "IND5": 180,
+      "IND6": 34,
+      "IND7": 24,
+      "IND8": 10,
+      "IND9": 27,
+      "JPF": 161,
+      "JSP": 45,
+      "NDF": 29,
+      "NIF": 29,
+      "NPP": 36007,
+      "NSSP": 107,
+      "NSU": 15,
+      "RJA": 132,
+      "SBP": 84,
+      "SEP": 40,
+      "SJB": 24580,
+      "SLCP": 1007,
+      "SLLP": 22,
+      "SLPP": 3098,
+      "SLSP": 43,
+      "SPF": 81,
+      "UNFF": 27,
+      "USP": 96
+    },
+    "summary": {
+      "valid": 81968,
+      "rejected": 1921,
+      "polled": 83889,
+      "electors": 104770
+    }
   }
 ]
