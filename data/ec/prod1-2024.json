@@ -4180,5 +4180,56 @@
       "polled": 57179,
       "electors": 69438
     }
+  },
+  {
+    "result_time": "2024-09-22 10:53:13:601",
+    "pd_id": "EC-21E",
+    "pd_name": "Rakwana",
+    "party_to_votes": {
+      "AJP": 26,
+      "APP": 103,
+      "DUA": 47,
+      "DUNF": 55,
+      "ELPP": 28,
+      "IND1": 103,
+      "IND10": 95,
+      "IND11": 137,
+      "IND12": 212,
+      "IND13": 171,
+      "IND14": 61,
+      "IND15": 20,
+      "IND16": 15474,
+      "IND2": 74,
+      "IND4": 278,
+      "IND5": 154,
+      "IND6": 49,
+      "IND7": 38,
+      "IND8": 11,
+      "IND9": 44,
+      "JPF": 195,
+      "JSP": 49,
+      "NDF": 25,
+      "NIF": 22,
+      "NPP": 30908,
+      "NSSP": 123,
+      "NSU": 35,
+      "RJA": 70,
+      "SBP": 111,
+      "SEP": 35,
+      "SJB": 37151,
+      "SLCP": 601,
+      "SLLP": 15,
+      "SLPP": 2526,
+      "SLSP": 27,
+      "SPF": 42,
+      "UNFF": 16,
+      "USP": 88
+    },
+    "summary": {
+      "valid": 89219,
+      "rejected": 1857,
+      "polled": 91076,
+      "electors": 112997
+    }
   }
 ]
