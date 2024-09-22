@@ -7546,5 +7546,56 @@
       "polled": 78295,
       "electors": 98616
     }
+  },
+  {
+    "result_time": "2024-09-22 14:52:47:351",
+    "pd_id": "EC-03A",
+    "pd_name": "Panadura",
+    "party_to_votes": {
+      "AJP": 30,
+      "APP": 31,
+      "DUA": 32,
+      "DUNF": 104,
+      "ELPP": 11,
+      "IND1": 61,
+      "IND10": 24,
+      "IND11": 89,
+      "IND12": 145,
+      "IND13": 161,
+      "IND14": 28,
+      "IND15": 60,
+      "IND16": 17641,
+      "IND2": 43,
+      "IND4": 118,
+      "IND5": 69,
+      "IND6": 22,
+      "IND7": 14,
+      "IND8": 2,
+      "IND9": 15,
+      "JPF": 91,
+      "JSP": 63,
+      "NDF": 16,
+      "NIF": 22,
+      "NPP": 48586,
+      "NSSP": 46,
+      "NSU": 8,
+      "RJA": 51,
+      "SBP": 78,
+      "SEP": 24,
+      "SJB": 25032,
+      "SLCP": 1891,
+      "SLLP": 7,
+      "SLPP": 2666,
+      "SLSP": 21,
+      "SPF": 104,
+      "UNFF": 25,
+      "USP": 47
+    },
+    "summary": {
+      "valid": 97478,
+      "rejected": 2056,
+      "polled": 99534,
+      "electors": 125088
+    }
   }
 ]
