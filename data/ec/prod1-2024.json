@@ -3619,5 +3619,56 @@
       "polled": 40104,
       "electors": 62449
     }
+  },
+  {
+    "result_time": "2024-09-22 09:58:09:463",
+    "pd_id": "EC-21C",
+    "pd_name": "Pelmadulla",
+    "party_to_votes": {
+      "AJP": 47,
+      "APP": 85,
+      "DUA": 37,
+      "DUNF": 63,
+      "ELPP": 13,
+      "IND1": 70,
+      "IND10": 94,
+      "IND11": 119,
+      "IND12": 188,
+      "IND13": 135,
+      "IND14": 42,
+      "IND15": 15,
+      "IND16": 16826,
+      "IND2": 72,
+      "IND4": 306,
+      "IND5": 88,
+      "IND6": 33,
+      "IND7": 12,
+      "IND8": 13,
+      "IND9": 30,
+      "JPF": 165,
+      "JSP": 32,
+      "NDF": 18,
+      "NIF": 16,
+      "NPP": 25573,
+      "NSSP": 78,
+      "NSU": 6,
+      "RJA": 67,
+      "SBP": 62,
+      "SEP": 32,
+      "SJB": 27599,
+      "SLCP": 681,
+      "SLLP": 9,
+      "SLPP": 1706,
+      "SLSP": 22,
+      "SPF": 29,
+      "UNFF": 20,
+      "USP": 71
+    },
+    "summary": {
+      "valid": 74474,
+      "rejected": 1585,
+      "polled": 76059,
+      "electors": 94099
+    }
   }
 ]
