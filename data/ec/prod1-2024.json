@@ -5302,5 +5302,56 @@
       "polled": 98915,
       "electors": 117333
     }
+  },
+  {
+    "result_time": "2024-09-22 12:23:59:739",
+    "pd_id": "EC-20A",
+    "pd_name": "Bibila",
+    "party_to_votes": {
+      "AJP": 38,
+      "APP": 166,
+      "DUA": 32,
+      "DUNF": 53,
+      "ELPP": 17,
+      "IND1": 66,
+      "IND10": 73,
+      "IND11": 109,
+      "IND12": 130,
+      "IND13": 261,
+      "IND14": 65,
+      "IND15": 10,
+      "IND16": 9461,
+      "IND2": 65,
+      "IND4": 340,
+      "IND5": 139,
+      "IND6": 26,
+      "IND7": 21,
+      "IND8": 11,
+      "IND9": 21,
+      "JPF": 134,
+      "JSP": 29,
+      "NDF": 30,
+      "NIF": 36,
+      "NPP": 28639,
+      "NSSP": 79,
+      "NSU": 3,
+      "RJA": 61,
+      "SBP": 68,
+      "SEP": 17,
+      "SJB": 29952,
+      "SLCP": 427,
+      "SLLP": 8,
+      "SLPP": 2432,
+      "SLSP": 28,
+      "SPF": 94,
+      "UNFF": 19,
+      "USP": 76
+    },
+    "summary": {
+      "valid": 73236,
+      "rejected": 1402,
+      "polled": 74638,
+      "electors": 88625
+    }
   }
 ]
