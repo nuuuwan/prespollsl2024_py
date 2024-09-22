@@ -1,0 +1,288 @@
+{
+  "timestamp": "2024-09-22 15:19:58:079",
+  "level": "POLLING-DIVISION",
+  "ed_code": "19",
+  "ed_name": "Badulla",
+  "pd_code": "19F",
+  "pd_name": "Uvaparanagama",
+  "by_party": [
+    {
+      "party_code": "IND1",
+      "votes": 79,
+      "percentage": 0.15,
+      "party_name": "Independent Candidate 1",
+      "candidate": "AKMEEMANA DAYARATHANA THERO"
+    },
+    {
+      "party_code": "DUA",
+      "votes": 30,
+      "percentage": 0.06,
+      "party_name": "Democratic Unity Alliance",
+      "candidate": "ABUBAKAR MOHAMED INFAS"
+    },
+    {
+      "party_code": "IND2",
+      "votes": 56,
+      "percentage": 0.11,
+      "party_name": "Independent Candidate 2",
+      "candidate": "SIRIPALA AMARASINGHE"
+    },
+    {
+      "party_code": "IND4",
+      "votes": 306,
+      "percentage": 0.58,
+      "party_name": "Independent Candidate 4",
+      "candidate": "K.K. PIYADASA"
+    },
+    {
+      "party_code": "IND5",
+      "votes": 106,
+      "percentage": 0.2,
+      "party_name": "Independent Candidate 5",
+      "candidate": "SARATH KEERTHIRATHNA"
+    },
+    {
+      "party_code": "IND6",
+      "votes": 20,
+      "percentage": 0.04,
+      "party_name": "Independent Candidate 6",
+      "candidate": "K.A. KULARATNA"
+    },
+    {
+      "party_code": "APP",
+      "votes": 85,
+      "percentage": 0.16,
+      "party_name": "Arunalu Peoples Alliance",
+      "candidate": "K.R. KRISHAN"
+    },
+    {
+      "party_code": "IND7",
+      "votes": 9,
+      "percentage": 0.02,
+      "party_name": "Independent Candidate 7",
+      "candidate": "PALLIMULLA KAPUGAMAGE ANURA SIDNEY JAYARATHNA"
+    },
+    {
+      "party_code": "SLCP",
+      "votes": 148,
+      "percentage": 0.28,
+      "party_name": "Communist Party of Sri Lanka ",
+      "candidate": "DILITH JAYAWEERA"
+    },
+    {
+      "party_code": "USP",
+      "votes": 77,
+      "percentage": 0.15,
+      "party_name": "United Socialist Party",
+      "candidate": "SIRITUNGA JAYASURIYA"
+    },
+    {
+      "party_code": "IND8",
+      "votes": 10,
+      "percentage": 0.02,
+      "party_name": "Independent Candidate 8",
+      "candidate": "MYLVAGANAM THILAKARAJAH"
+    },
+    {
+      "party_code": "DUNF",
+      "votes": 48,
+      "percentage": 0.09,
+      "party_name": "Democratic United National Front",
+      "candidate": "AGAMPODI PRASANGA SURANJEEWA ANOJ DE SILVA"
+    },
+    {
+      "party_code": "UNFF",
+      "votes": 16,
+      "percentage": 0.03,
+      "party_name": "United National Freedom Front",
+      "candidate": "LALITH DE SILVA"
+    },
+    {
+      "party_code": "RJA",
+      "votes": 40,
+      "percentage": 0.08,
+      "party_name": "Ruhunu Janatha Alliance",
+      "candidate": "AJANTHA DE ZOYSA"
+    },
+    {
+      "party_code": "NPP",
+      "votes": 18208,
+      "percentage": 34.61,
+      "party_name": "Jathika Jana Balawegaya",
+      "candidate": "ANURA KUMARA DISSANAYAKE"
+    },
+    {
+      "party_code": "SLSP",
+      "votes": 30,
+      "percentage": 0.06,
+      "party_name": "Socialist Party of Sri Lanka",
+      "candidate": "MAHINDA DEWAGE"
+    },
+    {
+      "party_code": "IND9",
+      "votes": 39,
+      "percentage": 0.07,
+      "party_name": "Independent Candidate 9",
+      "candidate": "ARIYANETHIRAN PAKKIYASELVAM"
+    },
+    {
+      "party_code": "IND10",
+      "votes": 68,
+      "percentage": 0.13,
+      "party_name": "Independent Candidate 10",
+      "candidate": "VICTOR PERERA"
+    },
+    {
+      "party_code": "IND11",
+      "votes": 70,
+      "percentage": 0.13,
+      "party_name": "Independent Candidate 11",
+      "candidate": "ANURUDDHA POLGAMPALA"
+    },
+    {
+      "party_code": "SJB",
+      "votes": 22072,
+      "percentage": 41.96,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
+    },
+    {
+      "party_code": "IND12",
+      "votes": 113,
+      "percentage": 0.21,
+      "party_name": "Independent Candidate 12",
+      "candidate": "SARATH FONSEKA"
+    },
+    {
+      "party_code": "IND13",
+      "votes": 155,
+      "percentage": 0.29,
+      "party_name": "Independent Candidate 13",
+      "candidate": "DISSANAYAKA MUDIYANSELAGE BANDARANAYAKE"
+    },
+    {
+      "party_code": "NDF",
+      "votes": 21,
+      "percentage": 0.04,
+      "party_name": "Jathika Sangwardhena Peramuna",
+      "candidate": "SARATH BANDARANAYAKE"
+    },
+    {
+      "party_code": "JSP",
+      "votes": 43,
+      "percentage": 0.08,
+      "party_name": "Jana Setha Peramuna",
+      "candidate": "BATHTHARAMULLE SEELARATHANA THERO"
+    },
+    {
+      "party_code": "SPF",
+      "votes": 90,
+      "percentage": 0.17,
+      "party_name": "Socialist People Forum",
+      "candidate": "NUWAN BOPEGE"
+    },
+    {
+      "party_code": "NSU",
+      "votes": 8,
+      "percentage": 0.02,
+      "party_name": "Nawa Sihala Urumaya",
+      "candidate": "SARATH MANAMENDRA"
+    },
+    {
+      "party_code": "IND14",
+      "votes": 27,
+      "percentage": 0.05,
+      "party_name": "Independent Candidate 14",
+      "candidate": "PEMASIRI MANAGE"
+    },
+    {
+      "party_code": "IND15",
+      "votes": 9,
+      "percentage": 0.02,
+      "party_name": "Independent Candidate 15",
+      "candidate": "ANURUDDHA ROSHAN RANASINGHE"
+    },
+    {
+      "party_code": "ELPP",
+      "votes": 11,
+      "percentage": 0.02,
+      "party_name": "Eksath Lanka Podujana Pakshaya",
+      "candidate": "JANAKA RATNAYAKE"
+    },
+    {
+      "party_code": "SBP",
+      "votes": 41,
+      "percentage": 0.08,
+      "party_name": "Samabima Party",
+      "candidate": "NAMAL RAJAPAKSHA"
+    },
+    {
+      "party_code": "SLPP",
+      "votes": 1778,
+      "percentage": 3.38,
+      "party_name": "Sri Lanka Podujana Peramuna",
+      "candidate": "NAMAL RAJAPAKSA"
+    },
+    {
+      "party_code": "JPF",
+      "votes": 117,
+      "percentage": 0.22,
+      "party_name": "National Democratic Front",
+      "candidate": "WIJEYADASA RAJAPAKSHE"
+    },
+    {
+      "party_code": "SLLP",
+      "votes": 13,
+      "percentage": 0.02,
+      "party_name": "Sri Lanka Labour Party",
+      "candidate": "A.S.P. LIYANAGE"
+    },
+    {
+      "party_code": "AJP",
+      "votes": 16,
+      "percentage": 0.03,
+      "party_name": "Ape Janabala Pakshaya",
+      "candidate": "KEERTHIE WICKRAMARATNE"
+    },
+    {
+      "party_code": "NSSP",
+      "votes": 70,
+      "percentage": 0.13,
+      "party_name": "Nawa Sama Samaja Party",
+      "candidate": "PRIYANTHA WICKRAMASINGHE"
+    },
+    {
+      "party_code": "IND16",
+      "votes": 8527,
+      "percentage": 16.21,
+      "party_name": "Independent Candidate 16",
+      "candidate": "RANIL WICKREMESINGHE"
+    },
+    {
+      "party_code": "SEP",
+      "votes": 21,
+      "percentage": 0.04,
+      "party_name": "Socialist Equality Party",
+      "candidate": "PANI WIJESIRIWARDENA"
+    },
+    {
+      "party_code": "NIF",
+      "votes": 26,
+      "percentage": 0.05,
+      "party_name": "New Independent Front",
+      "candidate": "OSHALA HERATH"
+    }
+  ],
+  "summary": {
+    "valid": 52603,
+    "rejected": 1300,
+    "polled": 53903,
+    "electors": 64840,
+    "percent_valid": 97.59,
+    "percent_rejected": 2.41,
+    "percent_polled": 83.13
+  },
+  "type": "PRESIDENTIAL-FIRST",
+  "sequence_number": "0180",
+  "reference": "10704268489"
+}
