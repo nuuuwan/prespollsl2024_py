@@ -2854,5 +2854,56 @@
       "polled": 65494,
       "electors": 86509
     }
+  },
+  {
+    "result_time": "2024-09-22 08:59:05:944",
+    "pd_id": "EC-07J",
+    "pd_name": "Habaraduwa",
+    "party_to_votes": {
+      "AJP": 24,
+      "APP": 68,
+      "DUA": 20,
+      "DUNF": 59,
+      "ELPP": 9,
+      "IND1": 58,
+      "IND10": 22,
+      "IND11": 60,
+      "IND12": 100,
+      "IND13": 169,
+      "IND14": 30,
+      "IND15": 15,
+      "IND16": 10602,
+      "IND2": 48,
+      "IND4": 113,
+      "IND5": 85,
+      "IND6": 16,
+      "IND7": 17,
+      "IND8": 10,
+      "IND9": 16,
+      "JPF": 62,
+      "JSP": 34,
+      "NDF": 20,
+      "NIF": 19,
+      "NPP": 35428,
+      "NSSP": 64,
+      "NSU": 11,
+      "RJA": 60,
+      "SBP": 79,
+      "SEP": 18,
+      "SJB": 16929,
+      "SLCP": 1192,
+      "SLLP": 8,
+      "SLPP": 2041,
+      "SLSP": 21,
+      "SPF": 101,
+      "UNFF": 12,
+      "USP": 38
+    },
+    "summary": {
+      "valid": 67678,
+      "rejected": 1145,
+      "polled": 68823,
+      "electors": 85463
+    }
   }
 ]
