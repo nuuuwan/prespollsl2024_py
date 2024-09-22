@@ -5098,5 +5098,56 @@
       "polled": 130430,
       "electors": 178557
     }
+  },
+  {
+    "result_time": "2024-09-22 11:57:52:682",
+    "pd_id": "EC-01B",
+    "pd_name": "Colombo Central",
+    "party_to_votes": {
+      "AJP": 21,
+      "APP": 36,
+      "DUA": 61,
+      "DUNF": 29,
+      "ELPP": 14,
+      "IND1": 48,
+      "IND10": 38,
+      "IND11": 146,
+      "IND12": 126,
+      "IND13": 106,
+      "IND14": 32,
+      "IND15": 12,
+      "IND16": 19397,
+      "IND2": 31,
+      "IND4": 237,
+      "IND5": 56,
+      "IND6": 11,
+      "IND7": 7,
+      "IND8": 14,
+      "IND9": 295,
+      "JPF": 97,
+      "JSP": 32,
+      "NDF": 6,
+      "NIF": 18,
+      "NPP": 20220,
+      "NSSP": 98,
+      "NSU": 6,
+      "RJA": 49,
+      "SBP": 39,
+      "SEP": 31,
+      "SJB": 46063,
+      "SLCP": 367,
+      "SLLP": 6,
+      "SLPP": 1123,
+      "SLSP": 18,
+      "SPF": 32,
+      "UNFF": 18,
+      "USP": 42
+    },
+    "summary": {
+      "valid": 88982,
+      "rejected": 2522,
+      "polled": 91504,
+      "electors": 118986
+    }
   }
 ]
