@@ -1681,5 +1681,56 @@
       "polled": 61871,
       "electors": 80860
     }
+  },
+  {
+    "result_time": "2024-09-22 07:22:33:346",
+    "pd_id": "EC-09C",
+    "pd_name": "Tangalle",
+    "party_to_votes": {
+      "AJP": 19,
+      "APP": 107,
+      "DUA": 41,
+      "DUNF": 94,
+      "ELPP": 13,
+      "IND1": 46,
+      "IND10": 76,
+      "IND11": 97,
+      "IND12": 139,
+      "IND13": 483,
+      "IND14": 50,
+      "IND15": 29,
+      "IND16": 9056,
+      "IND2": 60,
+      "IND4": 203,
+      "IND5": 183,
+      "IND6": 30,
+      "IND7": 22,
+      "IND8": 5,
+      "IND9": 25,
+      "JPF": 179,
+      "JSP": 59,
+      "NDF": 33,
+      "NIF": 23,
+      "NPP": 59117,
+      "NSSP": 82,
+      "NSU": 8,
+      "RJA": 144,
+      "SBP": 177,
+      "SEP": 16,
+      "SJB": 28857,
+      "SLCP": 863,
+      "SLLP": 11,
+      "SLPP": 5964,
+      "SLSP": 48,
+      "SPF": 81,
+      "UNFF": 27,
+      "USP": 70
+    },
+    "summary": {
+      "valid": 106537,
+      "rejected": 1584,
+      "polled": 108121,
+      "electors": 130755
+    }
   }
 ]
