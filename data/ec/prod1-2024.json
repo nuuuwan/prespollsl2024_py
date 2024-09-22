@@ -3874,5 +3874,56 @@
       "polled": 46564,
       "electors": 62623
     }
+  },
+  {
+    "result_time": "2024-09-22 10:25:27:276",
+    "pd_id": "EC-04M",
+    "pd_name": "Nawalapitiya",
+    "party_to_votes": {
+      "AJP": 44,
+      "APP": 85,
+      "DUA": 48,
+      "DUNF": 93,
+      "ELPP": 13,
+      "IND1": 76,
+      "IND10": 127,
+      "IND11": 111,
+      "IND12": 166,
+      "IND13": 208,
+      "IND14": 31,
+      "IND15": 22,
+      "IND16": 19470,
+      "IND2": 84,
+      "IND4": 373,
+      "IND5": 119,
+      "IND6": 30,
+      "IND7": 13,
+      "IND8": 15,
+      "IND9": 59,
+      "JPF": 161,
+      "JSP": 40,
+      "NDF": 21,
+      "NIF": 39,
+      "NPP": 28929,
+      "NSSP": 131,
+      "NSU": 12,
+      "RJA": 72,
+      "SBP": 43,
+      "SEP": 64,
+      "SJB": 28535,
+      "SLCP": 687,
+      "SLLP": 9,
+      "SLPP": 969,
+      "SLSP": 38,
+      "SPF": 31,
+      "UNFF": 24,
+      "USP": 78
+    },
+    "summary": {
+      "valid": 81070,
+      "rejected": 2714,
+      "polled": 83784,
+      "electors": 103976
+    }
   }
 ]
