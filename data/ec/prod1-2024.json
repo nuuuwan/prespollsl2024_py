@@ -9025,5 +9025,56 @@
       "polled": 134312,
       "electors": 169884
     }
+  },
+  {
+    "result_time": "2024-09-22 15:43:18:587",
+    "pd_id": "EC-03F",
+    "pd_name": "Kalutara",
+    "party_to_votes": {
+      "AJP": 16,
+      "APP": 47,
+      "DUA": 20,
+      "DUNF": 115,
+      "ELPP": 6,
+      "IND1": 85,
+      "IND10": 29,
+      "IND11": 75,
+      "IND12": 136,
+      "IND13": 176,
+      "IND14": 23,
+      "IND15": 26,
+      "IND16": 17078,
+      "IND2": 46,
+      "IND4": 151,
+      "IND5": 108,
+      "IND6": 21,
+      "IND7": 20,
+      "IND8": 5,
+      "IND9": 19,
+      "JPF": 83,
+      "JSP": 56,
+      "NDF": 21,
+      "NIF": 36,
+      "NPP": 52607,
+      "NSSP": 62,
+      "NSU": 11,
+      "RJA": 67,
+      "SBP": 58,
+      "SEP": 12,
+      "SJB": 25006,
+      "SLCP": 1293,
+      "SLLP": 5,
+      "SLPP": 1997,
+      "SLSP": 37,
+      "SPF": 198,
+      "UNFF": 19,
+      "USP": 28
+    },
+    "summary": {
+      "valid": 99798,
+      "rejected": 1859,
+      "polled": 101657,
+      "electors": 127561
+    }
   }
 ]
