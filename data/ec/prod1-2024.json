@@ -4690,5 +4690,56 @@
       "polled": 48728,
       "electors": 67112
     }
+  },
+  {
+    "result_time": "2024-09-22 11:26:49:356",
+    "pd_id": "EC-04K",
+    "pd_name": "Udunuwara",
+    "party_to_votes": {
+      "AJP": 31,
+      "APP": 59,
+      "DUA": 34,
+      "DUNF": 70,
+      "ELPP": 6,
+      "IND1": 47,
+      "IND10": 42,
+      "IND11": 79,
+      "IND12": 115,
+      "IND13": 207,
+      "IND14": 23,
+      "IND15": 12,
+      "IND16": 10383,
+      "IND2": 61,
+      "IND4": 199,
+      "IND5": 85,
+      "IND6": 12,
+      "IND7": 17,
+      "IND8": 11,
+      "IND9": 17,
+      "JPF": 122,
+      "JSP": 37,
+      "NDF": 14,
+      "NIF": 21,
+      "NPP": 33232,
+      "NSSP": 58,
+      "NSU": 10,
+      "RJA": 58,
+      "SBP": 47,
+      "SEP": 25,
+      "SJB": 23326,
+      "SLCP": 845,
+      "SLLP": 5,
+      "SLPP": 1367,
+      "SLSP": 29,
+      "SPF": 65,
+      "UNFF": 14,
+      "USP": 42
+    },
+    "summary": {
+      "valid": 70827,
+      "rejected": 1573,
+      "polled": 72400,
+      "electors": 89918
+    }
   }
 ]
