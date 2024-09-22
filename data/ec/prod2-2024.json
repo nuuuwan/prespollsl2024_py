@@ -1,0 +1,137 @@
+[
+  {
+    "result_time": "2024-09-22 18:50:33:740",
+    "ed_id": "EC-05",
+    "ed_name": "Matale",
+    "party_to_votes": {
+      "NPP": 1909,
+      "SJB": 2211
+    },
+    "summary": {
+      "valid": 4120,
+      "electors": 4120,
+      "polled": 4120,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 18:53:19:126",
+    "ed_id": "EC-09",
+    "ed_name": "Hambantota",
+    "party_to_votes": {
+      "NPP": 1763,
+      "SJB": 3093
+    },
+    "summary": {
+      "valid": 4856,
+      "electors": 4856,
+      "polled": 4856,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 18:53:42:750",
+    "ed_id": "EC-13",
+    "ed_name": "Digamadulla",
+    "party_to_votes": {
+      "NPP": 3391,
+      "SJB": 4814
+    },
+    "summary": {
+      "valid": 8205,
+      "electors": 8205,
+      "polled": 8205,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 18:54:15:586",
+    "ed_id": "EC-19",
+    "ed_name": "Badulla",
+    "party_to_votes": {
+      "NPP": 3437,
+      "SJB": 4760
+    },
+    "summary": {
+      "valid": 8197,
+      "electors": 8197,
+      "polled": 8197,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 18:58:55:562",
+    "ed_id": "EC-20",
+    "ed_name": "Monaragala",
+    "party_to_votes": {
+      "NPP": 1395,
+      "SJB": 1820
+    },
+    "summary": {
+      "valid": 3215,
+      "electors": 3215,
+      "polled": 3215,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:00:19:228",
+    "ed_id": "EC-12",
+    "ed_name": "Batticaloa",
+    "party_to_votes": {
+      "NPP": 4467,
+      "SJB": 7191
+    },
+    "summary": {
+      "valid": 11658,
+      "electors": 11658,
+      "polled": 11658,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:00:55:578",
+    "ed_id": "EC-11",
+    "ed_name": "Vanni",
+    "party_to_votes": {
+      "NPP": 2390,
+      "SJB": 6162
+    },
+    "summary": {
+      "valid": 8552,
+      "electors": 8552,
+      "polled": 8552,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:01:32:434",
+    "ed_id": "EC-17",
+    "ed_name": "Anuradhapura",
+    "party_to_votes": {
+      "NPP": 2773,
+      "SJB": 3537
+    },
+    "summary": {
+      "valid": 6310,
+      "electors": 6310,
+      "polled": 6310,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:02:05:011",
+    "ed_id": "EC-16",
+    "ed_name": "Puttalam",
+    "party_to_votes": {
+      "NPP": 2149,
+      "SJB": 3103
+    },
+    "summary": {
+      "valid": 5252,
+      "electors": 5252,
+      "polled": 5252,
+      "rejected": 0
+    }
+  }
+]
