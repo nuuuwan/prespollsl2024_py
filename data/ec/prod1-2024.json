@@ -5557,5 +5557,56 @@
       "polled": 107494,
       "electors": 132651
     }
+  },
+  {
+    "result_time": "2024-09-22 13:52:21:292",
+    "pd_id": "EC-22G",
+    "pd_name": "Yatiyantota",
+    "party_to_votes": {
+      "AJP": 35,
+      "APP": 50,
+      "DUA": 46,
+      "DUNF": 50,
+      "ELPP": 10,
+      "IND1": 61,
+      "IND10": 73,
+      "IND11": 77,
+      "IND12": 158,
+      "IND13": 119,
+      "IND14": 26,
+      "IND15": 10,
+      "IND16": 14893,
+      "IND2": 58,
+      "IND4": 255,
+      "IND5": 66,
+      "IND6": 12,
+      "IND7": 7,
+      "IND8": 20,
+      "IND9": 40,
+      "JPF": 135,
+      "JSP": 29,
+      "NDF": 19,
+      "NIF": 19,
+      "NPP": 19482,
+      "NSSP": 105,
+      "NSU": 13,
+      "RJA": 48,
+      "SBP": 40,
+      "SEP": 31,
+      "SJB": 23891,
+      "SLCP": 540,
+      "SLLP": 12,
+      "SLPP": 1335,
+      "SLSP": 16,
+      "SPF": 43,
+      "UNFF": 10,
+      "USP": 49
+    },
+    "summary": {
+      "valid": 61883,
+      "rejected": 1333,
+      "polled": 63216,
+      "electors": 77885
+    }
   }
 ]
