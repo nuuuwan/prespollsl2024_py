@@ -5251,5 +5251,56 @@
       "polled": 70724,
       "electors": 86874
     }
+  },
+  {
+    "result_time": "2024-09-22 12:14:13:267",
+    "pd_id": "EC-20B",
+    "pd_name": "Moneragala",
+    "party_to_votes": {
+      "AJP": 36,
+      "APP": 198,
+      "DUA": 54,
+      "DUNF": 88,
+      "ELPP": 21,
+      "IND1": 137,
+      "IND10": 113,
+      "IND11": 155,
+      "IND12": 181,
+      "IND13": 318,
+      "IND14": 67,
+      "IND15": 23,
+      "IND16": 9625,
+      "IND2": 66,
+      "IND4": 537,
+      "IND5": 155,
+      "IND6": 36,
+      "IND7": 25,
+      "IND8": 21,
+      "IND9": 55,
+      "JPF": 224,
+      "JSP": 51,
+      "NDF": 60,
+      "NIF": 32,
+      "NPP": 36736,
+      "NSSP": 101,
+      "NSU": 26,
+      "RJA": 99,
+      "SBP": 110,
+      "SEP": 42,
+      "SJB": 42111,
+      "SLCP": 796,
+      "SLLP": 15,
+      "SLPP": 4264,
+      "SLSP": 40,
+      "SPF": 61,
+      "UNFF": 23,
+      "USP": 89
+    },
+    "summary": {
+      "valid": 96791,
+      "rejected": 2124,
+      "polled": 98915,
+      "electors": 117333
+    }
   }
 ]
