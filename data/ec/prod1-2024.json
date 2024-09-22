@@ -1528,5 +1528,56 @@
       "polled": 43498,
       "electors": 54236
     }
+  },
+  {
+    "result_time": "2024-09-22 06:48:04:301",
+    "pd_id": "EC-09A",
+    "pd_name": "Mulkirigala",
+    "party_to_votes": {
+      "AJP": 22,
+      "APP": 116,
+      "DUA": 43,
+      "DUNF": 74,
+      "ELPP": 18,
+      "IND1": 52,
+      "IND10": 90,
+      "IND11": 96,
+      "IND12": 140,
+      "IND13": 342,
+      "IND14": 51,
+      "IND15": 19,
+      "IND16": 9192,
+      "IND2": 64,
+      "IND4": 229,
+      "IND5": 182,
+      "IND6": 28,
+      "IND7": 23,
+      "IND8": 16,
+      "IND9": 22,
+      "JPF": 223,
+      "JSP": 38,
+      "NDF": 55,
+      "NIF": 19,
+      "NPP": 41086,
+      "NSSP": 65,
+      "NSU": 8,
+      "RJA": 103,
+      "SBP": 134,
+      "SEP": 22,
+      "SJB": 26614,
+      "SLCP": 841,
+      "SLLP": 15,
+      "SLPP": 6250,
+      "SLSP": 48,
+      "SPF": 88,
+      "UNFF": 23,
+      "USP": 75
+    },
+    "summary": {
+      "valid": 86526,
+      "rejected": 1414,
+      "polled": 87940,
+      "electors": 106421
+    }
   }
 ]
