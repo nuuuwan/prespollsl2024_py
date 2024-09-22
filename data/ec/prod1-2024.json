@@ -5404,5 +5404,56 @@
       "polled": 58887,
       "electors": 72552
     }
+  },
+  {
+    "result_time": "2024-09-22 12:28:17:654",
+    "pd_id": "EC-21F",
+    "pd_name": "Nivithigala",
+    "party_to_votes": {
+      "AJP": 37,
+      "APP": 98,
+      "DUA": 37,
+      "DUNF": 65,
+      "ELPP": 21,
+      "IND1": 109,
+      "IND10": 100,
+      "IND11": 128,
+      "IND12": 189,
+      "IND13": 182,
+      "IND14": 55,
+      "IND15": 12,
+      "IND16": 21556,
+      "IND2": 102,
+      "IND4": 347,
+      "IND5": 126,
+      "IND6": 29,
+      "IND7": 16,
+      "IND8": 20,
+      "IND9": 25,
+      "JPF": 139,
+      "JSP": 52,
+      "NDF": 20,
+      "NIF": 47,
+      "NPP": 27501,
+      "NSSP": 160,
+      "NSU": 11,
+      "RJA": 75,
+      "SBP": 70,
+      "SEP": 46,
+      "SJB": 30363,
+      "SLCP": 746,
+      "SLLP": 20,
+      "SLPP": 2573,
+      "SLSP": 23,
+      "SPF": 31,
+      "UNFF": 14,
+      "USP": 65
+    },
+    "summary": {
+      "valid": 85210,
+      "rejected": 1981,
+      "polled": 87191,
+      "electors": 106254
+    }
   }
 ]
