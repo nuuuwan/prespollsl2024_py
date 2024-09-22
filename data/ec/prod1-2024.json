@@ -3262,5 +3262,56 @@
       "polled": 56537,
       "electors": 70291
     }
+  },
+  {
+    "result_time": "2024-09-22 09:27:00:203",
+    "pd_id": "EC-04D",
+    "pd_name": "Udadumbara",
+    "party_to_votes": {
+      "AJP": 28,
+      "APP": 71,
+      "DUA": 29,
+      "DUNF": 43,
+      "ELPP": 9,
+      "IND1": 79,
+      "IND10": 62,
+      "IND11": 73,
+      "IND12": 104,
+      "IND13": 161,
+      "IND14": 25,
+      "IND15": 11,
+      "IND16": 6280,
+      "IND2": 36,
+      "IND4": 269,
+      "IND5": 62,
+      "IND6": 16,
+      "IND7": 7,
+      "IND8": 6,
+      "IND9": 16,
+      "JPF": 114,
+      "JSP": 8,
+      "NDF": 20,
+      "NIF": 27,
+      "NPP": 17226,
+      "NSSP": 79,
+      "NSU": 9,
+      "RJA": 44,
+      "SBP": 64,
+      "SEP": 8,
+      "SJB": 22336,
+      "SLCP": 200,
+      "SLLP": 11,
+      "SLPP": 2386,
+      "SLSP": 19,
+      "SPF": 24,
+      "UNFF": 21,
+      "USP": 39
+    },
+    "summary": {
+      "valid": 50022,
+      "rejected": 981,
+      "polled": 51003,
+      "electors": 61289
+    }
   }
 ]
