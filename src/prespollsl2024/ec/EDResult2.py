@@ -49,6 +49,7 @@ class EDResult2(GenericResult):
         return {
             "result_time": self.timestamp,
             "ed_id": self.ed_id,
+            "ed_name": self.ed_name,
             "party_to_votes": ForParty2.to_dict_compact(self.by_party),
             "summary": self.summary.to_dict_compact(),
         }

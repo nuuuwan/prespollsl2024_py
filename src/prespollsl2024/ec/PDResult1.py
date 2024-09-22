@@ -51,6 +51,7 @@ class PDResult1(GenericResult):
         return {
             "result_time": self.timestamp,
             "pd_id": self.pd_id,
+            "pd_name": self.pd_name,
             "party_to_votes": ForParty1.to_dict_compact(self.by_party),
             "summary": self.summary.to_dict_compact(),
         }
