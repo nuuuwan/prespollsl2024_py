@@ -4486,5 +4486,56 @@
       "polled": 71519,
       "electors": 97620
     }
+  },
+  {
+    "result_time": "2024-09-22 11:17:39:098",
+    "pd_id": "EC-04B",
+    "pd_name": "Harispattuwa",
+    "party_to_votes": {
+      "AJP": 48,
+      "APP": 120,
+      "DUA": 73,
+      "DUNF": 187,
+      "ELPP": 19,
+      "IND1": 106,
+      "IND10": 99,
+      "IND11": 181,
+      "IND12": 201,
+      "IND13": 438,
+      "IND14": 53,
+      "IND15": 46,
+      "IND16": 17182,
+      "IND2": 115,
+      "IND4": 467,
+      "IND5": 186,
+      "IND6": 47,
+      "IND7": 19,
+      "IND8": 24,
+      "IND9": 31,
+      "JPF": 246,
+      "JSP": 75,
+      "NDF": 36,
+      "NIF": 38,
+      "NPP": 59456,
+      "NSSP": 102,
+      "NSU": 29,
+      "RJA": 110,
+      "SBP": 108,
+      "SEP": 41,
+      "SJB": 50539,
+      "SLCP": 1167,
+      "SLLP": 25,
+      "SLPP": 2732,
+      "SLSP": 46,
+      "SPF": 106,
+      "UNFF": 27,
+      "USP": 86
+    },
+    "summary": {
+      "valid": 134611,
+      "rejected": 3067,
+      "polled": 137678,
+      "electors": 173626
+    }
   }
 ]
