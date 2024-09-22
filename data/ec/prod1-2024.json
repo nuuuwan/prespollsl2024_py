@@ -5149,5 +5149,56 @@
       "polled": 91504,
       "electors": 118986
     }
+  },
+  {
+    "result_time": "2024-09-22 12:01:10:799",
+    "pd_id": "EC-15L",
+    "pd_name": "Kurunegala",
+    "party_to_votes": {
+      "AJP": 31,
+      "APP": 62,
+      "DUA": 26,
+      "DUNF": 83,
+      "ELPP": 3,
+      "IND1": 37,
+      "IND10": 33,
+      "IND11": 91,
+      "IND12": 128,
+      "IND13": 127,
+      "IND14": 15,
+      "IND15": 10,
+      "IND16": 9520,
+      "IND2": 36,
+      "IND4": 107,
+      "IND5": 67,
+      "IND6": 16,
+      "IND7": 9,
+      "IND8": 6,
+      "IND9": 15,
+      "JPF": 75,
+      "JSP": 45,
+      "NDF": 12,
+      "NIF": 17,
+      "NPP": 39512,
+      "NSSP": 31,
+      "NSU": 4,
+      "RJA": 45,
+      "SBP": 68,
+      "SEP": 11,
+      "SJB": 22988,
+      "SLCP": 532,
+      "SLLP": 5,
+      "SLPP": 1817,
+      "SLSP": 15,
+      "SPF": 26,
+      "UNFF": 5,
+      "USP": 19
+    },
+    "summary": {
+      "valid": 75649,
+      "rejected": 1278,
+      "polled": 76927,
+      "electors": 97155
+    }
   }
 ]
