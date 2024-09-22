@@ -4078,5 +4078,56 @@
       "polled": 107184,
       "electors": 131522
     }
+  },
+  {
+    "result_time": "2024-09-22 10:41:59:765",
+    "pd_id": "EC-17B",
+    "pd_name": "Horowpathana",
+    "party_to_votes": {
+      "AJP": 21,
+      "APP": 133,
+      "DUA": 25,
+      "DUNF": 43,
+      "ELPP": 7,
+      "IND1": 52,
+      "IND10": 57,
+      "IND11": 100,
+      "IND12": 108,
+      "IND13": 231,
+      "IND14": 30,
+      "IND15": 15,
+      "IND16": 7395,
+      "IND2": 44,
+      "IND4": 402,
+      "IND5": 90,
+      "IND6": 24,
+      "IND7": 13,
+      "IND8": 6,
+      "IND9": 15,
+      "JPF": 138,
+      "JSP": 30,
+      "NDF": 21,
+      "NIF": 19,
+      "NPP": 28580,
+      "NSSP": 59,
+      "NSU": 13,
+      "RJA": 66,
+      "SBP": 50,
+      "SEP": 9,
+      "SJB": 30838,
+      "SLCP": 255,
+      "SLLP": 6,
+      "SLPP": 1631,
+      "SLSP": 27,
+      "SPF": 24,
+      "UNFF": 15,
+      "USP": 54
+    },
+    "summary": {
+      "valid": 70646,
+      "rejected": 989,
+      "polled": 71635,
+      "electors": 86717
+    }
   }
 ]
