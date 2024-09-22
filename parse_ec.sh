@@ -3,9 +3,9 @@ source ~/.zshrc;
 
 git pull origin main
 
-rm data/ec/prod1/*.html
-rm data/ec/prod1/*.pdf
-rm data/ec/prod1/*.xml
+rm data/ec/prod2/*.html
+rm data/ec/prod2/*.pdf
+rm data/ec/prod2/*.xml
 
 python workflows/parse_ec.py
 git add *
