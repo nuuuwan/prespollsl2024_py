@@ -3517,5 +3517,56 @@
       "polled": 24169,
       "electors": 41255
     }
+  },
+  {
+    "result_time": "2024-09-22 09:50:12:211",
+    "pd_id": "EC-04L",
+    "pd_name": "Gampola",
+    "party_to_votes": {
+      "AJP": 54,
+      "APP": 62,
+      "DUA": 56,
+      "DUNF": 63,
+      "ELPP": 12,
+      "IND1": 91,
+      "IND10": 76,
+      "IND11": 99,
+      "IND12": 175,
+      "IND13": 206,
+      "IND14": 48,
+      "IND15": 25,
+      "IND16": 21991,
+      "IND2": 89,
+      "IND4": 389,
+      "IND5": 84,
+      "IND6": 31,
+      "IND7": 22,
+      "IND8": 20,
+      "IND9": 49,
+      "JPF": 163,
+      "JSP": 39,
+      "NDF": 32,
+      "NIF": 29,
+      "NPP": 28750,
+      "NSSP": 132,
+      "NSU": 12,
+      "RJA": 80,
+      "SBP": 46,
+      "SEP": 50,
+      "SJB": 31503,
+      "SLCP": 859,
+      "SLLP": 9,
+      "SLPP": 1652,
+      "SLSP": 29,
+      "SPF": 85,
+      "UNFF": 13,
+      "USP": 73
+    },
+    "summary": {
+      "valid": 87198,
+      "rejected": 2750,
+      "polled": 89948,
+      "electors": 113385
+    }
   }
 ]
