@@ -1,0 +1,26 @@
+{
+  "timestamp": "2024-09-22 19:08:21:363",
+  "level": "ELECTORAL-DISTRICT",
+  "ed_code": "22",
+  "ed_name": "Kegalle",
+  "by_party": [
+    {
+      "party_code": "NPP",
+      "preferences": 3869,
+      "party_name": "Jathika Jana Balawegaya",
+      "candidate": "ANURA KUMARA DISSANAYAKE"
+    },
+    {
+      "party_code": "SJB",
+      "preferences": 4314,
+      "party_name": "Samagi Jana Balawegaya",
+      "candidate": "SAJITH PREMADASA"
+    }
+  ],
+  "summary": {
+    "total": 8183
+  },
+  "type": "PRESIDENTIAL-SECOND",
+  "sequence_number": "0219",
+  "reference": "1681537960"
+}

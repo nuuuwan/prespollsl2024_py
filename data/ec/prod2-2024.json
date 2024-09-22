@@ -15,6 +15,21 @@
     }
   },
   {
+    "result_time": "2024-09-22 18:52:33:156",
+    "ed_id": "EC-08",
+    "ed_name": "Matara",
+    "party_to_votes": {
+      "NPP": 3130,
+      "SJB": 4505
+    },
+    "summary": {
+      "valid": 7635,
+      "electors": 7635,
+      "polled": 7635,
+      "rejected": 0
+    }
+  },
+  {
     "result_time": "2024-09-22 18:53:19:126",
     "ed_id": "EC-09",
     "ed_name": "Hambantota",
@@ -131,6 +146,126 @@
       "valid": 5252,
       "electors": 5252,
       "polled": 5252,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:02:48:607",
+    "ed_id": "EC-07",
+    "ed_name": "Galle",
+    "party_to_votes": {
+      "NPP": 4714,
+      "SJB": 5828
+    },
+    "summary": {
+      "valid": 10542,
+      "electors": 10542,
+      "polled": 10542,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:03:30:826",
+    "ed_id": "EC-06",
+    "ed_name": "Nuwaraeliya",
+    "party_to_votes": {
+      "NPP": 3162,
+      "SJB": 5440
+    },
+    "summary": {
+      "valid": 8602,
+      "electors": 8602,
+      "polled": 8602,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:04:24:952",
+    "ed_id": "EC-03",
+    "ed_name": "Kalutara",
+    "party_to_votes": {
+      "NPP": 6135,
+      "SJB": 8517
+    },
+    "summary": {
+      "valid": 14652,
+      "electors": 14652,
+      "polled": 14652,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:05:03:893",
+    "ed_id": "EC-01",
+    "ed_name": "Colombo",
+    "party_to_votes": {
+      "NPP": 17902,
+      "SJB": 35488
+    },
+    "summary": {
+      "valid": 53390,
+      "electors": 53390,
+      "polled": 53390,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:05:43:195",
+    "ed_id": "EC-15",
+    "ed_name": "Kurunegala",
+    "party_to_votes": {
+      "NPP": 6408,
+      "SJB": 7920
+    },
+    "summary": {
+      "valid": 14328,
+      "electors": 14328,
+      "polled": 14328,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:06:21:990",
+    "ed_id": "EC-21",
+    "ed_name": "Ratnapura",
+    "party_to_votes": {
+      "NPP": 4888,
+      "SJB": 6022
+    },
+    "summary": {
+      "valid": 10910,
+      "electors": 10910,
+      "polled": 10910,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:07:11:091",
+    "ed_id": "EC-10",
+    "ed_name": "Jaffna",
+    "party_to_votes": {
+      "NPP": 8174,
+      "SJB": 21511
+    },
+    "summary": {
+      "valid": 29685,
+      "electors": 29685,
+      "polled": 29685,
+      "rejected": 0
+    }
+  },
+  {
+    "result_time": "2024-09-22 19:08:21:363",
+    "ed_id": "EC-22",
+    "ed_name": "Kegalle",
+    "party_to_votes": {
+      "NPP": 3869,
+      "SJB": 4314
+    },
+    "summary": {
+      "valid": 8183,
+      "electors": 8183,
+      "polled": 8183,
       "rejected": 0
     }
   }
