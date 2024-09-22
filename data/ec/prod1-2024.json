@@ -3415,5 +3415,56 @@
       "polled": 34026,
       "electors": 52092
     }
+  },
+  {
+    "result_time": "2024-09-22 09:41:48:117",
+    "pd_id": "EC-10D",
+    "pd_name": "Manipay",
+    "party_to_votes": {
+      "AJP": 19,
+      "APP": 70,
+      "DUA": 51,
+      "DUNF": 26,
+      "ELPP": 19,
+      "IND1": 91,
+      "IND10": 119,
+      "IND11": 55,
+      "IND12": 77,
+      "IND13": 62,
+      "IND14": 38,
+      "IND15": 29,
+      "IND16": 8871,
+      "IND2": 60,
+      "IND4": 629,
+      "IND5": 71,
+      "IND6": 24,
+      "IND7": 10,
+      "IND8": 21,
+      "IND9": 11587,
+      "JPF": 117,
+      "JSP": 32,
+      "NDF": 50,
+      "NIF": 37,
+      "NPP": 2886,
+      "NSSP": 86,
+      "NSU": 33,
+      "RJA": 55,
+      "SBP": 34,
+      "SEP": 37,
+      "SJB": 11609,
+      "SLCP": 113,
+      "SLLP": 15,
+      "SLPP": 84,
+      "SLSP": 68,
+      "SPF": 49,
+      "UNFF": 16,
+      "USP": 80
+    },
+    "summary": {
+      "valid": 37330,
+      "rejected": 2644,
+      "polled": 39974,
+      "electors": 60144
+    }
   }
 ]
