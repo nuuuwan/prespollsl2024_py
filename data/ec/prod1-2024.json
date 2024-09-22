@@ -4333,5 +4333,56 @@
       "polled": 151599,
       "electors": 203232
     }
+  },
+  {
+    "result_time": "2024-09-22 11:06:07:148",
+    "pd_id": "EC-03P",
+    "pd_name": "Postal Vote",
+    "party_to_votes": {
+      "AJP": 7,
+      "APP": 2,
+      "DUA": 5,
+      "DUNF": 30,
+      "ELPP": 10,
+      "IND1": 18,
+      "IND10": 3,
+      "IND11": 6,
+      "IND12": 53,
+      "IND13": 29,
+      "IND14": 1,
+      "IND15": 14,
+      "IND16": 7456,
+      "IND2": 5,
+      "IND4": 18,
+      "IND5": 7,
+      "IND6": 1,
+      "IND7": 2,
+      "IND8": 3,
+      "IND9": 4,
+      "JPF": 37,
+      "JSP": 12,
+      "NDF": 1,
+      "NIF": 6,
+      "NPP": 21589,
+      "NSSP": 13,
+      "NSU": 2,
+      "RJA": 10,
+      "SBP": 30,
+      "SEP": 5,
+      "SJB": 5465,
+      "SLCP": 390,
+      "SLLP": 2,
+      "SLPP": 663,
+      "SLSP": 7,
+      "SPF": 43,
+      "UNFF": 7,
+      "USP": 3
+    },
+    "summary": {
+      "valid": 35959,
+      "rejected": 763,
+      "polled": 36722,
+      "electors": 37348
+    }
   }
 ]
