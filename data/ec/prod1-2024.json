@@ -4129,5 +4129,56 @@
       "polled": 71635,
       "electors": 86717
     }
+  },
+  {
+    "result_time": "2024-09-22 10:43:01:556",
+    "pd_id": "EC-21G",
+    "pd_name": "Kalawana",
+    "party_to_votes": {
+      "AJP": 23,
+      "APP": 62,
+      "DUA": 36,
+      "DUNF": 63,
+      "ELPP": 12,
+      "IND1": 67,
+      "IND10": 57,
+      "IND11": 97,
+      "IND12": 113,
+      "IND13": 144,
+      "IND14": 22,
+      "IND15": 10,
+      "IND16": 11972,
+      "IND2": 51,
+      "IND4": 174,
+      "IND5": 79,
+      "IND6": 24,
+      "IND7": 7,
+      "IND8": 18,
+      "IND9": 19,
+      "JPF": 104,
+      "JSP": 19,
+      "NDF": 22,
+      "NIF": 29,
+      "NPP": 19850,
+      "NSSP": 96,
+      "NSU": 7,
+      "RJA": 54,
+      "SBP": 57,
+      "SEP": 12,
+      "SJB": 19683,
+      "SLCP": 869,
+      "SLLP": 7,
+      "SLPP": 1985,
+      "SLSP": 16,
+      "SPF": 64,
+      "UNFF": 4,
+      "USP": 50
+    },
+    "summary": {
+      "valid": 55978,
+      "rejected": 1201,
+      "polled": 57179,
+      "electors": 69438
+    }
   }
 ]
