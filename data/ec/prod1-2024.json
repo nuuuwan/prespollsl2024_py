@@ -2038,5 +2038,56 @@
       "polled": 67044,
       "electors": 82533
     }
+  },
+  {
+    "result_time": "2024-09-22 08:30:09:417",
+    "pd_id": "EC-10H",
+    "pd_name": "Chavakachcheri",
+    "party_to_votes": {
+      "AJP": 25,
+      "APP": 116,
+      "DUA": 42,
+      "DUNF": 22,
+      "ELPP": 17,
+      "IND1": 82,
+      "IND10": 101,
+      "IND11": 70,
+      "IND12": 89,
+      "IND13": 73,
+      "IND14": 27,
+      "IND15": 27,
+      "IND16": 6160,
+      "IND2": 48,
+      "IND4": 624,
+      "IND5": 72,
+      "IND6": 23,
+      "IND7": 21,
+      "IND8": 24,
+      "IND9": 9159,
+      "JPF": 115,
+      "JSP": 30,
+      "NDF": 45,
+      "NIF": 37,
+      "NPP": 2692,
+      "NSSP": 68,
+      "NSU": 16,
+      "RJA": 27,
+      "SBP": 35,
+      "SEP": 20,
+      "SJB": 10956,
+      "SLCP": 30,
+      "SLLP": 10,
+      "SLPP": 75,
+      "SLSP": 43,
+      "SPF": 40,
+      "UNFF": 19,
+      "USP": 106
+    },
+    "summary": {
+      "valid": 31186,
+      "rejected": 2263,
+      "polled": 33449,
+      "electors": 55829
+    }
   }
 ]
