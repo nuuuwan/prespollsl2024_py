@@ -5455,5 +5455,56 @@
       "polled": 87191,
       "electors": 106254
     }
+  },
+  {
+    "result_time": "2024-09-22 12:29:02:457",
+    "pd_id": "EC-21H",
+    "pd_name": "Kolonna",
+    "party_to_votes": {
+      "AJP": 27,
+      "APP": 169,
+      "DUA": 49,
+      "DUNF": 111,
+      "ELPP": 15,
+      "IND1": 94,
+      "IND10": 101,
+      "IND11": 195,
+      "IND12": 204,
+      "IND13": 335,
+      "IND14": 68,
+      "IND15": 22,
+      "IND16": 15238,
+      "IND2": 70,
+      "IND4": 363,
+      "IND5": 149,
+      "IND6": 34,
+      "IND7": 20,
+      "IND8": 18,
+      "IND9": 24,
+      "JPF": 236,
+      "JSP": 58,
+      "NDF": 54,
+      "NIF": 34,
+      "NPP": 55788,
+      "NSSP": 96,
+      "NSU": 17,
+      "RJA": 119,
+      "SBP": 156,
+      "SEP": 26,
+      "SJB": 45074,
+      "SLCP": 1313,
+      "SLLP": 14,
+      "SLPP": 4301,
+      "SLSP": 52,
+      "SPF": 126,
+      "UNFF": 22,
+      "USP": 89
+    },
+    "summary": {
+      "valid": 124881,
+      "rejected": 2195,
+      "polled": 127076,
+      "electors": 156099
+    }
   }
 ]
