@@ -1579,5 +1579,56 @@
       "polled": 87940,
       "electors": 106421
     }
+  },
+  {
+    "result_time": "2024-09-22 07:03:03:940",
+    "pd_id": "EC-04I",
+    "pd_name": "Mahanuwara",
+    "party_to_votes": {
+      "AJP": 25,
+      "APP": 10,
+      "DUA": 9,
+      "DUNF": 26,
+      "ELPP": 7,
+      "IND1": 14,
+      "IND10": 6,
+      "IND11": 32,
+      "IND12": 45,
+      "IND13": 37,
+      "IND14": 5,
+      "IND15": 9,
+      "IND16": 6361,
+      "IND2": 11,
+      "IND4": 46,
+      "IND5": 12,
+      "IND6": 3,
+      "IND7": 5,
+      "IND8": 3,
+      "IND9": 53,
+      "JPF": 30,
+      "JSP": 15,
+      "NDF": 4,
+      "NIF": 9,
+      "NPP": 13336,
+      "NSSP": 19,
+      "NSU": 8,
+      "RJA": 15,
+      "SBP": 15,
+      "SEP": 11,
+      "SJB": 9083,
+      "SLCP": 416,
+      "SLLP": 4,
+      "SLPP": 380,
+      "SLSP": 8,
+      "SPF": 18,
+      "UNFF": 8,
+      "USP": 11
+    },
+    "summary": {
+      "valid": 30109,
+      "rejected": 534,
+      "polled": 30643,
+      "electors": 41303
+    }
   }
 ]
