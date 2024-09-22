@@ -4894,5 +4894,56 @@
       "polled": 47514,
       "electors": 66062
     }
+  },
+  {
+    "result_time": "2024-09-22 11:41:02:396",
+    "pd_id": "EC-01H",
+    "pd_name": "Kolonnawa",
+    "party_to_votes": {
+      "AJP": 23,
+      "APP": 43,
+      "DUA": 59,
+      "DUNF": 87,
+      "ELPP": 13,
+      "IND1": 42,
+      "IND10": 28,
+      "IND11": 87,
+      "IND12": 142,
+      "IND13": 157,
+      "IND14": 17,
+      "IND15": 37,
+      "IND16": 20069,
+      "IND2": 30,
+      "IND4": 154,
+      "IND5": 76,
+      "IND6": 24,
+      "IND7": 10,
+      "IND8": 8,
+      "IND9": 58,
+      "JPF": 101,
+      "JSP": 59,
+      "NDF": 26,
+      "NIF": 31,
+      "NPP": 49239,
+      "NSSP": 58,
+      "NSU": 11,
+      "RJA": 62,
+      "SBP": 77,
+      "SEP": 32,
+      "SJB": 33127,
+      "SLCP": 1730,
+      "SLLP": 20,
+      "SLPP": 2350,
+      "SLSP": 34,
+      "SPF": 82,
+      "UNFF": 16,
+      "USP": 23
+    },
+    "summary": {
+      "valid": 108242,
+      "rejected": 2431,
+      "polled": 110673,
+      "electors": 142482
+    }
   }
 ]
