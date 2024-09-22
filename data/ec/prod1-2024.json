@@ -3670,5 +3670,56 @@
       "polled": 76059,
       "electors": 94099
     }
+  },
+  {
+    "result_time": "2024-09-22 10:14:30:865",
+    "pd_id": "EC-13C",
+    "pd_name": "Kalmunai",
+    "party_to_votes": {
+      "AJP": 12,
+      "APP": 43,
+      "DUA": 12,
+      "DUNF": 13,
+      "ELPP": 8,
+      "IND1": 33,
+      "IND10": 40,
+      "IND11": 64,
+      "IND12": 72,
+      "IND13": 95,
+      "IND14": 23,
+      "IND15": 25,
+      "IND16": 15686,
+      "IND2": 30,
+      "IND4": 118,
+      "IND5": 39,
+      "IND6": 16,
+      "IND7": 3,
+      "IND8": 4,
+      "IND9": 2623,
+      "JPF": 54,
+      "JSP": 12,
+      "NDF": 12,
+      "NIF": 22,
+      "NPP": 10937,
+      "NSSP": 62,
+      "NSU": 16,
+      "RJA": 33,
+      "SBP": 12,
+      "SEP": 15,
+      "SJB": 26873,
+      "SLCP": 42,
+      "SLLP": 8,
+      "SLPP": 93,
+      "SLSP": 18,
+      "SPF": 3,
+      "UNFF": 6,
+      "USP": 23
+    },
+    "summary": {
+      "valid": 57200,
+      "rejected": 950,
+      "polled": 58150,
+      "electors": 80368
+    }
   }
 ]
