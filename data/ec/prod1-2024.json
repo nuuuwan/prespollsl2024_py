@@ -3925,5 +3925,56 @@
       "polled": 83784,
       "electors": 103976
     }
+  },
+  {
+    "result_time": "2024-09-22 10:34:26:494",
+    "pd_id": "EC-18C",
+    "pd_name": "Polonnaruwa",
+    "party_to_votes": {
+      "AJP": 46,
+      "APP": 133,
+      "DUA": 37,
+      "DUNF": 91,
+      "ELPP": 23,
+      "IND1": 105,
+      "IND10": 112,
+      "IND11": 210,
+      "IND12": 196,
+      "IND13": 456,
+      "IND14": 54,
+      "IND15": 320,
+      "IND16": 17072,
+      "IND2": 76,
+      "IND4": 425,
+      "IND5": 133,
+      "IND6": 36,
+      "IND7": 24,
+      "IND8": 22,
+      "IND9": 119,
+      "JPF": 231,
+      "JSP": 53,
+      "NDF": 39,
+      "NIF": 37,
+      "NPP": 56432,
+      "NSSP": 120,
+      "NSU": 16,
+      "RJA": 104,
+      "SBP": 90,
+      "SEP": 36,
+      "SJB": 47953,
+      "SLCP": 743,
+      "SLLP": 18,
+      "SLPP": 2147,
+      "SLSP": 51,
+      "SPF": 199,
+      "UNFF": 36,
+      "USP": 98
+    },
+    "summary": {
+      "valid": 128093,
+      "rejected": 2149,
+      "polled": 130242,
+      "electors": 159613
+    }
   }
 ]
