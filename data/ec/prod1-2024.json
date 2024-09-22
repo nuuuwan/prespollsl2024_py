@@ -1987,5 +1987,56 @@
       "polled": 71894,
       "electors": 89051
     }
+  },
+  {
+    "result_time": "2024-09-22 08:29:14:391",
+    "pd_id": "EC-08D",
+    "pd_name": "Kamburupitiya",
+    "party_to_votes": {
+      "AJP": 4,
+      "APP": 56,
+      "DUA": 13,
+      "DUNF": 58,
+      "ELPP": 6,
+      "IND1": 29,
+      "IND10": 28,
+      "IND11": 51,
+      "IND12": 77,
+      "IND13": 191,
+      "IND14": 21,
+      "IND15": 18,
+      "IND16": 8265,
+      "IND2": 33,
+      "IND4": 104,
+      "IND5": 109,
+      "IND6": 17,
+      "IND7": 17,
+      "IND8": 7,
+      "IND9": 6,
+      "JPF": 72,
+      "JSP": 38,
+      "NDF": 9,
+      "NIF": 9,
+      "NPP": 35076,
+      "NSSP": 37,
+      "NSU": 6,
+      "RJA": 64,
+      "SBP": 75,
+      "SEP": 10,
+      "SJB": 18548,
+      "SLCP": 910,
+      "SLLP": 3,
+      "SLPP": 1802,
+      "SLSP": 28,
+      "SPF": 42,
+      "UNFF": 13,
+      "USP": 28
+    },
+    "summary": {
+      "valid": 65880,
+      "rejected": 1164,
+      "polled": 67044,
+      "electors": 82533
+    }
   }
 ]
