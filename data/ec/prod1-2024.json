@@ -5047,5 +5047,56 @@
       "polled": 59218,
       "electors": 74173
     }
+  },
+  {
+    "result_time": "2024-09-22 11:57:07:518",
+    "pd_id": "EC-13D",
+    "pd_name": "Pothuvil",
+    "party_to_votes": {
+      "AJP": 35,
+      "APP": 149,
+      "DUA": 59,
+      "DUNF": 43,
+      "ELPP": 12,
+      "IND1": 83,
+      "IND10": 135,
+      "IND11": 208,
+      "IND12": 191,
+      "IND13": 175,
+      "IND14": 58,
+      "IND15": 86,
+      "IND16": 30263,
+      "IND2": 63,
+      "IND4": 604,
+      "IND5": 74,
+      "IND6": 30,
+      "IND7": 16,
+      "IND8": 13,
+      "IND9": 4802,
+      "JPF": 189,
+      "JSP": 25,
+      "NDF": 49,
+      "NIF": 46,
+      "NPP": 18053,
+      "NSSP": 147,
+      "NSU": 19,
+      "RJA": 53,
+      "SBP": 38,
+      "SEP": 41,
+      "SJB": 70942,
+      "SLCP": 77,
+      "SLLP": 13,
+      "SLPP": 1397,
+      "SLSP": 42,
+      "SPF": 34,
+      "UNFF": 23,
+      "USP": 86
+    },
+    "summary": {
+      "valid": 128373,
+      "rejected": 2057,
+      "polled": 130430,
+      "electors": 178557
+    }
   }
 ]
