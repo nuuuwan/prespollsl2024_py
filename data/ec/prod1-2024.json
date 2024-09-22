@@ -7903,5 +7903,56 @@
       "polled": 117133,
       "electors": 145602
     }
+  },
+  {
+    "result_time": "2024-09-22 15:05:19:045",
+    "pd_id": "EC-15G",
+    "pd_name": "Bingiriya",
+    "party_to_votes": {
+      "AJP": 28,
+      "APP": 137,
+      "DUA": 41,
+      "DUNF": 65,
+      "ELPP": 10,
+      "IND1": 57,
+      "IND10": 45,
+      "IND11": 80,
+      "IND12": 118,
+      "IND13": 185,
+      "IND14": 33,
+      "IND15": 10,
+      "IND16": 10108,
+      "IND2": 60,
+      "IND4": 188,
+      "IND5": 104,
+      "IND6": 21,
+      "IND7": 21,
+      "IND8": 8,
+      "IND9": 12,
+      "JPF": 144,
+      "JSP": 47,
+      "NDF": 25,
+      "NIF": 26,
+      "NPP": 31750,
+      "NSSP": 56,
+      "NSU": 7,
+      "RJA": 57,
+      "SBP": 74,
+      "SEP": 19,
+      "SJB": 25745,
+      "SLCP": 525,
+      "SLLP": 10,
+      "SLPP": 3267,
+      "SLSP": 21,
+      "SPF": 38,
+      "UNFF": 19,
+      "USP": 35
+    },
+    "summary": {
+      "valid": 73196,
+      "rejected": 1123,
+      "polled": 74319,
+      "electors": 95467
+    }
   }
 ]
