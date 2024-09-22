@@ -170,8 +170,7 @@ class AppPage:
             tweet = Tweet(tweet_text).add_image(image_path)
             tweet_id = twitter.send(tweet)
             log.debug(f'{tweet_id=}')
-            tweet_url = f'https://x.com/lk_elections/status/{tweet_id}'
-            os.startfile(tweet_url)
+            os.startfile('https://x.com/lk_elections')
         except Exception as e:
             log.error('Could not tweet: ' + str(e))
 
