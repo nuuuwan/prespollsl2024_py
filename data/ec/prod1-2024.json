@@ -2140,5 +2140,56 @@
       "polled": 150248,
       "electors": 181846
     }
+  },
+  {
+    "result_time": "2024-09-22 08:31:51:703",
+    "pd_id": "EC-07C",
+    "pd_name": "Karandeniya",
+    "party_to_votes": {
+      "AJP": 20,
+      "APP": 65,
+      "DUA": 19,
+      "DUNF": 70,
+      "ELPP": 13,
+      "IND1": 65,
+      "IND10": 35,
+      "IND11": 76,
+      "IND12": 85,
+      "IND13": 207,
+      "IND14": 21,
+      "IND15": 16,
+      "IND16": 7032,
+      "IND2": 46,
+      "IND4": 124,
+      "IND5": 87,
+      "IND6": 16,
+      "IND7": 15,
+      "IND8": 7,
+      "IND9": 12,
+      "JPF": 89,
+      "JSP": 31,
+      "NDF": 26,
+      "NIF": 13,
+      "NPP": 32895,
+      "NSSP": 59,
+      "NSU": 12,
+      "RJA": 80,
+      "SBP": 66,
+      "SEP": 19,
+      "SJB": 15110,
+      "SLCP": 537,
+      "SLLP": 14,
+      "SLPP": 2310,
+      "SLSP": 33,
+      "SPF": 198,
+      "UNFF": 10,
+      "USP": 30
+    },
+    "summary": {
+      "valid": 59563,
+      "rejected": 807,
+      "polled": 60370,
+      "electors": 77636
+    }
   }
 ]
