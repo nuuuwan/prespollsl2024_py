@@ -268,5 +268,20 @@
       "polled": 8183,
       "rejected": 0
     }
+  },
+  {
+    "result_time": "2024-09-22 19:19:59:162",
+    "ed_id": "EC-04",
+    "ed_name": "Mahanuwara",
+    "party_to_votes": {
+      "NPP": 8020,
+      "SJB": 9188
+    },
+    "summary": {
+      "valid": 17208,
+      "electors": 17208,
+      "polled": 17208,
+      "rejected": 0
+    }
   }
 ]
