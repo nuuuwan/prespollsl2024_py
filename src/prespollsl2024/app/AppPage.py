@@ -43,8 +43,8 @@ def add_padding(image_path, output_path, padding=20):
 class AppPage:
     URL = "https://nuuuwan.github.io/prespoll"
     # URL = "http://localhost:3000/prespoll"
-    T_SLEEP_START = 10
-    T_SLEEP_NEW = 4
+    T_SLEEP_START = 30
+    T_SLEEP_NEW = 10
 
     def __init__(
         self,
