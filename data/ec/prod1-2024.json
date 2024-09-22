@@ -4027,5 +4027,56 @@
       "polled": 95941,
       "electors": 117507
     }
+  },
+  {
+    "result_time": "2024-09-22 10:38:17:033",
+    "pd_id": "EC-21B",
+    "pd_name": "Ratnapura",
+    "party_to_votes": {
+      "AJP": 50,
+      "APP": 90,
+      "DUA": 46,
+      "DUNF": 86,
+      "ELPP": 23,
+      "IND1": 95,
+      "IND10": 68,
+      "IND11": 132,
+      "IND12": 211,
+      "IND13": 208,
+      "IND14": 41,
+      "IND15": 18,
+      "IND16": 25589,
+      "IND2": 96,
+      "IND4": 248,
+      "IND5": 105,
+      "IND6": 32,
+      "IND7": 26,
+      "IND8": 12,
+      "IND9": 32,
+      "JPF": 161,
+      "JSP": 43,
+      "NDF": 23,
+      "NIF": 30,
+      "NPP": 41075,
+      "NSSP": 122,
+      "NSU": 8,
+      "RJA": 66,
+      "SBP": 85,
+      "SEP": 34,
+      "SJB": 32133,
+      "SLCP": 1350,
+      "SLLP": 38,
+      "SLPP": 2678,
+      "SLSP": 36,
+      "SPF": 35,
+      "UNFF": 25,
+      "USP": 62
+    },
+    "summary": {
+      "valid": 105212,
+      "rejected": 1972,
+      "polled": 107184,
+      "electors": 131522
+    }
   }
 ]
