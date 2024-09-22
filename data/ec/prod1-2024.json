@@ -7393,5 +7393,56 @@
       "polled": 72976,
       "electors": 96376
     }
+  },
+  {
+    "result_time": "2024-09-22 14:43:08:733",
+    "pd_id": "EC-15J",
+    "pd_name": "Dambadeniya",
+    "party_to_votes": {
+      "AJP": 11,
+      "APP": 66,
+      "DUA": 20,
+      "DUNF": 119,
+      "ELPP": 6,
+      "IND1": 52,
+      "IND10": 28,
+      "IND11": 77,
+      "IND12": 135,
+      "IND13": 140,
+      "IND14": 27,
+      "IND15": 16,
+      "IND16": 13444,
+      "IND2": 47,
+      "IND4": 114,
+      "IND5": 96,
+      "IND6": 13,
+      "IND7": 16,
+      "IND8": 7,
+      "IND9": 20,
+      "JPF": 100,
+      "JSP": 33,
+      "NDF": 9,
+      "NIF": 18,
+      "NPP": 36650,
+      "NSSP": 43,
+      "NSU": 3,
+      "RJA": 52,
+      "SBP": 81,
+      "SEP": 13,
+      "SJB": 22434,
+      "SLCP": 692,
+      "SLLP": 4,
+      "SLPP": 2301,
+      "SLSP": 14,
+      "SPF": 37,
+      "UNFF": 13,
+      "USP": 31
+    },
+    "summary": {
+      "valid": 76982,
+      "rejected": 1318,
+      "polled": 78300,
+      "electors": 97305
+    }
   }
 ]
