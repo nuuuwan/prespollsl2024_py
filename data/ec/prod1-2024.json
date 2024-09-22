@@ -3364,5 +3364,56 @@
       "polled": 66221,
       "electors": 83799
     }
+  },
+  {
+    "result_time": "2024-09-22 09:35:54:564",
+    "pd_id": "EC-10B",
+    "pd_name": "Vadducoddai",
+    "party_to_votes": {
+      "AJP": 26,
+      "APP": 91,
+      "DUA": 61,
+      "DUNF": 24,
+      "ELPP": 25,
+      "IND1": 106,
+      "IND10": 131,
+      "IND11": 58,
+      "IND12": 97,
+      "IND13": 52,
+      "IND14": 39,
+      "IND15": 27,
+      "IND16": 7367,
+      "IND2": 80,
+      "IND4": 600,
+      "IND5": 60,
+      "IND6": 17,
+      "IND7": 17,
+      "IND8": 26,
+      "IND9": 11170,
+      "JPF": 122,
+      "JSP": 42,
+      "NDF": 47,
+      "NIF": 39,
+      "NPP": 1887,
+      "NSSP": 79,
+      "NSU": 25,
+      "RJA": 35,
+      "SBP": 29,
+      "SEP": 48,
+      "SJB": 8749,
+      "SLCP": 62,
+      "SLLP": 18,
+      "SLPP": 80,
+      "SLSP": 67,
+      "SPF": 43,
+      "UNFF": 20,
+      "USP": 123
+    },
+    "summary": {
+      "valid": 31589,
+      "rejected": 2437,
+      "polled": 34026,
+      "electors": 52092
+    }
   }
 ]
