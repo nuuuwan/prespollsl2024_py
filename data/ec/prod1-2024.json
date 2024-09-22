@@ -6016,5 +6016,56 @@
       "polled": 70670,
       "electors": 90943
     }
+  },
+  {
+    "result_time": "2024-09-22 14:18:25:307",
+    "pd_id": "EC-01O",
+    "pd_name": "Moratuwa",
+    "party_to_votes": {
+      "AJP": 20,
+      "APP": 34,
+      "DUA": 26,
+      "DUNF": 73,
+      "ELPP": 19,
+      "IND1": 52,
+      "IND10": 32,
+      "IND11": 71,
+      "IND12": 143,
+      "IND13": 119,
+      "IND14": 17,
+      "IND15": 40,
+      "IND16": 19025,
+      "IND2": 44,
+      "IND4": 101,
+      "IND5": 76,
+      "IND6": 22,
+      "IND7": 14,
+      "IND8": 7,
+      "IND9": 105,
+      "JPF": 97,
+      "JSP": 67,
+      "NDF": 14,
+      "NIF": 17,
+      "NPP": 45299,
+      "NSSP": 54,
+      "NSU": 4,
+      "RJA": 61,
+      "SBP": 103,
+      "SEP": 26,
+      "SJB": 24319,
+      "SLCP": 1712,
+      "SLLP": 7,
+      "SLPP": 2843,
+      "SLSP": 22,
+      "SPF": 64,
+      "UNFF": 19,
+      "USP": 22
+    },
+    "summary": {
+      "valid": 94790,
+      "rejected": 1946,
+      "polled": 96736,
+      "electors": 120503
+    }
   }
 ]
