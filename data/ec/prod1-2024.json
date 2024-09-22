@@ -7495,5 +7495,56 @@
       "polled": 60658,
       "electors": 74382
     }
+  },
+  {
+    "result_time": "2024-09-22 14:51:52:443",
+    "pd_id": "EC-15M",
+    "pd_name": "Mawathagama",
+    "party_to_votes": {
+      "AJP": 20,
+      "APP": 85,
+      "DUA": 27,
+      "DUNF": 87,
+      "ELPP": 9,
+      "IND1": 54,
+      "IND10": 44,
+      "IND11": 82,
+      "IND12": 138,
+      "IND13": 162,
+      "IND14": 29,
+      "IND15": 14,
+      "IND16": 9083,
+      "IND2": 66,
+      "IND4": 144,
+      "IND5": 101,
+      "IND6": 16,
+      "IND7": 15,
+      "IND8": 5,
+      "IND9": 19,
+      "JPF": 90,
+      "JSP": 46,
+      "NDF": 23,
+      "NIF": 31,
+      "NPP": 38221,
+      "NSSP": 55,
+      "NSU": 6,
+      "RJA": 64,
+      "SBP": 93,
+      "SEP": 20,
+      "SJB": 24760,
+      "SLCP": 532,
+      "SLLP": 9,
+      "SLPP": 2615,
+      "SLSP": 25,
+      "SPF": 35,
+      "UNFF": 21,
+      "USP": 34
+    },
+    "summary": {
+      "valid": 76880,
+      "rejected": 1415,
+      "polled": 78295,
+      "electors": 98616
+    }
   }
 ]
