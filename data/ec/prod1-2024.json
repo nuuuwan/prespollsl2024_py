@@ -3160,5 +3160,56 @@
       "polled": 71496,
       "electors": 89380
     }
+  },
+  {
+    "result_time": "2024-09-22 09:18:28:221",
+    "pd_id": "EC-10A",
+    "pd_name": "Kayts",
+    "party_to_votes": {
+      "AJP": 9,
+      "APP": 31,
+      "DUA": 19,
+      "DUNF": 6,
+      "ELPP": 6,
+      "IND1": 32,
+      "IND10": 67,
+      "IND11": 16,
+      "IND12": 37,
+      "IND13": 24,
+      "IND14": 21,
+      "IND15": 9,
+      "IND16": 5155,
+      "IND2": 27,
+      "IND4": 259,
+      "IND5": 23,
+      "IND6": 14,
+      "IND7": 7,
+      "IND8": 9,
+      "IND9": 5726,
+      "JPF": 39,
+      "JSP": 15,
+      "NDF": 15,
+      "NIF": 15,
+      "NPP": 593,
+      "NSSP": 47,
+      "NSU": 7,
+      "RJA": 18,
+      "SBP": 16,
+      "SEP": 90,
+      "SJB": 3687,
+      "SLCP": 9,
+      "SLLP": 12,
+      "SLPP": 31,
+      "SLSP": 24,
+      "SPF": 16,
+      "UNFF": 9,
+      "USP": 34
+    },
+    "summary": {
+      "valid": 16174,
+      "rejected": 1028,
+      "polled": 17202,
+      "electors": 24860
+    }
   }
 ]
