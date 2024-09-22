@@ -4435,5 +4435,56 @@
       "polled": 144256,
       "electors": 172611
     }
+  },
+  {
+    "result_time": "2024-09-22 11:16:34:382",
+    "pd_id": "EC-01A",
+    "pd_name": "Colombo North",
+    "party_to_votes": {
+      "AJP": 14,
+      "APP": 27,
+      "DUA": 48,
+      "DUNF": 27,
+      "ELPP": 14,
+      "IND1": 53,
+      "IND10": 48,
+      "IND11": 107,
+      "IND12": 109,
+      "IND13": 96,
+      "IND14": 28,
+      "IND15": 21,
+      "IND16": 15692,
+      "IND2": 31,
+      "IND4": 183,
+      "IND5": 43,
+      "IND6": 9,
+      "IND7": 13,
+      "IND8": 16,
+      "IND9": 585,
+      "JPF": 97,
+      "JSP": 22,
+      "NDF": 13,
+      "NIF": 22,
+      "NPP": 17978,
+      "NSSP": 47,
+      "NSU": 5,
+      "RJA": 56,
+      "SBP": 37,
+      "SEP": 33,
+      "SJB": 32289,
+      "SLCP": 442,
+      "SLLP": 2,
+      "SLPP": 954,
+      "SLSP": 16,
+      "SPF": 29,
+      "UNFF": 15,
+      "USP": 22
+    },
+    "summary": {
+      "valid": 69243,
+      "rejected": 2276,
+      "polled": 71519,
+      "electors": 97620
+    }
   }
 ]
