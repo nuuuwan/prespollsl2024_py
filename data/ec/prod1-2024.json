@@ -5353,5 +5353,56 @@
       "polled": 74638,
       "electors": 88625
     }
+  },
+  {
+    "result_time": "2024-09-22 12:25:11:421",
+    "pd_id": "EC-22C",
+    "pd_name": "Kegalle",
+    "party_to_votes": {
+      "AJP": 22,
+      "APP": 45,
+      "DUA": 18,
+      "DUNF": 88,
+      "ELPP": 6,
+      "IND1": 45,
+      "IND10": 36,
+      "IND11": 37,
+      "IND12": 102,
+      "IND13": 145,
+      "IND14": 15,
+      "IND15": 16,
+      "IND16": 11067,
+      "IND2": 65,
+      "IND4": 89,
+      "IND5": 45,
+      "IND6": 10,
+      "IND7": 13,
+      "IND8": 6,
+      "IND9": 12,
+      "JPF": 82,
+      "JSP": 29,
+      "NDF": 13,
+      "NIF": 13,
+      "NPP": 28994,
+      "NSSP": 58,
+      "NSU": 8,
+      "RJA": 44,
+      "SBP": 42,
+      "SEP": 11,
+      "SJB": 14755,
+      "SLCP": 493,
+      "SLLP": 10,
+      "SLPP": 1176,
+      "SLSP": 26,
+      "SPF": 85,
+      "UNFF": 13,
+      "USP": 28
+    },
+    "summary": {
+      "valid": 57762,
+      "rejected": 1125,
+      "polled": 58887,
+      "electors": 72552
+    }
   }
 ]
