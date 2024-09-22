@@ -5506,5 +5506,56 @@
       "polled": 127076,
       "electors": 156099
     }
+  },
+  {
+    "result_time": "2024-09-22 12:31:16:295",
+    "pd_id": "EC-17E",
+    "pd_name": "Kalawewa",
+    "party_to_votes": {
+      "AJP": 35,
+      "APP": 144,
+      "DUA": 51,
+      "DUNF": 83,
+      "ELPP": 15,
+      "IND1": 86,
+      "IND10": 59,
+      "IND11": 135,
+      "IND12": 161,
+      "IND13": 369,
+      "IND14": 48,
+      "IND15": 19,
+      "IND16": 16136,
+      "IND2": 86,
+      "IND4": 264,
+      "IND5": 175,
+      "IND6": 46,
+      "IND7": 19,
+      "IND8": 25,
+      "IND9": 21,
+      "JPF": 151,
+      "JSP": 37,
+      "NDF": 33,
+      "NIF": 31,
+      "NPP": 52380,
+      "NSSP": 98,
+      "NSU": 7,
+      "RJA": 119,
+      "SBP": 94,
+      "SEP": 27,
+      "SJB": 31603,
+      "SLCP": 661,
+      "SLLP": 17,
+      "SLPP": 2390,
+      "SLSP": 43,
+      "SPF": 23,
+      "UNFF": 19,
+      "USP": 62
+    },
+    "summary": {
+      "valid": 105772,
+      "rejected": 1722,
+      "polled": 107494,
+      "electors": 132651
+    }
   }
 ]
