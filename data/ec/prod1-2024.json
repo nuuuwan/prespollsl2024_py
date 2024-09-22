@@ -1936,5 +1936,56 @@
       "polled": 69280,
       "electors": 97251
     }
+  },
+  {
+    "result_time": "2024-09-22 08:28:24:234",
+    "pd_id": "EC-18A",
+    "pd_name": "Minneriya",
+    "party_to_votes": {
+      "AJP": 23,
+      "APP": 71,
+      "DUA": 28,
+      "DUNF": 54,
+      "ELPP": 13,
+      "IND1": 68,
+      "IND10": 43,
+      "IND11": 93,
+      "IND12": 130,
+      "IND13": 306,
+      "IND14": 45,
+      "IND15": 84,
+      "IND16": 9177,
+      "IND2": 47,
+      "IND4": 206,
+      "IND5": 96,
+      "IND6": 26,
+      "IND7": 23,
+      "IND8": 9,
+      "IND9": 21,
+      "JPF": 138,
+      "JSP": 30,
+      "NDF": 22,
+      "NIF": 21,
+      "NPP": 34088,
+      "NSSP": 72,
+      "NSU": 8,
+      "RJA": 76,
+      "SBP": 70,
+      "SEP": 20,
+      "SJB": 22991,
+      "SLCP": 504,
+      "SLLP": 9,
+      "SLPP": 1635,
+      "SLSP": 27,
+      "SPF": 228,
+      "UNFF": 17,
+      "USP": 47
+    },
+    "summary": {
+      "valid": 70566,
+      "rejected": 1328,
+      "polled": 71894,
+      "electors": 89051
+    }
   }
 ]
