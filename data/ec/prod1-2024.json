@@ -5659,5 +5659,56 @@
       "polled": 61277,
       "electors": 73955
     }
+  },
+  {
+    "result_time": "2024-09-22 14:10:53:304",
+    "pd_id": "EC-06B",
+    "pd_name": "Kothmale",
+    "party_to_votes": {
+      "AJP": 31,
+      "APP": 61,
+      "DUA": 44,
+      "DUNF": 68,
+      "ELPP": 16,
+      "IND1": 98,
+      "IND10": 83,
+      "IND11": 97,
+      "IND12": 141,
+      "IND13": 129,
+      "IND14": 56,
+      "IND15": 33,
+      "IND16": 18250,
+      "IND2": 94,
+      "IND4": 440,
+      "IND5": 89,
+      "IND6": 25,
+      "IND7": 13,
+      "IND8": 25,
+      "IND9": 60,
+      "JPF": 107,
+      "JSP": 34,
+      "NDF": 10,
+      "NIF": 28,
+      "NPP": 17727,
+      "NSSP": 131,
+      "NSU": 7,
+      "RJA": 58,
+      "SBP": 49,
+      "SEP": 34,
+      "SJB": 27043,
+      "SLCP": 431,
+      "SLLP": 14,
+      "SLPP": 1458,
+      "SLSP": 24,
+      "SPF": 11,
+      "UNFF": 22,
+      "USP": 74
+    },
+    "summary": {
+      "valid": 67115,
+      "rejected": 1809,
+      "polled": 68924,
+      "electors": 85188
+    }
   }
 ]
