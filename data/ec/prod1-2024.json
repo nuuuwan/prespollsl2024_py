@@ -4537,5 +4537,56 @@
       "polled": 137678,
       "electors": 173626
     }
+  },
+  {
+    "result_time": "2024-09-22 11:22:51:844",
+    "pd_id": "EC-01D",
+    "pd_name": "Colombo East",
+    "party_to_votes": {
+      "AJP": 24,
+      "APP": 9,
+      "DUA": 16,
+      "DUNF": 16,
+      "ELPP": 26,
+      "IND1": 25,
+      "IND10": 8,
+      "IND11": 37,
+      "IND12": 90,
+      "IND13": 55,
+      "IND14": 13,
+      "IND15": 17,
+      "IND16": 12566,
+      "IND2": 15,
+      "IND4": 51,
+      "IND5": 24,
+      "IND6": 7,
+      "IND7": 8,
+      "IND8": 11,
+      "IND9": 519,
+      "JPF": 41,
+      "JSP": 36,
+      "NDF": 5,
+      "NIF": 9,
+      "NPP": 18523,
+      "NSSP": 26,
+      "NSU": 6,
+      "RJA": 28,
+      "SBP": 34,
+      "SEP": 26,
+      "SJB": 13637,
+      "SLCP": 706,
+      "SLLP": 5,
+      "SLPP": 825,
+      "SLSP": 5,
+      "SPF": 26,
+      "UNFF": 10,
+      "USP": 28
+    },
+    "summary": {
+      "valid": 47513,
+      "rejected": 1215,
+      "polled": 48728,
+      "electors": 67112
+    }
   }
 ]
