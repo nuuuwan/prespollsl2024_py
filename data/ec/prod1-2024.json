@@ -7444,5 +7444,56 @@
       "polled": 78300,
       "electors": 97305
     }
+  },
+  {
+    "result_time": "2024-09-22 14:45:56:281",
+    "pd_id": "EC-19E",
+    "pd_name": "Haliela",
+    "party_to_votes": {
+      "AJP": 38,
+      "APP": 112,
+      "DUA": 61,
+      "DUNF": 44,
+      "ELPP": 17,
+      "IND1": 109,
+      "IND10": 95,
+      "IND11": 92,
+      "IND12": 160,
+      "IND13": 157,
+      "IND14": 61,
+      "IND15": 23,
+      "IND16": 14033,
+      "IND2": 102,
+      "IND4": 425,
+      "IND5": 100,
+      "IND6": 26,
+      "IND7": 16,
+      "IND8": 17,
+      "IND9": 67,
+      "JPF": 146,
+      "JSP": 31,
+      "NDF": 19,
+      "NIF": 37,
+      "NPP": 18275,
+      "NSSP": 121,
+      "NSU": 13,
+      "RJA": 48,
+      "SBP": 40,
+      "SEP": 40,
+      "SJB": 22562,
+      "SLCP": 326,
+      "SLLP": 15,
+      "SLPP": 1076,
+      "SLSP": 23,
+      "SPF": 67,
+      "UNFF": 18,
+      "USP": 76
+    },
+    "summary": {
+      "valid": 58688,
+      "rejected": 1970,
+      "polled": 60658,
+      "electors": 74382
+    }
   }
 ]
