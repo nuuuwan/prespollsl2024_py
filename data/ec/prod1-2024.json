@@ -5812,5 +5812,56 @@
       "polled": 143656,
       "electors": 168411
     }
+  },
+  {
+    "result_time": "2024-09-22 14:13:22:378",
+    "pd_id": "EC-01M",
+    "pd_name": "Maharagama",
+    "party_to_votes": {
+      "AJP": 53,
+      "APP": 11,
+      "DUA": 13,
+      "DUNF": 141,
+      "ELPP": 23,
+      "IND1": 31,
+      "IND10": 11,
+      "IND11": 40,
+      "IND12": 169,
+      "IND13": 112,
+      "IND14": 12,
+      "IND15": 54,
+      "IND16": 22782,
+      "IND2": 32,
+      "IND4": 37,
+      "IND5": 56,
+      "IND6": 14,
+      "IND7": 9,
+      "IND8": 6,
+      "IND9": 14,
+      "JPF": 229,
+      "JSP": 77,
+      "NDF": 12,
+      "NIF": 11,
+      "NPP": 58692,
+      "NSSP": 43,
+      "NSU": 7,
+      "RJA": 49,
+      "SBP": 88,
+      "SEP": 32,
+      "SJB": 17174,
+      "SLCP": 3020,
+      "SLLP": 8,
+      "SLPP": 2424,
+      "SLSP": 24,
+      "SPF": 109,
+      "UNFF": 33,
+      "USP": 23
+    },
+    "summary": {
+      "valid": 105675,
+      "rejected": 2380,
+      "polled": 108055,
+      "electors": 140699
+    }
   }
 ]
