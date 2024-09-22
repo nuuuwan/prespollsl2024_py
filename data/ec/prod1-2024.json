@@ -3313,5 +3313,56 @@
       "polled": 51003,
       "electors": 61289
     }
+  },
+  {
+    "result_time": "2024-09-22 09:29:41:517",
+    "pd_id": "EC-07H",
+    "pd_name": "Galle",
+    "party_to_votes": {
+      "AJP": 21,
+      "APP": 18,
+      "DUA": 24,
+      "DUNF": 47,
+      "ELPP": 4,
+      "IND1": 28,
+      "IND10": 17,
+      "IND11": 58,
+      "IND12": 85,
+      "IND13": 124,
+      "IND14": 10,
+      "IND15": 18,
+      "IND16": 9478,
+      "IND2": 21,
+      "IND4": 102,
+      "IND5": 50,
+      "IND6": 12,
+      "IND7": 16,
+      "IND8": 9,
+      "IND9": 7,
+      "JPF": 65,
+      "JSP": 30,
+      "NDF": 10,
+      "NIF": 14,
+      "NPP": 34839,
+      "NSSP": 35,
+      "NSU": 6,
+      "RJA": 50,
+      "SBP": 40,
+      "SEP": 13,
+      "SJB": 17935,
+      "SLCP": 718,
+      "SLLP": 4,
+      "SLPP": 1220,
+      "SLSP": 17,
+      "SPF": 46,
+      "UNFF": 10,
+      "USP": 19
+    },
+    "summary": {
+      "valid": 65220,
+      "rejected": 1001,
+      "polled": 66221,
+      "electors": 83799
+    }
   }
 ]
