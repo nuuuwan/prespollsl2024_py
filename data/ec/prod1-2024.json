@@ -3772,5 +3772,56 @@
       "polled": 70567,
       "electors": 97118
     }
+  },
+  {
+    "result_time": "2024-09-22 10:17:04:413",
+    "pd_id": "EC-21A",
+    "pd_name": "Eheliyagoda",
+    "party_to_votes": {
+      "AJP": 31,
+      "APP": 79,
+      "DUA": 43,
+      "DUNF": 69,
+      "ELPP": 13,
+      "IND1": 88,
+      "IND10": 41,
+      "IND11": 86,
+      "IND12": 183,
+      "IND13": 197,
+      "IND14": 28,
+      "IND15": 15,
+      "IND16": 17477,
+      "IND2": 60,
+      "IND4": 205,
+      "IND5": 109,
+      "IND6": 25,
+      "IND7": 21,
+      "IND8": 9,
+      "IND9": 24,
+      "JPF": 112,
+      "JSP": 32,
+      "NDF": 17,
+      "NIF": 21,
+      "NPP": 34829,
+      "NSSP": 83,
+      "NSU": 13,
+      "RJA": 53,
+      "SBP": 66,
+      "SEP": 21,
+      "SJB": 24209,
+      "SLCP": 1274,
+      "SLLP": 8,
+      "SLPP": 1814,
+      "SLSP": 51,
+      "SPF": 49,
+      "UNFF": 11,
+      "USP": 60
+    },
+    "summary": {
+      "valid": 81526,
+      "rejected": 1559,
+      "polled": 83085,
+      "electors": 103290
+    }
   }
 ]
