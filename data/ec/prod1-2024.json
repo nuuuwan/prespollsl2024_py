@@ -3721,5 +3721,56 @@
       "polled": 58150,
       "electors": 80368
     }
+  },
+  {
+    "result_time": "2024-09-22 10:15:30:631",
+    "pd_id": "EC-13B",
+    "pd_name": "Sammanthurai",
+    "party_to_votes": {
+      "AJP": 14,
+      "APP": 74,
+      "DUA": 30,
+      "DUNF": 11,
+      "ELPP": 4,
+      "IND1": 33,
+      "IND10": 67,
+      "IND11": 94,
+      "IND12": 83,
+      "IND13": 79,
+      "IND14": 38,
+      "IND15": 17,
+      "IND16": 15344,
+      "IND2": 33,
+      "IND4": 268,
+      "IND5": 39,
+      "IND6": 19,
+      "IND7": 9,
+      "IND8": 10,
+      "IND9": 2299,
+      "JPF": 126,
+      "JSP": 10,
+      "NDF": 14,
+      "NIF": 34,
+      "NPP": 8569,
+      "NSSP": 74,
+      "NSU": 7,
+      "RJA": 23,
+      "SBP": 9,
+      "SEP": 20,
+      "SJB": 41791,
+      "SLCP": 13,
+      "SLLP": 9,
+      "SLPP": 132,
+      "SLSP": 13,
+      "SPF": 13,
+      "UNFF": 5,
+      "USP": 37
+    },
+    "summary": {
+      "valid": 69464,
+      "rejected": 1103,
+      "polled": 70567,
+      "electors": 97118
+    }
   }
 ]
