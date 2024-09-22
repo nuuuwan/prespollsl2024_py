@@ -4792,5 +4792,56 @@
       "polled": 88499,
       "electors": 119211
     }
+  },
+  {
+    "result_time": "2024-09-22 11:34:37:808",
+    "pd_id": "EC-01G",
+    "pd_name": "Ratmalana",
+    "party_to_votes": {
+      "AJP": 15,
+      "APP": 13,
+      "DUA": 16,
+      "DUNF": 45,
+      "ELPP": 9,
+      "IND1": 17,
+      "IND10": 12,
+      "IND11": 36,
+      "IND12": 106,
+      "IND13": 49,
+      "IND14": 6,
+      "IND15": 23,
+      "IND16": 11091,
+      "IND2": 21,
+      "IND4": 44,
+      "IND5": 27,
+      "IND6": 10,
+      "IND7": 9,
+      "IND8": 2,
+      "IND9": 174,
+      "JPF": 46,
+      "JSP": 27,
+      "NDF": 12,
+      "NIF": 18,
+      "NPP": 23282,
+      "NSSP": 29,
+      "NSU": 4,
+      "RJA": 26,
+      "SBP": 46,
+      "SEP": 20,
+      "SJB": 12212,
+      "SLCP": 924,
+      "SLLP": 7,
+      "SLPP": 1422,
+      "SLSP": 14,
+      "SPF": 84,
+      "UNFF": 15,
+      "USP": 14
+    },
+    "summary": {
+      "valid": 49927,
+      "rejected": 1274,
+      "polled": 51201,
+      "electors": 70250
+    }
   }
 ]
