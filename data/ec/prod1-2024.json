@@ -5710,5 +5710,56 @@
       "polled": 68924,
       "electors": 85188
     }
+  },
+  {
+    "result_time": "2024-09-22 14:11:35:678",
+    "pd_id": "EC-22B",
+    "pd_name": "Galigamuwa",
+    "party_to_votes": {
+      "AJP": 22,
+      "APP": 41,
+      "DUA": 26,
+      "DUNF": 66,
+      "ELPP": 11,
+      "IND1": 53,
+      "IND10": 30,
+      "IND11": 49,
+      "IND12": 92,
+      "IND13": 152,
+      "IND14": 18,
+      "IND15": 10,
+      "IND16": 9974,
+      "IND2": 47,
+      "IND4": 124,
+      "IND5": 65,
+      "IND6": 17,
+      "IND7": 12,
+      "IND8": 8,
+      "IND9": 12,
+      "JPF": 86,
+      "JSP": 32,
+      "NDF": 12,
+      "NIF": 21,
+      "NPP": 23348,
+      "NSSP": 46,
+      "NSU": 9,
+      "RJA": 40,
+      "SBP": 35,
+      "SEP": 14,
+      "SJB": 17713,
+      "SLCP": 404,
+      "SLLP": 5,
+      "SLPP": 1036,
+      "SLSP": 14,
+      "SPF": 104,
+      "UNFF": 5,
+      "USP": 35
+    },
+    "summary": {
+      "valid": 53788,
+      "rejected": 1106,
+      "polled": 54894,
+      "electors": 67289
+    }
   }
 ]
