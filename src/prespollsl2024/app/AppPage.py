@@ -41,8 +41,8 @@ def add_padding(image_path, output_path, padding=15):
 
 
 class AppPage:
-    # URL = "https://nuuuwan.github.io/prespoll"
-    URL = "http://localhost:3000/prespoll"
+    # URL = "https://nuuuwan.github.io/election"
+    URL = "http://localhost:3000/election"
     T_SLEEP_START = 20
     T_SLEEP_NEW = 3
 
@@ -67,8 +67,8 @@ class AppPage:
                 dict(
                     electionType=self.election_type,
                     date=self.date,
-                    lang="en",
                     nResultsDisplay=self.n_results_display,
+                    lang="en",
                 )
             )
         )
